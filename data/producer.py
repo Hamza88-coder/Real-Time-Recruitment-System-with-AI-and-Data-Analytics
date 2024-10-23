@@ -15,7 +15,7 @@ def process_frame(producer, topic, frame):
         producer.send(topic, buffer.tobytes())
 
 # Fonction qui lit et publie les trames vidéo dans un sujet Kafka
-def publish_video(producer, topic, video_file="video.mp4"):
+def publish_video(producer, topic, video_file="match_endirect.mp4"):
     # Ouverture du fichier vidéo
     video = cv2.VideoCapture(video_file)
     print('Publishing video...')
