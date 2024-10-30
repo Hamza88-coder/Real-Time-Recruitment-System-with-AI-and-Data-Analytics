@@ -1,38 +1,11 @@
 [
     {
-        "label": "sys",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "sys",
-        "description": "sys",
-        "detail": "sys",
-        "documentation": {}
-    },
-    {
         "label": "time",
         "kind": 6,
         "isExtraImport": true,
         "importPath": "time",
         "description": "time",
         "detail": "time",
-        "documentation": {}
-    },
-    {
-        "label": "cv2",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "cv2",
-        "description": "cv2",
-        "detail": "cv2",
-        "documentation": {}
-    },
-    {
-        "label": "concurrent.futures",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "concurrent.futures",
-        "description": "concurrent.futures",
-        "detail": "concurrent.futures",
         "documentation": {}
     },
     {
@@ -53,39 +26,12 @@
         "documentation": {}
     },
     {
-        "label": "os",
+        "label": "cv2",
         "kind": 6,
         "isExtraImport": true,
-        "importPath": "os",
-        "description": "os",
-        "detail": "os",
-        "documentation": {}
-    },
-    {
-        "label": "json",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "json",
-        "description": "json",
-        "detail": "json",
-        "documentation": {}
-    },
-    {
-        "label": "psycopg2",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "psycopg2",
-        "description": "psycopg2",
-        "detail": "psycopg2",
-        "documentation": {}
-    },
-    {
-        "label": "traceback",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "traceback",
-        "description": "traceback",
-        "detail": "traceback",
+        "importPath": "cv2",
+        "description": "cv2",
+        "detail": "cv2",
         "documentation": {}
     },
     {
@@ -130,11 +76,118 @@
         "documentation": {}
     },
     {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
         "label": "datetime",
         "importPath": "datetime",
         "description": "datetime",
         "isExtraImport": true,
         "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "BaseLLM",
+        "importPath": "langchain.llms",
+        "description": "langchain.llms",
+        "isExtraImport": true,
+        "detail": "langchain.llms",
+        "documentation": {}
+    },
+    {
+        "label": "PromptTemplate",
+        "importPath": "langchain.prompts",
+        "description": "langchain.prompts",
+        "isExtraImport": true,
+        "detail": "langchain.prompts",
+        "documentation": {}
+    },
+    {
+        "label": "create_extraction_chain",
+        "importPath": "kor",
+        "description": "kor",
+        "isExtraImport": true,
+        "detail": "kor",
+        "documentation": {}
+    },
+    {
+        "label": "Object",
+        "importPath": "kor",
+        "description": "kor",
+        "isExtraImport": true,
+        "detail": "kor",
+        "documentation": {}
+    },
+    {
+        "label": "Text",
+        "importPath": "kor",
+        "description": "kor",
+        "isExtraImport": true,
+        "detail": "kor",
+        "documentation": {}
+    },
+    {
+        "label": "Groq",
+        "importPath": "groq",
+        "description": "groq",
+        "isExtraImport": true,
+        "detail": "groq",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
         "documentation": {}
     },
     {
@@ -156,255 +209,21 @@
         "documentation": {}
     },
     {
-        "label": "process_frame",
+        "label": "send_text",
         "kind": 2,
         "importPath": "data.producer",
         "description": "data.producer",
-        "peekOfCode": "def process_frame(producer, topic, frame):\n    # Encodage de l'image en format .jpg\n    ret, buffer = cv2.imencode('.jpg', frame)\n    # Si l'encodage est réussi, on envoie l'image encodée au sujet Kafka\n    if ret:\n        producer.send(topic, buffer.tobytes())\n# Fonction qui lit et publie les trames vidéo dans un sujet Kafka\ndef publish_video(producer, topic, video_file=\"match_endirect.mp4\"):\n    # Ouverture du fichier vidéo\n    video = cv2.VideoCapture(video_file)",
+        "peekOfCode": "def send_text(producer, topic, text):\n    # Envoi du texte au topic Kafka\n    producer.send(topic, text.encode('utf-8'))\n# Fonction principale pour envoyer une série de messages texte à Kafka\ndef publish_texts(producer, topic, texts):\n    print('Publishing texts...')\n    for text in texts:\n        # Appel de la fonction pour envoyer le texte au topic Kafka\n        send_text(producer, topic, text)\n        # Délai entre chaque envoi pour simuler un envoi régulier",
         "detail": "data.producer",
         "documentation": {}
     },
     {
-        "label": "publish_video",
+        "label": "publish_texts",
         "kind": 2,
         "importPath": "data.producer",
         "description": "data.producer",
-        "peekOfCode": "def publish_video(producer, topic, video_file=\"match_endirect.mp4\"):\n    # Ouverture du fichier vidéo\n    video = cv2.VideoCapture(video_file)\n    print('Publishing video...')\n    # Récupérer le nombre d'images par seconde (FPS) de la vidéo\n    fps = video.get(cv2.CAP_PROP_FPS)\n    # Calculer le délai à appliquer entre chaque trame pour respecter le taux de FPS\n    delay = 1 / fps\n    # Utilisation d'un pool de threads pour traiter plusieurs trames en parallèle\n    with concurrent.futures.ThreadPoolExecutor(max_workers=4) as executor:",
+        "peekOfCode": "def publish_texts(producer, topic, texts):\n    print('Publishing texts...')\n    for text in texts:\n        # Appel de la fonction pour envoyer le texte au topic Kafka\n        send_text(producer, topic, text)\n        # Délai entre chaque envoi pour simuler un envoi régulier\n        time.sleep(1)\n    print('Publish complete')\n# Point d'entrée du script (si le fichier est exécuté directement)\nif __name__ == \"__main__\":",
         "detail": "data.producer",
-        "documentation": {}
-    },
-    {
-        "label": "insert_data",
-        "kind": 2,
-        "importPath": "database.tables.remplissage_database.competition",
-        "description": "database.tables.remplissage_database.competition",
-        "peekOfCode": "def insert_data(match):\n    try:\n        # Insérer les données de la compétition\n        cursor.execute('''\n            INSERT INTO competitions (competition_id, country_name, competition_name)\n            VALUES (%s, %s, %s)\n            ON CONFLICT (competition_id) DO NOTHING\n        ''', (match['competition']['competition_id'], match['competition']['country_name'], match['competition']['competition_name']))\n        print(\"Données de la compétition insérées.\")\n    except Exception as e:",
-        "detail": "database.tables.remplissage_database.competition",
-        "documentation": {}
-    },
-    {
-        "label": "conn",
-        "kind": 5,
-        "importPath": "database.tables.remplissage_database.competition",
-        "description": "database.tables.remplissage_database.competition",
-        "peekOfCode": "conn = psycopg2.connect(\n    dbname='football',\n    user='postgres',\n    password='papapapa',\n    host='localhost',\n    port='5432'\n)\ncursor = conn.cursor()\n# Fonction pour insérer les données dans la base de données\ndef insert_data(match):",
-        "detail": "database.tables.remplissage_database.competition",
-        "documentation": {}
-    },
-    {
-        "label": "cursor",
-        "kind": 5,
-        "importPath": "database.tables.remplissage_database.competition",
-        "description": "database.tables.remplissage_database.competition",
-        "peekOfCode": "cursor = conn.cursor()\n# Fonction pour insérer les données dans la base de données\ndef insert_data(match):\n    try:\n        # Insérer les données de la compétition\n        cursor.execute('''\n            INSERT INTO competitions (competition_id, country_name, competition_name)\n            VALUES (%s, %s, %s)\n            ON CONFLICT (competition_id) DO NOTHING\n        ''', (match['competition']['competition_id'], match['competition']['country_name'], match['competition']['competition_name']))",
-        "detail": "database.tables.remplissage_database.competition",
-        "documentation": {}
-    },
-    {
-        "label": "main_folder",
-        "kind": 5,
-        "importPath": "database.tables.remplissage_database.competition",
-        "description": "database.tables.remplissage_database.competition",
-        "peekOfCode": "main_folder = r'C:\\Users\\HP\\OneDrive\\Desktop\\bigData_project\\matches'\n# Parcours des sous-dossiers et des fichiers JSON\nfor subdir, dirs, files in os.walk(main_folder):\n    for file in files:\n        if file.endswith('.json'):\n            file_path = os.path.join(subdir, file)\n            with open(file_path, 'r', encoding='utf-8') as json_file:\n                try:\n                    data = json.load(json_file)\n                    # Vérifiez si les données sont dans une liste, sinon créez une liste avec un seul élément",
-        "detail": "database.tables.remplissage_database.competition",
-        "documentation": {}
-    },
-    {
-        "label": "insert_data",
-        "kind": 2,
-        "importPath": "database.tables.remplissage_database.managers",
-        "description": "database.tables.remplissage_database.managers",
-        "peekOfCode": "def insert_data(match, folder_name):\n    try:\n                # Insérer les données du manager\n        cursor.execute('''\n            INSERT INTO managers (id, name, nickname, dob, country_id)\n            VALUES (%s, %s, %s, %s, %s)\n            ON CONFLICT (id) DO NOTHING\n        ''', (match['home_team']['managers'][0]['id'], match['home_team']['managers'][0]['name'], match['home_team']['managers'][0]['nickname'], match['home_team']['managers'][0]['dob'], match['home_team']['managers'][0]['country']['id']))\n        print(\"Données du manager insérées.\")\n    except KeyError as e:",
-        "detail": "database.tables.remplissage_database.managers",
-        "documentation": {}
-    },
-    {
-        "label": "conn",
-        "kind": 5,
-        "importPath": "database.tables.remplissage_database.managers",
-        "description": "database.tables.remplissage_database.managers",
-        "peekOfCode": "conn = psycopg2.connect(\n    dbname='football',\n    user='postgres',\n    password='papapapa',\n    host='localhost',\n    port='5432'\n)\ncursor = conn.cursor()\n# Fonction pour insérer les données dans la base de données\ndef insert_data(match, folder_name):",
-        "detail": "database.tables.remplissage_database.managers",
-        "documentation": {}
-    },
-    {
-        "label": "cursor",
-        "kind": 5,
-        "importPath": "database.tables.remplissage_database.managers",
-        "description": "database.tables.remplissage_database.managers",
-        "peekOfCode": "cursor = conn.cursor()\n# Fonction pour insérer les données dans la base de données\ndef insert_data(match, folder_name):\n    try:\n                # Insérer les données du manager\n        cursor.execute('''\n            INSERT INTO managers (id, name, nickname, dob, country_id)\n            VALUES (%s, %s, %s, %s, %s)\n            ON CONFLICT (id) DO NOTHING\n        ''', (match['home_team']['managers'][0]['id'], match['home_team']['managers'][0]['name'], match['home_team']['managers'][0]['nickname'], match['home_team']['managers'][0]['dob'], match['home_team']['managers'][0]['country']['id']))",
-        "detail": "database.tables.remplissage_database.managers",
-        "documentation": {}
-    },
-    {
-        "label": "main_folder",
-        "kind": 5,
-        "importPath": "database.tables.remplissage_database.managers",
-        "description": "database.tables.remplissage_database.managers",
-        "peekOfCode": "main_folder = r'C:\\Users\\HP\\OneDrive\\Desktop\\bigData_project\\matches'\n# Parcours des sous-dossiers et des fichiers JSON\nfor subdir, dirs, files in os.walk(main_folder):\n    folder_name = os.path.basename(subdir)  # Récupérer le nom du dossier actuel\n    for file in files:\n        if file.endswith('.json'):\n            file_path = os.path.join(subdir, file)\n            with open(file_path, 'r', encoding='utf-8') as json_file:\n                try:\n                    data = json.load(json_file)",
-        "detail": "database.tables.remplissage_database.managers",
-        "documentation": {}
-    },
-    {
-        "label": "insert_data",
-        "kind": 2,
-        "importPath": "database.tables.remplissage_database.match",
-        "description": "database.tables.remplissage_database.match",
-        "peekOfCode": "def insert_data(match, folder_name):\n    try:\n        # Insérer les données du match, en utilisant .get() pour fournir 'None' si la clé n'existe pas\n        cursor.execute('''\n            INSERT INTO matches (match_id, match_date, kick_off, competition_id, season_id, home_team_id, away_team_id, home_score, away_score, match_status, match_status_360, match_week, stadium_id, competition_stage_id, referee_id)\n            VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)\n            ON CONFLICT (match_id) DO NOTHING\n        ''', (\n            match.get('match_id', None),\n            match.get('match_date', None),",
-        "detail": "database.tables.remplissage_database.match",
-        "documentation": {}
-    },
-    {
-        "label": "conn",
-        "kind": 5,
-        "importPath": "database.tables.remplissage_database.match",
-        "description": "database.tables.remplissage_database.match",
-        "peekOfCode": "conn = psycopg2.connect(\n    dbname='football',\n    user='postgres',\n    password='papapapa',\n    host='localhost',\n    port='5432'\n)\ncursor = conn.cursor()\n# Fonction pour insérer les données dans la base de données\ndef insert_data(match, folder_name):",
-        "detail": "database.tables.remplissage_database.match",
-        "documentation": {}
-    },
-    {
-        "label": "cursor",
-        "kind": 5,
-        "importPath": "database.tables.remplissage_database.match",
-        "description": "database.tables.remplissage_database.match",
-        "peekOfCode": "cursor = conn.cursor()\n# Fonction pour insérer les données dans la base de données\ndef insert_data(match, folder_name):\n    try:\n        # Insérer les données du match, en utilisant .get() pour fournir 'None' si la clé n'existe pas\n        cursor.execute('''\n            INSERT INTO matches (match_id, match_date, kick_off, competition_id, season_id, home_team_id, away_team_id, home_score, away_score, match_status, match_status_360, match_week, stadium_id, competition_stage_id, referee_id)\n            VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)\n            ON CONFLICT (match_id) DO NOTHING\n        ''', (",
-        "detail": "database.tables.remplissage_database.match",
-        "documentation": {}
-    },
-    {
-        "label": "main_folder",
-        "kind": 5,
-        "importPath": "database.tables.remplissage_database.match",
-        "description": "database.tables.remplissage_database.match",
-        "peekOfCode": "main_folder = r'C:\\Users\\HP\\OneDrive\\Desktop\\bigData_project\\matches'\n# Parcours des sous-dossiers et des fichiers JSON\nfor subdir, dirs, files in os.walk(main_folder):\n    folder_name = os.path.basename(subdir)  # Récupérer le nom du dossier actuel\n    for file in files:\n        if file.endswith('.json'):\n            file_path = os.path.join(subdir, file)\n            with open(file_path, 'r', encoding='utf-8') as json_file:\n                try:\n                    data = json.load(json_file)",
-        "detail": "database.tables.remplissage_database.match",
-        "documentation": {}
-    },
-    {
-        "label": "insert_data",
-        "kind": 2,
-        "importPath": "database.tables.remplissage_database.ref",
-        "description": "database.tables.remplissage_database.ref",
-        "peekOfCode": "def insert_data(match, folder_name):\n    try:\n        if \"referee\" in match:\n         cursor.execute('''\n            INSERT INTO referee (referee_id, referee_name, country_id)\n            VALUES (%s, %s, %s)\n            ON CONFLICT (referee_id) DO NOTHING\n        ''', (match['referee']['id'], match['referee']['name'], match['referee']['country']['id']))\n         print(\"Données de l'arbitre insérées.\")\n        # Insérer les données de l'arbitre",
-        "detail": "database.tables.remplissage_database.ref",
-        "documentation": {}
-    },
-    {
-        "label": "main_folder",
-        "kind": 5,
-        "importPath": "database.tables.remplissage_database.ref",
-        "description": "database.tables.remplissage_database.ref",
-        "peekOfCode": "main_folder = r'C:\\Users\\HP\\OneDrive\\Desktop\\bigData_project\\matches'\n# Parcours des sous-dossiers et des fichiers JSON\nfor subdir, dirs, files in os.walk(main_folder):\n    for file in files:\n        if file.endswith('.json'):\n            file_path = os.path.join(subdir, file)\n            with open(file_path, 'r', encoding='utf-8') as json_file:\n                try:\n                    data = json.load(json_file)\n                    # Vérifiez si les données sont dans une liste, sinon créez une liste avec un seul élément",
-        "detail": "database.tables.remplissage_database.ref",
-        "documentation": {}
-    },
-    {
-        "label": "insert_data",
-        "kind": 2,
-        "importPath": "database.tables.remplissage_database.season_country",
-        "description": "database.tables.remplissage_database.season_country",
-        "peekOfCode": "def insert_data(match):\n    try:\n        # Insérer les données du pays\n        cursor.execute('''\n            INSERT INTO countries (country_id, name)\n            VALUES (%s, %s)\n            ON CONFLICT (country_id) DO NOTHING\n        ''', (match['home_team']['country']['id'], match['home_team']['country']['name']))\n        # Insérer les données de la saison\n        cursor.execute('''",
-        "detail": "database.tables.remplissage_database.season_country",
-        "documentation": {}
-    },
-    {
-        "label": "conn",
-        "kind": 5,
-        "importPath": "database.tables.remplissage_database.season_country",
-        "description": "database.tables.remplissage_database.season_country",
-        "peekOfCode": "conn = psycopg2.connect(\n    dbname='football',\n    user='postgres',\n    password='papapapa',\n    host='localhost',\n    port='5432'\n)\ncursor = conn.cursor()\n# Fonction pour insérer les données dans la base de données\ndef insert_data(match):",
-        "detail": "database.tables.remplissage_database.season_country",
-        "documentation": {}
-    },
-    {
-        "label": "cursor",
-        "kind": 5,
-        "importPath": "database.tables.remplissage_database.season_country",
-        "description": "database.tables.remplissage_database.season_country",
-        "peekOfCode": "cursor = conn.cursor()\n# Fonction pour insérer les données dans la base de données\ndef insert_data(match):\n    try:\n        # Insérer les données du pays\n        cursor.execute('''\n            INSERT INTO countries (country_id, name)\n            VALUES (%s, %s)\n            ON CONFLICT (country_id) DO NOTHING\n        ''', (match['home_team']['country']['id'], match['home_team']['country']['name']))",
-        "detail": "database.tables.remplissage_database.season_country",
-        "documentation": {}
-    },
-    {
-        "label": "main_folder",
-        "kind": 5,
-        "importPath": "database.tables.remplissage_database.season_country",
-        "description": "database.tables.remplissage_database.season_country",
-        "peekOfCode": "main_folder = r'C:\\Users\\HP\\OneDrive\\Desktop\\bigData_project\\matches'\n# Parcours des sous-dossiers et des fichiers JSON\nfor subdir, dirs, files in os.walk(main_folder):\n    for file in files:\n        if file.endswith('.json'):\n            file_path = os.path.join(subdir, file)\n            with open(file_path, 'r', encoding='utf-8') as json_file:\n                try:\n                    data = json.load(json_file)\n                    # Vérifiez si les données sont dans une liste, sinon créez une liste avec un seul élément",
-        "detail": "database.tables.remplissage_database.season_country",
-        "documentation": {}
-    },
-    {
-        "label": "insert_data",
-        "kind": 2,
-        "importPath": "database.tables.remplissage_database.stadium",
-        "description": "database.tables.remplissage_database.stadium",
-        "peekOfCode": "def insert_data(match, folder_name):\n    try:\n        if \"stadium\" in match:        \n            cursor.execute('''\n            INSERT INTO stadiums (stadium_id, stadium_name, country_id)\n            VALUES (%s, %s, %s)\n            ON CONFLICT (stadium_id) DO NOTHING\n        ''', (match['stadium']['id'], match['stadium']['name'], match['stadium']['country']['id']))\n            print(\"Données du stade insérées.\")\n    except psycopg2.Error as e:",
-        "detail": "database.tables.remplissage_database.stadium",
-        "documentation": {}
-    },
-    {
-        "label": "main_folder",
-        "kind": 5,
-        "importPath": "database.tables.remplissage_database.stadium",
-        "description": "database.tables.remplissage_database.stadium",
-        "peekOfCode": "main_folder = r'C:\\Users\\HP\\OneDrive\\Desktop\\bigData_project\\matches'\n# Parcours des sous-dossiers et des fichiers JSON\nfor subdir, dirs, files in os.walk(main_folder):\n    for file in files:\n        if file.endswith('.json'):\n            file_path = os.path.join(subdir, file)\n            with open(file_path, 'r', encoding='utf-8') as json_file:\n                try:\n                    data = json.load(json_file)\n                    # Vérifiez si les données sont dans une liste, sinon créez une liste avec un seul élément",
-        "detail": "database.tables.remplissage_database.stadium",
-        "documentation": {}
-    },
-    {
-        "label": "insert_data",
-        "kind": 2,
-        "importPath": "database.tables.remplissage_database.stage",
-        "description": "database.tables.remplissage_database.stage",
-        "peekOfCode": "def insert_data(match, folder_name):\n    try:# Insérer les données du match\n        cursor.execute('''\n            INSERT INTO competition_stage (id, name)\n            VALUES (%s, %s)\n            ON CONFLICT (id) DO NOTHING\n        ''', (match['competition_stage']['id'], match['competition_stage'][\"name\"]))\n    except KeyError as e:\n        print(f\"Erreur lors de l'insertion des données pour le match {match['match_id']} dans le dossier {folder_name}: clé manquante {e}\")\n        conn.rollback()  # Annuler la transaction",
-        "detail": "database.tables.remplissage_database.stage",
-        "documentation": {}
-    },
-    {
-        "label": "conn",
-        "kind": 5,
-        "importPath": "database.tables.remplissage_database.stage",
-        "description": "database.tables.remplissage_database.stage",
-        "peekOfCode": "conn = psycopg2.connect(\n    dbname='football',\n    user='postgres',\n    password='papapapa',\n    host='localhost',\n    port='5432'\n)\ncursor = conn.cursor()\n# Fonction pour insérer les données dans la base de données\ndef insert_data(match, folder_name):",
-        "detail": "database.tables.remplissage_database.stage",
-        "documentation": {}
-    },
-    {
-        "label": "cursor",
-        "kind": 5,
-        "importPath": "database.tables.remplissage_database.stage",
-        "description": "database.tables.remplissage_database.stage",
-        "peekOfCode": "cursor = conn.cursor()\n# Fonction pour insérer les données dans la base de données\ndef insert_data(match, folder_name):\n    try:# Insérer les données du match\n        cursor.execute('''\n            INSERT INTO competition_stage (id, name)\n            VALUES (%s, %s)\n            ON CONFLICT (id) DO NOTHING\n        ''', (match['competition_stage']['id'], match['competition_stage'][\"name\"]))\n    except KeyError as e:",
-        "detail": "database.tables.remplissage_database.stage",
-        "documentation": {}
-    },
-    {
-        "label": "main_folder",
-        "kind": 5,
-        "importPath": "database.tables.remplissage_database.stage",
-        "description": "database.tables.remplissage_database.stage",
-        "peekOfCode": "main_folder = r'C:\\Users\\HP\\OneDrive\\Desktop\\bigData_project\\matches'\n# Parcours des sous-dossiers et des fichiers JSON\nfor subdir, dirs, files in os.walk(main_folder):\n    folder_name = os.path.basename(subdir)  # Récupérer le nom du dossier actuel\n    for file in files:\n        if file.endswith('.json'):\n            file_path = os.path.join(subdir, file)\n            with open(file_path, 'r', encoding='utf-8') as json_file:\n                try:\n                    data = json.load(json_file)",
-        "detail": "database.tables.remplissage_database.stage",
-        "documentation": {}
-    },
-    {
-        "label": "insert_data",
-        "kind": 2,
-        "importPath": "database.tables.remplissage_database.team",
-        "description": "database.tables.remplissage_database.team",
-        "peekOfCode": "def insert_data(match, folder_name):\n    try:\n        # Vérifiez si 'away_team' existe dans le match\n        if 'away_team' in match:\n            cursor.execute('''\n                INSERT INTO teams (team_id, team_name, team_gender, country_id)\n                VALUES (%s, %s, %s, %s)\n                ON CONFLICT (team_id) DO NOTHING\n            ''', (\n                match['away_team']['away_team_id'], ",
-        "detail": "database.tables.remplissage_database.team",
-        "documentation": {}
-    },
-    {
-        "label": "main_folder",
-        "kind": 5,
-        "importPath": "database.tables.remplissage_database.team",
-        "description": "database.tables.remplissage_database.team",
-        "peekOfCode": "main_folder = r'C:\\Users\\HP\\OneDrive\\Desktop\\bigData_project\\matches'\n# Parcours des sous-dossiers et des fichiers JSON\nfor subdir, dirs, files in os.walk(main_folder):\n    for file in files:\n        if file.endswith('.json'):\n            file_path = os.path.join(subdir, file)\n            with open(file_path, 'r', encoding='utf-8') as json_file:\n                try:\n                    data = json.load(json_file)\n                    # Vérifiez si les données sont dans une liste, sinon créez une liste avec un seul élément",
-        "detail": "database.tables.remplissage_database.team",
         "documentation": {}
     },
     {
@@ -513,6 +332,51 @@
         "description": "spark_streaming.kafka_spark",
         "peekOfCode": "query = processed_df.writeStream \\\n    .outputMode(\"append\") \\\n    .foreachBatch(process_batch) \\\n    .start()\n# Attendre que le stream soit arrêté\nquery.awaitTermination()",
         "detail": "spark_streaming.kafka_spark",
+        "documentation": {}
+    },
+    {
+        "label": "client",
+        "kind": 5,
+        "importPath": "test",
+        "description": "test",
+        "peekOfCode": "client = Groq(api_key=\"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\")\n# Texte de l'offre d'emploi\njob_posting_text = text  # Assurez-vous que `text` est défini\n# Requête JSON strict\nrequest_content = f\"\"\"\nVeuillez extraire les informations suivantes de l'offre d'emploi et retournez-les strictement au format JSON sans texte supplémentaire. Si un champ n'existe pas, faites \"None\".\nExemple attendu :\n{{\n    \"titre_du_poste\": \"Développeur Python\",\n    \"societe\": \"TechCorp\",",
+        "detail": "test",
+        "documentation": {}
+    },
+    {
+        "label": "job_posting_text",
+        "kind": 5,
+        "importPath": "test",
+        "description": "test",
+        "peekOfCode": "job_posting_text = text  # Assurez-vous que `text` est défini\n# Requête JSON strict\nrequest_content = f\"\"\"\nVeuillez extraire les informations suivantes de l'offre d'emploi et retournez-les strictement au format JSON sans texte supplémentaire. Si un champ n'existe pas, faites \"None\".\nExemple attendu :\n{{\n    \"titre_du_poste\": \"Développeur Python\",\n    \"societe\": \"TechCorp\",\n    \"competences\": [\"Python\", \"Django\", \"API REST\"],\n    \"lieu\": \"Paris\",",
+        "detail": "test",
+        "documentation": {}
+    },
+    {
+        "label": "request_content",
+        "kind": 5,
+        "importPath": "test",
+        "description": "test",
+        "peekOfCode": "request_content = f\"\"\"\nVeuillez extraire les informations suivantes de l'offre d'emploi et retournez-les strictement au format JSON sans texte supplémentaire. Si un champ n'existe pas, faites \"None\".\nExemple attendu :\n{{\n    \"titre_du_poste\": \"Développeur Python\",\n    \"societe\": \"TechCorp\",\n    \"competences\": [\"Python\", \"Django\", \"API REST\"],\n    \"lieu\": \"Paris\",\n    \"type_offre\": \"un stage ou une offre de travail, et si un stage il faut distinguer s'il s'agit d'un PFA ou PFE\",\n    \"durée\": \"est-ce que le poste indique une durée pour le travail par exemple 'un stage de 3 mois'\",",
+        "detail": "test",
+        "documentation": {}
+    },
+    {
+        "label": "completion",
+        "kind": 5,
+        "importPath": "test",
+        "description": "test",
+        "peekOfCode": "completion = client.chat.completions.create(\n    model=\"llama3-8b-8192\",\n    messages=[{\"role\": \"user\", \"content\": request_content}],\n    temperature=0,\n    max_tokens=1024,\n    top_p=1,\n    stream=True,\n    stop=None,\n)\n# Collecte et traitement de la réponse JSON",
+        "detail": "test",
+        "documentation": {}
+    },
+    {
+        "label": "extracted_data",
+        "kind": 5,
+        "importPath": "test",
+        "description": "test",
+        "peekOfCode": "extracted_data = \"\"\nfor chunk in completion:\n    extracted_data += chunk.choices[0].delta.content or \"\"\n#print(extracted_data)\n# Extraction du JSON du texte brut\ntry:\n    json_match = re.search(r\"\\{.*\\}\", extracted_data, re.DOTALL)  # Trouver le JSON entre accolades\n    if json_match:\n        json_data = json.loads(json_match.group(0))  # Charger le JSON\n        print(json.dumps(json_data, indent=4, ensure_ascii=False))",
+        "detail": "test",
         "documentation": {}
     }
 ]
