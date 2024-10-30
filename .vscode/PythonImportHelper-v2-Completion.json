@@ -17,6 +17,14 @@
         "documentation": {}
     },
     {
+        "label": "KafkaConsumer",
+        "importPath": "kafka",
+        "description": "kafka",
+        "isExtraImport": true,
+        "detail": "kafka",
+        "documentation": {}
+    },
+    {
         "label": "config",
         "kind": 6,
         "isExtraImport": true,
@@ -26,70 +34,12 @@
         "documentation": {}
     },
     {
-        "label": "cv2",
+        "label": "ray",
         "kind": 6,
         "isExtraImport": true,
-        "importPath": "cv2",
-        "description": "cv2",
-        "detail": "cv2",
-        "documentation": {}
-    },
-    {
-        "label": "numpy",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "numpy",
-        "description": "numpy",
-        "detail": "numpy",
-        "documentation": {}
-    },
-    {
-        "label": "SparkSession",
-        "importPath": "pyspark.sql",
-        "description": "pyspark.sql",
-        "isExtraImport": true,
-        "detail": "pyspark.sql",
-        "documentation": {}
-    },
-    {
-        "label": "col",
-        "importPath": "pyspark.sql.functions",
-        "description": "pyspark.sql.functions",
-        "isExtraImport": true,
-        "detail": "pyspark.sql.functions",
-        "documentation": {}
-    },
-    {
-        "label": "udf",
-        "importPath": "pyspark.sql.functions",
-        "description": "pyspark.sql.functions",
-        "isExtraImport": true,
-        "detail": "pyspark.sql.functions",
-        "documentation": {}
-    },
-    {
-        "label": "BinaryType",
-        "importPath": "pyspark.sql.types",
-        "description": "pyspark.sql.types",
-        "isExtraImport": true,
-        "detail": "pyspark.sql.types",
-        "documentation": {}
-    },
-    {
-        "label": "os",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "os",
-        "description": "os",
-        "detail": "os",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
+        "importPath": "ray",
+        "description": "ray",
+        "detail": "ray",
         "documentation": {}
     },
     {
@@ -106,22 +56,6 @@
         "description": "pydantic",
         "isExtraImport": true,
         "detail": "pydantic",
-        "documentation": {}
-    },
-    {
-        "label": "List",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Optional",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
         "documentation": {}
     },
     {
@@ -191,20 +125,20 @@
         "documentation": {}
     },
     {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
         "label": "topic",
         "kind": 5,
         "importPath": "data.config",
         "description": "data.config",
-        "peekOfCode": "topic = \"distributed-video1\"\nend_topic = \"final_result_topic\"",
-        "detail": "data.config",
-        "documentation": {}
-    },
-    {
-        "label": "end_topic",
-        "kind": 5,
-        "importPath": "data.config",
-        "description": "data.config",
-        "peekOfCode": "end_topic = \"final_result_topic\"",
+        "peekOfCode": "topic = \"offres_travail\"",
         "detail": "data.config",
         "documentation": {}
     },
@@ -227,156 +161,21 @@
         "documentation": {}
     },
     {
-        "label": "topic",
-        "kind": 5,
-        "importPath": "spark_streaming.config",
-        "description": "spark_streaming.config",
-        "peekOfCode": "topic = \"distributed-video1\"\nend_topic = \"final_result_topic\"",
-        "detail": "spark_streaming.config",
-        "documentation": {}
-    },
-    {
-        "label": "end_topic",
-        "kind": 5,
-        "importPath": "spark_streaming.config",
-        "description": "spark_streaming.config",
-        "peekOfCode": "end_topic = \"final_result_topic\"",
-        "detail": "spark_streaming.config",
-        "documentation": {}
-    },
-    {
-        "label": "process_image_cons",
+        "label": "extract_job_info",
         "kind": 2,
-        "importPath": "spark_streaming.kafka_spark",
-        "description": "spark_streaming.kafka_spark",
-        "peekOfCode": "def process_image_cons(image_bytes):\n    np_array = np.frombuffer(image_bytes, np.uint8)\n    frame = cv2.imdecode(np_array, cv2.IMREAD_COLOR)\n    if frame is not None:\n        # Obtenir les dimensions de l'image\n        height, width, _ = frame.shape\n        # Définir les coordonnées du rectangle (ici, centré dans l'image)\n        start_point = (width // 4, height // 4)  # Coin supérieur gauche\n        end_point = (width * 3 // 4, height * 3 // 4)  # Coin inférieur droit\n        # Dessiner le rectangle sur l'image",
-        "detail": "spark_streaming.kafka_spark",
+        "importPath": "Ray.consumer",
+        "description": "Ray.consumer",
+        "peekOfCode": "def extract_job_info(job_posting_text):\n    # Initialiser le client Groq ici\n    client = Groq(api_key=\"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\")\n    request_content = f\"\"\"\nVeuillez extraire les informations suivantes de l'offre d'emploi et retournez-les strictement au format JSON sans texte supplémentaire. Si un champ n'existe pas, faites \"None\".\nExemple attendu :\n{{\n    \"titre_du_poste\": \"Développeur Python\",\n    \"societe\": \"TechCorp\",\n    \"competences\": [\"Python\", \"Django\", \"API REST\"],",
+        "detail": "Ray.consumer",
         "documentation": {}
     },
     {
-        "label": "process_batch",
-        "kind": 2,
-        "importPath": "spark_streaming.kafka_spark",
-        "description": "spark_streaming.kafka_spark",
-        "peekOfCode": "def process_batch(df, epoch_id):\n    print(f\"Traitement du micro-lot {epoch_id}\")\n    for row in df.collect():\n        if row['img_bytes']:  # Vérifiez que les octets de l'image ne sont pas vides\n            # Générer un timestamp pour le nom de fichier\n            timestamp = datetime.now().strftime(\"%Y%m%d_%H%M%S_%f\")  # Format : YYYYMMDD_HHMMSS_microsecond\n            filename = os.path.join(output_folder, f\"{timestamp}.jpg\")  # Créer le nom de fichier avec le timestamp\n            with open(filename, 'wb') as f:\n                f.write(row['img_bytes'])\n            print(f\"Image sauvegardée : {filename}\")",
-        "detail": "spark_streaming.kafka_spark",
-        "documentation": {}
-    },
-    {
-        "label": "output_folder",
+        "label": "consumer",
         "kind": 5,
-        "importPath": "spark_streaming.kafka_spark",
-        "description": "spark_streaming.kafka_spark",
-        "peekOfCode": "output_folder = 'images_traited'\nos.makedirs(output_folder, exist_ok=True)\nos.environ[\"PYSPARK_PIN_THREAD\"] = \"true\"\nspark = SparkSession.builder \\\n    .appName(\"Kafka Spark Structured Streaming App\") \\\n    .master(\"local[*]\") \\\n    .config(\"spark.jars.packages\", \n        \"org.apache.spark:spark-sql-kafka-0-10_2.12:3.4.3,\" \n        \"org.apache.kafka:kafka-clients:3.4.1,\" \n        \"org.apache.commons:commons-pool2:2.11.1\") \\",
-        "detail": "spark_streaming.kafka_spark",
-        "documentation": {}
-    },
-    {
-        "label": "os.environ[\"PYSPARK_PIN_THREAD\"]",
-        "kind": 5,
-        "importPath": "spark_streaming.kafka_spark",
-        "description": "spark_streaming.kafka_spark",
-        "peekOfCode": "os.environ[\"PYSPARK_PIN_THREAD\"] = \"true\"\nspark = SparkSession.builder \\\n    .appName(\"Kafka Spark Structured Streaming App\") \\\n    .master(\"local[*]\") \\\n    .config(\"spark.jars.packages\", \n        \"org.apache.spark:spark-sql-kafka-0-10_2.12:3.4.3,\" \n        \"org.apache.kafka:kafka-clients:3.4.1,\" \n        \"org.apache.commons:commons-pool2:2.11.1\") \\\n    .getOrCreate()\nif spark:",
-        "detail": "spark_streaming.kafka_spark",
-        "documentation": {}
-    },
-    {
-        "label": "spark",
-        "kind": 5,
-        "importPath": "spark_streaming.kafka_spark",
-        "description": "spark_streaming.kafka_spark",
-        "peekOfCode": "spark = SparkSession.builder \\\n    .appName(\"Kafka Spark Structured Streaming App\") \\\n    .master(\"local[*]\") \\\n    .config(\"spark.jars.packages\", \n        \"org.apache.spark:spark-sql-kafka-0-10_2.12:3.4.3,\" \n        \"org.apache.kafka:kafka-clients:3.4.1,\" \n        \"org.apache.commons:commons-pool2:2.11.1\") \\\n    .getOrCreate()\nif spark:\n    print(\"Session is created\")",
-        "detail": "spark_streaming.kafka_spark",
-        "documentation": {}
-    },
-    {
-        "label": "process_image_udf",
-        "kind": 5,
-        "importPath": "spark_streaming.kafka_spark",
-        "description": "spark_streaming.kafka_spark",
-        "peekOfCode": "process_image_udf = udf(process_image_cons, BinaryType())\nkafka_df = spark.readStream \\\n    .format(\"kafka\") \\\n    .option(\"kafka.bootstrap.servers\", \"localhost:29092\") \\\n    .option(\"subscribe\", cfg.topic) \\\n    .load()\nkafka_df = kafka_df.selectExpr(\"CAST(value AS BINARY) as img_bytes\")\nprocessed_df = kafka_df.withColumn(\"img_bytes\", process_image_udf(col(\"img_bytes\")))\ndef process_batch(df, epoch_id):\n    print(f\"Traitement du micro-lot {epoch_id}\")",
-        "detail": "spark_streaming.kafka_spark",
-        "documentation": {}
-    },
-    {
-        "label": "kafka_df",
-        "kind": 5,
-        "importPath": "spark_streaming.kafka_spark",
-        "description": "spark_streaming.kafka_spark",
-        "peekOfCode": "kafka_df = spark.readStream \\\n    .format(\"kafka\") \\\n    .option(\"kafka.bootstrap.servers\", \"localhost:29092\") \\\n    .option(\"subscribe\", cfg.topic) \\\n    .load()\nkafka_df = kafka_df.selectExpr(\"CAST(value AS BINARY) as img_bytes\")\nprocessed_df = kafka_df.withColumn(\"img_bytes\", process_image_udf(col(\"img_bytes\")))\ndef process_batch(df, epoch_id):\n    print(f\"Traitement du micro-lot {epoch_id}\")\n    for row in df.collect():",
-        "detail": "spark_streaming.kafka_spark",
-        "documentation": {}
-    },
-    {
-        "label": "kafka_df",
-        "kind": 5,
-        "importPath": "spark_streaming.kafka_spark",
-        "description": "spark_streaming.kafka_spark",
-        "peekOfCode": "kafka_df = kafka_df.selectExpr(\"CAST(value AS BINARY) as img_bytes\")\nprocessed_df = kafka_df.withColumn(\"img_bytes\", process_image_udf(col(\"img_bytes\")))\ndef process_batch(df, epoch_id):\n    print(f\"Traitement du micro-lot {epoch_id}\")\n    for row in df.collect():\n        if row['img_bytes']:  # Vérifiez que les octets de l'image ne sont pas vides\n            # Générer un timestamp pour le nom de fichier\n            timestamp = datetime.now().strftime(\"%Y%m%d_%H%M%S_%f\")  # Format : YYYYMMDD_HHMMSS_microsecond\n            filename = os.path.join(output_folder, f\"{timestamp}.jpg\")  # Créer le nom de fichier avec le timestamp\n            with open(filename, 'wb') as f:",
-        "detail": "spark_streaming.kafka_spark",
-        "documentation": {}
-    },
-    {
-        "label": "processed_df",
-        "kind": 5,
-        "importPath": "spark_streaming.kafka_spark",
-        "description": "spark_streaming.kafka_spark",
-        "peekOfCode": "processed_df = kafka_df.withColumn(\"img_bytes\", process_image_udf(col(\"img_bytes\")))\ndef process_batch(df, epoch_id):\n    print(f\"Traitement du micro-lot {epoch_id}\")\n    for row in df.collect():\n        if row['img_bytes']:  # Vérifiez que les octets de l'image ne sont pas vides\n            # Générer un timestamp pour le nom de fichier\n            timestamp = datetime.now().strftime(\"%Y%m%d_%H%M%S_%f\")  # Format : YYYYMMDD_HHMMSS_microsecond\n            filename = os.path.join(output_folder, f\"{timestamp}.jpg\")  # Créer le nom de fichier avec le timestamp\n            with open(filename, 'wb') as f:\n                f.write(row['img_bytes'])",
-        "detail": "spark_streaming.kafka_spark",
-        "documentation": {}
-    },
-    {
-        "label": "query",
-        "kind": 5,
-        "importPath": "spark_streaming.kafka_spark",
-        "description": "spark_streaming.kafka_spark",
-        "peekOfCode": "query = processed_df.writeStream \\\n    .outputMode(\"append\") \\\n    .foreachBatch(process_batch) \\\n    .start()\n# Attendre que le stream soit arrêté\nquery.awaitTermination()",
-        "detail": "spark_streaming.kafka_spark",
-        "documentation": {}
-    },
-    {
-        "label": "client",
-        "kind": 5,
-        "importPath": "test",
-        "description": "test",
-        "peekOfCode": "client = Groq(api_key=\"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\")\n# Texte de l'offre d'emploi\njob_posting_text = text  # Assurez-vous que `text` est défini\n# Requête JSON strict\nrequest_content = f\"\"\"\nVeuillez extraire les informations suivantes de l'offre d'emploi et retournez-les strictement au format JSON sans texte supplémentaire. Si un champ n'existe pas, faites \"None\".\nExemple attendu :\n{{\n    \"titre_du_poste\": \"Développeur Python\",\n    \"societe\": \"TechCorp\",",
-        "detail": "test",
-        "documentation": {}
-    },
-    {
-        "label": "job_posting_text",
-        "kind": 5,
-        "importPath": "test",
-        "description": "test",
-        "peekOfCode": "job_posting_text = text  # Assurez-vous que `text` est défini\n# Requête JSON strict\nrequest_content = f\"\"\"\nVeuillez extraire les informations suivantes de l'offre d'emploi et retournez-les strictement au format JSON sans texte supplémentaire. Si un champ n'existe pas, faites \"None\".\nExemple attendu :\n{{\n    \"titre_du_poste\": \"Développeur Python\",\n    \"societe\": \"TechCorp\",\n    \"competences\": [\"Python\", \"Django\", \"API REST\"],\n    \"lieu\": \"Paris\",",
-        "detail": "test",
-        "documentation": {}
-    },
-    {
-        "label": "request_content",
-        "kind": 5,
-        "importPath": "test",
-        "description": "test",
-        "peekOfCode": "request_content = f\"\"\"\nVeuillez extraire les informations suivantes de l'offre d'emploi et retournez-les strictement au format JSON sans texte supplémentaire. Si un champ n'existe pas, faites \"None\".\nExemple attendu :\n{{\n    \"titre_du_poste\": \"Développeur Python\",\n    \"societe\": \"TechCorp\",\n    \"competences\": [\"Python\", \"Django\", \"API REST\"],\n    \"lieu\": \"Paris\",\n    \"type_offre\": \"un stage ou une offre de travail, et si un stage il faut distinguer s'il s'agit d'un PFA ou PFE\",\n    \"durée\": \"est-ce que le poste indique une durée pour le travail par exemple 'un stage de 3 mois'\",",
-        "detail": "test",
-        "documentation": {}
-    },
-    {
-        "label": "completion",
-        "kind": 5,
-        "importPath": "test",
-        "description": "test",
-        "peekOfCode": "completion = client.chat.completions.create(\n    model=\"llama3-8b-8192\",\n    messages=[{\"role\": \"user\", \"content\": request_content}],\n    temperature=0,\n    max_tokens=1024,\n    top_p=1,\n    stream=True,\n    stop=None,\n)\n# Collecte et traitement de la réponse JSON",
-        "detail": "test",
-        "documentation": {}
-    },
-    {
-        "label": "extracted_data",
-        "kind": 5,
-        "importPath": "test",
-        "description": "test",
-        "peekOfCode": "extracted_data = \"\"\nfor chunk in completion:\n    extracted_data += chunk.choices[0].delta.content or \"\"\n#print(extracted_data)\n# Extraction du JSON du texte brut\ntry:\n    json_match = re.search(r\"\\{.*\\}\", extracted_data, re.DOTALL)  # Trouver le JSON entre accolades\n    if json_match:\n        json_data = json.loads(json_match.group(0))  # Charger le JSON\n        print(json.dumps(json_data, indent=4, ensure_ascii=False))",
-        "detail": "test",
+        "importPath": "Ray.consumer",
+        "description": "Ray.consumer",
+        "peekOfCode": "consumer = KafkaConsumer(\n    'offres_travail',\n    bootstrap_servers=['localhost:29092'],\n    group_id='groupe_traitement'\n)\n# Lire les messages en continu et les envoyer à Ray pour traitement\nfor message in consumer:\n    # Récupère le texte de l'offre d'emploi\n    job_posting_text = message.value.decode(\"utf-8\")\n    # Traiter l'offre d'emploi en parallèle",
+        "detail": "Ray.consumer",
         "documentation": {}
     }
 ]

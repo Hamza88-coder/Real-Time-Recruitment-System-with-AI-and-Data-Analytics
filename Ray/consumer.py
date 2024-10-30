@@ -7,6 +7,8 @@ from kor import create_extraction_chain, Object, Text
 from groq import Groq
 import json
 import re
+import os
+import time
 
 # Initialiser Ray
 ray.init()
@@ -26,7 +28,7 @@ Exemple attendu :
     "societe": "TechCorp",
     "competences": ["Python", "Django", "API REST"],
     "lieu": "Paris",
-    "type_offre": "Ce champ doit être soit "stage", soit "offre de travail". Si vous prédisez qu'il s'agit d'un stage, veuillez préciser son type : "PFA" ou "PFE"",
+    "type_offre": "Ce champ doit être soit 'stage', soit 'offre de travail'. Si vous prédisez qu'il s'agit d'un stage, veuillez préciser son type : 'PFA' ou 'PFE'",
     "durée": "est-ce que le poste indique une durée pour le travail par exemple 'un stage de 3 mois'",
     "type_de_contrat": "CDI",
     "email": "email de l'entreprise ou de recruteur",
@@ -87,6 +89,16 @@ for message in consumer:
     # Traiter l'offre d'emploi en parallèle
     handle = extract_job_info.remote(job_posting_text)
 
-    # Récupérer et afficher le résultat (ou stocker selon les besoins)
+    # Récupérer le résultat
     result = ray.get(handle)
+    
+    # Créer un nom de fichier unique basé sur le timestamp
+    timestamp = time.strftime("%Y%m%d_%H%M%S")
+    output_file = f"resultat_offre_{timestamp}.json"
+
+    # Écrire le résultat dans un fichier JSON séparé
+    with open(output_file, 'w', encoding='utf-8') as f:
+        json.dump(result, f, ensure_ascii=False, indent=4)
+
+    print(f"Résultat enregistré dans : {output_file}")
     print(json.dumps(result, indent=4, ensure_ascii=False))
