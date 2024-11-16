@@ -1,11 +1,143 @@
 [
     {
-        "label": "time",
+        "label": "SparkSession",
+        "importPath": "pyspark.sql",
+        "description": "pyspark.sql",
+        "isExtraImport": true,
+        "detail": "pyspark.sql",
+        "documentation": {}
+    },
+    {
+        "label": "col",
+        "importPath": "pyspark.sql.functions",
+        "description": "pyspark.sql.functions",
+        "isExtraImport": true,
+        "detail": "pyspark.sql.functions",
+        "documentation": {}
+    },
+    {
+        "label": "udf",
+        "importPath": "pyspark.sql.functions",
+        "description": "pyspark.sql.functions",
+        "isExtraImport": true,
+        "detail": "pyspark.sql.functions",
+        "documentation": {}
+    },
+    {
+        "label": "StringType",
+        "importPath": "pyspark.sql.types",
+        "description": "pyspark.sql.types",
+        "isExtraImport": true,
+        "detail": "pyspark.sql.types",
+        "documentation": {}
+    },
+    {
+        "label": "StructType",
+        "importPath": "pyspark.sql.types",
+        "description": "pyspark.sql.types",
+        "isExtraImport": true,
+        "detail": "pyspark.sql.types",
+        "documentation": {}
+    },
+    {
+        "label": "StructField",
+        "importPath": "pyspark.sql.types",
+        "description": "pyspark.sql.types",
+        "isExtraImport": true,
+        "detail": "pyspark.sql.types",
+        "documentation": {}
+    },
+    {
+        "label": "fitz",
         "kind": 6,
         "isExtraImport": true,
-        "importPath": "time",
-        "description": "time",
-        "detail": "time",
+        "importPath": "fitz",
+        "description": "fitz",
+        "detail": "fitz",
+        "documentation": {}
+    },
+    {
+        "label": "yaml",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "yaml",
+        "description": "yaml",
+        "detail": "yaml",
+        "documentation": {}
+    },
+    {
+        "label": "Groq",
+        "importPath": "groq",
+        "description": "groq",
+        "isExtraImport": true,
+        "detail": "groq",
+        "documentation": {}
+    },
+    {
+        "label": "Groq",
+        "importPath": "groq",
+        "description": "groq",
+        "isExtraImport": true,
+        "detail": "groq",
+        "documentation": {}
+    },
+    {
+        "label": "Groq",
+        "importPath": "groq",
+        "description": "groq",
+        "isExtraImport": true,
+        "detail": "groq",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "BytesIO",
+        "importPath": "io",
+        "description": "io",
+        "isExtraImport": true,
+        "detail": "io",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "KafkaProducer",
+        "importPath": "kafka",
+        "description": "kafka",
+        "isExtraImport": true,
+        "detail": "kafka",
         "documentation": {}
     },
     {
@@ -31,6 +163,15 @@
         "importPath": "config",
         "description": "config",
         "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
         "documentation": {}
     },
     {
@@ -99,83 +240,306 @@
         "documentation": {}
     },
     {
-        "label": "Groq",
-        "importPath": "groq",
-        "description": "groq",
+        "label": "DataLakeServiceClient",
+        "importPath": "azure.storage.filedatalake",
+        "description": "azure.storage.filedatalake",
         "isExtraImport": true,
-        "detail": "groq",
+        "detail": "azure.storage.filedatalake",
         "documentation": {}
     },
     {
-        "label": "json",
-        "kind": 6,
+        "label": "DefaultAzureCredential",
+        "importPath": "azure.identity",
+        "description": "azure.identity",
         "isExtraImport": true,
-        "importPath": "json",
-        "description": "json",
-        "detail": "json",
+        "detail": "azure.identity",
         "documentation": {}
     },
     {
-        "label": "re",
-        "kind": 6,
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
         "isExtraImport": true,
-        "importPath": "re",
-        "description": "re",
-        "detail": "re",
-        "documentation": {}
-    },
-    {
-        "label": "os",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "os",
-        "description": "os",
-        "detail": "os",
+        "detail": "dotenv",
         "documentation": {}
     },
     {
         "label": "topic",
         "kind": 5,
-        "importPath": "data.config",
-        "description": "data.config",
+        "importPath": "CV_Processus.consumerSpark.config",
+        "description": "CV_Processus.consumerSpark.config",
+        "peekOfCode": "topic = \"TopicCV\"",
+        "detail": "CV_Processus.consumerSpark.config",
+        "documentation": {}
+    },
+    {
+        "label": "load_config",
+        "kind": 2,
+        "importPath": "CV_Processus.consumerSpark.consumerspark",
+        "description": "CV_Processus.consumerSpark.consumerspark",
+        "peekOfCode": "def load_config():\n    CONFIG_PATH = \"config.yaml\"\n    with open(CONFIG_PATH) as file:\n        data = yaml.load(file, Loader=yaml.FullLoader)\n        return data['GROQ_API_KEY']\n# Fonction d'extraction du texte directement depuis les bytes\ndef extract_text_from_bytes(pdf_bytes):\n    try:\n        memory_buffer = BytesIO(pdf_bytes)\n        with fitz.open(stream=memory_buffer, filetype=\"pdf\") as doc:",
+        "detail": "CV_Processus.consumerSpark.consumerspark",
+        "documentation": {}
+    },
+    {
+        "label": "extract_text_from_bytes",
+        "kind": 2,
+        "importPath": "CV_Processus.consumerSpark.consumerspark",
+        "description": "CV_Processus.consumerSpark.consumerspark",
+        "peekOfCode": "def extract_text_from_bytes(pdf_bytes):\n    try:\n        memory_buffer = BytesIO(pdf_bytes)\n        with fitz.open(stream=memory_buffer, filetype=\"pdf\") as doc:\n            text = \"\"\n            for page_num in range(doc.page_count):\n                page = doc.load_page(page_num)\n                text += page.get_text(\"text\")\n            return text\n    except Exception as e:",
+        "detail": "CV_Processus.consumerSpark.consumerspark",
+        "documentation": {}
+    },
+    {
+        "label": "ats_extractor",
+        "kind": 2,
+        "importPath": "CV_Processus.consumerSpark.consumerspark",
+        "description": "CV_Processus.consumerSpark.consumerspark",
+        "peekOfCode": "def ats_extractor(resume_data, api_key):\n    prompt = '''\n    You are an AI bot designed to act as a professional for parsing resumes. You are given a resume, and your job is to extract the following information:\n    1. first name\n    2. last name\n    1. full name\n    4. title\n    5. address\n    6. objective\n    7. date_of_birth",
+        "detail": "CV_Processus.consumerSpark.consumerspark",
+        "documentation": {}
+    },
+    {
+        "label": "save_results_to_json",
+        "kind": 2,
+        "importPath": "CV_Processus.consumerSpark.consumerspark",
+        "description": "CV_Processus.consumerSpark.consumerspark",
+        "peekOfCode": "def save_results_to_json(offset, text, analysis):\n    try:\n        timestamp = datetime.now().strftime(\"%Y%m%d_%H%M%S\")\n        filename = f\"{RESULTS_DIR}/resume_analysis_{offset}_{timestamp}.json\"\n        results = {\n            \"offset\": offset,\n            \"timestamp\": timestamp,\n            \"extracted_text\": text,\n            \"analysis\": json.loads(analysis) if isinstance(analysis, str) else analysis\n        }",
+        "detail": "CV_Processus.consumerSpark.consumerspark",
+        "documentation": {}
+    },
+    {
+        "label": "process_pdf_udf",
+        "kind": 2,
+        "importPath": "CV_Processus.consumerSpark.consumerspark",
+        "description": "CV_Processus.consumerSpark.consumerspark",
+        "peekOfCode": "def process_pdf_udf(value):\n    try:\n        # Les données arrivent déjà en bytes depuis Kafka\n        pdf_bytes = value\n        # Extraction du texte directement depuis les bytes\n        extracted_text = extract_text_from_bytes(pdf_bytes)\n        # Analyse avec Groq\n        analysis_result = ats_extractor(extracted_text, api_key)\n        return (extracted_text, json.dumps(analysis_result))\n    except Exception as e:",
+        "detail": "CV_Processus.consumerSpark.consumerspark",
+        "documentation": {}
+    },
+    {
+        "label": "process_batch",
+        "kind": 2,
+        "importPath": "CV_Processus.consumerSpark.consumerspark",
+        "description": "CV_Processus.consumerSpark.consumerspark",
+        "peekOfCode": "def process_batch(df, epoch_id):\n    # Conversion du DataFrame en liste de dictionnaires pour traitement\n    rows = df.collect()\n    for row in rows:\n        save_results_to_json(\n            row['offset'],\n            row['extracted_text'],\n            row['analysis_result']\n        )\n# Lecture du stream Kafka",
+        "detail": "CV_Processus.consumerSpark.consumerspark",
+        "documentation": {}
+    },
+    {
+        "label": "spark",
+        "kind": 5,
+        "importPath": "CV_Processus.consumerSpark.consumerspark",
+        "description": "CV_Processus.consumerSpark.consumerspark",
+        "peekOfCode": "spark = SparkSession.builder.appName(\"PDF_Processor\").getOrCreate()\n# Création du dossier pour les résultats JSON s'il n'existe pas\nRESULTS_DIR = \"extracted_results\"\nos.makedirs(RESULTS_DIR, exist_ok=True)\n# Chargement de la configuration\ndef load_config():\n    CONFIG_PATH = \"config.yaml\"\n    with open(CONFIG_PATH) as file:\n        data = yaml.load(file, Loader=yaml.FullLoader)\n        return data['GROQ_API_KEY']",
+        "detail": "CV_Processus.consumerSpark.consumerspark",
+        "documentation": {}
+    },
+    {
+        "label": "RESULTS_DIR",
+        "kind": 5,
+        "importPath": "CV_Processus.consumerSpark.consumerspark",
+        "description": "CV_Processus.consumerSpark.consumerspark",
+        "peekOfCode": "RESULTS_DIR = \"extracted_results\"\nos.makedirs(RESULTS_DIR, exist_ok=True)\n# Chargement de la configuration\ndef load_config():\n    CONFIG_PATH = \"config.yaml\"\n    with open(CONFIG_PATH) as file:\n        data = yaml.load(file, Loader=yaml.FullLoader)\n        return data['GROQ_API_KEY']\n# Fonction d'extraction du texte directement depuis les bytes\ndef extract_text_from_bytes(pdf_bytes):",
+        "detail": "CV_Processus.consumerSpark.consumerspark",
+        "documentation": {}
+    },
+    {
+        "label": "api_key",
+        "kind": 5,
+        "importPath": "CV_Processus.consumerSpark.consumerspark",
+        "description": "CV_Processus.consumerSpark.consumerspark",
+        "peekOfCode": "api_key = load_config()\n# Définition du schéma de sortie\noutput_schema = StructType([\n    StructField(\"pdf_text\", StringType(), True),\n    StructField(\"analysis_result\", StringType(), True)\n])\n# UDF pour le traitement complet\n@udf(returnType=output_schema)\ndef process_pdf_udf(value):\n    try:",
+        "detail": "CV_Processus.consumerSpark.consumerspark",
+        "documentation": {}
+    },
+    {
+        "label": "output_schema",
+        "kind": 5,
+        "importPath": "CV_Processus.consumerSpark.consumerspark",
+        "description": "CV_Processus.consumerSpark.consumerspark",
+        "peekOfCode": "output_schema = StructType([\n    StructField(\"pdf_text\", StringType(), True),\n    StructField(\"analysis_result\", StringType(), True)\n])\n# UDF pour le traitement complet\n@udf(returnType=output_schema)\ndef process_pdf_udf(value):\n    try:\n        # Les données arrivent déjà en bytes depuis Kafka\n        pdf_bytes = value",
+        "detail": "CV_Processus.consumerSpark.consumerspark",
+        "documentation": {}
+    },
+    {
+        "label": "df",
+        "kind": 5,
+        "importPath": "CV_Processus.consumerSpark.consumerspark",
+        "description": "CV_Processus.consumerSpark.consumerspark",
+        "peekOfCode": "df = spark.readStream.format(\"kafka\") \\\n    .option(\"kafka.bootstrap.servers\", \"192.168.1.21:29093\") \\\n    .option(\"subscribe\", \"TopicCV\") \\\n    .load()\n# Application du traitement\nprocessed_df = df.select(\n    col(\"offset\"),\n    process_pdf_udf(col(\"value\")).alias(\"processed_data\")\n)\n# Extraction des colonnes du struct retourné par l'UDF",
+        "detail": "CV_Processus.consumerSpark.consumerspark",
+        "documentation": {}
+    },
+    {
+        "label": "processed_df",
+        "kind": 5,
+        "importPath": "CV_Processus.consumerSpark.consumerspark",
+        "description": "CV_Processus.consumerSpark.consumerspark",
+        "peekOfCode": "processed_df = df.select(\n    col(\"offset\"),\n    process_pdf_udf(col(\"value\")).alias(\"processed_data\")\n)\n# Extraction des colonnes du struct retourné par l'UDF\nfinal_df = processed_df.select(\n    col(\"offset\"),\n    col(\"processed_data.pdf_text\").alias(\"extracted_text\"),\n    col(\"processed_data.analysis_result\").alias(\"analysis_result\")\n)",
+        "detail": "CV_Processus.consumerSpark.consumerspark",
+        "documentation": {}
+    },
+    {
+        "label": "final_df",
+        "kind": 5,
+        "importPath": "CV_Processus.consumerSpark.consumerspark",
+        "description": "CV_Processus.consumerSpark.consumerspark",
+        "peekOfCode": "final_df = processed_df.select(\n    col(\"offset\"),\n    col(\"processed_data.pdf_text\").alias(\"extracted_text\"),\n    col(\"processed_data.analysis_result\").alias(\"analysis_result\")\n)\n# Configuration des streams de sortie\n# 1. Console output\nconsole_query = final_df.writeStream \\\n    .outputMode(\"append\") \\\n    .format(\"console\") \\",
+        "detail": "CV_Processus.consumerSpark.consumerspark",
+        "documentation": {}
+    },
+    {
+        "label": "console_query",
+        "kind": 5,
+        "importPath": "CV_Processus.consumerSpark.consumerspark",
+        "description": "CV_Processus.consumerSpark.consumerspark",
+        "peekOfCode": "console_query = final_df.writeStream \\\n    .outputMode(\"append\") \\\n    .format(\"console\") \\\n    .option(\"truncate\", False) \\\n    .start()\n# 2. Sauvegarde JSON via foreachBatch\njson_query = final_df.writeStream \\\n    .foreachBatch(process_batch) \\\n    .start()\n# Attente de la terminaison des deux streams",
+        "detail": "CV_Processus.consumerSpark.consumerspark",
+        "documentation": {}
+    },
+    {
+        "label": "json_query",
+        "kind": 5,
+        "importPath": "CV_Processus.consumerSpark.consumerspark",
+        "description": "CV_Processus.consumerSpark.consumerspark",
+        "peekOfCode": "json_query = final_df.writeStream \\\n    .foreachBatch(process_batch) \\\n    .start()\n# Attente de la terminaison des deux streams\nspark.streams.awaitAnyTermination()",
+        "detail": "CV_Processus.consumerSpark.consumerspark",
+        "documentation": {}
+    },
+    {
+        "label": "topic",
+        "kind": 5,
+        "importPath": "CV_Processus.producer.config",
+        "description": "CV_Processus.producer.config",
+        "peekOfCode": "topic = \"TopicCV\"",
+        "detail": "CV_Processus.producer.config",
+        "documentation": {}
+    },
+    {
+        "label": "producer",
+        "kind": 5,
+        "importPath": "CV_Processus.producer.prod",
+        "description": "CV_Processus.producer.prod",
+        "peekOfCode": "producer = KafkaProducer(bootstrap_servers='localhost:29092')\n# 2. Lire le fichier PDF en mode binaire\nwith open('document.pdf', 'rb') as fichier_pdf:\n    contenu_pdf = fichier_pdf.read()\n# 3. Envoyer les données en bytes dans Kafka\nproducer.send(config.topic, contenu_pdf)\nproducer.flush()\nproducer.close()",
+        "detail": "CV_Processus.producer.prod",
+        "documentation": {}
+    },
+    {
+        "label": "topic",
+        "kind": 5,
+        "importPath": "offre_Process.data.config",
+        "description": "offre_Process.data.config",
         "peekOfCode": "topic = \"offres_travail\"",
-        "detail": "data.config",
+        "detail": "offre_Process.data.config",
         "documentation": {}
     },
     {
         "label": "send_text",
         "kind": 2,
-        "importPath": "data.producer",
-        "description": "data.producer",
+        "importPath": "offre_Process.data.producer",
+        "description": "offre_Process.data.producer",
         "peekOfCode": "def send_text(producer, topic, text):\n    # Envoi du texte au topic Kafka\n    producer.send(topic, text.encode('utf-8'))\n# Fonction principale pour envoyer une série de messages texte à Kafka\ndef publish_texts(producer, topic, texts):\n    print('Publishing texts...')\n    for text in texts:\n        # Appel de la fonction pour envoyer le texte au topic Kafka\n        send_text(producer, topic, text)\n        # Délai entre chaque envoi pour simuler un envoi régulier",
-        "detail": "data.producer",
+        "detail": "offre_Process.data.producer",
         "documentation": {}
     },
     {
         "label": "publish_texts",
         "kind": 2,
-        "importPath": "data.producer",
-        "description": "data.producer",
+        "importPath": "offre_Process.data.producer",
+        "description": "offre_Process.data.producer",
         "peekOfCode": "def publish_texts(producer, topic, texts):\n    print('Publishing texts...')\n    for text in texts:\n        # Appel de la fonction pour envoyer le texte au topic Kafka\n        send_text(producer, topic, text)\n        # Délai entre chaque envoi pour simuler un envoi régulier\n        time.sleep(1)\n    print('Publish complete')\n# Point d'entrée du script (si le fichier est exécuté directement)\nif __name__ == \"__main__\":",
-        "detail": "data.producer",
+        "detail": "offre_Process.data.producer",
+        "documentation": {}
+    },
+    {
+        "label": "upload_to_adls",
+        "kind": 2,
+        "importPath": "offre_Process.Ray.consumer",
+        "description": "offre_Process.Ray.consumer",
+        "peekOfCode": "def upload_to_adls(file_name, content, file_system_name, directory_name):\n    try:\n        # Utiliser les variables d'environnement pour les informations sensibles\n        account_url = os.getenv(\"AZURE_ACCOUNT_URL\")\n        credential = DefaultAzureCredential()\n        service_client = DataLakeServiceClient(account_url=account_url, credential=credential)\n        file_system_client = service_client.get_file_system_client(file_system_name=file_system_name)\n        directory_client = file_system_client.get_directory_client(directory_name)\n        file_client = directory_client.create_file(file_name)\n        file_client.append_data(data=content, offset=0, length=len(content))",
+        "detail": "offre_Process.Ray.consumer",
         "documentation": {}
     },
     {
         "label": "extract_job_info",
         "kind": 2,
-        "importPath": "Ray.consumer",
-        "description": "Ray.consumer",
-        "peekOfCode": "def extract_job_info(job_posting_text):\n    # Initialiser le client Groq ici\n    client = Groq(api_key=\"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\")\n    request_content = f\"\"\"\nVeuillez extraire les informations suivantes de l'offre d'emploi et retournez-les strictement au format JSON sans texte supplémentaire. Si un champ n'existe pas, faites \"None\".\nExemple attendu :\n{{\n    \"titre_du_poste\": \"Développeur Python\",\n    \"societe\": \"TechCorp\",\n    \"competences\": [\"Python\", \"Django\", \"API REST\"],",
-        "detail": "Ray.consumer",
+        "importPath": "offre_Process.Ray.consumer",
+        "description": "offre_Process.Ray.consumer",
+        "peekOfCode": "def extract_job_info(job_posting_text):\n    # Initialiser le client Groq avec la clé API depuis l'environnement\n    client = Groq(api_key=os.getenv(\"GROQ_API_KEY\"))\n    request_content = f\"\"\"\nVeuillez extraire les informations suivantes de l'offre d'emploi et retournez-les strictement au format JSON sans texte supplémentaire. Si un champ n'existe pas, faites \"None\".\nExemple attendu :\n{{\n    \"titre_du_poste\": \"Développeur Python\",\n    \"societe\": \"TechCorp\",\n    \"competences\": [\"Python\", \"Django\", \"API REST\"],",
+        "detail": "offre_Process.Ray.consumer",
         "documentation": {}
     },
     {
         "label": "consumer",
         "kind": 5,
-        "importPath": "Ray.consumer",
-        "description": "Ray.consumer",
-        "peekOfCode": "consumer = KafkaConsumer(\n    'offres_travail',\n    bootstrap_servers=['localhost:29092'],\n    group_id='groupe_traitement'\n)\n# Lire les messages en continu et les envoyer à Ray pour traitement\nfor message in consumer:\n    # Récupère le texte de l'offre d'emploi\n    job_posting_text = message.value.decode(\"utf-8\")\n    # Traiter l'offre d'emploi en parallèle",
-        "detail": "Ray.consumer",
+        "importPath": "offre_Process.Ray.consumer",
+        "description": "offre_Process.Ray.consumer",
+        "peekOfCode": "consumer = KafkaConsumer(\n    'offres_travail',\n    bootstrap_servers=os.getenv(\"KAFKA_BOOTSTRAP_SERVERS\"),\n    group_id=os.getenv(\"KAFKA_GROUP_ID\")\n)\n# Lire les messages en continu et les envoyer à Ray pour traitement\nfor message in consumer:\n    job_posting_text = message.value.decode(\"utf-8\")\n    handle = extract_job_info.remote(job_posting_text)\n    result = ray.get(handle)",
+        "detail": "offre_Process.Ray.consumer",
+        "documentation": {}
+    },
+    {
+        "label": "ats_extractor",
+        "kind": 2,
+        "importPath": "code",
+        "description": "code",
+        "peekOfCode": "def ats_extractor(resume_data):\n    # Prompt for extracting resume information\n    prompt = '''\n    You are an AI bot designed to act as a professional for parsing resumes. You are given a resume, and your job is to extract the following information:\n    1. first name\n    2. last name\n    1. full name\n    4. title\n    5. address\n    6. objective",
+        "detail": "code",
+        "documentation": {}
+    },
+    {
+        "label": "extract_text_from_pdf",
+        "kind": 2,
+        "importPath": "code",
+        "description": "code",
+        "peekOfCode": "def extract_text_from_pdf(pdf_path):\n    # Open the PDF file\n    doc = fitz.open(pdf_path)\n    text = \"\"\n    # Extract text from each page\n    for page_num in range(doc.page_count):\n        page = doc.load_page(page_num)\n        text += page.get_text(\"text\")\n    return text\n# Path to your resume PDF",
+        "detail": "code",
+        "documentation": {}
+    },
+    {
+        "label": "CONFIG_PATH",
+        "kind": 5,
+        "importPath": "code",
+        "description": "code",
+        "peekOfCode": "CONFIG_PATH = r\"config.yaml\"\napi_key = None\n# Load the API key from YAML configuration file\nwith open(CONFIG_PATH) as file:\n    data = yaml.load(file, Loader=yaml.FullLoader)\n    api_key = data['GROQ_API_KEY']\ndef ats_extractor(resume_data):\n    # Prompt for extracting resume information\n    prompt = '''\n    You are an AI bot designed to act as a professional for parsing resumes. You are given a resume, and your job is to extract the following information:",
+        "detail": "code",
+        "documentation": {}
+    },
+    {
+        "label": "api_key",
+        "kind": 5,
+        "importPath": "code",
+        "description": "code",
+        "peekOfCode": "api_key = None\n# Load the API key from YAML configuration file\nwith open(CONFIG_PATH) as file:\n    data = yaml.load(file, Loader=yaml.FullLoader)\n    api_key = data['GROQ_API_KEY']\ndef ats_extractor(resume_data):\n    # Prompt for extracting resume information\n    prompt = '''\n    You are an AI bot designed to act as a professional for parsing resumes. You are given a resume, and your job is to extract the following information:\n    1. first name",
+        "detail": "code",
+        "documentation": {}
+    },
+    {
+        "label": "pdf_path",
+        "kind": 5,
+        "importPath": "code",
+        "description": "code",
+        "peekOfCode": "pdf_path = \"10674770.pdf\"\n# Extract text from the PDF\nresume_text = extract_text_from_pdf(pdf_path)\n# Pass the extracted text to the ats_extractor function\nextracted_info = ats_extractor(resume_text)\n# Display the extracted information\nprint(extracted_info)",
+        "detail": "code",
+        "documentation": {}
+    },
+    {
+        "label": "resume_text",
+        "kind": 5,
+        "importPath": "code",
+        "description": "code",
+        "peekOfCode": "resume_text = extract_text_from_pdf(pdf_path)\n# Pass the extracted text to the ats_extractor function\nextracted_info = ats_extractor(resume_text)\n# Display the extracted information\nprint(extracted_info)",
+        "detail": "code",
+        "documentation": {}
+    },
+    {
+        "label": "extracted_info",
+        "kind": 5,
+        "importPath": "code",
+        "description": "code",
+        "peekOfCode": "extracted_info = ats_extractor(resume_text)\n# Display the extracted information\nprint(extracted_info)",
+        "detail": "code",
         "documentation": {}
     }
 ]
