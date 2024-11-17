@@ -1,0 +1,159 @@
+version: 2
+
+sources:
+  - name: my_project_source
+    database: my_project_database
+    schema: my_project_schema
+    tables:
+      - name: langue
+      - name: formation
+      - name: competence
+      - name: certification
+      - name: ecole
+      - name: secteur
+      - name: etat
+      - name: type_trav
+      - name: type_stage
+      - name: ville
+      - name: entreprise
+      - name: candidat_fait
+      - name: contrat
+      - name: offre_fait
+      - name: stage_fait
+      - name: langue_offr
+      - name: langue_stag
+      - name: langue_cand
+      - name: offre_comp
+      - name: stage_comp
+      - name: candidat_comp
+      - name: certificat_cond
+    models:
+      - name: candidat_info
+        description: "Modèle des informations sur les candidats, avec leurs formations, écoles et villes."
+        columns:
+          - name: candidat_id
+            description: "ID du candidat"
+          - name: first_name
+            description: "Prénom du candidat"
+          - name: last_name
+            description: "Nom du candidat"
+          - name: email
+            description: "Email du candidat"
+          - name: telephone
+            description: "Téléphone du candidat"
+          - name: date_birth
+            description: "Date de naissance du candidat"
+          - name: gender
+            description: "Genre du candidat"
+          - name: formation
+            description: "Formation du candidat"
+          - name: ecole
+            description: "École du candidat"
+          - name: ville
+            description: "Ville du candidat"
+          - name: nbr_years_exp
+            description: "Nombre d'années d'expérience du candidat"
+
+      - name: stage_info
+        description: "Modèle des informations des stages proposés, avec type de stage, compétences et langues."
+        columns:
+          - name: stage_id
+            description: "ID du stage"
+          - name: duree_stage
+            description: "Durée du stage"
+          - name: remunere
+            description: "Indique si le stage est rémunéré"
+          - name: type_stage
+            description: "Type de stage"
+          - name: type_trav
+            description: "Type de travail associé au stage"
+          - name: entreprise
+            description: "Entreprise offrant le stage"
+          - name: formation
+            description: "Formation requise pour le stage"
+
+      - name: candidat_competence
+        description: "Modèle des compétences des candidats."
+        columns:
+          - name: candidat_id
+            description: "ID du candidat"
+          - name: first_name
+            description: "Prénom du candidat"
+          - name: last_name
+            description: "Nom du candidat"
+          - name: competence
+            description: "Compétence du candidat"
+
+      - name: candidat_langue
+        description: "Modèle des langues parlées par les candidats."
+        columns:
+          - name: candidat_id
+            description: "ID du candidat"
+          - name: first_name
+            description: "Prénom du candidat"
+          - name: last_name
+            description: "Nom du candidat"
+          - name: langue
+            description: "Langue parlée par le candidat"
+
+      - name: offre_info
+        description: "Modèle des informations sur les offres d'emploi."
+        columns:
+          - name: offre_id
+            description: "ID de l'offre d'emploi"
+          - name: salaire
+            description: "Salaire proposé dans l'offre"
+          - name: experience_dur
+            description: "Durée de l'expérience exigée pour l'offre"
+          - name: type_trav
+            description: "Type de travail associé à l'offre"
+          - name: entreprise
+            description: "Entreprise qui propose l'offre"
+          - name: formation
+            description: "Formation requise pour l'offre"
+
+      - name: stage_with_competences_langues
+        description: "Modèle des stages avec les compétences et les langues requises."
+        columns:
+          - name: stage_id
+            description: "ID du stage"
+          - name: duree_stage
+            description: "Durée du stage"
+          - name: remunere
+            description: "Indique si le stage est rémunéré"
+          - name: type_stage
+            description: "Type de stage"
+          - name: type_trav
+            description: "Type de travail associé au stage"
+          - name: entreprise
+            description: "Entreprise offrant le stage"
+          - name: formation
+            description: "Formation requise pour le stage"
+          - name: competence
+            description: "Compétence requise pour le stage"
+          - name: langue
+            description: "Langue requise pour le stage"
+
+      - name: candidat_stage_competence_langue
+        description: "Modèle croisant les candidats avec les stages, les compétences et les langues requises."
+        columns:
+          - name: candidat_id
+            description: "ID du candidat"
+          - name: first_name
+            description: "Prénom du candidat"
+          - name: last_name
+            description: "Nom du candidat"
+          - name: stage_id
+            description: "ID du stage"
+          - name: type_stage
+            description: "Type de stage"
+          - name: type_trav
+            description: "Type de travail associé au stage"
+          - name: entreprise
+            description: "Entreprise offrant le stage"
+          - name: formation
+            description: "Formation requise pour le stage"
+          - name: competence
+            description: "Compétence requise pour le stage"
+          - name: langue
+            description: "Langue requise pour le stage"
