@@ -1,0 +1,14 @@
+my_project:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: "phztxrc-go36107"
+      user: "SAID"
+      password: "SaidKHALID2002!"
+      role: "dev_role"
+      warehouse: "projet_warehouse"
+      database: "my_project_database"
+      schema: "my_project_schema"
+      threads: 4
+      client_session_keep_alive: False
