@@ -1,0 +1,344 @@
+[
+    {
+        "label": "PdfReader",
+        "importPath": "PyPDF2",
+        "description": "PyPDF2",
+        "isExtraImport": true,
+        "detail": "PyPDF2",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "SentenceTransformer",
+        "importPath": "sentence_transformers",
+        "description": "sentence_transformers",
+        "isExtraImport": true,
+        "detail": "sentence_transformers",
+        "documentation": {}
+    },
+    {
+        "label": "FAISS",
+        "importPath": "langchain_community.vectorstores",
+        "description": "langchain_community.vectorstores",
+        "isExtraImport": true,
+        "detail": "langchain_community.vectorstores",
+        "documentation": {}
+    },
+    {
+        "label": "FAISS",
+        "importPath": "langchain_community.vectorstores",
+        "description": "langchain_community.vectorstores",
+        "isExtraImport": true,
+        "detail": "langchain_community.vectorstores",
+        "documentation": {}
+    },
+    {
+        "label": "FAISS",
+        "importPath": "langchain_community.vectorstores",
+        "description": "langchain_community.vectorstores",
+        "isExtraImport": true,
+        "detail": "langchain_community.vectorstores",
+        "documentation": {}
+    },
+    {
+        "label": "CharacterTextSplitter",
+        "importPath": "langchain.text_splitter",
+        "description": "langchain.text_splitter",
+        "isExtraImport": true,
+        "detail": "langchain.text_splitter",
+        "documentation": {}
+    },
+    {
+        "label": "HuggingFaceHub",
+        "importPath": "langchain.llms",
+        "description": "langchain.llms",
+        "isExtraImport": true,
+        "detail": "langchain.llms",
+        "documentation": {}
+    },
+    {
+        "label": "HuggingFaceInstructEmbeddings",
+        "importPath": "langchain.embeddings",
+        "description": "langchain.embeddings",
+        "isExtraImport": true,
+        "detail": "langchain.embeddings",
+        "documentation": {}
+    },
+    {
+        "label": "HuggingFaceEmbeddings",
+        "importPath": "langchain.embeddings",
+        "description": "langchain.embeddings",
+        "isExtraImport": true,
+        "detail": "langchain.embeddings",
+        "documentation": {}
+    },
+    {
+        "label": "Document",
+        "importPath": "langchain.schema",
+        "description": "langchain.schema",
+        "isExtraImport": true,
+        "detail": "langchain.schema",
+        "documentation": {}
+    },
+    {
+        "label": "ConversationalRetrievalChain",
+        "importPath": "langchain.chains",
+        "description": "langchain.chains",
+        "isExtraImport": true,
+        "detail": "langchain.chains",
+        "documentation": {}
+    },
+    {
+        "label": "ConversationalRetrievalChain",
+        "importPath": "langchain.chains",
+        "description": "langchain.chains",
+        "isExtraImport": true,
+        "detail": "langchain.chains",
+        "documentation": {}
+    },
+    {
+        "label": "HuggingFaceHub",
+        "importPath": "langchain_community.llms",
+        "description": "langchain_community.llms",
+        "isExtraImport": true,
+        "detail": "langchain_community.llms",
+        "documentation": {}
+    },
+    {
+        "label": "HuggingFaceHub",
+        "importPath": "langchain_community.llms",
+        "description": "langchain_community.llms",
+        "isExtraImport": true,
+        "detail": "langchain_community.llms",
+        "documentation": {}
+    },
+    {
+        "label": "ConversationBufferMemory",
+        "importPath": "langchain.memory",
+        "description": "langchain.memory",
+        "isExtraImport": true,
+        "detail": "langchain.memory",
+        "documentation": {}
+    },
+    {
+        "label": "ConversationBufferMemory",
+        "importPath": "langchain.memory",
+        "description": "langchain.memory",
+        "isExtraImport": true,
+        "detail": "langchain.memory",
+        "documentation": {}
+    },
+    {
+        "label": "threading",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "threading",
+        "description": "threading",
+        "detail": "threading",
+        "documentation": {}
+    },
+    {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "jsonify",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "get_text_chunks",
+        "importPath": "ecommbot.ingest",
+        "description": "ecommbot.ingest",
+        "isExtraImport": true,
+        "detail": "ecommbot.ingest",
+        "documentation": {}
+    },
+    {
+        "label": "get_vectorstore",
+        "importPath": "ecommbot.ingest",
+        "description": "ecommbot.ingest",
+        "isExtraImport": true,
+        "detail": "ecommbot.ingest",
+        "documentation": {}
+    },
+    {
+        "label": "create_conversation_chain",
+        "importPath": "ecommbot.retrieval_generation",
+        "description": "ecommbot.retrieval_generation",
+        "isExtraImport": true,
+        "detail": "ecommbot.retrieval_generation",
+        "documentation": {}
+    },
+    {
+        "label": "get_pdf_text",
+        "importPath": "ecommbot.converteur",
+        "description": "ecommbot.converteur",
+        "isExtraImport": true,
+        "detail": "ecommbot.converteur",
+        "documentation": {}
+    },
+    {
+        "label": "find_packages",
+        "importPath": "setuptools",
+        "description": "setuptools",
+        "isExtraImport": true,
+        "detail": "setuptools",
+        "documentation": {}
+    },
+    {
+        "label": "setup",
+        "importPath": "setuptools",
+        "description": "setuptools",
+        "isExtraImport": true,
+        "detail": "setuptools",
+        "documentation": {}
+    },
+    {
+        "label": "get_pdf_text",
+        "kind": 2,
+        "importPath": "recruitboot.converteur",
+        "description": "recruitboot.converteur",
+        "peekOfCode": "def get_pdf_text(pdf_docs):\n    text = \"\"\n    for pdf in pdf_docs:\n        # Vérifiez si le chemin du fichier PDF est valide\n        if not os.path.exists(pdf):\n            print(f\"Le fichier {pdf} n'existe pas.\")\n            continue  # Passez au fichier suivant si celui-ci n'existe pas\n        try:\n            pdf_reader = PdfReader(pdf)\n            # Parcourir toutes les pages du PDF et extraire le texte",
+        "detail": "recruitboot.converteur",
+        "documentation": {}
+    },
+    {
+        "label": "get_text_chunks",
+        "kind": 2,
+        "importPath": "recruitboot.ingest",
+        "description": "recruitboot.ingest",
+        "peekOfCode": "def get_text_chunks(text):\n    text_splitter = CharacterTextSplitter(\n        separator=\"\\n\",\n        chunk_size=1000,\n        chunk_overlap=200,\n        length_function=len\n    )\n    chunks = text_splitter.split_text(text)\n    return chunks\ndef get_vectorstore(text_chunks):",
+        "detail": "recruitboot.ingest",
+        "documentation": {}
+    },
+    {
+        "label": "get_vectorstore",
+        "kind": 2,
+        "importPath": "recruitboot.ingest",
+        "description": "recruitboot.ingest",
+        "peekOfCode": "def get_vectorstore(text_chunks):\n    # Charger les embeddings Hugging Face\n    embeddings = HuggingFaceEmbeddings(model_name=\"sentence-transformers/all-MiniLM-L6-v2\")\n    # Créer le vecteur FAISS à partir des textes et des embeddings\n    vectorstore = FAISS.from_texts(texts=text_chunks, embedding=embeddings)\n    return vectorstore",
+        "detail": "recruitboot.ingest",
+        "documentation": {}
+    },
+    {
+        "label": "create_conversation_chain",
+        "kind": 2,
+        "importPath": "recruitboot.retrieval_generation",
+        "description": "recruitboot.retrieval_generation",
+        "peekOfCode": "def create_conversation_chain(vectorstore):\n    if not isinstance(vectorstore, FAISS):\n        raise TypeError(\"Le vectorstore doit être un objet de type FAISS.\")\n    # Initialisation du LLM avec HuggingFaceHub\n    llm = HuggingFaceHub(\n        repo_id=\"google/flan-t5-large\",\n        huggingfacehub_api_token=\"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\",\n        model_kwargs={\"temperature\": 0.5, \"max_length\": 512}\n    )\n    # Configuration de la mémoire pour conserver l'historique des conversations",
+        "detail": "recruitboot.retrieval_generation",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def index():\n    return render_template('chat.html')\n@app.route(\"/get\", methods=[\"POST\"])\ndef chat():\n    msg = request.form[\"msg\"]\n    input = msg  # Le message utilisateur\n    try:\n        # Appel à invoke() pour obtenir la réponse\n        result = conversation_chain.invoke({\"question\": input})\n        print(\"Response: \", result)",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "chat",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def chat():\n    msg = request.form[\"msg\"]\n    input = msg  # Le message utilisateur\n    try:\n        # Appel à invoke() pour obtenir la réponse\n        result = conversation_chain.invoke({\"question\": input})\n        print(\"Response: \", result)\n        # Retourner uniquement la réponse textuelle sans l'objet complet\n        answer = result[\"answer\"] if \"answer\" in result else \"Désolé, je n'ai pas pu trouver une réponse.\"\n        return jsonify({\"response\": answer})  # Retourner la réponse du chatbot",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "app = Flask(__name__)\nload_dotenv()\n# Fonction de génération de la chaîne conversationnelle (pour intégrer LangChain)\n# Traitement du PDF\npdf_docs = [r\"C:\\Users\\HP\\OneDrive\\Desktop\\bigData_project\\E-Commerce-Chatbot\\data\\hamza.pdf\"]\ntext = get_pdf_text(pdf_docs)\nchunks = get_text_chunks(text)\nvectorstore = get_vectorstore(chunks)\n# Création de la chaîne de conversation\nconversation_chain = create_conversation_chain(vectorstore)",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "pdf_docs",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "pdf_docs = [r\"C:\\Users\\HP\\OneDrive\\Desktop\\bigData_project\\E-Commerce-Chatbot\\data\\hamza.pdf\"]\ntext = get_pdf_text(pdf_docs)\nchunks = get_text_chunks(text)\nvectorstore = get_vectorstore(chunks)\n# Création de la chaîne de conversation\nconversation_chain = create_conversation_chain(vectorstore)\n@app.route(\"/\")\ndef index():\n    return render_template('chat.html')\n@app.route(\"/get\", methods=[\"POST\"])",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "text = get_pdf_text(pdf_docs)\nchunks = get_text_chunks(text)\nvectorstore = get_vectorstore(chunks)\n# Création de la chaîne de conversation\nconversation_chain = create_conversation_chain(vectorstore)\n@app.route(\"/\")\ndef index():\n    return render_template('chat.html')\n@app.route(\"/get\", methods=[\"POST\"])\ndef chat():",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "chunks",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "chunks = get_text_chunks(text)\nvectorstore = get_vectorstore(chunks)\n# Création de la chaîne de conversation\nconversation_chain = create_conversation_chain(vectorstore)\n@app.route(\"/\")\ndef index():\n    return render_template('chat.html')\n@app.route(\"/get\", methods=[\"POST\"])\ndef chat():\n    msg = request.form[\"msg\"]",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "vectorstore",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "vectorstore = get_vectorstore(chunks)\n# Création de la chaîne de conversation\nconversation_chain = create_conversation_chain(vectorstore)\n@app.route(\"/\")\ndef index():\n    return render_template('chat.html')\n@app.route(\"/get\", methods=[\"POST\"])\ndef chat():\n    msg = request.form[\"msg\"]\n    input = msg  # Le message utilisateur",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "conversation_chain",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "conversation_chain = create_conversation_chain(vectorstore)\n@app.route(\"/\")\ndef index():\n    return render_template('chat.html')\n@app.route(\"/get\", methods=[\"POST\"])\ndef chat():\n    msg = request.form[\"msg\"]\n    input = msg  # Le message utilisateur\n    try:\n        # Appel à invoke() pour obtenir la réponse",
+        "detail": "app",
+        "documentation": {}
+    }
+]

@@ -8,6 +8,14 @@
         "documentation": {}
     },
     {
+        "label": "SparkSession",
+        "importPath": "pyspark.sql",
+        "description": "pyspark.sql",
+        "isExtraImport": true,
+        "detail": "pyspark.sql",
+        "documentation": {}
+    },
+    {
         "label": "col",
         "importPath": "pyspark.sql.functions",
         "description": "pyspark.sql.functions",
@@ -417,6 +425,54 @@
         "documentation": {}
     },
     {
+        "label": "KMeans",
+        "importPath": "pyspark.ml.clustering",
+        "description": "pyspark.ml.clustering",
+        "isExtraImport": true,
+        "detail": "pyspark.ml.clustering",
+        "documentation": {}
+    },
+    {
+        "label": "Pipeline",
+        "importPath": "pyspark.ml",
+        "description": "pyspark.ml",
+        "isExtraImport": true,
+        "detail": "pyspark.ml",
+        "documentation": {}
+    },
+    {
+        "label": "StringIndexer",
+        "importPath": "pyspark.ml.feature",
+        "description": "pyspark.ml.feature",
+        "isExtraImport": true,
+        "detail": "pyspark.ml.feature",
+        "documentation": {}
+    },
+    {
+        "label": "OneHotEncoder",
+        "importPath": "pyspark.ml.feature",
+        "description": "pyspark.ml.feature",
+        "isExtraImport": true,
+        "detail": "pyspark.ml.feature",
+        "documentation": {}
+    },
+    {
+        "label": "VectorAssembler",
+        "importPath": "pyspark.ml.feature",
+        "description": "pyspark.ml.feature",
+        "isExtraImport": true,
+        "detail": "pyspark.ml.feature",
+        "documentation": {}
+    },
+    {
+        "label": "LogisticRegression",
+        "importPath": "pyspark.ml.classification",
+        "description": "pyspark.ml.classification",
+        "isExtraImport": true,
+        "detail": "pyspark.ml.classification",
+        "documentation": {}
+    },
+    {
         "label": "topic",
         "kind": 5,
         "importPath": "CV_Processus.consumerSpark.config",
@@ -810,6 +866,69 @@
         "description": "Recruitment_chatBot.app",
         "peekOfCode": "conversation_chain = create_conversation_chain(vectorstore)\n@app.route(\"/\")\ndef index():\n    return render_template('chat.html')\n@app.route(\"/get\", methods=[\"POST\"])\ndef chat():\n    msg = request.form[\"msg\"]\n    input = msg  # Le message utilisateur\n    try:\n        # Appel à invoke() pour obtenir la réponse",
         "detail": "Recruitment_chatBot.app",
+        "documentation": {}
+    },
+    {
+        "label": "CandidatSegmentation",
+        "kind": 6,
+        "importPath": "segmentationSpark.Candidat_segementation",
+        "description": "segmentationSpark.Candidat_segementation",
+        "peekOfCode": "class CandidatSegmentation:\n    def __init__(self, df, k=3, seed=42):\n        \"\"\"\n        Initialise la classe pour la segmentation des candidats.\n        :param df: DataFrame Spark contenant les données transformées.\n        :param k: Nombre de clusters pour KMeans.\n        :param seed: Seed pour la reproductibilité.\n        \"\"\"\n        self.df = df\n        self.k = k",
+        "detail": "segmentationSpark.Candidat_segementation",
+        "documentation": {}
+    },
+    {
+        "label": "spark",
+        "kind": 5,
+        "importPath": "segmentationSpark.reader_data",
+        "description": "segmentationSpark.reader_data",
+        "peekOfCode": "spark = SparkSession.builder \\\n    .appName(\"SegmentationCandidats\") \\\n    .config(\"spark.jars.packages\", \"org.postgresql:postgresql:42.6.0\") \\\n    .getOrCreate()\n# Lire les données depuis PostgreSQL\njdbc_url = \"jdbc:postgresql://localhost:5433/candidat\"\ntable_name = \"personnel\"\nproperties = {\n    \"user\": \"postgres\",\n    \"password\": \"papapapa\",",
+        "detail": "segmentationSpark.reader_data",
+        "documentation": {}
+    },
+    {
+        "label": "jdbc_url",
+        "kind": 5,
+        "importPath": "segmentationSpark.reader_data",
+        "description": "segmentationSpark.reader_data",
+        "peekOfCode": "jdbc_url = \"jdbc:postgresql://localhost:5433/candidat\"\ntable_name = \"personnel\"\nproperties = {\n    \"user\": \"postgres\",\n    \"password\": \"papapapa\",\n    \"driver\": \"org.postgresql.Driver\"\n}\ndf_candidats = spark.read.jdbc(url=jdbc_url, table=\"personnel\", properties=properties)\ndf_candidats.show()",
+        "detail": "segmentationSpark.reader_data",
+        "documentation": {}
+    },
+    {
+        "label": "table_name",
+        "kind": 5,
+        "importPath": "segmentationSpark.reader_data",
+        "description": "segmentationSpark.reader_data",
+        "peekOfCode": "table_name = \"personnel\"\nproperties = {\n    \"user\": \"postgres\",\n    \"password\": \"papapapa\",\n    \"driver\": \"org.postgresql.Driver\"\n}\ndf_candidats = spark.read.jdbc(url=jdbc_url, table=\"personnel\", properties=properties)\ndf_candidats.show()",
+        "detail": "segmentationSpark.reader_data",
+        "documentation": {}
+    },
+    {
+        "label": "properties",
+        "kind": 5,
+        "importPath": "segmentationSpark.reader_data",
+        "description": "segmentationSpark.reader_data",
+        "peekOfCode": "properties = {\n    \"user\": \"postgres\",\n    \"password\": \"papapapa\",\n    \"driver\": \"org.postgresql.Driver\"\n}\ndf_candidats = spark.read.jdbc(url=jdbc_url, table=\"personnel\", properties=properties)\ndf_candidats.show()",
+        "detail": "segmentationSpark.reader_data",
+        "documentation": {}
+    },
+    {
+        "label": "df_candidats",
+        "kind": 5,
+        "importPath": "segmentationSpark.reader_data",
+        "description": "segmentationSpark.reader_data",
+        "peekOfCode": "df_candidats = spark.read.jdbc(url=jdbc_url, table=\"personnel\", properties=properties)\ndf_candidats.show()",
+        "detail": "segmentationSpark.reader_data",
+        "documentation": {}
+    },
+    {
+        "label": "CandidatTransformer",
+        "kind": 6,
+        "importPath": "segmentationSpark.transformer",
+        "description": "segmentationSpark.transformer",
+        "peekOfCode": "class CandidatTransformer:\n    def __init__(self, df):\n        \"\"\"\n        Initialise la classe avec un DataFrame Spark.\n        :param df: DataFrame Spark contenant les données.\n        \"\"\"\n        self.df = df\n    def build_pipeline(self):\n        \"\"\"\n        Construit un pipeline pour transformer les données.",
+        "detail": "segmentationSpark.transformer",
         "documentation": {}
     }
 ]

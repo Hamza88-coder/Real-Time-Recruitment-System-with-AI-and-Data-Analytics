@@ -7,4 +7,8 @@ setup(
     author_email="hamzamalyana089@gmail.com",
     packages=find_packages(),
     install_requires=['langchain ','langchain-openai','datasets','pypdf','python-dotenv','flask']
+<<<<<<< HEAD
 )
+=======
+)
+>>>>>>> a76c78b (segmentation)
