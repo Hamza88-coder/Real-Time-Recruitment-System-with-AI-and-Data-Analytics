@@ -869,57 +869,21 @@
         "documentation": {}
     },
     {
+        "label": "CandidatDataLoader",
+        "kind": 6,
+        "importPath": "segmentationSpark.reader_data",
+        "description": "segmentationSpark.reader_data",
+        "peekOfCode": "class CandidatDataLoader:\n    def __init__(self, jdbc_url, table_name, properties):\n        \"\"\"\n        Initialise la classe pour charger les données depuis PostgreSQL.\n        :param jdbc_url: URL de connexion JDBC à la base de données PostgreSQL.\n        :param table_name: Nom de la table à lire.\n        :param properties: Propriétés de connexion (utilisateur, mot de passe, etc.).\n        \"\"\"\n        self.jdbc_url = jdbc_url\n        self.table_name = table_name",
+        "detail": "segmentationSpark.reader_data",
+        "documentation": {}
+    },
+    {
         "label": "CandidatSegmentation",
         "kind": 6,
-        "importPath": "segmentationSpark.Candidat_segementation",
-        "description": "segmentationSpark.Candidat_segementation",
+        "importPath": "segmentationSpark.segmentation",
+        "description": "segmentationSpark.segmentation",
         "peekOfCode": "class CandidatSegmentation:\n    def __init__(self, df, k=3, seed=42):\n        \"\"\"\n        Initialise la classe pour la segmentation des candidats.\n        :param df: DataFrame Spark contenant les données transformées.\n        :param k: Nombre de clusters pour KMeans.\n        :param seed: Seed pour la reproductibilité.\n        \"\"\"\n        self.df = df\n        self.k = k",
-        "detail": "segmentationSpark.Candidat_segementation",
-        "documentation": {}
-    },
-    {
-        "label": "spark",
-        "kind": 5,
-        "importPath": "segmentationSpark.reader_data",
-        "description": "segmentationSpark.reader_data",
-        "peekOfCode": "spark = SparkSession.builder \\\n    .appName(\"SegmentationCandidats\") \\\n    .config(\"spark.jars.packages\", \"org.postgresql:postgresql:42.6.0\") \\\n    .getOrCreate()\n# Lire les données depuis PostgreSQL\njdbc_url = \"jdbc:postgresql://localhost:5433/candidat\"\ntable_name = \"personnel\"\nproperties = {\n    \"user\": \"postgres\",\n    \"password\": \"papapapa\",",
-        "detail": "segmentationSpark.reader_data",
-        "documentation": {}
-    },
-    {
-        "label": "jdbc_url",
-        "kind": 5,
-        "importPath": "segmentationSpark.reader_data",
-        "description": "segmentationSpark.reader_data",
-        "peekOfCode": "jdbc_url = \"jdbc:postgresql://localhost:5433/candidat\"\ntable_name = \"personnel\"\nproperties = {\n    \"user\": \"postgres\",\n    \"password\": \"papapapa\",\n    \"driver\": \"org.postgresql.Driver\"\n}\ndf_candidats = spark.read.jdbc(url=jdbc_url, table=\"personnel\", properties=properties)\ndf_candidats.show()",
-        "detail": "segmentationSpark.reader_data",
-        "documentation": {}
-    },
-    {
-        "label": "table_name",
-        "kind": 5,
-        "importPath": "segmentationSpark.reader_data",
-        "description": "segmentationSpark.reader_data",
-        "peekOfCode": "table_name = \"personnel\"\nproperties = {\n    \"user\": \"postgres\",\n    \"password\": \"papapapa\",\n    \"driver\": \"org.postgresql.Driver\"\n}\ndf_candidats = spark.read.jdbc(url=jdbc_url, table=\"personnel\", properties=properties)\ndf_candidats.show()",
-        "detail": "segmentationSpark.reader_data",
-        "documentation": {}
-    },
-    {
-        "label": "properties",
-        "kind": 5,
-        "importPath": "segmentationSpark.reader_data",
-        "description": "segmentationSpark.reader_data",
-        "peekOfCode": "properties = {\n    \"user\": \"postgres\",\n    \"password\": \"papapapa\",\n    \"driver\": \"org.postgresql.Driver\"\n}\ndf_candidats = spark.read.jdbc(url=jdbc_url, table=\"personnel\", properties=properties)\ndf_candidats.show()",
-        "detail": "segmentationSpark.reader_data",
-        "documentation": {}
-    },
-    {
-        "label": "df_candidats",
-        "kind": 5,
-        "importPath": "segmentationSpark.reader_data",
-        "description": "segmentationSpark.reader_data",
-        "peekOfCode": "df_candidats = spark.read.jdbc(url=jdbc_url, table=\"personnel\", properties=properties)\ndf_candidats.show()",
-        "detail": "segmentationSpark.reader_data",
+        "detail": "segmentationSpark.segmentation",
         "documentation": {}
     },
     {
