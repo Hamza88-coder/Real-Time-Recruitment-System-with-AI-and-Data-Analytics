@@ -2,6 +2,9 @@ from pyspark.ml import Pipeline
 from pyspark.ml.feature import StringIndexer, OneHotEncoder, VectorAssembler
 from pyspark.ml.classification import LogisticRegression
 
+from reader_data import CandidatDataLoader
+
+
 class CandidatTransformer:
     def __init__(self, df):
         """
@@ -16,17 +19,22 @@ class CandidatTransformer:
         :return: Un objet Pipeline.
         """
         # Étape 1 : Indexation des colonnes catégoriques
-        region_indexer = StringIndexer(inputCol="region", outputCol="region_indexed")
+        title_indexer = StringIndexer(inputCol="title", outputCol="title_indexed",handleInvalid="skip")
+        langue_indexer = StringIndexer(inputCol="language", outputCol="language_indexed",handleInvalid="skip")
+        sector_indexer = StringIndexer(inputCol="sector_of_activity", outputCol="sector_indexed",handleInvalid="skip")
 
         # Étape 2 : Assemblage des caractéristiques
         feature_assembler = VectorAssembler(
-            inputCols=["age", "experience", "region_indexed"],
+            inputCols=["total_years_work_experience", "total_years_education", "title_indexed","language_indexed","sector_indexed"],
             outputCol="features"
         )
 
         # Créer un pipeline avec les étapes nécessaires
         pipeline = Pipeline(stages=[
-            region_indexer,   # Indexer la colonne 'region'
+            title_indexer,
+              langue_indexer,
+                  sector_indexer,
+                       
             feature_assembler # Assembler les colonnes en une seule colonne 'features'
         ])
 
@@ -47,22 +55,11 @@ class CandidatTransformer:
 
 # Exemple d'utilisation
 if __name__ == "__main__":
-    from pyspark.sql import SparkSession
-
-    # Créer une session Spark
-    spark = SparkSession.builder \
-        .appName("TransformationsCandidats") \
-        .getOrCreate()
-
-    # Exemple de DataFrame
-    data = [
-        (25, 3, "Europe"),
-        (40, 15, "Asie"),
-        (30, 8, "Afrique"),
-    ]
-    columns = ["age", "experience", "region"]
-
-    df_candidats = spark.createDataFrame(data, columns)
+    
+    loader = CandidatDataLoader()
+    df_candidats = loader.load_data()
+    
+   
 
     # Instancier la classe avec le DataFrame
     transformer = CandidatTransformer(df_candidats)

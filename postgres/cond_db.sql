@@ -1,10 +1,25 @@
--- 1. Créer la base de données
-CREATE DATABASE candidate_db;
+-- Créer la base de données
+--CREATE DATABASE cond_db;
 
--- 2. Se connecter à la base de données
--- Si vous êtes dans pgAdmin, vous pouvez sauter cette étape manuelle et utiliser l'interface.
+-- Table des titres
+CREATE TABLE title (
+    id SERIAL PRIMARY KEY,
+    title_name VARCHAR(100) NOT NULL UNIQUE  
+);
 
--- 3. Créer les tables
+-- Table des types de contrats avec contrainte CHECK
+CREATE TABLE type_trav (
+    id SERIAL PRIMARY KEY,
+    trav_type VARCHAR(50) NOT NULL UNIQUE,
+    CONSTRAINT chk_trav_type CHECK (trav_type IN ('Travail', 'PFA', 'PFE')) -- Valeurs autorisées
+);
+
+-- Table des modes de travail avec contrainte CHECK
+CREATE TABLE mode_travail (
+    id SERIAL PRIMARY KEY,
+    mode_name VARCHAR(50) NOT NULL UNIQUE,
+    CONSTRAINT chk_mode_name CHECK (mode_name IN ('Hybrid', 'À distance', 'Présentiel')) -- Valeurs autorisées
+);
 
 -- Table principale : candidats
 CREATE TABLE candidates (
@@ -12,14 +27,14 @@ CREATE TABLE candidates (
     first_name VARCHAR(100) NOT NULL,
     last_name VARCHAR(100) NOT NULL,
     full_name VARCHAR(200) NOT NULL,
-    title VARCHAR(100),
-    objective TEXT,
+    title_id INT REFERENCES title(id) ON DELETE SET NULL,  
     date_of_birth DATE,
     place_of_birth VARCHAR(200),
     gender VARCHAR(50),
     nationality VARCHAR(100),
     phone_number VARCHAR(15),
-    contrat VARCHAR(50) -- Nouveau champ sans contrainte
+    type_trav_id INT REFERENCES type_trav(id) ON DELETE SET NULL,  
+    mode_travail_id INT REFERENCES mode_travail(id) ON DELETE SET NULL  
 );
 
 -- Table des adresses
@@ -70,13 +85,13 @@ CREATE TABLE work_experience_details (
 -- Table des compétences avec une relation N,N
 CREATE TABLE skills (
     id SERIAL PRIMARY KEY,
-    skill_name VARCHAR(100) NOT NULL UNIQUE -- Les compétences sont uniques
+    skill_name VARCHAR(100) NOT NULL UNIQUE   
 );
 
 CREATE TABLE candidate_skills (
     candidate_id INT NOT NULL REFERENCES candidates(id) ON DELETE CASCADE,
     skill_id INT NOT NULL REFERENCES skills(id) ON DELETE CASCADE,
-    PRIMARY KEY (candidate_id, skill_id) -- Clé composite pour la relation N,N
+    PRIMARY KEY (candidate_id, skill_id)  
 );
 
 -- Table des langues avec une relation N,N
@@ -89,7 +104,7 @@ CREATE TABLE languages (
 CREATE TABLE candidate_languages (
     candidate_id INT NOT NULL REFERENCES candidates(id) ON DELETE CASCADE,
     language_id INT NOT NULL REFERENCES languages(id) ON DELETE CASCADE,
-    PRIMARY KEY (candidate_id, language_id) -- Clé composite pour la relation N,N
+    PRIMARY KEY (candidate_id, language_id)  
 );
 
 -- Table des certifications avec une relation N,N
@@ -103,5 +118,5 @@ CREATE TABLE certifications (
 CREATE TABLE candidate_certifications (
     candidate_id INT NOT NULL REFERENCES candidates(id) ON DELETE CASCADE,
     certification_id INT NOT NULL REFERENCES certifications(id) ON DELETE CASCADE,
-    PRIMARY KEY (candidate_id, certification_id) -- Clé composite pour la relation N,N
+    PRIMARY KEY (candidate_id, certification_id)  
 );

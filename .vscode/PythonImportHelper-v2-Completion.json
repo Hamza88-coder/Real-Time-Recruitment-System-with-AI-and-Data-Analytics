@@ -16,6 +16,14 @@
         "documentation": {}
     },
     {
+        "label": "SparkSession",
+        "importPath": "pyspark.sql",
+        "description": "pyspark.sql",
+        "isExtraImport": true,
+        "detail": "pyspark.sql",
+        "documentation": {}
+    },
+    {
         "label": "col",
         "importPath": "pyspark.sql.functions",
         "description": "pyspark.sql.functions",
@@ -433,11 +441,53 @@
         "documentation": {}
     },
     {
-        "label": "Pipeline",
-        "importPath": "pyspark.ml",
-        "description": "pyspark.ml",
+        "label": "CandidatDataLoader",
+        "importPath": "reader_data",
+        "description": "reader_data",
         "isExtraImport": true,
-        "detail": "pyspark.ml",
+        "detail": "reader_data",
+        "documentation": {}
+    },
+    {
+        "label": "CandidatDataLoader",
+        "importPath": "reader_data",
+        "description": "reader_data",
+        "isExtraImport": true,
+        "detail": "reader_data",
+        "documentation": {}
+    },
+    {
+        "label": "CandidatTransformer",
+        "importPath": "transformer",
+        "description": "transformer",
+        "isExtraImport": true,
+        "detail": "transformer",
+        "documentation": {}
+    },
+    {
+        "label": "matplotlib.pyplot",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "matplotlib.pyplot",
+        "description": "matplotlib.pyplot",
+        "detail": "matplotlib.pyplot",
+        "documentation": {}
+    },
+    {
+        "label": "pandas",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pandas",
+        "description": "pandas",
+        "detail": "pandas",
+        "documentation": {}
+    },
+    {
+        "label": "PCA",
+        "importPath": "pyspark.ml.feature",
+        "description": "pyspark.ml.feature",
+        "isExtraImport": true,
+        "detail": "pyspark.ml.feature",
         "documentation": {}
     },
     {
@@ -462,6 +512,14 @@
         "description": "pyspark.ml.feature",
         "isExtraImport": true,
         "detail": "pyspark.ml.feature",
+        "documentation": {}
+    },
+    {
+        "label": "Pipeline",
+        "importPath": "pyspark.ml",
+        "description": "pyspark.ml",
+        "isExtraImport": true,
+        "detail": "pyspark.ml",
         "documentation": {}
     },
     {
@@ -873,7 +931,7 @@
         "kind": 6,
         "importPath": "segmentationSpark.reader_data",
         "description": "segmentationSpark.reader_data",
-        "peekOfCode": "class CandidatDataLoader:\n    def __init__(self, jdbc_url, table_name, properties):\n        \"\"\"\n        Initialise la classe pour charger les données depuis PostgreSQL.\n        :param jdbc_url: URL de connexion JDBC à la base de données PostgreSQL.\n        :param table_name: Nom de la table à lire.\n        :param properties: Propriétés de connexion (utilisateur, mot de passe, etc.).\n        \"\"\"\n        self.jdbc_url = jdbc_url\n        self.table_name = table_name",
+        "peekOfCode": "class CandidatDataLoader:\n    def __init__(self, jdbc_url=\"jdbc:postgresql://localhost:5433/cond_db\"):\n        \"\"\"\n        Initialise la classe pour charger les données depuis PostgreSQL.\n        :param jdbc_url: URL de connexion JDBC à la base de données PostgreSQL.\n        \"\"\"\n        self.jdbc_url = jdbc_url\n        self.query = \"\"\"\n        SELECT \n            c.full_name AS candidate_name,",
         "detail": "segmentationSpark.reader_data",
         "documentation": {}
     },
