@@ -65,7 +65,7 @@ if __name__ == "__main__":
     )
 
     # Liste des textes à envoyer
-    texts = [text, "Message 2", "Message 3", "Message 4"]
+    texts = [text]
 
     # Appeler la fonction pour publier les textes sur Kafka
     publish_texts(producer, topic, texts)
