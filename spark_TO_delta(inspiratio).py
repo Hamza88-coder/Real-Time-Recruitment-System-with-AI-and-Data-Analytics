@@ -84,12 +84,12 @@ data={
     "durée": "6 mois",
     "email": "contact@datatechsolutions.fr",
     "telephone": "+33 1 23 45 67 89",
-    "type": "Hybride",
+    "type": "hybrid",
     "langues": [
-        "Anglais",
+    
         "Français"
     ],
-    "salaire": "1 200 EUR par mois",
+    "salaire": "1 200 ",
     "date_de_debut": "15 janvier 2025",
     "secteur_dactivite": "Technologie de l'information",
     "experience_demande": "None",
@@ -105,9 +105,10 @@ data={
 #       LOAD ENVIRONMENT VARIABLES & SET CONFIGURATIONS
 # ===================================================================================
 ADLS_STORAGE_ACCOUNT_NAME = "dataoffre"
-ADLS_ACCOUNT_KEY = ""  # Add your ADLS account key here
-ADLS_CONTAINER_NAME = ""
-ADLS_FOLDER_PATH = ""
+ADLS_ACCOUNT_KEY = "1eNXm2As1DuaMeSt2Yjegn22fFCvIUa8nBhknayEyTgfBZb6xEEyZhnvl9OiGT7U4O7cFrygjBE/+ASt1hkNQQ=="  # Add your ADLS account key here  # Add your ADLS account key here
+
+ADLS_CONTAINER_NAME = "offres"
+ADLS_FOLDER_PATH = "offres_trav"
 OUTPUT_PATH = (
     f"abfss://{ADLS_CONTAINER_NAME}@{ADLS_STORAGE_ACCOUNT_NAME}.dfs.core.windows.net/"
     + ADLS_FOLDER_PATH

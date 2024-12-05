@@ -1,0 +1,192 @@
+{
+    "first_name": "None",
+    "last_name": "None",
+    "full_name": "None",
+    "title": "IT Management",
+    "address": {
+        "formatted_location": "None",
+        "city": "None",
+        "region": "None",
+        "country": "United States",
+        "postal_code": "None"
+    },
+    "objective": "Detail-oriented professional with extensive Information Technology experience in hardware and software troubleshooting/management.",
+    "date_of_birth": "None",
+    "place_of_birth": "None",
+    "phones": "None",
+    "urls": {
+        "GitHub": "None",
+        "portfolio": "None",
+        "LinkedIn": "None",
+        "site_web": "None"
+    },
+    "gender": "None",
+    "nationality": "American",
+    "education_details": [
+        {
+            "etude_title": "Associate of Science: Information Technology",
+            "etablissement_name": "Lyons Township",
+            "start_date": "2014",
+            "end_date": "2014",
+            "etude_city": "City, State",
+            "etude_region": "State",
+            "etude_contry": "United States"
+        }
+    ],
+    "total_years_education": "2",
+    "work_experience_details": [
+        {
+            "job_title": "IT Management",
+            "company_name": "Company Name",
+            "city": "City, State",
+            "region": "State",
+            "sector_of_activity": "IT",
+            "start_date": "March 2012",
+            "end_date": "November 2012"
+        },
+        {
+            "job_title": "Information Technology Consultant",
+            "company_name": "Company Name",
+            "city": "City, State",
+            "region": "State",
+            "sector_of_activity": "IT",
+            "start_date": "July 2011",
+            "end_date": "February 2012"
+        },
+        {
+            "job_title": "Information Technology Consultant",
+            "company_name": "Company Name",
+            "city": "City, State",
+            "region": "State",
+            "sector_of_activity": "IT",
+            "start_date": "May 2011",
+            "end_date": "July 2011"
+        }
+    ],
+    "total_years_work_experience": "2",
+    "skills": [
+        "A+ certified",
+        "ActionScript",
+        "Active directory",
+        "administrative",
+        "Adobe Creative Suite 5",
+        "Photo",
+        "Audio",
+        "Brochure",
+        "budgeting",
+        "business management",
+        "client and server",
+        "CMS",
+        "Hardware",
+        "computer repair",
+        "consulting",
+        "Content Management",
+        "CSS",
+        "CSS3",
+        "client",
+        "Database",
+        "designing",
+        "Documentation",
+        "Electronics",
+        "XML",
+        "Graphics",
+        "Hardware support",
+        "HTML",
+        "HTML5",
+        "PHP",
+        "Information security",
+        "Java",
+        "Java programming",
+        "JavaScript",
+        "Linux",
+        "Logic",
+        "Logo",
+        "Mac OS",
+        "managing",
+        "marketing",
+        "Medical technology",
+        "Microsoft Office",
+        "office",
+        "Windows",
+        "Windows 95",
+        "Network engineering",
+        "network",
+        "Networking",
+        "newsletter",
+        "Operating Systems",
+        "Organization development",
+        "Programming",
+        "protocols",
+        "Prototyping",
+        "Search Engine Optimization",
+        "servers",
+        "Storyboarding",
+        "TCP/IP",
+        "Telephony",
+        "Phone 7.0",
+        "Troubleshooting",
+        "upgrade",
+        "video",
+        "video editing",
+        "Web Development I",
+        "Website",
+        "website management",
+        "Windows Server",
+        "Wiring"
+    ],
+    "projects": [
+        {
+            "name": "Rebuilt a client's website from the ground up and increased monthly hits from 3422 to 40884 in a matter of a few months.",
+            "outils": [
+                "Batch Scripting"
+            ]
+        },
+        {
+            "name": "Designed, priced, built, and installed a complete information system upgrade for a client; including networking devices, wiring, client computers, server and software.",
+            "outils": [
+                "Batch Scripting"
+            ]
+        },
+        {
+            "name": "Diagrammed, prototyped, and assembled a portable USB phone charger outputting optimal voltage and amperage, with circuits and components small enough to all fit in an Altoids tin.",
+            "outils": [
+                "Circuits and components"
+            ]
+        },
+        {
+            "name": "Automated and streamlined daily office tasks for client using Batch Scripting.",
+            "outils": [
+                "Batch Scripting"
+            ]
+        },
+        {
+            "name": "Programmed a cloud storage website allowing a client access to a shared home network drive from any browser, anywhere.",
+            "outils": [
+                "Cloud storage"
+            ]
+        }
+    ],
+    "language": [
+        {
+            "name": "English",
+            "level": "Native"
+        }
+    ],
+    "certifications": [
+        {
+            "name": "CompTIA A+ certified",
+            "etablissement_certification": "CompTIA",
+            "date": "2012"
+        },
+        {
+            "name": "CompTIA Net+ certification class",
+            "etablissement_certification": "CompTIA",
+            "date": "None"
+        },
+        {
+            "name": "MCSA certification class",
+            "etablissement_certification": "Microsoft",
+            "date": "None"
+        }
+    ]
+}

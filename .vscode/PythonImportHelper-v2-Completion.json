@@ -16,47 +16,7 @@
         "documentation": {}
     },
     {
-        "label": "SparkSession",
-        "importPath": "pyspark.sql",
-        "description": "pyspark.sql",
-        "isExtraImport": true,
-        "detail": "pyspark.sql",
-        "documentation": {}
-    },
-    {
         "label": "DataFrame",
-        "importPath": "pyspark.sql",
-        "description": "pyspark.sql",
-        "isExtraImport": true,
-        "detail": "pyspark.sql",
-        "documentation": {}
-    },
-    {
-        "label": "SparkSession",
-        "importPath": "pyspark.sql",
-        "description": "pyspark.sql",
-        "isExtraImport": true,
-        "detail": "pyspark.sql",
-        "documentation": {}
-    },
-    {
-        "label": "SparkSession",
-        "importPath": "pyspark.sql",
-        "description": "pyspark.sql",
-        "isExtraImport": true,
-        "detail": "pyspark.sql",
-        "documentation": {}
-    },
-    {
-        "label": "SparkSession",
-        "importPath": "pyspark.sql",
-        "description": "pyspark.sql",
-        "isExtraImport": true,
-        "detail": "pyspark.sql",
-        "documentation": {}
-    },
-    {
-        "label": "SparkSession",
         "importPath": "pyspark.sql",
         "description": "pyspark.sql",
         "isExtraImport": true,
@@ -89,14 +49,6 @@
     },
     {
         "label": "SparkSession",
-        "importPath": "pyspark.sql",
-        "description": "pyspark.sql",
-        "isExtraImport": true,
-        "detail": "pyspark.sql",
-        "documentation": {}
-    },
-    {
-        "label": "functions",
         "importPath": "pyspark.sql",
         "description": "pyspark.sql",
         "isExtraImport": true,
@@ -193,46 +145,6 @@
         "documentation": {}
     },
     {
-        "label": "col",
-        "importPath": "pyspark.sql.functions",
-        "description": "pyspark.sql.functions",
-        "isExtraImport": true,
-        "detail": "pyspark.sql.functions",
-        "documentation": {}
-    },
-    {
-        "label": "year",
-        "importPath": "pyspark.sql.functions",
-        "description": "pyspark.sql.functions",
-        "isExtraImport": true,
-        "detail": "pyspark.sql.functions",
-        "documentation": {}
-    },
-    {
-        "label": "month",
-        "importPath": "pyspark.sql.functions",
-        "description": "pyspark.sql.functions",
-        "isExtraImport": true,
-        "detail": "pyspark.sql.functions",
-        "documentation": {}
-    },
-    {
-        "label": "dayofmonth",
-        "importPath": "pyspark.sql.functions",
-        "description": "pyspark.sql.functions",
-        "isExtraImport": true,
-        "detail": "pyspark.sql.functions",
-        "documentation": {}
-    },
-    {
-        "label": "hour",
-        "importPath": "pyspark.sql.functions",
-        "description": "pyspark.sql.functions",
-        "isExtraImport": true,
-        "detail": "pyspark.sql.functions",
-        "documentation": {}
-    },
-    {
         "label": "StringType",
         "importPath": "pyspark.sql.types",
         "description": "pyspark.sql.types",
@@ -250,6 +162,14 @@
     },
     {
         "label": "StructField",
+        "importPath": "pyspark.sql.types",
+        "description": "pyspark.sql.types",
+        "isExtraImport": true,
+        "detail": "pyspark.sql.types",
+        "documentation": {}
+    },
+    {
+        "label": "StructType",
         "importPath": "pyspark.sql.types",
         "description": "pyspark.sql.types",
         "isExtraImport": true,
@@ -354,206 +274,6 @@
     },
     {
         "label": "StringType",
-        "importPath": "pyspark.sql.types",
-        "description": "pyspark.sql.types",
-        "isExtraImport": true,
-        "detail": "pyspark.sql.types",
-        "documentation": {}
-    },
-    {
-        "label": "IntegerType",
-        "importPath": "pyspark.sql.types",
-        "description": "pyspark.sql.types",
-        "isExtraImport": true,
-        "detail": "pyspark.sql.types",
-        "documentation": {}
-    },
-    {
-        "label": "DoubleType",
-        "importPath": "pyspark.sql.types",
-        "description": "pyspark.sql.types",
-        "isExtraImport": true,
-        "detail": "pyspark.sql.types",
-        "documentation": {}
-    },
-    {
-        "label": "TimestampType",
-        "importPath": "pyspark.sql.types",
-        "description": "pyspark.sql.types",
-        "isExtraImport": true,
-        "detail": "pyspark.sql.types",
-        "documentation": {}
-    },
-    {
-        "label": "StructType",
-        "importPath": "pyspark.sql.types",
-        "description": "pyspark.sql.types",
-        "isExtraImport": true,
-        "detail": "pyspark.sql.types",
-        "documentation": {}
-    },
-    {
-        "label": "StructField",
-        "importPath": "pyspark.sql.types",
-        "description": "pyspark.sql.types",
-        "isExtraImport": true,
-        "detail": "pyspark.sql.types",
-        "documentation": {}
-    },
-    {
-        "label": "StringType",
-        "importPath": "pyspark.sql.types",
-        "description": "pyspark.sql.types",
-        "isExtraImport": true,
-        "detail": "pyspark.sql.types",
-        "documentation": {}
-    },
-    {
-        "label": "ArrayType",
-        "importPath": "pyspark.sql.types",
-        "description": "pyspark.sql.types",
-        "isExtraImport": true,
-        "detail": "pyspark.sql.types",
-        "documentation": {}
-    },
-    {
-        "label": "StructType",
-        "importPath": "pyspark.sql.types",
-        "description": "pyspark.sql.types",
-        "isExtraImport": true,
-        "detail": "pyspark.sql.types",
-        "documentation": {}
-    },
-    {
-        "label": "StructField",
-        "importPath": "pyspark.sql.types",
-        "description": "pyspark.sql.types",
-        "isExtraImport": true,
-        "detail": "pyspark.sql.types",
-        "documentation": {}
-    },
-    {
-        "label": "StringType",
-        "importPath": "pyspark.sql.types",
-        "description": "pyspark.sql.types",
-        "isExtraImport": true,
-        "detail": "pyspark.sql.types",
-        "documentation": {}
-    },
-    {
-        "label": "IntegerType",
-        "importPath": "pyspark.sql.types",
-        "description": "pyspark.sql.types",
-        "isExtraImport": true,
-        "detail": "pyspark.sql.types",
-        "documentation": {}
-    },
-    {
-        "label": "DoubleType",
-        "importPath": "pyspark.sql.types",
-        "description": "pyspark.sql.types",
-        "isExtraImport": true,
-        "detail": "pyspark.sql.types",
-        "documentation": {}
-    },
-    {
-        "label": "TimestampType",
-        "importPath": "pyspark.sql.types",
-        "description": "pyspark.sql.types",
-        "isExtraImport": true,
-        "detail": "pyspark.sql.types",
-        "documentation": {}
-    },
-    {
-        "label": "StructType",
-        "importPath": "pyspark.sql.types",
-        "description": "pyspark.sql.types",
-        "isExtraImport": true,
-        "detail": "pyspark.sql.types",
-        "documentation": {}
-    },
-    {
-        "label": "StructField",
-        "importPath": "pyspark.sql.types",
-        "description": "pyspark.sql.types",
-        "isExtraImport": true,
-        "detail": "pyspark.sql.types",
-        "documentation": {}
-    },
-    {
-        "label": "StringType",
-        "importPath": "pyspark.sql.types",
-        "description": "pyspark.sql.types",
-        "isExtraImport": true,
-        "detail": "pyspark.sql.types",
-        "documentation": {}
-    },
-    {
-        "label": "ArrayType",
-        "importPath": "pyspark.sql.types",
-        "description": "pyspark.sql.types",
-        "isExtraImport": true,
-        "detail": "pyspark.sql.types",
-        "documentation": {}
-    },
-    {
-        "label": "StructType",
-        "importPath": "pyspark.sql.types",
-        "description": "pyspark.sql.types",
-        "isExtraImport": true,
-        "detail": "pyspark.sql.types",
-        "documentation": {}
-    },
-    {
-        "label": "StructField",
-        "importPath": "pyspark.sql.types",
-        "description": "pyspark.sql.types",
-        "isExtraImport": true,
-        "detail": "pyspark.sql.types",
-        "documentation": {}
-    },
-    {
-        "label": "StringType",
-        "importPath": "pyspark.sql.types",
-        "description": "pyspark.sql.types",
-        "isExtraImport": true,
-        "detail": "pyspark.sql.types",
-        "documentation": {}
-    },
-    {
-        "label": "ArrayType",
-        "importPath": "pyspark.sql.types",
-        "description": "pyspark.sql.types",
-        "isExtraImport": true,
-        "detail": "pyspark.sql.types",
-        "documentation": {}
-    },
-    {
-        "label": "StructType",
-        "importPath": "pyspark.sql.types",
-        "description": "pyspark.sql.types",
-        "isExtraImport": true,
-        "detail": "pyspark.sql.types",
-        "documentation": {}
-    },
-    {
-        "label": "StructField",
-        "importPath": "pyspark.sql.types",
-        "description": "pyspark.sql.types",
-        "isExtraImport": true,
-        "detail": "pyspark.sql.types",
-        "documentation": {}
-    },
-    {
-        "label": "StringType",
-        "importPath": "pyspark.sql.types",
-        "description": "pyspark.sql.types",
-        "isExtraImport": true,
-        "detail": "pyspark.sql.types",
-        "documentation": {}
-    },
-    {
-        "label": "ArrayType",
         "importPath": "pyspark.sql.types",
         "description": "pyspark.sql.types",
         "isExtraImport": true,
@@ -683,30 +403,6 @@
         "documentation": {}
     },
     {
-        "label": "Groq",
-        "importPath": "groq",
-        "description": "groq",
-        "isExtraImport": true,
-        "detail": "groq",
-        "documentation": {}
-    },
-    {
-        "label": "Groq",
-        "importPath": "groq",
-        "description": "groq",
-        "isExtraImport": true,
-        "detail": "groq",
-        "documentation": {}
-    },
-    {
-        "label": "Groq",
-        "importPath": "groq",
-        "description": "groq",
-        "isExtraImport": true,
-        "detail": "groq",
-        "documentation": {}
-    },
-    {
         "label": "json",
         "kind": 6,
         "isExtraImport": true,
@@ -782,14 +478,6 @@
         "documentation": {}
     },
     {
-        "label": "KafkaConsumer",
-        "importPath": "kafka",
-        "description": "kafka",
-        "isExtraImport": true,
-        "detail": "kafka",
-        "documentation": {}
-    },
-    {
         "label": "config",
         "kind": 6,
         "isExtraImport": true,
@@ -835,64 +523,6 @@
         "documentation": {}
     },
     {
-        "label": "load_dotenv",
-        "importPath": "dotenv",
-        "description": "dotenv",
-        "isExtraImport": true,
-        "detail": "dotenv",
-        "documentation": {}
-    },
-    {
-        "label": "load_dotenv",
-        "importPath": "dotenv",
-        "description": "dotenv",
-        "isExtraImport": true,
-        "detail": "dotenv",
-        "documentation": {}
-    },
-    {
-        "label": "load_dotenv",
-        "importPath": "dotenv",
-        "description": "dotenv",
-        "isExtraImport": true,
-        "detail": "dotenv",
-        "documentation": {}
-    },
-    {
-        "label": "load_dotenv",
-        "importPath": "dotenv",
-        "description": "dotenv",
-        "isExtraImport": true,
-        "detail": "dotenv",
-        "documentation": {}
-    },
-    {
-        "label": "logging",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "logging",
-        "description": "logging",
-        "detail": "logging",
-        "documentation": {}
-    },
-    {
-        "label": "ray",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "ray",
-        "description": "ray",
-        "detail": "ray",
-        "documentation": {}
-    },
-    {
-        "label": "DataLakeServiceClient",
-        "importPath": "azure.storage.filedatalake",
-        "description": "azure.storage.filedatalake",
-        "isExtraImport": true,
-        "detail": "azure.storage.filedatalake",
-        "documentation": {}
-    },
-    {
         "label": "List",
         "importPath": "typing",
         "description": "typing",
@@ -941,11 +571,27 @@
         "documentation": {}
     },
     {
-        "label": "DeltaTable",
-        "importPath": "delta.tables",
-        "description": "delta.tables",
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
         "isExtraImport": true,
-        "detail": "delta.tables",
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
         "documentation": {}
     },
     {
@@ -962,6 +608,30 @@
         "description": "delta.tables",
         "isExtraImport": true,
         "detail": "delta.tables",
+        "documentation": {}
+    },
+    {
+        "label": "DeltaTable",
+        "importPath": "delta.tables",
+        "description": "delta.tables",
+        "isExtraImport": true,
+        "detail": "delta.tables",
+        "documentation": {}
+    },
+    {
+        "label": "extract_job_info",
+        "importPath": "extractor",
+        "description": "extractor",
+        "isExtraImport": true,
+        "detail": "extractor",
+        "documentation": {}
+    },
+    {
+        "label": "OFFRE_SCHEMA",
+        "importPath": "schema",
+        "description": "schema",
+        "isExtraImport": true,
+        "detail": "schema",
         "documentation": {}
     },
     {
@@ -2585,345 +2255,237 @@
         "documentation": {}
     },
     {
-        "label": "extract_job_info",
+        "label": "create_or_get_spark",
         "kind": 2,
-        "importPath": "offre_Process.Ray.consS",
-        "description": "offre_Process.Ray.consS",
-        "peekOfCode": "def extract_job_info(job_posting_text):\n    try:\n        # Initialiser le client Groq\n        client = Groq(api_key=groq_api_key)\n        # Préparer le prompt pour Groq\n        request_content = f\"\"\"\nVeuillez extraire les informations suivantes de l'offre d'emploi et retournez-les strictement au format JSON sans texte supplémentaire. Si un champ n'existe pas, faites \"None\".\nExemple attendu :\n{{\n    \"titre_du_poste\": \"Développeur Python\",",
-        "detail": "offre_Process.Ray.consS",
+        "importPath": "offre_Process.spark.extractor",
+        "description": "offre_Process.spark.extractor",
+        "peekOfCode": "def create_or_get_spark(app_name: str, packages: List[str]) -> SparkSession:\n    jars = \",\".join(packages)\n    spark = (\n        SparkSession.builder.appName(app_name)\n        .config(\"spark.streaming.stopGracefullyOnShutdown\", True)\n        .config(\"spark.jars.packages\", jars)\n        .config(\"spark.sql.extensions\", \"io.delta.sql.DeltaSparkSessionExtension\")\n        .config(\n            \"spark.sql.catalog.spark_catalog\",\n            \"org.apache.spark.sql.delta.catalog.DeltaCatalog\",",
+        "detail": "offre_Process.spark.extractor",
         "documentation": {}
     },
     {
-        "label": "groq_api_key",
-        "kind": 5,
-        "importPath": "offre_Process.Ray.consS",
-        "description": "offre_Process.Ray.consS",
-        "peekOfCode": "groq_api_key = os.getenv(\"GROQ_API_KEY\")\nkafka_bootstrap_servers = os.getenv(\"KAFKA_BOOTSTRAP_SERVERS\")\nkafka_group_id = os.getenv(\"KAFKA_GROUP_ID\")\n# Initialiser Spark\nspark = SparkSession.builder.appName(\"JobPostingExtractor\").getOrCreate()\n# Vérification des variables d'environnement critiques\nif not all([groq_api_key, kafka_bootstrap_servers, kafka_group_id]):\n    raise ValueError(\"Une ou plusieurs variables d'environnement sont manquantes.\")\n# Fonction pour extraire les informations d'une offre d'emploi\ndef extract_job_info(job_posting_text):",
-        "detail": "offre_Process.Ray.consS",
-        "documentation": {}
-    },
-    {
-        "label": "kafka_bootstrap_servers",
-        "kind": 5,
-        "importPath": "offre_Process.Ray.consS",
-        "description": "offre_Process.Ray.consS",
-        "peekOfCode": "kafka_bootstrap_servers = os.getenv(\"KAFKA_BOOTSTRAP_SERVERS\")\nkafka_group_id = os.getenv(\"KAFKA_GROUP_ID\")\n# Initialiser Spark\nspark = SparkSession.builder.appName(\"JobPostingExtractor\").getOrCreate()\n# Vérification des variables d'environnement critiques\nif not all([groq_api_key, kafka_bootstrap_servers, kafka_group_id]):\n    raise ValueError(\"Une ou plusieurs variables d'environnement sont manquantes.\")\n# Fonction pour extraire les informations d'une offre d'emploi\ndef extract_job_info(job_posting_text):\n    try:",
-        "detail": "offre_Process.Ray.consS",
-        "documentation": {}
-    },
-    {
-        "label": "kafka_group_id",
-        "kind": 5,
-        "importPath": "offre_Process.Ray.consS",
-        "description": "offre_Process.Ray.consS",
-        "peekOfCode": "kafka_group_id = os.getenv(\"KAFKA_GROUP_ID\")\n# Initialiser Spark\nspark = SparkSession.builder.appName(\"JobPostingExtractor\").getOrCreate()\n# Vérification des variables d'environnement critiques\nif not all([groq_api_key, kafka_bootstrap_servers, kafka_group_id]):\n    raise ValueError(\"Une ou plusieurs variables d'environnement sont manquantes.\")\n# Fonction pour extraire les informations d'une offre d'emploi\ndef extract_job_info(job_posting_text):\n    try:\n        # Initialiser le client Groq",
-        "detail": "offre_Process.Ray.consS",
-        "documentation": {}
-    },
-    {
-        "label": "spark",
-        "kind": 5,
-        "importPath": "offre_Process.Ray.consS",
-        "description": "offre_Process.Ray.consS",
-        "peekOfCode": "spark = SparkSession.builder.appName(\"JobPostingExtractor\").getOrCreate()\n# Vérification des variables d'environnement critiques\nif not all([groq_api_key, kafka_bootstrap_servers, kafka_group_id]):\n    raise ValueError(\"Une ou plusieurs variables d'environnement sont manquantes.\")\n# Fonction pour extraire les informations d'une offre d'emploi\ndef extract_job_info(job_posting_text):\n    try:\n        # Initialiser le client Groq\n        client = Groq(api_key=groq_api_key)\n        # Préparer le prompt pour Groq",
-        "detail": "offre_Process.Ray.consS",
-        "documentation": {}
-    },
-    {
-        "label": "consumer",
-        "kind": 5,
-        "importPath": "offre_Process.Ray.consS",
-        "description": "offre_Process.Ray.consS",
-        "peekOfCode": "consumer = KafkaConsumer(\n    'offres_travail',\n    bootstrap_servers=kafka_bootstrap_servers,\n    group_id=kafka_group_id,\n    auto_offset_reset='earliest',\n    enable_auto_commit=True\n)\n# Liste des offres d'emploi extraites\njob_postings = []\nlogging.info(\"Démarrage de la consommation des messages Kafka...\")",
-        "detail": "offre_Process.Ray.consS",
-        "documentation": {}
-    },
-    {
-        "label": "job_postings",
-        "kind": 5,
-        "importPath": "offre_Process.Ray.consS",
-        "description": "offre_Process.Ray.consS",
-        "peekOfCode": "job_postings = []\nlogging.info(\"Démarrage de la consommation des messages Kafka...\")\n# Consommer les messages Kafka en temps réel\nfor message in consumer:\n    job_posting_text = message.value.decode(\"utf-8\")\n    logging.info(f\"Message reçu : {job_posting_text[:100]}...\")  # Afficher un extrait du message\n    job_postings.append(job_posting_text)\n    # Si vous voulez traiter les messages en temps réel, vous pouvez ajouter une logique pour un arrêt conditionnel.\n    if len(job_postings) >= 100:  # Par exemple, arrêter après avoir consommé 100 messages\n        break",
-        "detail": "offre_Process.Ray.consS",
-        "documentation": {}
-    },
-    {
-        "label": "rdd",
-        "kind": 5,
-        "importPath": "offre_Process.Ray.consS",
-        "description": "offre_Process.Ray.consS",
-        "peekOfCode": "rdd = spark.sparkContext.parallelize(job_postings)\nextracted_results = rdd.map(extract_job_info).collect()\nlogging.info(f\"Résultats extraits : {len(extracted_results)} offres traitées\")\n# Dossier local où stocker les fichiers JSON\nlocal_output_dir = \"./output_results\"\nos.makedirs(local_output_dir, exist_ok=True)  # Crée le dossier si nécessaire\nlogging.info(f\"Répertoire de sortie local : {local_output_dir}\")\n# Envoi des résultats localement\nfor result in extracted_results:\n    if isinstance(result, dict):  # S'assurer que le résultat est un dictionnaire avant de le traiter",
-        "detail": "offre_Process.Ray.consS",
-        "documentation": {}
-    },
-    {
-        "label": "extracted_results",
-        "kind": 5,
-        "importPath": "offre_Process.Ray.consS",
-        "description": "offre_Process.Ray.consS",
-        "peekOfCode": "extracted_results = rdd.map(extract_job_info).collect()\nlogging.info(f\"Résultats extraits : {len(extracted_results)} offres traitées\")\n# Dossier local où stocker les fichiers JSON\nlocal_output_dir = \"./output_results\"\nos.makedirs(local_output_dir, exist_ok=True)  # Crée le dossier si nécessaire\nlogging.info(f\"Répertoire de sortie local : {local_output_dir}\")\n# Envoi des résultats localement\nfor result in extracted_results:\n    if isinstance(result, dict):  # S'assurer que le résultat est un dictionnaire avant de le traiter\n        timestamp = time.strftime(\"%Y%m%d_%H%M%S\")",
-        "detail": "offre_Process.Ray.consS",
-        "documentation": {}
-    },
-    {
-        "label": "local_output_dir",
-        "kind": 5,
-        "importPath": "offre_Process.Ray.consS",
-        "description": "offre_Process.Ray.consS",
-        "peekOfCode": "local_output_dir = \"./output_results\"\nos.makedirs(local_output_dir, exist_ok=True)  # Crée le dossier si nécessaire\nlogging.info(f\"Répertoire de sortie local : {local_output_dir}\")\n# Envoi des résultats localement\nfor result in extracted_results:\n    if isinstance(result, dict):  # S'assurer que le résultat est un dictionnaire avant de le traiter\n        timestamp = time.strftime(\"%Y%m%d_%H%M%S\")\n        output_file = f\"resultat_offre_{timestamp}.json\"\n        output_path = os.path.join(local_output_dir, output_file)\n        # Conversion des résultats en JSON",
-        "detail": "offre_Process.Ray.consS",
-        "documentation": {}
-    },
-    {
-        "label": "initialize_adls_client",
+        "label": "create_empty_delta_table",
         "kind": 2,
-        "importPath": "offre_Process.Ray.consumer",
-        "description": "offre_Process.Ray.consumer",
-        "peekOfCode": "def initialize_adls_client():\n    try:\n        # Vérification de la clé d'accès\n        if not azure_storage_key:\n            raise ValueError(\"La clé d'accès (AZURE_STORAGE_KEY) est manquante.\")\n        # Initialiser le client avec la clé d'accès\n        service_client = DataLakeServiceClient(account_url=account_url, credential=azure_storage_key)\n        print(\"Connexion au Data Lake réussie avec la clé d'accès.\")\n        return service_client\n    except Exception as e:",
-        "detail": "offre_Process.Ray.consumer",
-        "documentation": {}
-    },
-    {
-        "label": "upload_to_adls",
-        "kind": 2,
-        "importPath": "offre_Process.Ray.consumer",
-        "description": "offre_Process.Ray.consumer",
-        "peekOfCode": "def upload_to_adls(file_name, content, file_system_name, directory_name):\n    try:\n        # Vérification et conversion du contenu en chaîne UTF-8\n        if isinstance(content, str):\n            content_utf8 = content.encode('utf-8')  # Convertir en bytes UTF-8 si c'est déjà une chaîne\n        else:\n            content_utf8 = content  # Si le contenu est déjà en bytes, pas besoin de conversion\n        service_client = initialize_adls_client()\n        file_system_client = service_client.get_file_system_client(file_system_name)\n        directory_client = file_system_client.get_directory_client(directory_name)",
-        "detail": "offre_Process.Ray.consumer",
-        "documentation": {}
-    },
-    {
-        "label": "extract_job_info",
-        "kind": 2,
-        "importPath": "offre_Process.Ray.consumer",
-        "description": "offre_Process.Ray.consumer",
-        "peekOfCode": "def extract_job_info(job_posting_text):\n    try:\n        # Initialiser le client Groq\n        client = Groq(api_key=groq_api_key)\n        # Préparer le prompt pour Groq\n        request_content = f\"\"\"\nVeuillez extraire les informations suivantes de l'offre d'emploi et retournez-les strictement au format JSON sans texte supplémentaire. Si un champ n'existe pas, faites \"None\".\nExemple attendu :\n{{\n    \"titre_du_poste\": \"Développeur Python\",",
-        "detail": "offre_Process.Ray.consumer",
-        "documentation": {}
-    },
-    {
-        "label": "account_url",
-        "kind": 5,
-        "importPath": "offre_Process.Ray.consumer",
-        "description": "offre_Process.Ray.consumer",
-        "peekOfCode": "account_url = os.getenv(\"AZURE_ACCOUNT_URL\")\ngroq_api_key = os.getenv(\"GROQ_API_KEY\")\nkafka_bootstrap_servers = os.getenv(\"KAFKA_BOOTSTRAP_SERVERS\")\nkafka_group_id = os.getenv(\"KAFKA_GROUP_ID\")\nazure_storage_key = os.getenv(\"AZURE_STORAGE_KEY\")\n# Initialiser Ray\nray.init()\n# Vérification des variables d'environnement critiques\nif not all([account_url, groq_api_key, kafka_bootstrap_servers, kafka_group_id, azure_storage_key]):\n    raise ValueError(\"Une ou plusieurs variables d'environnement sont manquantes.\")",
-        "detail": "offre_Process.Ray.consumer",
-        "documentation": {}
-    },
-    {
-        "label": "groq_api_key",
-        "kind": 5,
-        "importPath": "offre_Process.Ray.consumer",
-        "description": "offre_Process.Ray.consumer",
-        "peekOfCode": "groq_api_key = os.getenv(\"GROQ_API_KEY\")\nkafka_bootstrap_servers = os.getenv(\"KAFKA_BOOTSTRAP_SERVERS\")\nkafka_group_id = os.getenv(\"KAFKA_GROUP_ID\")\nazure_storage_key = os.getenv(\"AZURE_STORAGE_KEY\")\n# Initialiser Ray\nray.init()\n# Vérification des variables d'environnement critiques\nif not all([account_url, groq_api_key, kafka_bootstrap_servers, kafka_group_id, azure_storage_key]):\n    raise ValueError(\"Une ou plusieurs variables d'environnement sont manquantes.\")\n# Fonction pour initialiser le client ADLS avec une clé d'accès",
-        "detail": "offre_Process.Ray.consumer",
-        "documentation": {}
-    },
-    {
-        "label": "kafka_bootstrap_servers",
-        "kind": 5,
-        "importPath": "offre_Process.Ray.consumer",
-        "description": "offre_Process.Ray.consumer",
-        "peekOfCode": "kafka_bootstrap_servers = os.getenv(\"KAFKA_BOOTSTRAP_SERVERS\")\nkafka_group_id = os.getenv(\"KAFKA_GROUP_ID\")\nazure_storage_key = os.getenv(\"AZURE_STORAGE_KEY\")\n# Initialiser Ray\nray.init()\n# Vérification des variables d'environnement critiques\nif not all([account_url, groq_api_key, kafka_bootstrap_servers, kafka_group_id, azure_storage_key]):\n    raise ValueError(\"Une ou plusieurs variables d'environnement sont manquantes.\")\n# Fonction pour initialiser le client ADLS avec une clé d'accès\ndef initialize_adls_client():",
-        "detail": "offre_Process.Ray.consumer",
-        "documentation": {}
-    },
-    {
-        "label": "kafka_group_id",
-        "kind": 5,
-        "importPath": "offre_Process.Ray.consumer",
-        "description": "offre_Process.Ray.consumer",
-        "peekOfCode": "kafka_group_id = os.getenv(\"KAFKA_GROUP_ID\")\nazure_storage_key = os.getenv(\"AZURE_STORAGE_KEY\")\n# Initialiser Ray\nray.init()\n# Vérification des variables d'environnement critiques\nif not all([account_url, groq_api_key, kafka_bootstrap_servers, kafka_group_id, azure_storage_key]):\n    raise ValueError(\"Une ou plusieurs variables d'environnement sont manquantes.\")\n# Fonction pour initialiser le client ADLS avec une clé d'accès\ndef initialize_adls_client():\n    try:",
-        "detail": "offre_Process.Ray.consumer",
-        "documentation": {}
-    },
-    {
-        "label": "azure_storage_key",
-        "kind": 5,
-        "importPath": "offre_Process.Ray.consumer",
-        "description": "offre_Process.Ray.consumer",
-        "peekOfCode": "azure_storage_key = os.getenv(\"AZURE_STORAGE_KEY\")\n# Initialiser Ray\nray.init()\n# Vérification des variables d'environnement critiques\nif not all([account_url, groq_api_key, kafka_bootstrap_servers, kafka_group_id, azure_storage_key]):\n    raise ValueError(\"Une ou plusieurs variables d'environnement sont manquantes.\")\n# Fonction pour initialiser le client ADLS avec une clé d'accès\ndef initialize_adls_client():\n    try:\n        # Vérification de la clé d'accès",
-        "detail": "offre_Process.Ray.consumer",
-        "documentation": {}
-    },
-    {
-        "label": "consumer",
-        "kind": 5,
-        "importPath": "offre_Process.Ray.consumer",
-        "description": "offre_Process.Ray.consumer",
-        "peekOfCode": "consumer = KafkaConsumer(\n    'offres_travail',\n    bootstrap_servers=kafka_bootstrap_servers,\n    group_id=kafka_group_id,\n    auto_offset_reset='earliest',\n    enable_auto_commit=True\n)\n# Lire les messages Kafka et traiter chaque offre d'emploi\nfile_system_name = os.getenv(\"file_system_name\")\ndirectory_name = os.getenv(\"directory_name\")",
-        "detail": "offre_Process.Ray.consumer",
-        "documentation": {}
-    },
-    {
-        "label": "file_system_name",
-        "kind": 5,
-        "importPath": "offre_Process.Ray.consumer",
-        "description": "offre_Process.Ray.consumer",
-        "peekOfCode": "file_system_name = os.getenv(\"file_system_name\")\ndirectory_name = os.getenv(\"directory_name\")\nfor message in consumer:\n    job_posting_text = message.value.decode(\"utf-8\")\n    # Envoi du texte de l'offre d'emploi à Ray\n    handle = extract_job_info.remote(job_posting_text)\n    result = ray.get(handle)\n    # Création du nom de fichier avec horodatage\n    timestamp = time.strftime(\"%Y%m%d_%H%M%S\")\n    output_file = f\"resultat_offre_{timestamp}.json\"",
-        "detail": "offre_Process.Ray.consumer",
-        "documentation": {}
-    },
-    {
-        "label": "directory_name",
-        "kind": 5,
-        "importPath": "offre_Process.Ray.consumer",
-        "description": "offre_Process.Ray.consumer",
-        "peekOfCode": "directory_name = os.getenv(\"directory_name\")\nfor message in consumer:\n    job_posting_text = message.value.decode(\"utf-8\")\n    # Envoi du texte de l'offre d'emploi à Ray\n    handle = extract_job_info.remote(job_posting_text)\n    result = ray.get(handle)\n    # Création du nom de fichier avec horodatage\n    timestamp = time.strftime(\"%Y%m%d_%H%M%S\")\n    output_file = f\"resultat_offre_{timestamp}.json\"\n    # Conversion des résultats en JSON",
-        "detail": "offre_Process.Ray.consumer",
+        "importPath": "offre_Process.spark.extractor",
+        "description": "offre_Process.spark.extractor",
+        "peekOfCode": "def create_empty_delta_table(spark: SparkSession, schema: StructType, path: str, partition_cols: Optional[List[str]] = None):\n    try:\n        DeltaTable.forPath(spark, path)\n        print(f\"Delta Table already exists at path: {path}\")\n    except Exception:\n        custom_builder = (\n            DeltaTable.createIfNotExists(spark)\n            .location(path)\n            .addColumns(schema)\n        )",
+        "detail": "offre_Process.spark.extractor",
         "documentation": {}
     },
     {
         "label": "save_to_delta",
         "kind": 2,
-        "importPath": "offre_Process.Ray.consumerSpark",
-        "description": "offre_Process.Ray.consumerSpark",
-        "peekOfCode": "def save_to_delta(df: DataFrame, output_path: str):\n    # Sauvegarder les données traitées dans la table Delta avec la fusion de schémas\n    df.write.format(\"delta\") \\\n        .mode(\"append\") \\\n        .option(\"mergeSchema\", \"true\") \\\n        .save(output_path)\n    print(\"Data written to Delta Table\")\nlogging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')\n# Définir le schéma pour les offres d'emploi\nOFFER_SCHEMA = StructType([",
-        "detail": "offre_Process.Ray.consumerSpark",
-        "documentation": {}
-    },
-    {
-        "label": "extract_job_info",
-        "kind": 2,
-        "importPath": "offre_Process.Ray.consumerSpark",
-        "description": "offre_Process.Ray.consumerSpark",
-        "peekOfCode": "def extract_job_info(job_posting_text):\n    try:\n        # Initialiser le client Groq\n        client = Groq(api_key=groq_api_key)\n        # Préparer le prompt pour Groq\n        request_content = f\"\"\"\nVeuillez extraire les informations suivantes de l'offre d'emploi et retournez-les strictement au format JSON sans texte supplémentaire. Si un champ n'existe pas, faites \"None\".\nExemple attendu :\n{{\n    \"titre_du_poste\": \"Développeur Python\",",
-        "detail": "offre_Process.Ray.consumerSpark",
-        "documentation": {}
-    },
-    {
-        "label": "OFFER_SCHEMA",
-        "kind": 5,
-        "importPath": "offre_Process.Ray.consumerSpark",
-        "description": "offre_Process.Ray.consumerSpark",
-        "peekOfCode": "OFFER_SCHEMA = StructType([\n    StructField(\"titre_du_poste\", StringType(), True),\n    StructField(\"societe\", StringType(), True),\n    StructField(\"competences\", ArrayType(StringType()), True),\n    StructField(\"lieu\", StringType(), True),\n    StructField(\"type_offre\", StringType(), True),\n    StructField(\"durée\", StringType(), True),\n    StructField(\"type_de_contrat\", StringType(), True),\n    StructField(\"email\", StringType(), True),\n    StructField(\"telephone\", StringType(), True),",
-        "detail": "offre_Process.Ray.consumerSpark",
-        "documentation": {}
-    },
-    {
-        "label": "groq_api_key",
-        "kind": 5,
-        "importPath": "offre_Process.Ray.consumerSpark",
-        "description": "offre_Process.Ray.consumerSpark",
-        "peekOfCode": "groq_api_key = os.getenv(\"GROQ_API_KEY\")\nkafka_bootstrap_servers = os.getenv(\"KAFKA_BOOTSTRAP_SERVERS\")\nkafka_group_id = os.getenv(\"KAFKA_GROUP_ID\")\n# Initialiser Spark\nspark = SparkSession.builder.appName(\"JobPostingExtractor\").getOrCreate()\n# Vérification des variables d'environnement critiques\nif not all([groq_api_key, kafka_bootstrap_servers, kafka_group_id]):\n    raise ValueError(\"Une ou plusieurs variables d'environnement sont manquantes.\")\n# Fonction pour extraire les informations d'une offre d'emploi\ndef extract_job_info(job_posting_text):",
-        "detail": "offre_Process.Ray.consumerSpark",
-        "documentation": {}
-    },
-    {
-        "label": "kafka_bootstrap_servers",
-        "kind": 5,
-        "importPath": "offre_Process.Ray.consumerSpark",
-        "description": "offre_Process.Ray.consumerSpark",
-        "peekOfCode": "kafka_bootstrap_servers = os.getenv(\"KAFKA_BOOTSTRAP_SERVERS\")\nkafka_group_id = os.getenv(\"KAFKA_GROUP_ID\")\n# Initialiser Spark\nspark = SparkSession.builder.appName(\"JobPostingExtractor\").getOrCreate()\n# Vérification des variables d'environnement critiques\nif not all([groq_api_key, kafka_bootstrap_servers, kafka_group_id]):\n    raise ValueError(\"Une ou plusieurs variables d'environnement sont manquantes.\")\n# Fonction pour extraire les informations d'une offre d'emploi\ndef extract_job_info(job_posting_text):\n    try:",
-        "detail": "offre_Process.Ray.consumerSpark",
-        "documentation": {}
-    },
-    {
-        "label": "kafka_group_id",
-        "kind": 5,
-        "importPath": "offre_Process.Ray.consumerSpark",
-        "description": "offre_Process.Ray.consumerSpark",
-        "peekOfCode": "kafka_group_id = os.getenv(\"KAFKA_GROUP_ID\")\n# Initialiser Spark\nspark = SparkSession.builder.appName(\"JobPostingExtractor\").getOrCreate()\n# Vérification des variables d'environnement critiques\nif not all([groq_api_key, kafka_bootstrap_servers, kafka_group_id]):\n    raise ValueError(\"Une ou plusieurs variables d'environnement sont manquantes.\")\n# Fonction pour extraire les informations d'une offre d'emploi\ndef extract_job_info(job_posting_text):\n    try:\n        # Initialiser le client Groq",
-        "detail": "offre_Process.Ray.consumerSpark",
-        "documentation": {}
-    },
-    {
-        "label": "spark",
-        "kind": 5,
-        "importPath": "offre_Process.Ray.consumerSpark",
-        "description": "offre_Process.Ray.consumerSpark",
-        "peekOfCode": "spark = SparkSession.builder.appName(\"JobPostingExtractor\").getOrCreate()\n# Vérification des variables d'environnement critiques\nif not all([groq_api_key, kafka_bootstrap_servers, kafka_group_id]):\n    raise ValueError(\"Une ou plusieurs variables d'environnement sont manquantes.\")\n# Fonction pour extraire les informations d'une offre d'emploi\ndef extract_job_info(job_posting_text):\n    try:\n        # Initialiser le client Groq\n        client = Groq(api_key=groq_api_key)\n        # Préparer le prompt pour Groq",
-        "detail": "offre_Process.Ray.consumerSpark",
-        "documentation": {}
-    },
-    {
-        "label": "consumer",
-        "kind": 5,
-        "importPath": "offre_Process.Ray.consumerSpark",
-        "description": "offre_Process.Ray.consumerSpark",
-        "peekOfCode": "consumer = KafkaConsumer(\n    'offres_travail',\n    bootstrap_servers=kafka_bootstrap_servers,\n    group_id=kafka_group_id,\n    auto_offset_reset='earliest',\n    enable_auto_commit=True\n)\n# Liste des offres d'emploi extraites\njob_postings = []\nlogging.info(\"Démarrage de la consommation des messages Kafka...\")",
-        "detail": "offre_Process.Ray.consumerSpark",
-        "documentation": {}
-    },
-    {
-        "label": "job_postings",
-        "kind": 5,
-        "importPath": "offre_Process.Ray.consumerSpark",
-        "description": "offre_Process.Ray.consumerSpark",
-        "peekOfCode": "job_postings = []\nlogging.info(\"Démarrage de la consommation des messages Kafka...\")\n# Consommer les messages Kafka en temps réel\nfor message in consumer:\n    job_posting_text = message.value.decode(\"utf-8\")\n    logging.info(f\"Message reçu : {job_posting_text[:100]}...\")  # Afficher un extrait du message\n    job_postings.append(job_posting_text)\n    # Limite pour test\n    if len(job_postings) >= 5:\n        break",
-        "detail": "offre_Process.Ray.consumerSpark",
-        "documentation": {}
-    },
-    {
-        "label": "rdd",
-        "kind": 5,
-        "importPath": "offre_Process.Ray.consumerSpark",
-        "description": "offre_Process.Ray.consumerSpark",
-        "peekOfCode": "rdd = spark.sparkContext.parallelize(job_postings)\nextracted_results = rdd.map(extract_job_info).collect()\n# Créer un DataFrame en utilisant le schéma défini\ndf = spark.read.json(rdd, schema=OFFER_SCHEMA )\nlogging.info(f\"Résultats extraits : {len(extracted_results)} offres traitées\")\n# Sauvegarder les données traitées dans la table Delta\nADLS_STORAGE_ACCOUNT_NAME = \"dataoffre\"\nADLS_ACCOUNT_KEY = \"1eNXm2As1DuaMeSt2Yjegn22fFCvIUa8nBhknayEyTgfBZb6xEEyZhnvl9OiGT7U4O7cFrygjBE/+ASt1hkNQQ==\"  # Add your ADLS account key here\nADLS_CONTAINER_NAME = \"offres\"\nADLS_FOLDER_PATH = \"CV\"",
-        "detail": "offre_Process.Ray.consumerSpark",
-        "documentation": {}
-    },
-    {
-        "label": "extracted_results",
-        "kind": 5,
-        "importPath": "offre_Process.Ray.consumerSpark",
-        "description": "offre_Process.Ray.consumerSpark",
-        "peekOfCode": "extracted_results = rdd.map(extract_job_info).collect()\n# Créer un DataFrame en utilisant le schéma défini\ndf = spark.read.json(rdd, schema=OFFER_SCHEMA )\nlogging.info(f\"Résultats extraits : {len(extracted_results)} offres traitées\")\n# Sauvegarder les données traitées dans la table Delta\nADLS_STORAGE_ACCOUNT_NAME = \"dataoffre\"\nADLS_ACCOUNT_KEY = \"1eNXm2As1DuaMeSt2Yjegn22fFCvIUa8nBhknayEyTgfBZb6xEEyZhnvl9OiGT7U4O7cFrygjBE/+ASt1hkNQQ==\"  # Add your ADLS account key here\nADLS_CONTAINER_NAME = \"offres\"\nADLS_FOLDER_PATH = \"CV\"\nOUTPUT_PATH = (",
-        "detail": "offre_Process.Ray.consumerSpark",
-        "documentation": {}
-    },
-    {
-        "label": "df",
-        "kind": 5,
-        "importPath": "offre_Process.Ray.consumerSpark",
-        "description": "offre_Process.Ray.consumerSpark",
-        "peekOfCode": "df = spark.read.json(rdd, schema=OFFER_SCHEMA )\nlogging.info(f\"Résultats extraits : {len(extracted_results)} offres traitées\")\n# Sauvegarder les données traitées dans la table Delta\nADLS_STORAGE_ACCOUNT_NAME = \"dataoffre\"\nADLS_ACCOUNT_KEY = \"1eNXm2As1DuaMeSt2Yjegn22fFCvIUa8nBhknayEyTgfBZb6xEEyZhnvl9OiGT7U4O7cFrygjBE/+ASt1hkNQQ==\"  # Add your ADLS account key here\nADLS_CONTAINER_NAME = \"offres\"\nADLS_FOLDER_PATH = \"CV\"\nOUTPUT_PATH = (\n    f\"abfss://{ADLS_CONTAINER_NAME}@{ADLS_STORAGE_ACCOUNT_NAME}.dfs.core.windows.net/\"\n    + ADLS_FOLDER_PATH",
-        "detail": "offre_Process.Ray.consumerSpark",
+        "importPath": "offre_Process.spark.extractor",
+        "description": "offre_Process.spark.extractor",
+        "peekOfCode": "def save_to_delta(df: DataFrame, output_path: str):\n    df.write.format(\"delta\").mode(\"append\").option(\"mergeSchema\", \"true\").save(output_path)\n    print(\"Data written to Delta Table\")\n# Initialiser Spark\nspark = create_or_get_spark(app_name=\"kafka_to_delta\", packages=PACKAGES)\n# Configurer la connexion Azure\nspark.conf.set(\n    f\"fs.azure.account.key.{ADLS_STORAGE_ACCOUNT_NAME}.dfs.core.windows.net\",\n    ADLS_ACCOUNT_KEY,\n)",
+        "detail": "offre_Process.spark.extractor",
         "documentation": {}
     },
     {
         "label": "ADLS_STORAGE_ACCOUNT_NAME",
         "kind": 5,
-        "importPath": "offre_Process.Ray.consumerSpark",
-        "description": "offre_Process.Ray.consumerSpark",
-        "peekOfCode": "ADLS_STORAGE_ACCOUNT_NAME = \"dataoffre\"\nADLS_ACCOUNT_KEY = \"1eNXm2As1DuaMeSt2Yjegn22fFCvIUa8nBhknayEyTgfBZb6xEEyZhnvl9OiGT7U4O7cFrygjBE/+ASt1hkNQQ==\"  # Add your ADLS account key here\nADLS_CONTAINER_NAME = \"offres\"\nADLS_FOLDER_PATH = \"CV\"\nOUTPUT_PATH = (\n    f\"abfss://{ADLS_CONTAINER_NAME}@{ADLS_STORAGE_ACCOUNT_NAME}.dfs.core.windows.net/\"\n    + ADLS_FOLDER_PATH\n)\nsave_to_delta(df, OUTPUT_PATH)",
-        "detail": "offre_Process.Ray.consumerSpark",
+        "importPath": "offre_Process.spark.extractor",
+        "description": "offre_Process.spark.extractor",
+        "peekOfCode": "ADLS_STORAGE_ACCOUNT_NAME = os.getenv(\"ADLS_STORAGE_ACCOUNT_NAME\")\nADLS_ACCOUNT_KEY = os.getenv(\"ADLS_ACCOUNT_KEY\")\nADLS_CONTAINER_NAME = os.getenv(\"ADLS_CONTAINER_NAME\")\nADLS_FOLDER_PATH = os.getenv(\"ADLS_FOLDER_PATH\")\nKAFKA_BOOTSTRAP_SERVERS = os.getenv(\"KAFKA_BOOTSTRAP_SERVERS\")\nKAFKA_GROUP_ID = os.getenv(\"KAFKA_GROUP_ID\")\n# Configuration Kafka Consumer\nconsumer = KafkaConsumer(\n    'offres_travail',\n    bootstrap_servers=KAFKA_BOOTSTRAP_SERVERS,",
+        "detail": "offre_Process.spark.extractor",
         "documentation": {}
     },
     {
         "label": "ADLS_ACCOUNT_KEY",
         "kind": 5,
-        "importPath": "offre_Process.Ray.consumerSpark",
-        "description": "offre_Process.Ray.consumerSpark",
-        "peekOfCode": "ADLS_ACCOUNT_KEY = \"1eNXm2As1DuaMeSt2Yjegn22fFCvIUa8nBhknayEyTgfBZb6xEEyZhnvl9OiGT7U4O7cFrygjBE/+ASt1hkNQQ==\"  # Add your ADLS account key here\nADLS_CONTAINER_NAME = \"offres\"\nADLS_FOLDER_PATH = \"CV\"\nOUTPUT_PATH = (\n    f\"abfss://{ADLS_CONTAINER_NAME}@{ADLS_STORAGE_ACCOUNT_NAME}.dfs.core.windows.net/\"\n    + ADLS_FOLDER_PATH\n)\nsave_to_delta(df, OUTPUT_PATH)",
-        "detail": "offre_Process.Ray.consumerSpark",
+        "importPath": "offre_Process.spark.extractor",
+        "description": "offre_Process.spark.extractor",
+        "peekOfCode": "ADLS_ACCOUNT_KEY = os.getenv(\"ADLS_ACCOUNT_KEY\")\nADLS_CONTAINER_NAME = os.getenv(\"ADLS_CONTAINER_NAME\")\nADLS_FOLDER_PATH = os.getenv(\"ADLS_FOLDER_PATH\")\nKAFKA_BOOTSTRAP_SERVERS = os.getenv(\"KAFKA_BOOTSTRAP_SERVERS\")\nKAFKA_GROUP_ID = os.getenv(\"KAFKA_GROUP_ID\")\n# Configuration Kafka Consumer\nconsumer = KafkaConsumer(\n    'offres_travail',\n    bootstrap_servers=KAFKA_BOOTSTRAP_SERVERS,\n    group_id=KAFKA_GROUP_ID,",
+        "detail": "offre_Process.spark.extractor",
         "documentation": {}
     },
     {
         "label": "ADLS_CONTAINER_NAME",
         "kind": 5,
-        "importPath": "offre_Process.Ray.consumerSpark",
-        "description": "offre_Process.Ray.consumerSpark",
-        "peekOfCode": "ADLS_CONTAINER_NAME = \"offres\"\nADLS_FOLDER_PATH = \"CV\"\nOUTPUT_PATH = (\n    f\"abfss://{ADLS_CONTAINER_NAME}@{ADLS_STORAGE_ACCOUNT_NAME}.dfs.core.windows.net/\"\n    + ADLS_FOLDER_PATH\n)\nsave_to_delta(df, OUTPUT_PATH)",
-        "detail": "offre_Process.Ray.consumerSpark",
+        "importPath": "offre_Process.spark.extractor",
+        "description": "offre_Process.spark.extractor",
+        "peekOfCode": "ADLS_CONTAINER_NAME = os.getenv(\"ADLS_CONTAINER_NAME\")\nADLS_FOLDER_PATH = os.getenv(\"ADLS_FOLDER_PATH\")\nKAFKA_BOOTSTRAP_SERVERS = os.getenv(\"KAFKA_BOOTSTRAP_SERVERS\")\nKAFKA_GROUP_ID = os.getenv(\"KAFKA_GROUP_ID\")\n# Configuration Kafka Consumer\nconsumer = KafkaConsumer(\n    'offres_travail',\n    bootstrap_servers=KAFKA_BOOTSTRAP_SERVERS,\n    group_id=KAFKA_GROUP_ID,\n    auto_offset_reset='earliest',",
+        "detail": "offre_Process.spark.extractor",
         "documentation": {}
     },
     {
         "label": "ADLS_FOLDER_PATH",
         "kind": 5,
-        "importPath": "offre_Process.Ray.consumerSpark",
-        "description": "offre_Process.Ray.consumerSpark",
-        "peekOfCode": "ADLS_FOLDER_PATH = \"CV\"\nOUTPUT_PATH = (\n    f\"abfss://{ADLS_CONTAINER_NAME}@{ADLS_STORAGE_ACCOUNT_NAME}.dfs.core.windows.net/\"\n    + ADLS_FOLDER_PATH\n)\nsave_to_delta(df, OUTPUT_PATH)",
-        "detail": "offre_Process.Ray.consumerSpark",
+        "importPath": "offre_Process.spark.extractor",
+        "description": "offre_Process.spark.extractor",
+        "peekOfCode": "ADLS_FOLDER_PATH = os.getenv(\"ADLS_FOLDER_PATH\")\nKAFKA_BOOTSTRAP_SERVERS = os.getenv(\"KAFKA_BOOTSTRAP_SERVERS\")\nKAFKA_GROUP_ID = os.getenv(\"KAFKA_GROUP_ID\")\n# Configuration Kafka Consumer\nconsumer = KafkaConsumer(\n    'offres_travail',\n    bootstrap_servers=KAFKA_BOOTSTRAP_SERVERS,\n    group_id=KAFKA_GROUP_ID,\n    auto_offset_reset='earliest',\n    enable_auto_commit=True",
+        "detail": "offre_Process.spark.extractor",
+        "documentation": {}
+    },
+    {
+        "label": "KAFKA_BOOTSTRAP_SERVERS",
+        "kind": 5,
+        "importPath": "offre_Process.spark.extractor",
+        "description": "offre_Process.spark.extractor",
+        "peekOfCode": "KAFKA_BOOTSTRAP_SERVERS = os.getenv(\"KAFKA_BOOTSTRAP_SERVERS\")\nKAFKA_GROUP_ID = os.getenv(\"KAFKA_GROUP_ID\")\n# Configuration Kafka Consumer\nconsumer = KafkaConsumer(\n    'offres_travail',\n    bootstrap_servers=KAFKA_BOOTSTRAP_SERVERS,\n    group_id=KAFKA_GROUP_ID,\n    auto_offset_reset='earliest',\n    enable_auto_commit=True\n)",
+        "detail": "offre_Process.spark.extractor",
+        "documentation": {}
+    },
+    {
+        "label": "KAFKA_GROUP_ID",
+        "kind": 5,
+        "importPath": "offre_Process.spark.extractor",
+        "description": "offre_Process.spark.extractor",
+        "peekOfCode": "KAFKA_GROUP_ID = os.getenv(\"KAFKA_GROUP_ID\")\n# Configuration Kafka Consumer\nconsumer = KafkaConsumer(\n    'offres_travail',\n    bootstrap_servers=KAFKA_BOOTSTRAP_SERVERS,\n    group_id=KAFKA_GROUP_ID,\n    auto_offset_reset='earliest',\n    enable_auto_commit=True\n)\n# Configuration Spark",
+        "detail": "offre_Process.spark.extractor",
+        "documentation": {}
+    },
+    {
+        "label": "consumer",
+        "kind": 5,
+        "importPath": "offre_Process.spark.extractor",
+        "description": "offre_Process.spark.extractor",
+        "peekOfCode": "consumer = KafkaConsumer(\n    'offres_travail',\n    bootstrap_servers=KAFKA_BOOTSTRAP_SERVERS,\n    group_id=KAFKA_GROUP_ID,\n    auto_offset_reset='earliest',\n    enable_auto_commit=True\n)\n# Configuration Spark\nPACKAGES = [\n    \"io.delta:delta-spark_2.12:3.0.0\",",
+        "detail": "offre_Process.spark.extractor",
+        "documentation": {}
+    },
+    {
+        "label": "PACKAGES",
+        "kind": 5,
+        "importPath": "offre_Process.spark.extractor",
+        "description": "offre_Process.spark.extractor",
+        "peekOfCode": "PACKAGES = [\n    \"io.delta:delta-spark_2.12:3.0.0\",\n    \"org.apache.hadoop:hadoop-azure:3.3.6\",\n    \"org.apache.hadoop:hadoop-azure-datalake:3.3.6\",\n    \"org.apache.hadoop:hadoop-common:3.3.6\",\n]\nOUTPUT_PATH = (\n    f\"abfss://{ADLS_CONTAINER_NAME}@{ADLS_STORAGE_ACCOUNT_NAME}.dfs.core.windows.net/\"\n    + ADLS_FOLDER_PATH\n)",
+        "detail": "offre_Process.spark.extractor",
         "documentation": {}
     },
     {
         "label": "OUTPUT_PATH",
         "kind": 5,
-        "importPath": "offre_Process.Ray.consumerSpark",
-        "description": "offre_Process.Ray.consumerSpark",
-        "peekOfCode": "OUTPUT_PATH = (\n    f\"abfss://{ADLS_CONTAINER_NAME}@{ADLS_STORAGE_ACCOUNT_NAME}.dfs.core.windows.net/\"\n    + ADLS_FOLDER_PATH\n)\nsave_to_delta(df, OUTPUT_PATH)",
-        "detail": "offre_Process.Ray.consumerSpark",
+        "importPath": "offre_Process.spark.extractor",
+        "description": "offre_Process.spark.extractor",
+        "peekOfCode": "OUTPUT_PATH = (\n    f\"abfss://{ADLS_CONTAINER_NAME}@{ADLS_STORAGE_ACCOUNT_NAME}.dfs.core.windows.net/\"\n    + ADLS_FOLDER_PATH\n)\ndef create_or_get_spark(app_name: str, packages: List[str]) -> SparkSession:\n    jars = \",\".join(packages)\n    spark = (\n        SparkSession.builder.appName(app_name)\n        .config(\"spark.streaming.stopGracefullyOnShutdown\", True)\n        .config(\"spark.jars.packages\", jars)",
+        "detail": "offre_Process.spark.extractor",
+        "documentation": {}
+    },
+    {
+        "label": "spark",
+        "kind": 5,
+        "importPath": "offre_Process.spark.extractor",
+        "description": "offre_Process.spark.extractor",
+        "peekOfCode": "spark = create_or_get_spark(app_name=\"kafka_to_delta\", packages=PACKAGES)\n# Configurer la connexion Azure\nspark.conf.set(\n    f\"fs.azure.account.key.{ADLS_STORAGE_ACCOUNT_NAME}.dfs.core.windows.net\",\n    ADLS_ACCOUNT_KEY,\n)\nprint(\"Spark Session Created\")\n# Boucle principale pour lire et traiter les messages Kafka\nfor message in consumer:\n    try:",
+        "detail": "offre_Process.spark.extractor",
+        "documentation": {}
+    },
+    {
+        "label": "create_or_get_spark",
+        "kind": 2,
+        "importPath": "offre_Process.spark.sparkStreaming",
+        "description": "offre_Process.spark.sparkStreaming",
+        "peekOfCode": "def create_or_get_spark(app_name: str, packages: List[str]) -> SparkSession:\n    \"\"\"Créer une session Spark avec Delta et Azure.\"\"\"\n    jars = \",\".join(packages)\n    spark = (\n        SparkSession.builder.appName(app_name)\n        .config(\"spark.jars.packages\", jars)\n        .config(\"spark.sql.extensions\", \"io.delta.sql.DeltaSparkSessionExtension\")\n        .config(\"spark.sql.catalog.spark_catalog\", \"org.apache.spark.sql.delta.catalog.DeltaCatalog\")\n        .config(\"fs.abfss.impl\", \"org.apache.hadoop.fs.azurebfs.SecureAzureBlobFileSystem\")\n        .master(\"local[*]\")",
+        "detail": "offre_Process.spark.sparkStreaming",
+        "documentation": {}
+    },
+    {
+        "label": "create_empty_delta_table",
+        "kind": 2,
+        "importPath": "offre_Process.spark.sparkStreaming",
+        "description": "offre_Process.spark.sparkStreaming",
+        "peekOfCode": "def create_empty_delta_table(\n    spark: SparkSession,\n    schema: StructType,\n    path: str,\n    partition_cols: Optional[List[str]] = None,\n    enable_cdc: Optional[bool] = False,\n):\n    \"\"\"Créer une table Delta vide si elle n'existe pas.\"\"\"\n    try:\n        DeltaTable.forPath(spark, path)",
+        "detail": "offre_Process.spark.sparkStreaming",
+        "documentation": {}
+    },
+    {
+        "label": "save_to_delta",
+        "kind": 2,
+        "importPath": "offre_Process.spark.sparkStreaming",
+        "description": "offre_Process.spark.sparkStreaming",
+        "peekOfCode": "def save_to_delta(df: DataFrame, output_path: str):\n    \"\"\"Sauvegarder les données dans une Delta Table.\"\"\"\n    df.write.format(\"delta\").mode(\"append\").option(\"mergeSchema\", \"true\").save(output_path)\n    print(\"Data written to Delta Table.\")\ndef process_message(spark: SparkSession, message: str):\n    \"\"\"Traiter un message Kafka et l'enregistrer dans une table Delta.\"\"\"\n    try:\n        job_posting = json.loads(message)\n        df = spark.createDataFrame([job_posting], schema=OFFRE_SCHEMA)\n        save_to_delta(df, OUTPUT_PATH)",
+        "detail": "offre_Process.spark.sparkStreaming",
+        "documentation": {}
+    },
+    {
+        "label": "process_message",
+        "kind": 2,
+        "importPath": "offre_Process.spark.sparkStreaming",
+        "description": "offre_Process.spark.sparkStreaming",
+        "peekOfCode": "def process_message(spark: SparkSession, message: str):\n    \"\"\"Traiter un message Kafka et l'enregistrer dans une table Delta.\"\"\"\n    try:\n        job_posting = json.loads(message)\n        df = spark.createDataFrame([job_posting], schema=OFFRE_SCHEMA)\n        save_to_delta(df, OUTPUT_PATH)\n    except Exception as e:\n        print(f\"Error processing message: {e}\")\n# Configurer le consommateur Kafka\nconsumer = KafkaConsumer(",
+        "detail": "offre_Process.spark.sparkStreaming",
+        "documentation": {}
+    },
+    {
+        "label": "ADLS_STORAGE_ACCOUNT_NAME",
+        "kind": 5,
+        "importPath": "offre_Process.spark.sparkStreaming",
+        "description": "offre_Process.spark.sparkStreaming",
+        "peekOfCode": "ADLS_STORAGE_ACCOUNT_NAME = os.getenv(\"ADLS_STORAGE_ACCOUNT_NAME\")\nADLS_ACCOUNT_KEY = os.getenv(\"ADLS_ACCOUNT_KEY\")\nADLS_CONTAINER_NAME = os.getenv(\"ADLS_CONTAINER_NAME\")\nADLS_FOLDER_PATH = os.getenv(\"ADLS_FOLDER_PATH\")\nKAFKA_BOOTSTRAP_SERVERS = os.getenv(\"KAFKA_BOOTSTRAP_SERVERS\")\nKAFKA_GROUP_ID = os.getenv(\"KAFKA_GROUP_ID\")\nOUTPUT_PATH = (\n    f\"abfss://{ADLS_CONTAINER_NAME}@{ADLS_STORAGE_ACCOUNT_NAME}.dfs.core.windows.net/\"\n    + ADLS_FOLDER_PATH\n)",
+        "detail": "offre_Process.spark.sparkStreaming",
+        "documentation": {}
+    },
+    {
+        "label": "ADLS_ACCOUNT_KEY",
+        "kind": 5,
+        "importPath": "offre_Process.spark.sparkStreaming",
+        "description": "offre_Process.spark.sparkStreaming",
+        "peekOfCode": "ADLS_ACCOUNT_KEY = os.getenv(\"ADLS_ACCOUNT_KEY\")\nADLS_CONTAINER_NAME = os.getenv(\"ADLS_CONTAINER_NAME\")\nADLS_FOLDER_PATH = os.getenv(\"ADLS_FOLDER_PATH\")\nKAFKA_BOOTSTRAP_SERVERS = os.getenv(\"KAFKA_BOOTSTRAP_SERVERS\")\nKAFKA_GROUP_ID = os.getenv(\"KAFKA_GROUP_ID\")\nOUTPUT_PATH = (\n    f\"abfss://{ADLS_CONTAINER_NAME}@{ADLS_STORAGE_ACCOUNT_NAME}.dfs.core.windows.net/\"\n    + ADLS_FOLDER_PATH\n)\n# Packages requis pour Spark",
+        "detail": "offre_Process.spark.sparkStreaming",
+        "documentation": {}
+    },
+    {
+        "label": "ADLS_CONTAINER_NAME",
+        "kind": 5,
+        "importPath": "offre_Process.spark.sparkStreaming",
+        "description": "offre_Process.spark.sparkStreaming",
+        "peekOfCode": "ADLS_CONTAINER_NAME = os.getenv(\"ADLS_CONTAINER_NAME\")\nADLS_FOLDER_PATH = os.getenv(\"ADLS_FOLDER_PATH\")\nKAFKA_BOOTSTRAP_SERVERS = os.getenv(\"KAFKA_BOOTSTRAP_SERVERS\")\nKAFKA_GROUP_ID = os.getenv(\"KAFKA_GROUP_ID\")\nOUTPUT_PATH = (\n    f\"abfss://{ADLS_CONTAINER_NAME}@{ADLS_STORAGE_ACCOUNT_NAME}.dfs.core.windows.net/\"\n    + ADLS_FOLDER_PATH\n)\n# Packages requis pour Spark\nPACKAGES = [",
+        "detail": "offre_Process.spark.sparkStreaming",
+        "documentation": {}
+    },
+    {
+        "label": "ADLS_FOLDER_PATH",
+        "kind": 5,
+        "importPath": "offre_Process.spark.sparkStreaming",
+        "description": "offre_Process.spark.sparkStreaming",
+        "peekOfCode": "ADLS_FOLDER_PATH = os.getenv(\"ADLS_FOLDER_PATH\")\nKAFKA_BOOTSTRAP_SERVERS = os.getenv(\"KAFKA_BOOTSTRAP_SERVERS\")\nKAFKA_GROUP_ID = os.getenv(\"KAFKA_GROUP_ID\")\nOUTPUT_PATH = (\n    f\"abfss://{ADLS_CONTAINER_NAME}@{ADLS_STORAGE_ACCOUNT_NAME}.dfs.core.windows.net/\"\n    + ADLS_FOLDER_PATH\n)\n# Packages requis pour Spark\nPACKAGES = [\n    \"io.delta:delta-spark_2.12:3.0.0\",",
+        "detail": "offre_Process.spark.sparkStreaming",
+        "documentation": {}
+    },
+    {
+        "label": "KAFKA_BOOTSTRAP_SERVERS",
+        "kind": 5,
+        "importPath": "offre_Process.spark.sparkStreaming",
+        "description": "offre_Process.spark.sparkStreaming",
+        "peekOfCode": "KAFKA_BOOTSTRAP_SERVERS = os.getenv(\"KAFKA_BOOTSTRAP_SERVERS\")\nKAFKA_GROUP_ID = os.getenv(\"KAFKA_GROUP_ID\")\nOUTPUT_PATH = (\n    f\"abfss://{ADLS_CONTAINER_NAME}@{ADLS_STORAGE_ACCOUNT_NAME}.dfs.core.windows.net/\"\n    + ADLS_FOLDER_PATH\n)\n# Packages requis pour Spark\nPACKAGES = [\n    \"io.delta:delta-spark_2.12:3.0.0\",\n    \"org.apache.hadoop:hadoop-azure:3.3.6\",",
+        "detail": "offre_Process.spark.sparkStreaming",
+        "documentation": {}
+    },
+    {
+        "label": "KAFKA_GROUP_ID",
+        "kind": 5,
+        "importPath": "offre_Process.spark.sparkStreaming",
+        "description": "offre_Process.spark.sparkStreaming",
+        "peekOfCode": "KAFKA_GROUP_ID = os.getenv(\"KAFKA_GROUP_ID\")\nOUTPUT_PATH = (\n    f\"abfss://{ADLS_CONTAINER_NAME}@{ADLS_STORAGE_ACCOUNT_NAME}.dfs.core.windows.net/\"\n    + ADLS_FOLDER_PATH\n)\n# Packages requis pour Spark\nPACKAGES = [\n    \"io.delta:delta-spark_2.12:3.0.0\",\n    \"org.apache.hadoop:hadoop-azure:3.3.6\",\n    \"org.apache.hadoop:hadoop-azure-datalake:3.3.6\",",
+        "detail": "offre_Process.spark.sparkStreaming",
+        "documentation": {}
+    },
+    {
+        "label": "OUTPUT_PATH",
+        "kind": 5,
+        "importPath": "offre_Process.spark.sparkStreaming",
+        "description": "offre_Process.spark.sparkStreaming",
+        "peekOfCode": "OUTPUT_PATH = (\n    f\"abfss://{ADLS_CONTAINER_NAME}@{ADLS_STORAGE_ACCOUNT_NAME}.dfs.core.windows.net/\"\n    + ADLS_FOLDER_PATH\n)\n# Packages requis pour Spark\nPACKAGES = [\n    \"io.delta:delta-spark_2.12:3.0.0\",\n    \"org.apache.hadoop:hadoop-azure:3.3.6\",\n    \"org.apache.hadoop:hadoop-azure-datalake:3.3.6\",\n]",
+        "detail": "offre_Process.spark.sparkStreaming",
+        "documentation": {}
+    },
+    {
+        "label": "PACKAGES",
+        "kind": 5,
+        "importPath": "offre_Process.spark.sparkStreaming",
+        "description": "offre_Process.spark.sparkStreaming",
+        "peekOfCode": "PACKAGES = [\n    \"io.delta:delta-spark_2.12:3.0.0\",\n    \"org.apache.hadoop:hadoop-azure:3.3.6\",\n    \"org.apache.hadoop:hadoop-azure-datalake:3.3.6\",\n]\ndef create_or_get_spark(app_name: str, packages: List[str]) -> SparkSession:\n    \"\"\"Créer une session Spark avec Delta et Azure.\"\"\"\n    jars = \",\".join(packages)\n    spark = (\n        SparkSession.builder.appName(app_name)",
+        "detail": "offre_Process.spark.sparkStreaming",
+        "documentation": {}
+    },
+    {
+        "label": "consumer",
+        "kind": 5,
+        "importPath": "offre_Process.spark.sparkStreaming",
+        "description": "offre_Process.spark.sparkStreaming",
+        "peekOfCode": "consumer = KafkaConsumer(\n    'offres_travail',\n    bootstrap_servers=KAFKA_BOOTSTRAP_SERVERS,\n    group_id=KAFKA_GROUP_ID,\n    auto_offset_reset='earliest',\n    enable_auto_commit=True\n)\n# Entrée principale\nif __name__ == \"__main__\":\n    # Créer une session Spark",
+        "detail": "offre_Process.spark.sparkStreaming",
         "documentation": {}
     },
     {
@@ -3064,298 +2626,109 @@
     {
         "label": "create_or_get_spark",
         "kind": 2,
-        "importPath": "last",
-        "description": "last",
+        "importPath": "spark_TO_delta(inspiratio)",
+        "description": "spark_TO_delta(inspiratio)",
         "peekOfCode": "def create_or_get_spark(\n    app_name: str, packages: List[str], cluster_manager=\"local[*]\"\n) -> SparkSession:\n    jars = \",\".join(packages)\n    spark = (\n        SparkSession.builder.appName(app_name)\n        .config(\"spark.streaming.stopGracefullyOnShutdown\", True)\n        .config(\"spark.jars.packages\", jars)\n        .config(\"spark.sql.extensions\", \"io.delta.sql.DeltaSparkSessionExtension\")\n        .config(",
-        "detail": "last",
+        "detail": "spark_TO_delta(inspiratio)",
         "documentation": {}
     },
     {
         "label": "create_empty_delta_table",
         "kind": 2,
-        "importPath": "last",
-        "description": "last",
+        "importPath": "spark_TO_delta(inspiratio)",
+        "description": "spark_TO_delta(inspiratio)",
         "peekOfCode": "def create_empty_delta_table(\n    spark: SparkSession,\n    schema: StructType,\n    path: str,\n    partition_cols: Optional[List[str]] = None,\n    enable_cdc: Optional[bool] = False,\n):\n    # Vérifier si la table Delta existe\n    try:\n        delta_table = DeltaTable.forPath(spark, path)",
-        "detail": "last",
+        "detail": "spark_TO_delta(inspiratio)",
         "documentation": {}
     },
     {
         "label": "save_to_delta",
         "kind": 2,
-        "importPath": "last",
-        "description": "last",
+        "importPath": "spark_TO_delta(inspiratio)",
+        "description": "spark_TO_delta(inspiratio)",
         "peekOfCode": "def save_to_delta(df: DataFrame, output_path: str):\n    # Sauvegarder les données traitées dans la table Delta avec la fusion de schémas\n    df.write.format(\"delta\") \\\n        .mode(\"append\") \\\n        .option(\"mergeSchema\", \"true\") \\\n        .save(output_path)\n    print(\"Data written to Delta Table\")\n# ===================================================================================\n#                           MAIN ENTRYPOINT\n# ===================================================================================",
-        "detail": "last",
+        "detail": "spark_TO_delta(inspiratio)",
         "documentation": {}
     },
     {
         "label": "PERSON_SCHEMA",
         "kind": 5,
-        "importPath": "last",
-        "description": "last",
-        "peekOfCode": "PERSON_SCHEMA = StructType([\n    StructField(\"first_name\", StringType(), True),\n    StructField(\"last_name\", StringType(), True),\n    StructField(\"full_name\", StringType(), True),\n    StructField(\"title\", StringType(), True),\n    StructField(\"address\", StructType([\n        StructField(\"formatted_location\", StringType(), True),\n        StructField(\"city\", StringType(), True),\n        StructField(\"region\", StringType(), True),\n        StructField(\"country\", StringType(), True),",
-        "detail": "last",
-        "documentation": {}
-    },
-    {
-        "label": "json_data",
-        "kind": 5,
-        "importPath": "last",
-        "description": "last",
-        "peekOfCode": "json_data = {\n    \"first_name\": \"None\",\n    \"last_name\": \"None\",\n    \"full_name\": \"None\",\n    \"title\": \"Information Technology Specialist\",\n    \"address\": {\n        \"formatted_location\": \"None\",\n        \"city\": \"None\",\n        \"region\": \"None\",\n        \"country\": \"None\",",
-        "detail": "last",
+        "importPath": "spark_TO_delta(inspiratio)",
+        "description": "spark_TO_delta(inspiratio)",
+        "peekOfCode": "PERSON_SCHEMA = StructType([\n    StructField(\"titre_du_poste\", StringType(), True),\n    StructField(\"last_name\", StringType(), True),\n    StructField(\"full_name\", StringType(), True),\n    StructField(\"title\", StringType(), True),\n    StructField(\"address\", StructType([\n        StructField(\"formatted_location\", StringType(), True),\n        StructField(\"city\", StringType(), True),\n        StructField(\"region\", StringType(), True),\n        StructField(\"country\", StringType(), True),",
+        "detail": "spark_TO_delta(inspiratio)",
         "documentation": {}
     },
     {
         "label": "ADLS_STORAGE_ACCOUNT_NAME",
         "kind": 5,
-        "importPath": "last",
-        "description": "last",
-        "peekOfCode": "ADLS_STORAGE_ACCOUNT_NAME = \"dataoffre\"\nADLS_ACCOUNT_KEY = \"1eNXm2As1DuaMeSt2Yjegn22fFCvIUa8nBhknayEyTgfBZb6xEEyZhnvl9OiGT7U4O7cFrygjBE/+ASt1hkNQQ==\"  # Add your ADLS account key here\nADLS_CONTAINER_NAME = \"offres\"\nADLS_FOLDER_PATH = \"CV\"\nOUTPUT_PATH = (\n    f\"abfss://{ADLS_CONTAINER_NAME}@{ADLS_STORAGE_ACCOUNT_NAME}.dfs.core.windows.net/\"\n    + ADLS_FOLDER_PATH\n)\n# Required Spark packages\nPACKAGES = [",
-        "detail": "last",
+        "importPath": "spark_TO_delta(inspiratio)",
+        "description": "spark_TO_delta(inspiratio)",
+        "peekOfCode": "ADLS_STORAGE_ACCOUNT_NAME = \"dataoffre\"\nADLS_ACCOUNT_KEY = \"1eNXm2As1DuaMeSt2Yjegn22fFCvIUa8nBhknayEyTgfBZb6xEEyZhnvl9OiGT7U4O7cFrygjBE/+ASt1hkNQQ==\"  # Add your ADLS account key here  # Add your ADLS account key here\nADLS_CONTAINER_NAME = \"offres\"\nADLS_FOLDER_PATH = \"offres_trav\"\nOUTPUT_PATH = (\n    f\"abfss://{ADLS_CONTAINER_NAME}@{ADLS_STORAGE_ACCOUNT_NAME}.dfs.core.windows.net/\"\n    + ADLS_FOLDER_PATH\n)\n# Required Spark packages\nPACKAGES = [",
+        "detail": "spark_TO_delta(inspiratio)",
         "documentation": {}
     },
     {
         "label": "ADLS_ACCOUNT_KEY",
         "kind": 5,
-        "importPath": "last",
-        "description": "last",
-        "peekOfCode": "ADLS_ACCOUNT_KEY = \"1eNXm2As1DuaMeSt2Yjegn22fFCvIUa8nBhknayEyTgfBZb6xEEyZhnvl9OiGT7U4O7cFrygjBE/+ASt1hkNQQ==\"  # Add your ADLS account key here\nADLS_CONTAINER_NAME = \"offres\"\nADLS_FOLDER_PATH = \"CV\"\nOUTPUT_PATH = (\n    f\"abfss://{ADLS_CONTAINER_NAME}@{ADLS_STORAGE_ACCOUNT_NAME}.dfs.core.windows.net/\"\n    + ADLS_FOLDER_PATH\n)\n# Required Spark packages\nPACKAGES = [\n    \"io.delta:delta-spark_2.12:3.0.0\",",
-        "detail": "last",
+        "importPath": "spark_TO_delta(inspiratio)",
+        "description": "spark_TO_delta(inspiratio)",
+        "peekOfCode": "ADLS_ACCOUNT_KEY = \"1eNXm2As1DuaMeSt2Yjegn22fFCvIUa8nBhknayEyTgfBZb6xEEyZhnvl9OiGT7U4O7cFrygjBE/+ASt1hkNQQ==\"  # Add your ADLS account key here  # Add your ADLS account key here\nADLS_CONTAINER_NAME = \"offres\"\nADLS_FOLDER_PATH = \"offres_trav\"\nOUTPUT_PATH = (\n    f\"abfss://{ADLS_CONTAINER_NAME}@{ADLS_STORAGE_ACCOUNT_NAME}.dfs.core.windows.net/\"\n    + ADLS_FOLDER_PATH\n)\n# Required Spark packages\nPACKAGES = [\n    \"io.delta:delta-spark_2.12:3.0.0\",",
+        "detail": "spark_TO_delta(inspiratio)",
         "documentation": {}
     },
     {
         "label": "ADLS_CONTAINER_NAME",
         "kind": 5,
-        "importPath": "last",
-        "description": "last",
-        "peekOfCode": "ADLS_CONTAINER_NAME = \"offres\"\nADLS_FOLDER_PATH = \"CV\"\nOUTPUT_PATH = (\n    f\"abfss://{ADLS_CONTAINER_NAME}@{ADLS_STORAGE_ACCOUNT_NAME}.dfs.core.windows.net/\"\n    + ADLS_FOLDER_PATH\n)\n# Required Spark packages\nPACKAGES = [\n    \"io.delta:delta-spark_2.12:3.0.0\",\n    \"org.apache.hadoop:hadoop-azure:3.3.6\",",
-        "detail": "last",
+        "importPath": "spark_TO_delta(inspiratio)",
+        "description": "spark_TO_delta(inspiratio)",
+        "peekOfCode": "ADLS_CONTAINER_NAME = \"offres\"\nADLS_FOLDER_PATH = \"offres_trav\"\nOUTPUT_PATH = (\n    f\"abfss://{ADLS_CONTAINER_NAME}@{ADLS_STORAGE_ACCOUNT_NAME}.dfs.core.windows.net/\"\n    + ADLS_FOLDER_PATH\n)\n# Required Spark packages\nPACKAGES = [\n    \"io.delta:delta-spark_2.12:3.0.0\",\n    \"org.apache.hadoop:hadoop-azure:3.3.6\",",
+        "detail": "spark_TO_delta(inspiratio)",
         "documentation": {}
     },
     {
         "label": "ADLS_FOLDER_PATH",
         "kind": 5,
-        "importPath": "last",
-        "description": "last",
-        "peekOfCode": "ADLS_FOLDER_PATH = \"CV\"\nOUTPUT_PATH = (\n    f\"abfss://{ADLS_CONTAINER_NAME}@{ADLS_STORAGE_ACCOUNT_NAME}.dfs.core.windows.net/\"\n    + ADLS_FOLDER_PATH\n)\n# Required Spark packages\nPACKAGES = [\n    \"io.delta:delta-spark_2.12:3.0.0\",\n    \"org.apache.hadoop:hadoop-azure:3.3.6\",\n    \"org.apache.hadoop:hadoop-azure-datalake:3.3.6\",",
-        "detail": "last",
+        "importPath": "spark_TO_delta(inspiratio)",
+        "description": "spark_TO_delta(inspiratio)",
+        "peekOfCode": "ADLS_FOLDER_PATH = \"offres_trav\"\nOUTPUT_PATH = (\n    f\"abfss://{ADLS_CONTAINER_NAME}@{ADLS_STORAGE_ACCOUNT_NAME}.dfs.core.windows.net/\"\n    + ADLS_FOLDER_PATH\n)\n# Required Spark packages\nPACKAGES = [\n    \"io.delta:delta-spark_2.12:3.0.0\",\n    \"org.apache.hadoop:hadoop-azure:3.3.6\",\n    \"org.apache.hadoop:hadoop-azure-datalake:3.3.6\",",
+        "detail": "spark_TO_delta(inspiratio)",
         "documentation": {}
     },
     {
         "label": "OUTPUT_PATH",
         "kind": 5,
-        "importPath": "last",
-        "description": "last",
+        "importPath": "spark_TO_delta(inspiratio)",
+        "description": "spark_TO_delta(inspiratio)",
         "peekOfCode": "OUTPUT_PATH = (\n    f\"abfss://{ADLS_CONTAINER_NAME}@{ADLS_STORAGE_ACCOUNT_NAME}.dfs.core.windows.net/\"\n    + ADLS_FOLDER_PATH\n)\n# Required Spark packages\nPACKAGES = [\n    \"io.delta:delta-spark_2.12:3.0.0\",\n    \"org.apache.hadoop:hadoop-azure:3.3.6\",\n    \"org.apache.hadoop:hadoop-azure-datalake:3.3.6\",\n    \"org.apache.hadoop:hadoop-common:3.3.6\",",
-        "detail": "last",
+        "detail": "spark_TO_delta(inspiratio)",
         "documentation": {}
     },
     {
         "label": "PACKAGES",
         "kind": 5,
-        "importPath": "last",
-        "description": "last",
+        "importPath": "spark_TO_delta(inspiratio)",
+        "description": "spark_TO_delta(inspiratio)",
         "peekOfCode": "PACKAGES = [\n    \"io.delta:delta-spark_2.12:3.0.0\",\n    \"org.apache.hadoop:hadoop-azure:3.3.6\",\n    \"org.apache.hadoop:hadoop-azure-datalake:3.3.6\",\n    \"org.apache.hadoop:hadoop-common:3.3.6\",\n]\ndef create_or_get_spark(\n    app_name: str, packages: List[str], cluster_manager=\"local[*]\"\n) -> SparkSession:\n    jars = \",\".join(packages)",
-        "detail": "last",
+        "detail": "spark_TO_delta(inspiratio)",
         "documentation": {}
     },
     {
         "label": "spark",
         "kind": 5,
-        "importPath": "last",
-        "description": "last",
+        "importPath": "spark_TO_delta(inspiratio)",
+        "description": "spark_TO_delta(inspiratio)",
         "peekOfCode": "spark = create_or_get_spark(\n    app_name=\"json_to_delta\", packages=PACKAGES, cluster_manager=\"local[*]\"\n)\n# Configurer la connexion à Azure\nspark.conf.set(\n    f\"fs.azure.account.key.{ADLS_STORAGE_ACCOUNT_NAME}.dfs.core.windows.net\",\n    ADLS_ACCOUNT_KEY,\n)\nprint(\"Spark Session Created\")\n# Lire les données JSON depuis la variable",
-        "detail": "last",
+        "detail": "spark_TO_delta(inspiratio)",
         "documentation": {}
     },
     {
         "label": "df",
         "kind": 5,
-        "importPath": "last",
-        "description": "last",
-        "peekOfCode": "df = spark.read.json(spark.sparkContext.parallelize([json_data]), schema=PERSON_SCHEMA)\nprint(\"JSON data loaded\")\n# Traiter les données\nprint(\"Data processed\")\n# Créer une table Delta vide (si elle n'existe pas encore)\ncreate_empty_delta_table(\n    spark=spark,\n    schema=PERSON_SCHEMA,\n    path=OUTPUT_PATH,\n    partition_cols=[\"first_name\"],",
-        "detail": "last",
-        "documentation": {}
-    },
-    {
-        "label": "clean_column",
-        "kind": 2,
-        "importPath": "schema",
-        "description": "schema",
-        "peekOfCode": "def clean_column(col):\n    if isinstance(col.dataType, StructType):\n        return F.when(F.col(col.name).isNull(), None).otherwise(F.col(col.name))\n    elif isinstance(col.dataType, ArrayType):\n        return F.when(F.col(col.name).isNull(), None).otherwise(F.col(col.name))\n    else:\n        return F.when(F.col(col).equalTo(\"None\"), None).otherwise(F.col(col))\n# Appliquer la fonction de nettoyage sur toutes les colonnes\ndf_clean = df.select(\n    [clean_column(c).alias(c) for c in df.columns]",
-        "detail": "schema",
-        "documentation": {}
-    },
-    {
-        "label": "spark",
-        "kind": 5,
-        "importPath": "schema",
-        "description": "schema",
-        "peekOfCode": "spark = SparkSession.builder.appName(\"JsonProcessing\").getOrCreate()\nfrom pyspark.sql.types import StructType, StructField, StringType, ArrayType\n# Définir le schéma pour le JSON\nPERSON_SCHEMA = StructType([\n    StructField(\"first_name\", StringType(), True),\n    StructField(\"last_name\", StringType(), True),\n    StructField(\"full_name\", StringType(), True),\n    StructField(\"title\", StringType(), True),\n    StructField(\"address\", StructType([\n        StructField(\"formatted_location\", StringType(), True),",
-        "detail": "schema",
-        "documentation": {}
-    },
-    {
-        "label": "PERSON_SCHEMA",
-        "kind": 5,
-        "importPath": "schema",
-        "description": "schema",
-        "peekOfCode": "PERSON_SCHEMA = StructType([\n    StructField(\"first_name\", StringType(), True),\n    StructField(\"last_name\", StringType(), True),\n    StructField(\"full_name\", StringType(), True),\n    StructField(\"title\", StringType(), True),\n    StructField(\"address\", StructType([\n        StructField(\"formatted_location\", StringType(), True),\n        StructField(\"city\", StringType(), True),\n        StructField(\"region\", StringType(), True),\n        StructField(\"country\", StringType(), True),",
-        "detail": "schema",
-        "documentation": {}
-    },
-    {
-        "label": "json_file_path",
-        "kind": 5,
-        "importPath": "schema",
-        "description": "schema",
-        "peekOfCode": "json_file_path = \"/kaggle/input/datajob/data.json\"\n# Charger les données JSON en utilisant le schéma défini\ndf = spark.read.json(json_file_path, schema=PERSON_SCHEMA)\n# Fonction pour remplacer \"None\" par null dans les colonnes STRUCT ou ARRAY\ndef clean_column(col):\n    if isinstance(col.dataType, StructType):\n        return F.when(F.col(col.name).isNull(), None).otherwise(F.col(col.name))\n    elif isinstance(col.dataType, ArrayType):\n        return F.when(F.col(col.name).isNull(), None).otherwise(F.col(col.name))\n    else:",
-        "detail": "schema",
-        "documentation": {}
-    },
-    {
-        "label": "df",
-        "kind": 5,
-        "importPath": "schema",
-        "description": "schema",
-        "peekOfCode": "df = spark.read.json(json_file_path, schema=PERSON_SCHEMA)\n# Fonction pour remplacer \"None\" par null dans les colonnes STRUCT ou ARRAY\ndef clean_column(col):\n    if isinstance(col.dataType, StructType):\n        return F.when(F.col(col.name).isNull(), None).otherwise(F.col(col.name))\n    elif isinstance(col.dataType, ArrayType):\n        return F.when(F.col(col.name).isNull(), None).otherwise(F.col(col.name))\n    else:\n        return F.when(F.col(col).equalTo(\"None\"), None).otherwise(F.col(col))\n# Appliquer la fonction de nettoyage sur toutes les colonnes",
-        "detail": "schema",
-        "documentation": {}
-    },
-    {
-        "label": "df_clean",
-        "kind": 5,
-        "importPath": "schema",
-        "description": "schema",
-        "peekOfCode": "df_clean = df.select(\n    [clean_column(c).alias(c) for c in df.columns]\n)\n# Afficher le DataFrame pour vérifier les données\ndf_clean.show(truncate=False)\n# Sauvegarder les données traitées dans Delta\ndelta_output_path = \"abfss://offres@dataoffre.dfs.core.windows.net/CV\"\ndf_clean.write.format(\"delta\").mode(\"overwrite\").save(delta_output_path)\nprint(\"Données traitées et sauvegardées dans Delta.\")",
-        "detail": "schema",
-        "documentation": {}
-    },
-    {
-        "label": "delta_output_path",
-        "kind": 5,
-        "importPath": "schema",
-        "description": "schema",
-        "peekOfCode": "delta_output_path = \"abfss://offres@dataoffre.dfs.core.windows.net/CV\"\ndf_clean.write.format(\"delta\").mode(\"overwrite\").save(delta_output_path)\nprint(\"Données traitées et sauvegardées dans Delta.\")",
-        "detail": "schema",
-        "documentation": {}
-    },
-    {
-        "label": "create_or_get_spark",
-        "kind": 2,
-        "importPath": "spark_TO_delta",
-        "description": "spark_TO_delta",
-        "peekOfCode": "def create_or_get_spark(\n    app_name: str, packages: List[str], cluster_manager=\"local[*]\"\n) -> SparkSession:\n    jars = \",\".join(packages)\n    spark = (\n        SparkSession.builder.appName(app_name)\n        .config(\"spark.streaming.stopGracefullyOnShutdown\", True)\n        .config(\"spark.jars.packages\", jars)\n        .config(\"spark.sql.extensions\", \"io.delta.sql.DeltaSparkSessionExtension\")\n        .config(",
-        "detail": "spark_TO_delta",
-        "documentation": {}
-    },
-    {
-        "label": "create_empty_delta_table",
-        "kind": 2,
-        "importPath": "spark_TO_delta",
-        "description": "spark_TO_delta",
-        "peekOfCode": "def create_empty_delta_table(\n    spark: SparkSession,\n    schema: StructType,\n    path: str,\n    partition_cols: Optional[List[str]] = None,\n    enable_cdc: Optional[bool] = False,\n):\n    # Vérifier si la table Delta existe\n    try:\n        delta_table = DeltaTable.forPath(spark, path)",
-        "detail": "spark_TO_delta",
-        "documentation": {}
-    },
-    {
-        "label": "save_to_delta",
-        "kind": 2,
-        "importPath": "spark_TO_delta",
-        "description": "spark_TO_delta",
-        "peekOfCode": "def save_to_delta(df: DataFrame, output_path: str):\n    # Sauvegarder les données traitées dans la table Delta avec la fusion de schémas\n    df.write.format(\"delta\") \\\n        .mode(\"append\") \\\n        .option(\"mergeSchema\", \"true\") \\\n        .save(output_path)\n    print(\"Data written to Delta Table\")\n# ===================================================================================\n#                           MAIN ENTRYPOINT\n# ===================================================================================",
-        "detail": "spark_TO_delta",
-        "documentation": {}
-    },
-    {
-        "label": "PERSON_SCHEMA",
-        "kind": 5,
-        "importPath": "spark_TO_delta",
-        "description": "spark_TO_delta",
-        "peekOfCode": "PERSON_SCHEMA = StructType([\n    StructField(\"first_name\", StringType(), True),\n    StructField(\"last_name\", StringType(), True),\n    StructField(\"full_name\", StringType(), True),\n    StructField(\"title\", StringType(), True),\n    StructField(\"address\", StructType([\n        StructField(\"formatted_location\", StringType(), True),\n        StructField(\"city\", StringType(), True),\n        StructField(\"region\", StringType(), True),\n        StructField(\"country\", StringType(), True),",
-        "detail": "spark_TO_delta",
-        "documentation": {}
-    },
-    {
-        "label": "json_data",
-        "kind": 5,
-        "importPath": "spark_TO_delta",
-        "description": "spark_TO_delta",
-        "peekOfCode": "json_data = {\n    \"first_name\": \"None\",\n    \"last_name\": \"None\",\n    \"full_name\": \"None\",\n    \"title\": \"Information Technology Specialist\",\n    \"address\": {\n        \"formatted_location\": \"None\",\n        \"city\": \"None\",\n        \"region\": \"None\",\n        \"country\": \"None\",",
-        "detail": "spark_TO_delta",
-        "documentation": {}
-    },
-    {
-        "label": "ADLS_STORAGE_ACCOUNT_NAME",
-        "kind": 5,
-        "importPath": "spark_TO_delta",
-        "description": "spark_TO_delta",
-        "peekOfCode": "ADLS_STORAGE_ACCOUNT_NAME = \"dataoffre\"\nADLS_ACCOUNT_KEY = \"\"  # Add your ADLS account key here\nADLS_CONTAINER_NAME = \"\"\nADLS_FOLDER_PATH = \"\"\nOUTPUT_PATH = (\n    f\"abfss://{ADLS_CONTAINER_NAME}@{ADLS_STORAGE_ACCOUNT_NAME}.dfs.core.windows.net/\"\n    + ADLS_FOLDER_PATH\n)\n# Required Spark packages\nPACKAGES = [",
-        "detail": "spark_TO_delta",
-        "documentation": {}
-    },
-    {
-        "label": "ADLS_ACCOUNT_KEY",
-        "kind": 5,
-        "importPath": "spark_TO_delta",
-        "description": "spark_TO_delta",
-        "peekOfCode": "ADLS_ACCOUNT_KEY = \"\"  # Add your ADLS account key here\nADLS_CONTAINER_NAME = \"\"\nADLS_FOLDER_PATH = \"\"\nOUTPUT_PATH = (\n    f\"abfss://{ADLS_CONTAINER_NAME}@{ADLS_STORAGE_ACCOUNT_NAME}.dfs.core.windows.net/\"\n    + ADLS_FOLDER_PATH\n)\n# Required Spark packages\nPACKAGES = [\n    \"io.delta:delta-spark_2.12:3.0.0\",",
-        "detail": "spark_TO_delta",
-        "documentation": {}
-    },
-    {
-        "label": "ADLS_CONTAINER_NAME",
-        "kind": 5,
-        "importPath": "spark_TO_delta",
-        "description": "spark_TO_delta",
-        "peekOfCode": "ADLS_CONTAINER_NAME = \"\"\nADLS_FOLDER_PATH = \"\"\nOUTPUT_PATH = (\n    f\"abfss://{ADLS_CONTAINER_NAME}@{ADLS_STORAGE_ACCOUNT_NAME}.dfs.core.windows.net/\"\n    + ADLS_FOLDER_PATH\n)\n# Required Spark packages\nPACKAGES = [\n    \"io.delta:delta-spark_2.12:3.0.0\",\n    \"org.apache.hadoop:hadoop-azure:3.3.6\",",
-        "detail": "spark_TO_delta",
-        "documentation": {}
-    },
-    {
-        "label": "ADLS_FOLDER_PATH",
-        "kind": 5,
-        "importPath": "spark_TO_delta",
-        "description": "spark_TO_delta",
-        "peekOfCode": "ADLS_FOLDER_PATH = \"\"\nOUTPUT_PATH = (\n    f\"abfss://{ADLS_CONTAINER_NAME}@{ADLS_STORAGE_ACCOUNT_NAME}.dfs.core.windows.net/\"\n    + ADLS_FOLDER_PATH\n)\n# Required Spark packages\nPACKAGES = [\n    \"io.delta:delta-spark_2.12:3.0.0\",\n    \"org.apache.hadoop:hadoop-azure:3.3.6\",\n    \"org.apache.hadoop:hadoop-azure-datalake:3.3.6\",",
-        "detail": "spark_TO_delta",
-        "documentation": {}
-    },
-    {
-        "label": "OUTPUT_PATH",
-        "kind": 5,
-        "importPath": "spark_TO_delta",
-        "description": "spark_TO_delta",
-        "peekOfCode": "OUTPUT_PATH = (\n    f\"abfss://{ADLS_CONTAINER_NAME}@{ADLS_STORAGE_ACCOUNT_NAME}.dfs.core.windows.net/\"\n    + ADLS_FOLDER_PATH\n)\n# Required Spark packages\nPACKAGES = [\n    \"io.delta:delta-spark_2.12:3.0.0\",\n    \"org.apache.hadoop:hadoop-azure:3.3.6\",\n    \"org.apache.hadoop:hadoop-azure-datalake:3.3.6\",\n    \"org.apache.hadoop:hadoop-common:3.3.6\",",
-        "detail": "spark_TO_delta",
-        "documentation": {}
-    },
-    {
-        "label": "PACKAGES",
-        "kind": 5,
-        "importPath": "spark_TO_delta",
-        "description": "spark_TO_delta",
-        "peekOfCode": "PACKAGES = [\n    \"io.delta:delta-spark_2.12:3.0.0\",\n    \"org.apache.hadoop:hadoop-azure:3.3.6\",\n    \"org.apache.hadoop:hadoop-azure-datalake:3.3.6\",\n    \"org.apache.hadoop:hadoop-common:3.3.6\",\n]\ndef create_or_get_spark(\n    app_name: str, packages: List[str], cluster_manager=\"local[*]\"\n) -> SparkSession:\n    jars = \",\".join(packages)",
-        "detail": "spark_TO_delta",
-        "documentation": {}
-    },
-    {
-        "label": "spark",
-        "kind": 5,
-        "importPath": "spark_TO_delta",
-        "description": "spark_TO_delta",
-        "peekOfCode": "spark = create_or_get_spark(\n    app_name=\"json_to_delta\", packages=PACKAGES, cluster_manager=\"local[*]\"\n)\n# Configurer la connexion à Azure\nspark.conf.set(\n    f\"fs.azure.account.key.{ADLS_STORAGE_ACCOUNT_NAME}.dfs.core.windows.net\",\n    ADLS_ACCOUNT_KEY,\n)\nprint(\"Spark Session Created\")\n# Lire les données JSON depuis la variable",
-        "detail": "spark_TO_delta",
-        "documentation": {}
-    },
-    {
-        "label": "df",
-        "kind": 5,
-        "importPath": "spark_TO_delta",
-        "description": "spark_TO_delta",
-        "peekOfCode": "df = spark.read.json(spark.sparkContext.parallelize([json_data]), schema=PERSON_SCHEMA)\nprint(\"JSON data loaded\")\n# Traiter les données\nprint(\"Data processed\")\n# Créer une table Delta vide (si elle n'existe pas encore)\ncreate_empty_delta_table(\n    spark=spark,\n    schema=PERSON_SCHEMA,\n    path=OUTPUT_PATH,\n    partition_cols=[\"first_name\"],",
-        "detail": "spark_TO_delta",
+        "importPath": "spark_TO_delta(inspiratio)",
+        "description": "spark_TO_delta(inspiratio)",
+        "peekOfCode": "df = spark.read.json(spark.sparkContext.parallelize([data]), schema=PERSON_SCHEMA)\nprint(\"JSON data loaded\")\n# Traiter les données\nprint(\"Data processed\")\n# Créer une table Delta vide (si elle n'existe pas encore)\ncreate_empty_delta_table(\n    spark=spark,\n    schema=PERSON_SCHEMA,\n    path=OUTPUT_PATH,\n    partition_cols=[\"first_name\"],",
+        "detail": "spark_TO_delta(inspiratio)",
         "documentation": {}
     }
 ]
