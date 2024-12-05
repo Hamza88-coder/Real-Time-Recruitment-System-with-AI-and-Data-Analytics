@@ -2624,6 +2624,51 @@
         "documentation": {}
     },
     {
+        "label": "generer_offre_emploi",
+        "kind": 2,
+        "importPath": "generator_offre",
+        "description": "generator_offre",
+        "peekOfCode": "def generer_offre_emploi(api_key, prompt, resume_data):\n    try:\n        from groq import Groq  # Import du client Groq\n        groq_client = Groq(api_key=api_key)\n        # Messages pour le modèle\n        messages = [\n            {\n                \"role\": \"system\",\n                \"content\": \"Tu es un assistant chargé de générer des offres d'emploi basées sur un modèle structuré.\"\n            },",
+        "detail": "generator_offre",
+        "documentation": {}
+    },
+    {
+        "label": "api_key",
+        "kind": 5,
+        "importPath": "generator_offre",
+        "description": "generator_offre",
+        "peekOfCode": "api_key = \"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\"\nresume_data = \"Candidat expert en Python et SQL, avec expérience dans le cloud AWS.\"\nprompt = \"Générer une offre d'emploi sous format texte structuré.\"\noffre = generer_offre_emploi(api_key, prompt, resume_data)\nprint(offre)",
+        "detail": "generator_offre",
+        "documentation": {}
+    },
+    {
+        "label": "resume_data",
+        "kind": 5,
+        "importPath": "generator_offre",
+        "description": "generator_offre",
+        "peekOfCode": "resume_data = \"Candidat expert en Python et SQL, avec expérience dans le cloud AWS.\"\nprompt = \"Générer une offre d'emploi sous format texte structuré.\"\noffre = generer_offre_emploi(api_key, prompt, resume_data)\nprint(offre)",
+        "detail": "generator_offre",
+        "documentation": {}
+    },
+    {
+        "label": "prompt",
+        "kind": 5,
+        "importPath": "generator_offre",
+        "description": "generator_offre",
+        "peekOfCode": "prompt = \"Générer une offre d'emploi sous format texte structuré.\"\noffre = generer_offre_emploi(api_key, prompt, resume_data)\nprint(offre)",
+        "detail": "generator_offre",
+        "documentation": {}
+    },
+    {
+        "label": "offre",
+        "kind": 5,
+        "importPath": "generator_offre",
+        "description": "generator_offre",
+        "peekOfCode": "offre = generer_offre_emploi(api_key, prompt, resume_data)\nprint(offre)",
+        "detail": "generator_offre",
+        "documentation": {}
+    },
+    {
         "label": "create_or_get_spark",
         "kind": 2,
         "importPath": "spark_TO_delta(inspiratio)",
