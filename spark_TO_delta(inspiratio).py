@@ -11,7 +11,7 @@ from pyspark.sql.types import StructType, StructField, StringType, ArrayType
 
 # Définir le schéma pour le JSON
 PERSON_SCHEMA = StructType([
-    StructField("titre_du_poste", StringType(), True),
+   
     StructField("last_name", StringType(), True),
     StructField("full_name", StringType(), True),
     StructField("title", StringType(), True),

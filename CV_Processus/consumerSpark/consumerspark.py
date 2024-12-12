@@ -1,3 +1,4 @@
+import dotenv
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import col, udf
 from pyspark.sql.types import StringType, StructType, StructField
@@ -5,17 +6,73 @@ import fitz
 import yaml
 from groq import Groq
 import json
+from dotenv import load_dotenv
 import re
 from io import BytesIO
 from datetime import datetime
 import os
+from delta.tables import DeltaTable
+from typing import Optional, List
+
+from CV_Processus.consumerSpark.schema import PERSON_SCHPERSON_SCHEMA
+from CV_Processus.consumerSpark.consumerspark import api_key
+
+# Load environment variables
+load_dotenv()
+ADLS_STORAGE_ACCOUNT_NAME = os.getenv("ADLS_STORAGE_ACCOUNT_NAME")
+ADLS_ACCOUNT_KEY = os.getenv("ADLS_ACCOUNT_KEY")
+ADLS_CONTAINER_NAME = os.getenv("ADLS_CONTAINER_NAME")
+ADLS_FOLDER_PATH = os.getenv("ADLS_FOLDER_PATH")
+api_key=os.getenv("api_key")
+
+ADLS_FOLDER_PATH = "offres_trav"
+OUTPUT_PATH = (
+    f"abfss://{ADLS_CONTAINER_NAME}@{ADLS_STORAGE_ACCOUNT_NAME}.dfs.core.windows.net/"
+    + ADLS_FOLDER_PATH
+)
+
+# Required Spark packages
+PACKAGES = [
+    "io.delta:delta-spark_2.12:3.0.0",
+    "org.apache.hadoop:hadoop-azure:3.3.6",
+    "org.apache.hadoop:hadoop-azure-datalake:3.3.6",
+    "org.apache.hadoop:hadoop-common:3.3.6",
+]
 
 # Initialisation de Spark
-spark = SparkSession.builder.appName("PDF_Processor").getOrCreate()
+app_name = "MonApplicationSpark"
+packages = ["org.apache.spark:spark-sql_2.12:3.1.1", "io.delta:delta-core_2.12:1.0.0"]
+cluster_manager = "local[*]"
 
-# Création du dossier pour les résultats JSON s'il n'existe pas
-RESULTS_DIR = "extracted_results"
-os.makedirs(RESULTS_DIR, exist_ok=True)
+# Créer ou récupérer la session Spark
+jars = ",".join(packages)
+spark = (
+    SparkSession.builder.appName(app_name)
+    .config("spark.streaming.stopGracefullyOnShutdown", True)
+    .config("spark.jars.packages", jars)
+    .config("spark.sql.extensions", "io.delta.sql.DeltaSparkSessionExtension")
+    .config(
+        "spark.sql.catalog.spark_catalog",
+        "org.apache.spark.sql.delta.catalog.DeltaCatalog",
+    )
+    .config(
+        "fs.abfss.impl", "org.apache.hadoop.fs.azurebfs.SecureAzureBlobFileSystem"
+    )
+    .master(cluster_manager)
+    .getOrCreate()
+)
+
+# Configurer la connexion à Azure
+spark.conf.set(
+    f"fs.azure.account.key.{ADLS_STORAGE_ACCOUNT_NAME}.dfs.core.windows.net",
+    ADLS_ACCOUNT_KEY,
+)
+
+# Définition du schéma de sortie
+output_schema = StructType([
+    StructField("pdf_text", StringType(), True),
+    StructField("analysis_result", StringType(), True)
+])
 
 # Chargement de la configuration
 def load_config():
@@ -24,7 +81,7 @@ def load_config():
         data = yaml.load(file, Loader=yaml.FullLoader)
         return data['GROQ_API_KEY']
 
-# Fonction d'extraction du texte directement depuis les bytes
+# Fonction d'extraction du texte depuis les bytes
 def extract_text_from_bytes(pdf_bytes):
     try:
         memory_buffer = BytesIO(pdf_bytes)
@@ -138,6 +195,9 @@ def ats_extractor(resume_data, api_key):
 
     '''
     
+    
+   
+    
     try:
         groq_client = Groq(api_key=api_key)
         messages = [
@@ -163,36 +223,6 @@ def ats_extractor(resume_data, api_key):
     except Exception as e:
         return {"error": f"Erreur lors de l'analyse: {str(e)}"}
 
-# Fonction pour sauvegarder les résultats en JSON
-def save_results_to_json(offset, text, analysis):
-    try:
-        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        filename = f"{RESULTS_DIR}/resume_analysis_{offset}_{timestamp}.json"
-        
-        results = {
-            "offset": offset,
-            "timestamp": timestamp,
-            "extracted_text": text,
-            "analysis": json.loads(analysis) if isinstance(analysis, str) else analysis
-        }
-        
-        with open(filename, 'w', encoding='utf-8') as f:
-            json.dump(results, f, ensure_ascii=False, indent=2)
-            
-        return True
-    except Exception as e:
-        print(f"Erreur lors de la sauvegarde du fichier JSON: {str(e)}")
-        return False
-
-# Chargement de la clé API
-api_key = load_config()
-
-# Définition du schéma de sortie
-output_schema = StructType([
-    StructField("pdf_text", StringType(), True),
-    StructField("analysis_result", StringType(), True)
-])
-
 # UDF pour le traitement complet
 @udf(returnType=output_schema)
 def process_pdf_udf(value):
@@ -216,11 +246,15 @@ def process_batch(df, epoch_id):
     # Conversion du DataFrame en liste de dictionnaires pour traitement
     rows = df.collect()
     for row in rows:
-        save_results_to_json(
-            row['offset'],
-            row['extracted_text'],
-            row['analysis_result']
-        )
+        # Sauvegarde dans Delta
+        delta_df = spark.createDataFrame([(row['offset'], row['extracted_text'], row['analysis_result'])], schema=output_schema)
+        delta_table = DeltaTable.forPath(spark, OUTPUT_PATH)
+        
+        # Merge or Insert new data into Delta table
+        delta_table.alias("t").merge(
+            delta_df.alias("s"),
+            "t.offset = s.offset"
+        ).whenNotMatchedInsertAll().execute()
 
 # Lecture du stream Kafka
 df = spark.readStream.format("kafka") \
@@ -242,17 +276,9 @@ final_df = processed_df.select(
 )
 
 # Configuration des streams de sortie
-# 1. Console output
-console_query = final_df.writeStream \
-    .outputMode("append") \
-    .format("console") \
-    .option("truncate", False) \
-    .start()
-
-# 2. Sauvegarde JSON via foreachBatch
 json_query = final_df.writeStream \
     .foreachBatch(process_batch) \
     .start()
 
-# Attente de la terminaison des deux streams
+# Attente de la terminaison du stream
 spark.streams.awaitAnyTermination()
