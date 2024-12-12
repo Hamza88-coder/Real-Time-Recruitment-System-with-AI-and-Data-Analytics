@@ -1,0 +1,5 @@
+pip install numpy<2.0
+pip install sentence-transformers>=2.2
+pip install transformers>=4.0
+pip install tensorflow<2.16
+pip install pinecone-client>=2.2
