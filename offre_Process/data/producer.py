@@ -1,71 +1,121 @@
-text="""
-Titre du poste : Stagiaire Data Engineer (PFE)
-Société : DataTech Solutions
-Lieu : Lyon, France (Télétravail partiel possible)
-Type de contrat : Stage PFE de 6 mois
+import re
+import json
+import random
+from kafka import KafkaProducer
+from time import sleep
+import config as cfg
+from offre_Process.spark.gen import serveur_kafka  # Import de la configuration externe pour les paramètres
+from notoyage_data.llama_formation_sector import api_key
 
-Description du poste :
-DataTech Solutions recherche un stagiaire Data Engineer passionné pour rejoindre notre équipe dynamique. Vous serez responsable de l'assistance à la conception, à la mise en œuvre et à l'optimisation de nos pipelines de données. Votre mission consistera à collaborer avec les équipes de développement et d'analytique pour garantir l'intégrité et l'accessibilité des données.
+def generer_offre_emploi(api_key, resume_data):
+    try:
+        from groq import Groq  # Import du client Groq
 
-Compétences requises :
+        groq_client = Groq(api_key=api_key)
 
-Excellente maîtrise de Python et SQL
-Expérience avec des outils ETL comme Apache Airflow ou Talend (souhaitée)
-Connaissance des bases de données NoSQL (MongoDB, Cassandra) (souhaitée)
-Familiarité avec les plateformes cloud (AWS, Google Cloud) (souhaitée)
-Email : contact@datatechsolutions.fr
-Téléphone : +33 1 23 45 67 89
-Type : Hybride
-Langues requises : Anglais, Français
-Salaire : 1 200 EUR par mois
-Date de début : 15 janvier 2025
-Secteur d'activité : Technologie de l'information
-Formation requise : Étudiant en informatique ou domaine connexe
+        # Messages pour le modèle
+        messages = [
+            {
+                "role": "system",
+                "content": "Tu es un assistant chargé de générer des offres d'emploi basées sur un modèle structuré."
+            },
+            {
+                "role": "user",
+                "content": f"""Voici les informations de base d'un candidat :
+                {resume_data}
+                Génère une offre d'emploi sous un format texte suivant ce modèle :
+                Titre du poste : Stagiaire Data Engineer (PFE)
+                Société : DataTech Solutions
+                Compétences requises : Python, SQL, Apache Airflow, Talend, MongoDB, Cassandra, AWS, Google Cloud
+                Lieu : Lyon, France
+                Type d'offre : stage
+                Type de contrat : Stage PFE
+                Durée : 6 mois
+                Email : contact@datatechsolutions.fr
+                Téléphone : +33 1 23 45 67 89
+                Type : Hybride
+                Langues requises : Anglais, Français
+                Salaire : 1 200 EUR par mois
+                Date de début : 15 janvier 2025
+                Secteur d'activité : Technologie de l'information
+                Expérience demandée : None
+                Formation requise : Étudiant en informatique ou domaine connexe
+                Avantages : Assurance santé, Opportunités de formation continue
+                Site web : www.datatechsolutions.fr
+                """
+            }
+        ]
 
-Avantages :
+        # Appel au modèle
+        response = groq_client.chat.completions.create(
+            model="llama3-8b-8192",
+            messages=messages,
+            temperature=0.7,
+            max_tokens=1500
+        )
 
-Assurance santé
-Opportunités de formation continue
-Site web : www.datatechsolutions.fr
+        # Extraction du contenu généré
+        data = response.choices[0].message.content
 
-"""
+        # Vérifier si un texte bien formé est retourné
+        if data:
+            return data.strip()
+        else:
+            return "Erreur : Aucune donnée générée."
 
-import time
-from kafka import KafkaProducer  # Import du producteur Kafka pour envoyer des messages
-import config as cfg  # Import de la configuration externe pour les paramètres
+    except Exception as e:
+        return f"Erreur lors de l'analyse : {str(e)}"
 
-# Fonction qui envoie un texte à Kafka
-def send_text(producer, topic, text):
-    # Envoi du texte au topic Kafka
-    producer.send(topic, text.encode('utf-8'))
+def envoyer_vers_kafka(serveur_kafka, topic, message):
+    try:
+        # Configuration du producteur Kafka
+        producer = KafkaProducer(
+            bootstrap_servers=[serveur_kafka],
+            value_serializer=lambda m: json.dumps(m).encode('utf-8')
+        )
+        
+        # Envoi du message
+        producer.send(topic, message)
+        producer.flush()  # Assure que le message est bien envoyé
+        print("Message envoyé avec succès à Kafka.")
+    except Exception as e:
+        print(f"Erreur lors de l'envoi à Kafka : {str(e)}")
 
-# Fonction principale pour envoyer une série de messages texte à Kafka
-def publish_texts(producer, topic, texts):
-    print('Publishing texts...')
-    
-    for text in texts:
-        # Appel de la fonction pour envoyer le texte au topic Kafka
-        send_text(producer, topic, text)
+# Simulation d'offres illimitées
+def simulation_offres(api_key, serveur_kafka, topic):
+    exemples_cv = [
+        "Candidat expert en Python et SQL, avec expérience dans le cloud AWS.",
+        "Candidat avec des compétences avancées en Java, Spark, et Hadoop.",
+        "Ingénieur logiciel avec 5 ans d'expérience en C++, Docker, et Kubernetes.",
+        "Étudiant en data science maîtrisant R, Tableau et machine learning.",
+        "Développeur front-end avec expertise en JavaScript, React, et TypeScript."
+    ]
 
-        # Délai entre chaque envoi pour simuler un envoi régulier
-        time.sleep(1)
-    
-    print('Publish complete')
+    while True:
+        try:
+            # Choisir aléatoirement un CV
+            resume_data = random.choice(exemples_cv)
 
-# Point d'entrée du script (si le fichier est exécuté directement)
-if __name__ == "__main__":
-    # Récupérer le nom du topic Kafka à partir de la configuration
-    topic = cfg.topic
+            # Générer l'offre
+            offre = generer_offre_emploi(api_key, resume_data)
 
-    # Initialiser le producteur Kafka avec les paramètres de configuration
-    producer = KafkaProducer(
-        bootstrap_servers='localhost:29092',  # Adresse du serveur Kafka
-        linger_ms=100,  # Temps maximum avant d'envoyer un lot, même incomplet
-        value_serializer=lambda v: v  # Sérialiseur pour transformer les données en octets
-    )
+            # Vérification et envoi
+            if "Erreur" not in offre:
+                # Convertir en format JSON
+                message = {"offre": offre}
+                envoyer_vers_kafka(serveur_kafka, topic, message)
+            else:
+                print(offre)
 
-    # Liste des textes à envoyer
-    texts = [text]
+            # Pause pour simuler des arrivées d'offres espacées
+            sleep(random.uniform(0.5, 2.0))
 
-    # Appeler la fonction pour publier les textes sur Kafka
-    publish_texts(producer, topic, texts)
+        except KeyboardInterrupt:
+            print("\nSimulation interrompue par l'utilisateur.")
+            break
+topic = cfg.topic
+serveur_kafka=cfg.serveur_kafka
+api_key=cfg.api_key
+
+# Lancer la simulation
+simulation_offres(api_key, serveur_kafka, topic)

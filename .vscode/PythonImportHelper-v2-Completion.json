@@ -582,6 +582,14 @@
         "documentation": {}
     },
     {
+        "label": "date",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
         "label": "os",
         "kind": 6,
         "isExtraImport": true,
@@ -744,12 +752,468 @@
         "documentation": {}
     },
     {
-        "label": "pandas",
+        "label": "FlaskForm",
+        "importPath": "flask_wtf",
+        "description": "flask_wtf",
+        "isExtraImport": true,
+        "detail": "flask_wtf",
+        "documentation": {}
+    },
+    {
+        "label": "FileField",
+        "importPath": "flask_wtf.file",
+        "description": "flask_wtf.file",
+        "isExtraImport": true,
+        "detail": "flask_wtf.file",
+        "documentation": {}
+    },
+    {
+        "label": "FileAllowed",
+        "importPath": "flask_wtf.file",
+        "description": "flask_wtf.file",
+        "isExtraImport": true,
+        "detail": "flask_wtf.file",
+        "documentation": {}
+    },
+    {
+        "label": "StringField",
+        "importPath": "wtforms",
+        "description": "wtforms",
+        "isExtraImport": true,
+        "detail": "wtforms",
+        "documentation": {}
+    },
+    {
+        "label": "PasswordField",
+        "importPath": "wtforms",
+        "description": "wtforms",
+        "isExtraImport": true,
+        "detail": "wtforms",
+        "documentation": {}
+    },
+    {
+        "label": "SubmitField",
+        "importPath": "wtforms",
+        "description": "wtforms",
+        "isExtraImport": true,
+        "detail": "wtforms",
+        "documentation": {}
+    },
+    {
+        "label": "BooleanField",
+        "importPath": "wtforms",
+        "description": "wtforms",
+        "isExtraImport": true,
+        "detail": "wtforms",
+        "documentation": {}
+    },
+    {
+        "label": "SelectField",
+        "importPath": "wtforms",
+        "description": "wtforms",
+        "isExtraImport": true,
+        "detail": "wtforms",
+        "documentation": {}
+    },
+    {
+        "label": "IntegerField",
+        "importPath": "wtforms",
+        "description": "wtforms",
+        "isExtraImport": true,
+        "detail": "wtforms",
+        "documentation": {}
+    },
+    {
+        "label": "TextAreaField",
+        "importPath": "wtforms",
+        "description": "wtforms",
+        "isExtraImport": true,
+        "detail": "wtforms",
+        "documentation": {}
+    },
+    {
+        "label": "DataRequired",
+        "importPath": "wtforms.validators",
+        "description": "wtforms.validators",
+        "isExtraImport": true,
+        "detail": "wtforms.validators",
+        "documentation": {}
+    },
+    {
+        "label": "Length",
+        "importPath": "wtforms.validators",
+        "description": "wtforms.validators",
+        "isExtraImport": true,
+        "detail": "wtforms.validators",
+        "documentation": {}
+    },
+    {
+        "label": "Email",
+        "importPath": "wtforms.validators",
+        "description": "wtforms.validators",
+        "isExtraImport": true,
+        "detail": "wtforms.validators",
+        "documentation": {}
+    },
+    {
+        "label": "EqualTo",
+        "importPath": "wtforms.validators",
+        "description": "wtforms.validators",
+        "isExtraImport": true,
+        "detail": "wtforms.validators",
+        "documentation": {}
+    },
+    {
+        "label": "ValidationError",
+        "importPath": "wtforms.validators",
+        "description": "wtforms.validators",
+        "isExtraImport": true,
+        "detail": "wtforms.validators",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.models",
+        "description": "app.models",
+        "isExtraImport": true,
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.models",
+        "description": "app.models",
+        "isExtraImport": true,
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "Jobs",
+        "importPath": "app.models",
+        "description": "app.models",
+        "isExtraImport": true,
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "Review",
+        "importPath": "app.models",
+        "description": "app.models",
+        "isExtraImport": true,
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "Application",
+        "importPath": "app.models",
+        "description": "app.models",
+        "isExtraImport": true,
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "importPath": "app",
+        "description": "app",
+        "isExtraImport": true,
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "login_manager",
+        "importPath": "app",
+        "description": "app",
+        "isExtraImport": true,
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "importPath": "app",
+        "description": "app",
+        "isExtraImport": true,
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "importPath": "app",
+        "description": "app",
+        "isExtraImport": true,
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "bcrypt",
+        "importPath": "app",
+        "description": "app",
+        "isExtraImport": true,
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "importPath": "app",
+        "description": "app",
+        "isExtraImport": true,
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "UserMixin",
+        "importPath": "flask_login",
+        "description": "flask_login",
+        "isExtraImport": true,
+        "detail": "flask_login",
+        "documentation": {}
+    },
+    {
+        "label": "login_user",
+        "importPath": "flask_login",
+        "description": "flask_login",
+        "isExtraImport": true,
+        "detail": "flask_login",
+        "documentation": {}
+    },
+    {
+        "label": "current_user",
+        "importPath": "flask_login",
+        "description": "flask_login",
+        "isExtraImport": true,
+        "detail": "flask_login",
+        "documentation": {}
+    },
+    {
+        "label": "logout_user",
+        "importPath": "flask_login",
+        "description": "flask_login",
+        "isExtraImport": true,
+        "detail": "flask_login",
+        "documentation": {}
+    },
+    {
+        "label": "login_required",
+        "importPath": "flask_login",
+        "description": "flask_login",
+        "isExtraImport": true,
+        "detail": "flask_login",
+        "documentation": {}
+    },
+    {
+        "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "url_for",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "flash",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "send_file",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "url_for",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "url_for",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "jsonify",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "secrets",
         "kind": 6,
         "isExtraImport": true,
-        "importPath": "pandas",
-        "description": "pandas",
-        "detail": "pandas",
+        "importPath": "secrets",
+        "description": "secrets",
+        "detail": "secrets",
+        "documentation": {}
+    },
+    {
+        "label": "RegistrationForm",
+        "importPath": "app.forms",
+        "description": "app.forms",
+        "isExtraImport": true,
+        "detail": "app.forms",
+        "documentation": {}
+    },
+    {
+        "label": "LoginForm",
+        "importPath": "app.forms",
+        "description": "app.forms",
+        "isExtraImport": true,
+        "detail": "app.forms",
+        "documentation": {}
+    },
+    {
+        "label": "ReviewForm",
+        "importPath": "app.forms",
+        "description": "app.forms",
+        "isExtraImport": true,
+        "detail": "app.forms",
+        "documentation": {}
+    },
+    {
+        "label": "JobForm",
+        "importPath": "app.forms",
+        "description": "app.forms",
+        "isExtraImport": true,
+        "detail": "app.forms",
+        "documentation": {}
+    },
+    {
+        "label": "ApplicationForm",
+        "importPath": "app.forms",
+        "description": "app.forms",
+        "isExtraImport": true,
+        "detail": "app.forms",
         "documentation": {}
     },
     {
@@ -759,6 +1223,15 @@
         "importPath": "random",
         "description": "random",
         "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "pandas",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pandas",
+        "description": "pandas",
+        "detail": "pandas",
         "documentation": {}
     },
     {
@@ -780,6 +1253,30 @@
         "documentation": {}
     },
     {
+        "label": "sleep",
+        "importPath": "time",
+        "description": "time",
+        "isExtraImport": true,
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "serveur_kafka",
+        "importPath": "offre_Process.spark.gen",
+        "description": "offre_Process.spark.gen",
+        "isExtraImport": true,
+        "detail": "offre_Process.spark.gen",
+        "documentation": {}
+    },
+    {
+        "label": "api_key",
+        "importPath": "notoyage_data.llama_formation_sector",
+        "description": "notoyage_data.llama_formation_sector",
+        "isExtraImport": true,
+        "detail": "notoyage_data.llama_formation_sector",
+        "documentation": {}
+    },
+    {
         "label": "extract_job_info",
         "importPath": "extractor",
         "description": "extractor",
@@ -796,11 +1293,111 @@
         "documentation": {}
     },
     {
+        "label": "gensim",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "gensim",
+        "description": "gensim",
+        "detail": "gensim",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "nltk",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "nltk",
+        "description": "nltk",
+        "detail": "nltk",
+        "documentation": {}
+    },
+    {
+        "label": "word_tokenize",
+        "importPath": "nltk",
+        "description": "nltk",
+        "isExtraImport": true,
+        "detail": "nltk",
+        "documentation": {}
+    },
+    {
+        "label": "word_tokenize",
+        "importPath": "nltk",
+        "description": "nltk",
+        "isExtraImport": true,
+        "detail": "nltk",
+        "documentation": {}
+    },
+    {
+        "label": "cosine_similarity",
+        "importPath": "sklearn.metrics.pairwise",
+        "description": "sklearn.metrics.pairwise",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics.pairwise",
+        "documentation": {}
+    },
+    {
+        "label": "cosine_similarity",
+        "importPath": "sklearn.metrics.pairwise",
+        "description": "sklearn.metrics.pairwise",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics.pairwise",
+        "documentation": {}
+    },
+    {
+        "label": "cosine_similarity",
+        "importPath": "sklearn.metrics.pairwise",
+        "description": "sklearn.metrics.pairwise",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics.pairwise",
+        "documentation": {}
+    },
+    {
+        "label": "streamlit",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "streamlit",
+        "description": "streamlit",
+        "detail": "streamlit",
+        "documentation": {}
+    },
+    {
+        "label": "Word2Vec",
+        "importPath": "gensim.models",
+        "description": "gensim.models",
+        "isExtraImport": true,
+        "detail": "gensim.models",
+        "documentation": {}
+    },
+    {
+        "label": "word_tokenize",
+        "importPath": "nltk.tokenize",
+        "description": "nltk.tokenize",
+        "isExtraImport": true,
+        "detail": "nltk.tokenize",
+        "documentation": {}
+    },
+    {
         "label": "PdfReader",
         "importPath": "PyPDF2",
         "description": "PyPDF2",
         "isExtraImport": true,
         "detail": "PyPDF2",
+        "documentation": {}
+    },
+    {
+        "label": "SentenceTransformer",
+        "importPath": "sentence_transformers",
+        "description": "sentence_transformers",
+        "isExtraImport": true,
+        "detail": "sentence_transformers",
         "documentation": {}
     },
     {
@@ -930,38 +1527,6 @@
         "importPath": "threading",
         "description": "threading",
         "detail": "threading",
-        "documentation": {}
-    },
-    {
-        "label": "Flask",
-        "importPath": "flask",
-        "description": "flask",
-        "isExtraImport": true,
-        "detail": "flask",
-        "documentation": {}
-    },
-    {
-        "label": "render_template",
-        "importPath": "flask",
-        "description": "flask",
-        "isExtraImport": true,
-        "detail": "flask",
-        "documentation": {}
-    },
-    {
-        "label": "jsonify",
-        "importPath": "flask",
-        "description": "flask",
-        "isExtraImport": true,
-        "detail": "flask",
-        "documentation": {}
-    },
-    {
-        "label": "request",
-        "importPath": "flask",
-        "description": "flask",
-        "isExtraImport": true,
-        "detail": "flask",
         "documentation": {}
     },
     {
@@ -1099,6 +1664,48 @@
         "description": "pyspark.ml.classification",
         "isExtraImport": true,
         "detail": "pyspark.ml.classification",
+        "documentation": {}
+    },
+    {
+        "label": "snowflake.connector",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "snowflake.connector",
+        "description": "snowflake.connector",
+        "detail": "snowflake.connector",
+        "documentation": {}
+    },
+    {
+        "label": "pinecone",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pinecone",
+        "description": "pinecone",
+        "detail": "pinecone",
+        "documentation": {}
+    },
+    {
+        "label": "Pinecone",
+        "importPath": "pinecone",
+        "description": "pinecone",
+        "isExtraImport": true,
+        "detail": "pinecone",
+        "documentation": {}
+    },
+    {
+        "label": "ServerlessSpec",
+        "importPath": "pinecone",
+        "description": "pinecone",
+        "isExtraImport": true,
+        "detail": "pinecone",
+        "documentation": {}
+    },
+    {
+        "label": "PineconeApiException",
+        "importPath": "pinecone",
+        "description": "pinecone",
+        "isExtraImport": true,
+        "detail": "pinecone",
         "documentation": {}
     },
     {
@@ -1333,6 +1940,222 @@
         "description": "CV_Processus.producer.prod",
         "peekOfCode": "producer = KafkaProducer(bootstrap_servers='localhost:29092')\n# 2. Lire le fichier PDF en mode binaire\nwith open('document.pdf', 'rb') as fichier_pdf:\n    contenu_pdf = fichier_pdf.read()\n# 3. Envoyer les données en bytes dans Kafka\nproducer.send(config.topic, contenu_pdf)\nproducer.flush()\nproducer.close()",
         "detail": "CV_Processus.producer.prod",
+        "documentation": {}
+    },
+    {
+        "label": "RegistrationForm",
+        "kind": 6,
+        "importPath": "Flask-Job-Portal.app.forms",
+        "description": "Flask-Job-Portal.app.forms",
+        "peekOfCode": "class RegistrationForm(FlaskForm):\n    usertype = SelectField('Select Usertype',\n                           choices=[('Job Seeker', 'Job Seeker'),\n                                    ('Company', 'Company')],\n                           validators=[DataRequired()])\n    username = StringField('Username',\n                           validators=[DataRequired(), Length(min=2, max=20)])\n    email = StringField('Email',\n                        validators=[DataRequired(), Email()])\n    password = PasswordField('Password', validators=[DataRequired()])",
+        "detail": "Flask-Job-Portal.app.forms",
+        "documentation": {}
+    },
+    {
+        "label": "LoginForm",
+        "kind": 6,
+        "importPath": "Flask-Job-Portal.app.forms",
+        "description": "Flask-Job-Portal.app.forms",
+        "peekOfCode": "class LoginForm(FlaskForm):\n    usertype = SelectField('Select Usertype',\n                           choices=[('Job Seeker', 'Job Seeker'),\n                                    ('Company', 'Company')],\n                           validators=[DataRequired()])\n    email = StringField('Email',\n                        validators=[DataRequired(), Email()])\n    password = PasswordField('Password', validators=[DataRequired()])\n    remember = BooleanField('Remember Me')\n    submit = SubmitField('Login')",
+        "detail": "Flask-Job-Portal.app.forms",
+        "documentation": {}
+    },
+    {
+        "label": "ReviewForm",
+        "kind": 6,
+        "importPath": "Flask-Job-Portal.app.forms",
+        "description": "Flask-Job-Portal.app.forms",
+        "peekOfCode": "class ReviewForm(FlaskForm):\n    username = StringField('Name',\n                           validators=[DataRequired()])\n    review = TextAreaField('Review',\n                           validators=[DataRequired()])\n    submit = SubmitField('Submit Review')\nclass JobForm(FlaskForm):\n    title = StringField('Job Title',\n                        validators=[DataRequired(), Length(min=2, max=20)])\n    industry = SelectField('Industry', choices=[('Construction', 'Construction'),",
+        "detail": "Flask-Job-Portal.app.forms",
+        "documentation": {}
+    },
+    {
+        "label": "JobForm",
+        "kind": 6,
+        "importPath": "Flask-Job-Portal.app.forms",
+        "description": "Flask-Job-Portal.app.forms",
+        "peekOfCode": "class JobForm(FlaskForm):\n    title = StringField('Job Title',\n                        validators=[DataRequired(), Length(min=2, max=20)])\n    industry = SelectField('Industry', choices=[('Construction', 'Construction'),\n                                                ('Education', 'Education'),\n                                                ('Food And Beverage', 'Food and Beverage'),\n                                                ('Pharmaceutical', 'Pharmaceutical'),\n                                                ('Entertainment', 'Entertainment'),\n                                                ('Manufacturing', 'Manufacturing'),\n                                                ('Telecommunication', 'Telecommunication'),",
+        "detail": "Flask-Job-Portal.app.forms",
+        "documentation": {}
+    },
+    {
+        "label": "ApplicationForm",
+        "kind": 6,
+        "importPath": "Flask-Job-Portal.app.forms",
+        "description": "Flask-Job-Portal.app.forms",
+        "peekOfCode": "class ApplicationForm(FlaskForm):\n    gender = SelectField('Gender', choices=[('Male', 'Male'),\n                                            ('Female', 'Female'),\n                                            ('Others', 'Other')],\n                         default='male',\n                         validators=[DataRequired()])\n    degree = SelectField('Degree',\n                         default='eSchool',\n                         choices=[('eSchool', 'School'),\n                                  ('dHighSchool', 'HighSchool'),",
+        "detail": "Flask-Job-Portal.app.forms",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 6,
+        "importPath": "Flask-Job-Portal.app.models",
+        "description": "Flask-Job-Portal.app.models",
+        "peekOfCode": "class User(db.Model, UserMixin):\n    id = db.Column(db.Integer, primary_key=True)\n    username = db.Column(db.String(20), unique=True, nullable=False)\n    usertype = db.Column(db.String(20), nullable=False)\n    email = db.Column(db.String(120), unique=True, nullable=False)\n    password = db.Column(db.String(60), nullable=False)\n    jobs = db.relationship('Jobs', backref='job_applier', lazy=True)\n    applications = db.relationship('Application', backref='application_submiter', lazy=True)\n    def __repr__(self):\n        return f\"User('{self.id}', '{self.username}', '{self.usertype}', '{self.email}')\"",
+        "detail": "Flask-Job-Portal.app.models",
+        "documentation": {}
+    },
+    {
+        "label": "Application",
+        "kind": 6,
+        "importPath": "Flask-Job-Portal.app.models",
+        "description": "Flask-Job-Portal.app.models",
+        "peekOfCode": "class Application(db.Model):\n    id = db.Column(db.Integer, primary_key=True)\n    gender = db.Column(db.String(20), nullable=False)\n    date_posted = db.Column(db.DateTime, nullable=False, default=date.today())\n    degree = db.Column(db.String(20), nullable=False)\n    industry = db.Column(db.String(50), nullable=False)\n    experience = db.Column(db.Integer, nullable=False)\n    cv = db.Column(db.String(20), nullable=False)\n    cover_letter = db.Column(db.Text, nullable=False)\n    user_id = db.Column(db.Integer, db.ForeignKey('user.id'), nullable=False)",
+        "detail": "Flask-Job-Portal.app.models",
+        "documentation": {}
+    },
+    {
+        "label": "Jobs",
+        "kind": 6,
+        "importPath": "Flask-Job-Portal.app.models",
+        "description": "Flask-Job-Portal.app.models",
+        "peekOfCode": "class Jobs(db.Model):\n    id = db.Column(db.Integer, primary_key=True)\n    title = db.Column(db.String(100), nullable=False)\n    industry = db.Column(db.String(50), nullable=False)\n    description = db.Column(db.Text, nullable=False)\n    date_posted = db.Column(db.DateTime, nullable=False, default=date.today())\n    user_id = db.Column(db.Integer, db.ForeignKey('user.id'), nullable=False)\n    applications = db.relationship('Application', backref='application_jober', lazy=True)\n    def __repr__(self):\n        return f\"Jobs('{self.id}','{self.title}', '{self.industry}', '{self.date_posted}')\"",
+        "detail": "Flask-Job-Portal.app.models",
+        "documentation": {}
+    },
+    {
+        "label": "Review",
+        "kind": 6,
+        "importPath": "Flask-Job-Portal.app.models",
+        "description": "Flask-Job-Portal.app.models",
+        "peekOfCode": "class Review(db.Model):\n    id = db.Column(db.Integer, primary_key=True)\n    username = db.Column(db.String(20), unique=True, nullable=False)\n    review = db.Column(db.Text, nullable=False)\n    def __repr__(self):\n        return f\"Review('{self.username}', '{self.review}')\"",
+        "detail": "Flask-Job-Portal.app.models",
+        "documentation": {}
+    },
+    {
+        "label": "load_user",
+        "kind": 2,
+        "importPath": "Flask-Job-Portal.app.models",
+        "description": "Flask-Job-Portal.app.models",
+        "peekOfCode": "def load_user(user_id):\n    return User.query.get(int(user_id))\nclass User(db.Model, UserMixin):\n    id = db.Column(db.Integer, primary_key=True)\n    username = db.Column(db.String(20), unique=True, nullable=False)\n    usertype = db.Column(db.String(20), nullable=False)\n    email = db.Column(db.String(120), unique=True, nullable=False)\n    password = db.Column(db.String(60), nullable=False)\n    jobs = db.relationship('Jobs', backref='job_applier', lazy=True)\n    applications = db.relationship('Application', backref='application_submiter', lazy=True)",
+        "detail": "Flask-Job-Portal.app.models",
+        "documentation": {}
+    },
+    {
+        "label": "register",
+        "kind": 2,
+        "importPath": "Flask-Job-Portal.app.routes",
+        "description": "Flask-Job-Portal.app.routes",
+        "peekOfCode": "def register():\n    if current_user.is_authenticated:\n        if current_user.usertype == 'Job Seeker':\n            return redirect(url_for('show_jobs'))\n        elif current_user.usertype == 'Company':\n            return redirect(url_for('posted_jobs'))\n    form = RegistrationForm()\n    if form.validate_on_submit():\n        hashed_password = bcrypt.generate_password_hash(form.password.data).decode('utf-8')\n        user = User(username=form.username.data, usertype=form.usertype.data, email=form.email.data, password=hashed_password)",
+        "detail": "Flask-Job-Portal.app.routes",
+        "documentation": {}
+    },
+    {
+        "label": "login",
+        "kind": 2,
+        "importPath": "Flask-Job-Portal.app.routes",
+        "description": "Flask-Job-Portal.app.routes",
+        "peekOfCode": "def login():\n    if current_user.is_authenticated:\n        if current_user.usertype == 'Job Seeker':\n            return redirect(url_for('show_jobs'))\n        elif current_user.usertype == 'Company':\n            return redirect(url_for('posted_jobs'))\n    form = LoginForm()\n    if form.validate_on_submit():\n        user = User.query.filter_by(email=form.email.data).first()\n        if user and bcrypt.check_password_hash(user.password, form.password.data):",
+        "detail": "Flask-Job-Portal.app.routes",
+        "documentation": {}
+    },
+    {
+        "label": "logout",
+        "kind": 2,
+        "importPath": "Flask-Job-Portal.app.routes",
+        "description": "Flask-Job-Portal.app.routes",
+        "peekOfCode": "def logout():\n    logout_user()\n    return redirect(url_for('show_jobs'))\ndef save_picture(form_picture):\n    f_name, f_ext = os.path.splitext(form_picture.filename)\n    picture_fn = f_name + f_ext\n    picture_path = os.path.join(app.root_path, 'static', picture_fn)\n    form_picture.save(picture_path)\n    return picture_fn\n@app.route(\"/post_cvs/<jobid>\", methods=['GET', 'POST'])",
+        "detail": "Flask-Job-Portal.app.routes",
+        "documentation": {}
+    },
+    {
+        "label": "save_picture",
+        "kind": 2,
+        "importPath": "Flask-Job-Portal.app.routes",
+        "description": "Flask-Job-Portal.app.routes",
+        "peekOfCode": "def save_picture(form_picture):\n    f_name, f_ext = os.path.splitext(form_picture.filename)\n    picture_fn = f_name + f_ext\n    picture_path = os.path.join(app.root_path, 'static', picture_fn)\n    form_picture.save(picture_path)\n    return picture_fn\n@app.route(\"/post_cvs/<jobid>\", methods=['GET', 'POST'])\n@login_required\ndef post_cvs(jobid):\n    form = ApplicationForm()",
+        "detail": "Flask-Job-Portal.app.routes",
+        "documentation": {}
+    },
+    {
+        "label": "post_cvs",
+        "kind": 2,
+        "importPath": "Flask-Job-Portal.app.routes",
+        "description": "Flask-Job-Portal.app.routes",
+        "peekOfCode": "def post_cvs(jobid):\n    form = ApplicationForm()\n    job = Jobs.query.filter_by(id=jobid).first()\n    if form.validate_on_submit():\n        application = Application(gender=form.gender.data,\n                              degree=form.degree.data,\n                              industry=form.industry.data,\n                              experience=form.experience.data,\n                              cover_letter=form.cover_letter.data,\n                              application_submiter=current_user,",
+        "detail": "Flask-Job-Portal.app.routes",
+        "documentation": {}
+    },
+    {
+        "label": "post_jobs",
+        "kind": 2,
+        "importPath": "Flask-Job-Portal.app.routes",
+        "description": "Flask-Job-Portal.app.routes",
+        "peekOfCode": "def post_jobs():\n    form = JobForm()\n    if form.validate_on_submit():\n        job = Jobs(title=form.title.data,\n                   industry=form.industry.data,\n                   description=form.description.data,\n                   job_applier=current_user)\n        db.session.add(job)\n        db.session.commit()\n        return redirect(url_for('posted_jobs'))",
+        "detail": "Flask-Job-Portal.app.routes",
+        "documentation": {}
+    },
+    {
+        "label": "review",
+        "kind": 2,
+        "importPath": "Flask-Job-Portal.app.routes",
+        "description": "Flask-Job-Portal.app.routes",
+        "peekOfCode": "def review():\n    form = ReviewForm()\n    if form.validate_on_submit():\n        review = Review(username=form.username.data,\n                            review=form.review.data)\n        db.session.add(review)\n        db.session.commit()\n        flash('Thank you for providing the review!', 'success')\n        return redirect(url_for('show_jobs'))\n    return  render_template('review.html', form=form, Random_Review=Random_Review)",
+        "detail": "Flask-Job-Portal.app.routes",
+        "documentation": {}
+    },
+    {
+        "label": "posted_jobs",
+        "kind": 2,
+        "importPath": "Flask-Job-Portal.app.routes",
+        "description": "Flask-Job-Portal.app.routes",
+        "peekOfCode": "def posted_jobs():\n    jobs = Jobs.query.filter_by(job_applier=current_user)\n    return render_template('show_jobs.html', jobs=jobs, Random_Review=Random_Review)\n@app.route(\"/show_applications/<jobid>\", methods=['GET'])\n@login_required\ndef show_applications(jobid):\n    applications = Application.query.filter_by(job_id=jobid).order_by(Application.degree, Application.experience.desc()).all()\n    return render_template('show_applications.html', applications=applications, Random_Review=Random_Review)\n@app.route(\"/meeting/<application_id>\")\n@login_required",
+        "detail": "Flask-Job-Portal.app.routes",
+        "documentation": {}
+    },
+    {
+        "label": "show_applications",
+        "kind": 2,
+        "importPath": "Flask-Job-Portal.app.routes",
+        "description": "Flask-Job-Portal.app.routes",
+        "peekOfCode": "def show_applications(jobid):\n    applications = Application.query.filter_by(job_id=jobid).order_by(Application.degree, Application.experience.desc()).all()\n    return render_template('show_applications.html', applications=applications, Random_Review=Random_Review)\n@app.route(\"/meeting/<application_id>\")\n@login_required\ndef meeting(application_id):\n    applicant_id = Application.query.get(int(application_id)).user_id\n    applicant = User.query.get(applicant_id)\n    return render_template('meeting.html', applicant=applicant, Random_Review=Random_Review)\n@app.route(\"/\")",
+        "detail": "Flask-Job-Portal.app.routes",
+        "documentation": {}
+    },
+    {
+        "label": "meeting",
+        "kind": 2,
+        "importPath": "Flask-Job-Portal.app.routes",
+        "description": "Flask-Job-Portal.app.routes",
+        "peekOfCode": "def meeting(application_id):\n    applicant_id = Application.query.get(int(application_id)).user_id\n    applicant = User.query.get(applicant_id)\n    return render_template('meeting.html', applicant=applicant, Random_Review=Random_Review)\n@app.route(\"/\")\n@app.route(\"/show_jobs\")\ndef show_jobs():\n    jobs = Jobs.query.all()\n    return render_template('show_jobs.html', jobs=jobs, Random_Review=Random_Review)\n@app.route(\"/resume/<id>\", methods=['GET'])",
+        "detail": "Flask-Job-Portal.app.routes",
+        "documentation": {}
+    },
+    {
+        "label": "show_jobs",
+        "kind": 2,
+        "importPath": "Flask-Job-Portal.app.routes",
+        "description": "Flask-Job-Portal.app.routes",
+        "peekOfCode": "def show_jobs():\n    jobs = Jobs.query.all()\n    return render_template('show_jobs.html', jobs=jobs, Random_Review=Random_Review)\n@app.route(\"/resume/<id>\", methods=['GET'])\ndef resume(id):\n    cv = Application.query.get(int(id)).cv\n    return render_template('resume.html', cv=cv, Random_Review=Random_Review, id=id)",
+        "detail": "Flask-Job-Portal.app.routes",
+        "documentation": {}
+    },
+    {
+        "label": "resume",
+        "kind": 2,
+        "importPath": "Flask-Job-Portal.app.routes",
+        "description": "Flask-Job-Portal.app.routes",
+        "peekOfCode": "def resume(id):\n    cv = Application.query.get(int(id)).cv\n    return render_template('resume.html', cv=cv, Random_Review=Random_Review, id=id)",
+        "detail": "Flask-Job-Portal.app.routes",
+        "documentation": {}
+    },
+    {
+        "label": "rev",
+        "kind": 5,
+        "importPath": "Flask-Job-Portal.app.routes",
+        "description": "Flask-Job-Portal.app.routes",
+        "peekOfCode": "rev = [\n    {\n        'username': 'Jeff Bezos',\n        'review': 'I hired multiple people using this website. Thank you'\n    },\n    {\n        'username': 'Tim David',\n        'review': 'The website helped me to get placed! Seemless experience'\n    },\n    {",
+        "detail": "Flask-Job-Portal.app.routes",
+        "documentation": {}
+    },
+    {
+        "label": "Review_Obj",
+        "kind": 5,
+        "importPath": "Flask-Job-Portal.app.routes",
+        "description": "Flask-Job-Portal.app.routes",
+        "peekOfCode": "Review_Obj = Review.query.all()\nif len(Review_Obj) < 3:\n    Random_Review = rev\nelse:\n    Random_Review = random.sample(Review_Obj, 3)\n@app.route(\"/register\", methods=['GET', 'POST'])\ndef register():\n    if current_user.is_authenticated:\n        if current_user.usertype == 'Job Seeker':\n            return redirect(url_for('show_jobs'))",
+        "detail": "Flask-Job-Portal.app.routes",
         "documentation": {}
     },
     {
@@ -2461,29 +3284,65 @@
         "documentation": {}
     },
     {
-        "label": "topic",
+        "label": "api_key",
         "kind": 5,
         "importPath": "offre_Process.data.config",
         "description": "offre_Process.data.config",
-        "peekOfCode": "topic = \"offres_travail\"",
+        "peekOfCode": "api_key = \"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\"\nserveur_kafka = \"localhost:29092\"  # Remplacez par l'adresse de votre broker Kafka\ntopic = \"offres-d-emploi\"",
         "detail": "offre_Process.data.config",
         "documentation": {}
     },
     {
-        "label": "send_text",
+        "label": "serveur_kafka",
+        "kind": 5,
+        "importPath": "offre_Process.data.config",
+        "description": "offre_Process.data.config",
+        "peekOfCode": "serveur_kafka = \"localhost:29092\"  # Remplacez par l'adresse de votre broker Kafka\ntopic = \"offres-d-emploi\"",
+        "detail": "offre_Process.data.config",
+        "documentation": {}
+    },
+    {
+        "label": "topic",
+        "kind": 5,
+        "importPath": "offre_Process.data.config",
+        "description": "offre_Process.data.config",
+        "peekOfCode": "topic = \"offres-d-emploi\"",
+        "detail": "offre_Process.data.config",
+        "documentation": {}
+    },
+    {
+        "label": "generer_offre_emploi",
         "kind": 2,
         "importPath": "offre_Process.data.producer",
         "description": "offre_Process.data.producer",
-        "peekOfCode": "def send_text(producer, topic, text):\n    # Envoi du texte au topic Kafka\n    producer.send(topic, text.encode('utf-8'))\n# Fonction principale pour envoyer une série de messages texte à Kafka\ndef publish_texts(producer, topic, texts):\n    print('Publishing texts...')\n    for text in texts:\n        # Appel de la fonction pour envoyer le texte au topic Kafka\n        send_text(producer, topic, text)\n        # Délai entre chaque envoi pour simuler un envoi régulier",
+        "peekOfCode": "def generer_offre_emploi(api_key, resume_data):\n    try:\n        from groq import Groq  # Import du client Groq\n        groq_client = Groq(api_key=api_key)\n        # Messages pour le modèle\n        messages = [\n            {\n                \"role\": \"system\",\n                \"content\": \"Tu es un assistant chargé de générer des offres d'emploi basées sur un modèle structuré.\"\n            },",
         "detail": "offre_Process.data.producer",
         "documentation": {}
     },
     {
-        "label": "publish_texts",
+        "label": "envoyer_vers_kafka",
         "kind": 2,
         "importPath": "offre_Process.data.producer",
         "description": "offre_Process.data.producer",
-        "peekOfCode": "def publish_texts(producer, topic, texts):\n    print('Publishing texts...')\n    for text in texts:\n        # Appel de la fonction pour envoyer le texte au topic Kafka\n        send_text(producer, topic, text)\n        # Délai entre chaque envoi pour simuler un envoi régulier\n        time.sleep(1)\n    print('Publish complete')\n# Point d'entrée du script (si le fichier est exécuté directement)\nif __name__ == \"__main__\":",
+        "peekOfCode": "def envoyer_vers_kafka(serveur_kafka, topic, message):\n    try:\n        # Configuration du producteur Kafka\n        producer = KafkaProducer(\n            bootstrap_servers=[serveur_kafka],\n            value_serializer=lambda m: json.dumps(m).encode('utf-8')\n        )\n        # Envoi du message\n        producer.send(topic, message)\n        producer.flush()  # Assure que le message est bien envoyé",
+        "detail": "offre_Process.data.producer",
+        "documentation": {}
+    },
+    {
+        "label": "simulation_offres",
+        "kind": 2,
+        "importPath": "offre_Process.data.producer",
+        "description": "offre_Process.data.producer",
+        "peekOfCode": "def simulation_offres(api_key, serveur_kafka, topic):\n    exemples_cv = [\n        \"Candidat expert en Python et SQL, avec expérience dans le cloud AWS.\",\n        \"Candidat avec des compétences avancées en Java, Spark, et Hadoop.\",\n        \"Ingénieur logiciel avec 5 ans d'expérience en C++, Docker, et Kubernetes.\",\n        \"Étudiant en data science maîtrisant R, Tableau et machine learning.\",\n        \"Développeur front-end avec expertise en JavaScript, React, et TypeScript.\"\n    ]\n    while True:\n        try:",
+        "detail": "offre_Process.data.producer",
+        "documentation": {}
+    },
+    {
+        "label": "topic",
+        "kind": 5,
+        "importPath": "offre_Process.data.producer",
+        "description": "offre_Process.data.producer",
+        "peekOfCode": "topic = cfg.topic\nserveur_kafka=cfg.serveur_kafka\napi_key=cfg.api_key\n# Lancer la simulation\nsimulation_offres(api_key, serveur_kafka, topic)",
         "detail": "offre_Process.data.producer",
         "documentation": {}
     },
@@ -2722,6 +3581,195 @@
         "documentation": {}
     },
     {
+        "label": "preprocess_text",
+        "kind": 2,
+        "importPath": "Recruiter_App.app",
+        "description": "Recruiter_App.app",
+        "peekOfCode": "def preprocess_text(text):\n    tokens = word_tokenize(text.lower())\n    tokens = [token for token in tokens if token.isalpha()]\n    return tokens\n# Fonction pour obtenir les embeddings moyennés\ndef get_average_word_vector(tokens, model):\n    word_vectors = [model.wv[token] for token in tokens if token in model.wv]\n    if not word_vectors:\n        return np.zeros(model.vector_size)\n    return np.mean(word_vectors, axis=0)",
+        "detail": "Recruiter_App.app",
+        "documentation": {}
+    },
+    {
+        "label": "get_average_word_vector",
+        "kind": 2,
+        "importPath": "Recruiter_App.app",
+        "description": "Recruiter_App.app",
+        "peekOfCode": "def get_average_word_vector(tokens, model):\n    word_vectors = [model.wv[token] for token in tokens if token in model.wv]\n    if not word_vectors:\n        return np.zeros(model.vector_size)\n    return np.mean(word_vectors, axis=0)\n# Fonction pour extraire du texte des fichiers PDF\ndef extract_text_from_pdfs(upload_folder):\n    resumes = []\n    for filename in os.listdir(upload_folder):\n        if filename.endswith('.pdf'):",
+        "detail": "Recruiter_App.app",
+        "documentation": {}
+    },
+    {
+        "label": "extract_text_from_pdfs",
+        "kind": 2,
+        "importPath": "Recruiter_App.app",
+        "description": "Recruiter_App.app",
+        "peekOfCode": "def extract_text_from_pdfs(upload_folder):\n    resumes = []\n    for filename in os.listdir(upload_folder):\n        if filename.endswith('.pdf'):\n            filepath = os.path.join(upload_folder, filename)\n            doc = fitz.open(filepath)\n            text = \"\"\n            for page in doc:\n                text += page.get_text()\n            resumes.append((filename, text))",
+        "detail": "Recruiter_App.app",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 2,
+        "importPath": "Recruiter_App.app",
+        "description": "Recruiter_App.app",
+        "peekOfCode": "def index():\n    if request.method == 'POST':\n        if 'resume_folder' in request.files:\n            # Traiter le téléchargement des fichiers PDF\n            resume_folder = request.files.getlist('resume_folder')\n            os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)\n            for file in resume_folder:\n                file.save(os.path.join(app.config['UPLOAD_FOLDER'], file.filename))\n            # Extraire les textes des PDF\n            resumes = extract_text_from_pdfs(app.config['UPLOAD_FOLDER'])",
+        "detail": "Recruiter_App.app",
+        "documentation": {}
+    },
+    {
+        "label": "job_description",
+        "kind": 2,
+        "importPath": "Recruiter_App.app",
+        "description": "Recruiter_App.app",
+        "peekOfCode": "def job_description():\n    if request.method == 'POST':\n        job_description = request.form['job_description']\n        # Charger les CV à partir du fichier CSV\n        df = pd.read_csv('resumes.csv')\n        job_tokens = preprocess_text(job_description)\n        job_vector = get_average_word_vector(job_tokens, model)\n        similarity_list = []\n        for index, row in df.iterrows():\n            resume_tokens = preprocess_text(row['Resume_str'])",
+        "detail": "Recruiter_App.app",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "Recruiter_App.app",
+        "description": "Recruiter_App.app",
+        "peekOfCode": "app = Flask(__name__)\napp.config['UPLOAD_FOLDER'] = 'uploads/'\n# Charger le modèle Word2Vec\nmodel = gensim.models.Word2Vec.load(\"D:/mémoire/resume_word2vec.model\")\n# Fonction de prétraitement\ndef preprocess_text(text):\n    tokens = word_tokenize(text.lower())\n    tokens = [token for token in tokens if token.isalpha()]\n    return tokens\n# Fonction pour obtenir les embeddings moyennés",
+        "detail": "Recruiter_App.app",
+        "documentation": {}
+    },
+    {
+        "label": "app.config['UPLOAD_FOLDER']",
+        "kind": 5,
+        "importPath": "Recruiter_App.app",
+        "description": "Recruiter_App.app",
+        "peekOfCode": "app.config['UPLOAD_FOLDER'] = 'uploads/'\n# Charger le modèle Word2Vec\nmodel = gensim.models.Word2Vec.load(\"D:/mémoire/resume_word2vec.model\")\n# Fonction de prétraitement\ndef preprocess_text(text):\n    tokens = word_tokenize(text.lower())\n    tokens = [token for token in tokens if token.isalpha()]\n    return tokens\n# Fonction pour obtenir les embeddings moyennés\ndef get_average_word_vector(tokens, model):",
+        "detail": "Recruiter_App.app",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "Recruiter_App.app",
+        "description": "Recruiter_App.app",
+        "peekOfCode": "model = gensim.models.Word2Vec.load(\"D:/mémoire/resume_word2vec.model\")\n# Fonction de prétraitement\ndef preprocess_text(text):\n    tokens = word_tokenize(text.lower())\n    tokens = [token for token in tokens if token.isalpha()]\n    return tokens\n# Fonction pour obtenir les embeddings moyennés\ndef get_average_word_vector(tokens, model):\n    word_vectors = [model.wv[token] for token in tokens if token in model.wv]\n    if not word_vectors:",
+        "detail": "Recruiter_App.app",
+        "documentation": {}
+    },
+    {
+        "label": "preprocess_text",
+        "kind": 2,
+        "importPath": "Recruiter_App.app1",
+        "description": "Recruiter_App.app1",
+        "peekOfCode": "def preprocess_text(text):\n    tokens = word_tokenize(text.lower())\n    tokens = [token for token in tokens if token.isalpha()]\n    return tokens\n# Fonction pour obtenir les embeddings moyennés\ndef get_average_word_vector(tokens, model):\n    word_vectors = [model.wv[token] for token in tokens if token in model.wv]\n    if not word_vectors:\n        return np.zeros(model.vector_size)\n    return np.mean(word_vectors, axis=0)",
+        "detail": "Recruiter_App.app1",
+        "documentation": {}
+    },
+    {
+        "label": "get_average_word_vector",
+        "kind": 2,
+        "importPath": "Recruiter_App.app1",
+        "description": "Recruiter_App.app1",
+        "peekOfCode": "def get_average_word_vector(tokens, model):\n    word_vectors = [model.wv[token] for token in tokens if token in model.wv]\n    if not word_vectors:\n        return np.zeros(model.vector_size)\n    return np.mean(word_vectors, axis=0)\n# Fonction pour extraire du texte des fichiers PDF\ndef extract_text_from_pdfs(upload_folder):\n    resumes = []\n    for filename in os.listdir(upload_folder):\n        if filename.endswith('.pdf'):",
+        "detail": "Recruiter_App.app1",
+        "documentation": {}
+    },
+    {
+        "label": "extract_text_from_pdfs",
+        "kind": 2,
+        "importPath": "Recruiter_App.app1",
+        "description": "Recruiter_App.app1",
+        "peekOfCode": "def extract_text_from_pdfs(upload_folder):\n    resumes = []\n    for filename in os.listdir(upload_folder):\n        if filename.endswith('.pdf'):\n            filepath = os.path.join(upload_folder, filename)\n            doc = fitz.open(filepath)\n            text = \"\"\n            for page in doc:\n                text += page.get_text()\n            resumes.append((filename, text))",
+        "detail": "Recruiter_App.app1",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 2,
+        "importPath": "Recruiter_App.app1",
+        "description": "Recruiter_App.app1",
+        "peekOfCode": "def index():\n    if request.method == 'POST':\n        if 'resume_folder' in request.files:\n            # Traiter le téléchargement des fichiers PDF\n            resume_folder = request.files.getlist('resume_folder')\n            os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)\n            for file in resume_folder:\n                file.save(os.path.join(app.config['UPLOAD_FOLDER'], file.filename))\n            # Extraire les textes des PDF\n            resumes = extract_text_from_pdfs(app.config['UPLOAD_FOLDER'])",
+        "detail": "Recruiter_App.app1",
+        "documentation": {}
+    },
+    {
+        "label": "job_description",
+        "kind": 2,
+        "importPath": "Recruiter_App.app1",
+        "description": "Recruiter_App.app1",
+        "peekOfCode": "def job_description():\n    if request.method == 'POST':\n        job_description = request.form['job_description']\n        # Charger les CV à partir du fichier CSV\n        df = pd.read_csv('resumes.csv')\n        job_tokens = preprocess_text(job_description)\n        job_vector = get_average_word_vector(job_tokens, model)\n        similarity_list = []\n        for index, row in df.iterrows():\n            resume_tokens = preprocess_text(row['Resume_str'])",
+        "detail": "Recruiter_App.app1",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "Recruiter_App.app1",
+        "description": "Recruiter_App.app1",
+        "peekOfCode": "app = Flask(__name__)\napp.config['UPLOAD_FOLDER'] = 'uploads/'\n# Charger le modèle Word2Vec\nmodel = gensim.models.Word2Vec.load(\"D:/mémoire/resume_word2vec.model\")\n# Fonction de prétraitement\ndef preprocess_text(text):\n    tokens = word_tokenize(text.lower())\n    tokens = [token for token in tokens if token.isalpha()]\n    return tokens\n# Fonction pour obtenir les embeddings moyennés",
+        "detail": "Recruiter_App.app1",
+        "documentation": {}
+    },
+    {
+        "label": "app.config['UPLOAD_FOLDER']",
+        "kind": 5,
+        "importPath": "Recruiter_App.app1",
+        "description": "Recruiter_App.app1",
+        "peekOfCode": "app.config['UPLOAD_FOLDER'] = 'uploads/'\n# Charger le modèle Word2Vec\nmodel = gensim.models.Word2Vec.load(\"D:/mémoire/resume_word2vec.model\")\n# Fonction de prétraitement\ndef preprocess_text(text):\n    tokens = word_tokenize(text.lower())\n    tokens = [token for token in tokens if token.isalpha()]\n    return tokens\n# Fonction pour obtenir les embeddings moyennés\ndef get_average_word_vector(tokens, model):",
+        "detail": "Recruiter_App.app1",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "Recruiter_App.app1",
+        "description": "Recruiter_App.app1",
+        "peekOfCode": "model = gensim.models.Word2Vec.load(\"D:/mémoire/resume_word2vec.model\")\n# Fonction de prétraitement\ndef preprocess_text(text):\n    tokens = word_tokenize(text.lower())\n    tokens = [token for token in tokens if token.isalpha()]\n    return tokens\n# Fonction pour obtenir les embeddings moyennés\ndef get_average_word_vector(tokens, model):\n    word_vectors = [model.wv[token] for token in tokens if token in model.wv]\n    if not word_vectors:",
+        "detail": "Recruiter_App.app1",
+        "documentation": {}
+    },
+    {
+        "label": "extract_text_from_pdf",
+        "kind": 2,
+        "importPath": "Recruiter_App.app2",
+        "description": "Recruiter_App.app2",
+        "peekOfCode": "def extract_text_from_pdf(pdf_path):\n    doc = fitz.open(pdf_path)\n    text = \"\"\n    for page in doc:\n        text += page.get_text()\n    return text\n# Fonction pour tokeniser le texte\ndef tokenize_text(text):\n    tokens = word_tokenize(text.lower())\n    return tokens",
+        "detail": "Recruiter_App.app2",
+        "documentation": {}
+    },
+    {
+        "label": "tokenize_text",
+        "kind": 2,
+        "importPath": "Recruiter_App.app2",
+        "description": "Recruiter_App.app2",
+        "peekOfCode": "def tokenize_text(text):\n    tokens = word_tokenize(text.lower())\n    return tokens\n# Fonction pour obtenir le vecteur moyen d'un document\ndef get_average_vector(model, tokens):\n    vectors = [model.wv[token] for token in tokens if token in model.wv]\n    if vectors:\n        return np.mean(vectors, axis=0)\n    else:\n        return np.zeros(model.vector_size)",
+        "detail": "Recruiter_App.app2",
+        "documentation": {}
+    },
+    {
+        "label": "get_average_vector",
+        "kind": 2,
+        "importPath": "Recruiter_App.app2",
+        "description": "Recruiter_App.app2",
+        "peekOfCode": "def get_average_vector(model, tokens):\n    vectors = [model.wv[token] for token in tokens if token in model.wv]\n    if vectors:\n        return np.mean(vectors, axis=0)\n    else:\n        return np.zeros(model.vector_size)\n# Interface Streamlit\nst.title(\"Sélection des Top 10 Candidats Basée sur Word2Vec\")\n# Téléchargement de la description du poste\njob_description = st.text_area(\"Description de poste\", height=150)",
+        "detail": "Recruiter_App.app2",
+        "documentation": {}
+    },
+    {
+        "label": "job_description",
+        "kind": 5,
+        "importPath": "Recruiter_App.app2",
+        "description": "Recruiter_App.app2",
+        "peekOfCode": "job_description = st.text_area(\"Description de poste\", height=150)\n# Téléchargement des CVs\nuploaded_files = st.file_uploader(\"Téléchargez les CVs au format PDF\", accept_multiple_files=True, type=\"pdf\")\nif uploaded_files and job_description:\n    st.write(f\"Nombre de CVs téléchargés : {len(uploaded_files)}\")\n    # Extraction et tokenisation de la description du poste\n    job_tokens = tokenize_text(job_description)\n    # Traitement des CVs\n    resume_texts = [extract_text_from_pdf(file) for file in uploaded_files]\n    resume_tokens = [tokenize_text(text) for text in resume_texts]",
+        "detail": "Recruiter_App.app2",
+        "documentation": {}
+    },
+    {
+        "label": "uploaded_files",
+        "kind": 5,
+        "importPath": "Recruiter_App.app2",
+        "description": "Recruiter_App.app2",
+        "peekOfCode": "uploaded_files = st.file_uploader(\"Téléchargez les CVs au format PDF\", accept_multiple_files=True, type=\"pdf\")\nif uploaded_files and job_description:\n    st.write(f\"Nombre de CVs téléchargés : {len(uploaded_files)}\")\n    # Extraction et tokenisation de la description du poste\n    job_tokens = tokenize_text(job_description)\n    # Traitement des CVs\n    resume_texts = [extract_text_from_pdf(file) for file in uploaded_files]\n    resume_tokens = [tokenize_text(text) for text in resume_texts]\n    # Entraînement du modèle Word2Vec sur l'ensemble des textes\n    all_tokens = job_tokens + [token for tokens in resume_tokens for token in tokens]",
+        "detail": "Recruiter_App.app2",
+        "documentation": {}
+    },
+    {
         "label": "get_pdf_text",
         "kind": 2,
         "importPath": "Recruitment_chatBot.recruitboot.converteur",
@@ -2854,6 +3902,375 @@
         "description": "segmentationSpark.transformer",
         "peekOfCode": "class CandidatTransformer:\n    def __init__(self, df):\n        \"\"\"\n        Initialise la classe avec un DataFrame Spark.\n        :param df: DataFrame Spark contenant les données.\n        \"\"\"\n        self.df = df\n    def build_pipeline(self):\n        \"\"\"\n        Construit un pipeline pour transformer les données.",
         "detail": "segmentationSpark.transformer",
+        "documentation": {}
+    },
+    {
+        "label": "batch_vectors",
+        "kind": 2,
+        "importPath": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "description": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "peekOfCode": "def batch_vectors(vectors, batch_size):\n    \"\"\"\n    Divise une liste de vecteurs en lots plus petits.\n    \"\"\"\n    for i in range(0, len(vectors), batch_size):\n        yield vectors[i:i + batch_size]\n# Taille maximale des lots (ajustez si nécessaire)\nbatch_size = 100  # Taille de lot initiale, adaptée à vos besoins et à vos tests.\n# --- Insérer les offres ---\noffre_vectors = [(str(row.OFFRE_ID), row.embedding) for _, row in df_offres.iterrows()]",
+        "detail": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "documentation": {}
+    },
+    {
+        "label": "account",
+        "kind": 5,
+        "importPath": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "description": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "peekOfCode": "account = \"phztxrc-go36107\"\nuser = \"SAID\"\npassword = \"SaidKHALID2002!\"\nrole = \"dev_role\"\nwarehouse = \"projet_warehouse\"\ndatabase = \"my_project_database\"\nschema = \"my_project_schema\"\n# Connexion à Snowflake\nconn = snowflake.connector.connect(\n    account=account,",
+        "detail": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "documentation": {}
+    },
+    {
+        "label": "user",
+        "kind": 5,
+        "importPath": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "description": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "peekOfCode": "user = \"SAID\"\npassword = \"SaidKHALID2002!\"\nrole = \"dev_role\"\nwarehouse = \"projet_warehouse\"\ndatabase = \"my_project_database\"\nschema = \"my_project_schema\"\n# Connexion à Snowflake\nconn = snowflake.connector.connect(\n    account=account,\n    user=user,",
+        "detail": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "documentation": {}
+    },
+    {
+        "label": "password",
+        "kind": 5,
+        "importPath": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "description": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "peekOfCode": "password = \"SaidKHALID2002!\"\nrole = \"dev_role\"\nwarehouse = \"projet_warehouse\"\ndatabase = \"my_project_database\"\nschema = \"my_project_schema\"\n# Connexion à Snowflake\nconn = snowflake.connector.connect(\n    account=account,\n    user=user,\n    password=password,",
+        "detail": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "documentation": {}
+    },
+    {
+        "label": "role",
+        "kind": 5,
+        "importPath": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "description": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "peekOfCode": "role = \"dev_role\"\nwarehouse = \"projet_warehouse\"\ndatabase = \"my_project_database\"\nschema = \"my_project_schema\"\n# Connexion à Snowflake\nconn = snowflake.connector.connect(\n    account=account,\n    user=user,\n    password=password,\n    role=role,",
+        "detail": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "documentation": {}
+    },
+    {
+        "label": "warehouse",
+        "kind": 5,
+        "importPath": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "description": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "peekOfCode": "warehouse = \"projet_warehouse\"\ndatabase = \"my_project_database\"\nschema = \"my_project_schema\"\n# Connexion à Snowflake\nconn = snowflake.connector.connect(\n    account=account,\n    user=user,\n    password=password,\n    role=role,\n    warehouse=warehouse,",
+        "detail": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "documentation": {}
+    },
+    {
+        "label": "database",
+        "kind": 5,
+        "importPath": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "description": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "peekOfCode": "database = \"my_project_database\"\nschema = \"my_project_schema\"\n# Connexion à Snowflake\nconn = snowflake.connector.connect(\n    account=account,\n    user=user,\n    password=password,\n    role=role,\n    warehouse=warehouse,\n    database=database,",
+        "detail": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "documentation": {}
+    },
+    {
+        "label": "schema",
+        "kind": 5,
+        "importPath": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "description": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "peekOfCode": "schema = \"my_project_schema\"\n# Connexion à Snowflake\nconn = snowflake.connector.connect(\n    account=account,\n    user=user,\n    password=password,\n    role=role,\n    warehouse=warehouse,\n    database=database,\n    schema=schema",
+        "detail": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "documentation": {}
+    },
+    {
+        "label": "conn",
+        "kind": 5,
+        "importPath": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "description": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "peekOfCode": "conn = snowflake.connector.connect(\n    account=account,\n    user=user,\n    password=password,\n    role=role,\n    warehouse=warehouse,\n    database=database,\n    schema=schema\n)\n# Requête pour les offres",
+        "detail": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "documentation": {}
+    },
+    {
+        "label": "query_offres",
+        "kind": 5,
+        "importPath": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "description": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "peekOfCode": "query_offres = \"\"\"\n SELECT o.offre_id,\n        LISTAGG(DISTINCT cmp.nom, ', ') AS competences,\n        LISTAGG(DISTINCT lng.nom, ', ') AS langues,\n        f.nom AS formation,\n        o.experience_dur\n FROM my_project_database.my_project_schema.offre_fait o\n JOIN my_project_database.my_project_schema.offre_comp oc ON o.offre_id = oc.offre_id\n JOIN my_project_database.my_project_schema.competence cmp ON oc.competence_id = cmp.competence_id\n LEFT JOIN my_project_database.my_project_schema.langue_offr lo ON o.offre_id = lo.offre_id",
+        "detail": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "documentation": {}
+    },
+    {
+        "label": "query_candidats",
+        "kind": 5,
+        "importPath": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "description": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "peekOfCode": "query_candidats = \"\"\"\n SELECT c.candidat_id,\n        LISTAGG(DISTINCT cmp.nom, ', ') AS competences,\n        LISTAGG(DISTINCT lng.nom, ', ') AS langues,\n        f.nom AS formation,\n        c.nbr_years_exp\n FROM my_project_database.my_project_schema.candidat_fait c\n LEFT JOIN my_project_database.my_project_schema.candidat_comp cc ON c.candidat_id = cc.candidat_id\n LEFT JOIN my_project_database.my_project_schema.competence cmp ON cc.competence_id = cmp.competence_id\n LEFT JOIN my_project_database.my_project_schema.langue_cand lc ON c.candidat_id = lc.candidat_id",
+        "detail": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "documentation": {}
+    },
+    {
+        "label": "device",
+        "kind": 5,
+        "importPath": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "description": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "peekOfCode": "device = \"cuda\" if torch.cuda.is_available() else \"cpu\"\nmodel = SentenceTransformer('all-MiniLM-L6-v2', device=device)\n# Trier les compétences et les langues pour chaque offre\ndf_offres['COMPETENCES'] = df_offres['COMPETENCES'].apply(lambda x: ', '.join(sorted(x.split(', '))) if pd.notnull(x) else '')\ndf_offres['LANGUES'] = df_offres['LANGUES'].apply(lambda x: ', '.join(sorted(x.split(', '))) if pd.notnull(x) else '')\n# Trier les compétences et les langues pour chaque candidat\ndf_candidats['COMPETENCES'] = df_candidats['COMPETENCES'].apply(lambda x: ', '.join(sorted(x.split(', '))) if pd.notnull(x) else '')\ndf_candidats['LANGUES'] = df_candidats['LANGUES'].apply(lambda x: ', '.join(sorted(x.split(', '))) if pd.notnull(x) else '')\n# Uniformiser la casse pour les compétences, langues, formation, etc.\ndf_offres['COMPETENCES'] = df_offres['COMPETENCES'].str.lower()",
+        "detail": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "description": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "peekOfCode": "model = SentenceTransformer('all-MiniLM-L6-v2', device=device)\n# Trier les compétences et les langues pour chaque offre\ndf_offres['COMPETENCES'] = df_offres['COMPETENCES'].apply(lambda x: ', '.join(sorted(x.split(', '))) if pd.notnull(x) else '')\ndf_offres['LANGUES'] = df_offres['LANGUES'].apply(lambda x: ', '.join(sorted(x.split(', '))) if pd.notnull(x) else '')\n# Trier les compétences et les langues pour chaque candidat\ndf_candidats['COMPETENCES'] = df_candidats['COMPETENCES'].apply(lambda x: ', '.join(sorted(x.split(', '))) if pd.notnull(x) else '')\ndf_candidats['LANGUES'] = df_candidats['LANGUES'].apply(lambda x: ', '.join(sorted(x.split(', '))) if pd.notnull(x) else '')\n# Uniformiser la casse pour les compétences, langues, formation, etc.\ndf_offres['COMPETENCES'] = df_offres['COMPETENCES'].str.lower()\ndf_offres['LANGUES'] = df_offres['LANGUES'].str.lower()",
+        "detail": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "documentation": {}
+    },
+    {
+        "label": "df_offres['COMPETENCES']",
+        "kind": 5,
+        "importPath": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "description": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "peekOfCode": "df_offres['COMPETENCES'] = df_offres['COMPETENCES'].apply(lambda x: ', '.join(sorted(x.split(', '))) if pd.notnull(x) else '')\ndf_offres['LANGUES'] = df_offres['LANGUES'].apply(lambda x: ', '.join(sorted(x.split(', '))) if pd.notnull(x) else '')\n# Trier les compétences et les langues pour chaque candidat\ndf_candidats['COMPETENCES'] = df_candidats['COMPETENCES'].apply(lambda x: ', '.join(sorted(x.split(', '))) if pd.notnull(x) else '')\ndf_candidats['LANGUES'] = df_candidats['LANGUES'].apply(lambda x: ', '.join(sorted(x.split(', '))) if pd.notnull(x) else '')\n# Uniformiser la casse pour les compétences, langues, formation, etc.\ndf_offres['COMPETENCES'] = df_offres['COMPETENCES'].str.lower()\ndf_offres['LANGUES'] = df_offres['LANGUES'].str.lower()\ndf_offres['FORMATION'] = df_offres['FORMATION'].str.lower()\ndf_candidats['COMPETENCES'] = df_candidats['COMPETENCES'].str.lower()",
+        "detail": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "documentation": {}
+    },
+    {
+        "label": "df_offres['LANGUES']",
+        "kind": 5,
+        "importPath": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "description": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "peekOfCode": "df_offres['LANGUES'] = df_offres['LANGUES'].apply(lambda x: ', '.join(sorted(x.split(', '))) if pd.notnull(x) else '')\n# Trier les compétences et les langues pour chaque candidat\ndf_candidats['COMPETENCES'] = df_candidats['COMPETENCES'].apply(lambda x: ', '.join(sorted(x.split(', '))) if pd.notnull(x) else '')\ndf_candidats['LANGUES'] = df_candidats['LANGUES'].apply(lambda x: ', '.join(sorted(x.split(', '))) if pd.notnull(x) else '')\n# Uniformiser la casse pour les compétences, langues, formation, etc.\ndf_offres['COMPETENCES'] = df_offres['COMPETENCES'].str.lower()\ndf_offres['LANGUES'] = df_offres['LANGUES'].str.lower()\ndf_offres['FORMATION'] = df_offres['FORMATION'].str.lower()\ndf_candidats['COMPETENCES'] = df_candidats['COMPETENCES'].str.lower()\ndf_candidats['LANGUES'] = df_candidats['LANGUES'].str.lower()",
+        "detail": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "documentation": {}
+    },
+    {
+        "label": "df_candidats['COMPETENCES']",
+        "kind": 5,
+        "importPath": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "description": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "peekOfCode": "df_candidats['COMPETENCES'] = df_candidats['COMPETENCES'].apply(lambda x: ', '.join(sorted(x.split(', '))) if pd.notnull(x) else '')\ndf_candidats['LANGUES'] = df_candidats['LANGUES'].apply(lambda x: ', '.join(sorted(x.split(', '))) if pd.notnull(x) else '')\n# Uniformiser la casse pour les compétences, langues, formation, etc.\ndf_offres['COMPETENCES'] = df_offres['COMPETENCES'].str.lower()\ndf_offres['LANGUES'] = df_offres['LANGUES'].str.lower()\ndf_offres['FORMATION'] = df_offres['FORMATION'].str.lower()\ndf_candidats['COMPETENCES'] = df_candidats['COMPETENCES'].str.lower()\ndf_candidats['LANGUES'] = df_candidats['LANGUES'].str.lower()\ndf_candidats['FORMATION'] = df_candidats['FORMATION'].str.lower()\n# Supprimer les doublons dans les compétences et langues",
+        "detail": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "documentation": {}
+    },
+    {
+        "label": "df_candidats['LANGUES']",
+        "kind": 5,
+        "importPath": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "description": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "peekOfCode": "df_candidats['LANGUES'] = df_candidats['LANGUES'].apply(lambda x: ', '.join(sorted(x.split(', '))) if pd.notnull(x) else '')\n# Uniformiser la casse pour les compétences, langues, formation, etc.\ndf_offres['COMPETENCES'] = df_offres['COMPETENCES'].str.lower()\ndf_offres['LANGUES'] = df_offres['LANGUES'].str.lower()\ndf_offres['FORMATION'] = df_offres['FORMATION'].str.lower()\ndf_candidats['COMPETENCES'] = df_candidats['COMPETENCES'].str.lower()\ndf_candidats['LANGUES'] = df_candidats['LANGUES'].str.lower()\ndf_candidats['FORMATION'] = df_candidats['FORMATION'].str.lower()\n# Supprimer les doublons dans les compétences et langues\ndf_offres['COMPETENCES'] = df_offres['COMPETENCES'].apply(lambda x: ', '.join(sorted(set(x.split(', ')))) if x else '')",
+        "detail": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "documentation": {}
+    },
+    {
+        "label": "df_offres['COMPETENCES']",
+        "kind": 5,
+        "importPath": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "description": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "peekOfCode": "df_offres['COMPETENCES'] = df_offres['COMPETENCES'].str.lower()\ndf_offres['LANGUES'] = df_offres['LANGUES'].str.lower()\ndf_offres['FORMATION'] = df_offres['FORMATION'].str.lower()\ndf_candidats['COMPETENCES'] = df_candidats['COMPETENCES'].str.lower()\ndf_candidats['LANGUES'] = df_candidats['LANGUES'].str.lower()\ndf_candidats['FORMATION'] = df_candidats['FORMATION'].str.lower()\n# Supprimer les doublons dans les compétences et langues\ndf_offres['COMPETENCES'] = df_offres['COMPETENCES'].apply(lambda x: ', '.join(sorted(set(x.split(', ')))) if x else '')\ndf_offres['LANGUES'] = df_offres['LANGUES'].apply(lambda x: ', '.join(sorted(set(x.split(', ')))) if x else '')\ndf_candidats['COMPETENCES'] = df_candidats['COMPETENCES'].apply(lambda x: ', '.join(sorted(set(x.split(', ')))) if x else '')",
+        "detail": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "documentation": {}
+    },
+    {
+        "label": "df_offres['LANGUES']",
+        "kind": 5,
+        "importPath": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "description": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "peekOfCode": "df_offres['LANGUES'] = df_offres['LANGUES'].str.lower()\ndf_offres['FORMATION'] = df_offres['FORMATION'].str.lower()\ndf_candidats['COMPETENCES'] = df_candidats['COMPETENCES'].str.lower()\ndf_candidats['LANGUES'] = df_candidats['LANGUES'].str.lower()\ndf_candidats['FORMATION'] = df_candidats['FORMATION'].str.lower()\n# Supprimer les doublons dans les compétences et langues\ndf_offres['COMPETENCES'] = df_offres['COMPETENCES'].apply(lambda x: ', '.join(sorted(set(x.split(', ')))) if x else '')\ndf_offres['LANGUES'] = df_offres['LANGUES'].apply(lambda x: ', '.join(sorted(set(x.split(', ')))) if x else '')\ndf_candidats['COMPETENCES'] = df_candidats['COMPETENCES'].apply(lambda x: ', '.join(sorted(set(x.split(', ')))) if x else '')\ndf_candidats['LANGUES'] = df_candidats['LANGUES'].apply(lambda x: ', '.join(sorted(set(x.split(', ')))) if x else '')",
+        "detail": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "documentation": {}
+    },
+    {
+        "label": "df_offres['FORMATION']",
+        "kind": 5,
+        "importPath": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "description": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "peekOfCode": "df_offres['FORMATION'] = df_offres['FORMATION'].str.lower()\ndf_candidats['COMPETENCES'] = df_candidats['COMPETENCES'].str.lower()\ndf_candidats['LANGUES'] = df_candidats['LANGUES'].str.lower()\ndf_candidats['FORMATION'] = df_candidats['FORMATION'].str.lower()\n# Supprimer les doublons dans les compétences et langues\ndf_offres['COMPETENCES'] = df_offres['COMPETENCES'].apply(lambda x: ', '.join(sorted(set(x.split(', ')))) if x else '')\ndf_offres['LANGUES'] = df_offres['LANGUES'].apply(lambda x: ', '.join(sorted(set(x.split(', ')))) if x else '')\ndf_candidats['COMPETENCES'] = df_candidats['COMPETENCES'].apply(lambda x: ', '.join(sorted(set(x.split(', ')))) if x else '')\ndf_candidats['LANGUES'] = df_candidats['LANGUES'].apply(lambda x: ', '.join(sorted(set(x.split(', ')))) if x else '')\n# Remplacer les valeurs manquantes",
+        "detail": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "documentation": {}
+    },
+    {
+        "label": "df_candidats['COMPETENCES']",
+        "kind": 5,
+        "importPath": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "description": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "peekOfCode": "df_candidats['COMPETENCES'] = df_candidats['COMPETENCES'].str.lower()\ndf_candidats['LANGUES'] = df_candidats['LANGUES'].str.lower()\ndf_candidats['FORMATION'] = df_candidats['FORMATION'].str.lower()\n# Supprimer les doublons dans les compétences et langues\ndf_offres['COMPETENCES'] = df_offres['COMPETENCES'].apply(lambda x: ', '.join(sorted(set(x.split(', ')))) if x else '')\ndf_offres['LANGUES'] = df_offres['LANGUES'].apply(lambda x: ', '.join(sorted(set(x.split(', ')))) if x else '')\ndf_candidats['COMPETENCES'] = df_candidats['COMPETENCES'].apply(lambda x: ', '.join(sorted(set(x.split(', ')))) if x else '')\ndf_candidats['LANGUES'] = df_candidats['LANGUES'].apply(lambda x: ', '.join(sorted(set(x.split(', ')))) if x else '')\n# Remplacer les valeurs manquantes\ndf_offres.fillna({'COMPETENCES': '', 'LANGUES': '', 'FORMATION': '', 'EXPERIENCE_DUR': 0}, inplace=True)",
+        "detail": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "documentation": {}
+    },
+    {
+        "label": "df_candidats['LANGUES']",
+        "kind": 5,
+        "importPath": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "description": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "peekOfCode": "df_candidats['LANGUES'] = df_candidats['LANGUES'].str.lower()\ndf_candidats['FORMATION'] = df_candidats['FORMATION'].str.lower()\n# Supprimer les doublons dans les compétences et langues\ndf_offres['COMPETENCES'] = df_offres['COMPETENCES'].apply(lambda x: ', '.join(sorted(set(x.split(', ')))) if x else '')\ndf_offres['LANGUES'] = df_offres['LANGUES'].apply(lambda x: ', '.join(sorted(set(x.split(', ')))) if x else '')\ndf_candidats['COMPETENCES'] = df_candidats['COMPETENCES'].apply(lambda x: ', '.join(sorted(set(x.split(', ')))) if x else '')\ndf_candidats['LANGUES'] = df_candidats['LANGUES'].apply(lambda x: ', '.join(sorted(set(x.split(', ')))) if x else '')\n# Remplacer les valeurs manquantes\ndf_offres.fillna({'COMPETENCES': '', 'LANGUES': '', 'FORMATION': '', 'EXPERIENCE_DUR': 0}, inplace=True)\ndf_candidats.fillna({'COMPETENCES': '', 'LANGUES': '', 'FORMATION': '', 'NBR_YEARS_EXP': 0}, inplace=True)",
+        "detail": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "documentation": {}
+    },
+    {
+        "label": "df_candidats['FORMATION']",
+        "kind": 5,
+        "importPath": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "description": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "peekOfCode": "df_candidats['FORMATION'] = df_candidats['FORMATION'].str.lower()\n# Supprimer les doublons dans les compétences et langues\ndf_offres['COMPETENCES'] = df_offres['COMPETENCES'].apply(lambda x: ', '.join(sorted(set(x.split(', ')))) if x else '')\ndf_offres['LANGUES'] = df_offres['LANGUES'].apply(lambda x: ', '.join(sorted(set(x.split(', ')))) if x else '')\ndf_candidats['COMPETENCES'] = df_candidats['COMPETENCES'].apply(lambda x: ', '.join(sorted(set(x.split(', ')))) if x else '')\ndf_candidats['LANGUES'] = df_candidats['LANGUES'].apply(lambda x: ', '.join(sorted(set(x.split(', ')))) if x else '')\n# Remplacer les valeurs manquantes\ndf_offres.fillna({'COMPETENCES': '', 'LANGUES': '', 'FORMATION': '', 'EXPERIENCE_DUR': 0}, inplace=True)\ndf_candidats.fillna({'COMPETENCES': '', 'LANGUES': '', 'FORMATION': '', 'NBR_YEARS_EXP': 0}, inplace=True)\n# Générer des embeddings pour les offres",
+        "detail": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "documentation": {}
+    },
+    {
+        "label": "df_offres['COMPETENCES']",
+        "kind": 5,
+        "importPath": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "description": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "peekOfCode": "df_offres['COMPETENCES'] = df_offres['COMPETENCES'].apply(lambda x: ', '.join(sorted(set(x.split(', ')))) if x else '')\ndf_offres['LANGUES'] = df_offres['LANGUES'].apply(lambda x: ', '.join(sorted(set(x.split(', ')))) if x else '')\ndf_candidats['COMPETENCES'] = df_candidats['COMPETENCES'].apply(lambda x: ', '.join(sorted(set(x.split(', ')))) if x else '')\ndf_candidats['LANGUES'] = df_candidats['LANGUES'].apply(lambda x: ', '.join(sorted(set(x.split(', ')))) if x else '')\n# Remplacer les valeurs manquantes\ndf_offres.fillna({'COMPETENCES': '', 'LANGUES': '', 'FORMATION': '', 'EXPERIENCE_DUR': 0}, inplace=True)\ndf_candidats.fillna({'COMPETENCES': '', 'LANGUES': '', 'FORMATION': '', 'NBR_YEARS_EXP': 0}, inplace=True)\n# Générer des embeddings pour les offres\ndf_offres['description'] = df_offres['COMPETENCES'] + \", \" + df_offres['LANGUES'] + \", \" + df_offres['FORMATION'] + \", \" + df_offres['EXPERIENCE_DUR'].astype(str)\nembeddings_offres = model.encode(df_offres['description'].tolist(), show_progress_bar=True)",
+        "detail": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "documentation": {}
+    },
+    {
+        "label": "df_offres['LANGUES']",
+        "kind": 5,
+        "importPath": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "description": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "peekOfCode": "df_offres['LANGUES'] = df_offres['LANGUES'].apply(lambda x: ', '.join(sorted(set(x.split(', ')))) if x else '')\ndf_candidats['COMPETENCES'] = df_candidats['COMPETENCES'].apply(lambda x: ', '.join(sorted(set(x.split(', ')))) if x else '')\ndf_candidats['LANGUES'] = df_candidats['LANGUES'].apply(lambda x: ', '.join(sorted(set(x.split(', ')))) if x else '')\n# Remplacer les valeurs manquantes\ndf_offres.fillna({'COMPETENCES': '', 'LANGUES': '', 'FORMATION': '', 'EXPERIENCE_DUR': 0}, inplace=True)\ndf_candidats.fillna({'COMPETENCES': '', 'LANGUES': '', 'FORMATION': '', 'NBR_YEARS_EXP': 0}, inplace=True)\n# Générer des embeddings pour les offres\ndf_offres['description'] = df_offres['COMPETENCES'] + \", \" + df_offres['LANGUES'] + \", \" + df_offres['FORMATION'] + \", \" + df_offres['EXPERIENCE_DUR'].astype(str)\nembeddings_offres = model.encode(df_offres['description'].tolist(), show_progress_bar=True)\n# Assurez-vous que les embeddings sont bien sous forme de liste de tableaux 1D",
+        "detail": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "documentation": {}
+    },
+    {
+        "label": "df_candidats['COMPETENCES']",
+        "kind": 5,
+        "importPath": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "description": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "peekOfCode": "df_candidats['COMPETENCES'] = df_candidats['COMPETENCES'].apply(lambda x: ', '.join(sorted(set(x.split(', ')))) if x else '')\ndf_candidats['LANGUES'] = df_candidats['LANGUES'].apply(lambda x: ', '.join(sorted(set(x.split(', ')))) if x else '')\n# Remplacer les valeurs manquantes\ndf_offres.fillna({'COMPETENCES': '', 'LANGUES': '', 'FORMATION': '', 'EXPERIENCE_DUR': 0}, inplace=True)\ndf_candidats.fillna({'COMPETENCES': '', 'LANGUES': '', 'FORMATION': '', 'NBR_YEARS_EXP': 0}, inplace=True)\n# Générer des embeddings pour les offres\ndf_offres['description'] = df_offres['COMPETENCES'] + \", \" + df_offres['LANGUES'] + \", \" + df_offres['FORMATION'] + \", \" + df_offres['EXPERIENCE_DUR'].astype(str)\nembeddings_offres = model.encode(df_offres['description'].tolist(), show_progress_bar=True)\n# Assurez-vous que les embeddings sont bien sous forme de liste de tableaux 1D\ndf_offres['embedding'] = [embedding.tolist() for embedding in embeddings_offres]",
+        "detail": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "documentation": {}
+    },
+    {
+        "label": "df_candidats['LANGUES']",
+        "kind": 5,
+        "importPath": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "description": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "peekOfCode": "df_candidats['LANGUES'] = df_candidats['LANGUES'].apply(lambda x: ', '.join(sorted(set(x.split(', ')))) if x else '')\n# Remplacer les valeurs manquantes\ndf_offres.fillna({'COMPETENCES': '', 'LANGUES': '', 'FORMATION': '', 'EXPERIENCE_DUR': 0}, inplace=True)\ndf_candidats.fillna({'COMPETENCES': '', 'LANGUES': '', 'FORMATION': '', 'NBR_YEARS_EXP': 0}, inplace=True)\n# Générer des embeddings pour les offres\ndf_offres['description'] = df_offres['COMPETENCES'] + \", \" + df_offres['LANGUES'] + \", \" + df_offres['FORMATION'] + \", \" + df_offres['EXPERIENCE_DUR'].astype(str)\nembeddings_offres = model.encode(df_offres['description'].tolist(), show_progress_bar=True)\n# Assurez-vous que les embeddings sont bien sous forme de liste de tableaux 1D\ndf_offres['embedding'] = [embedding.tolist() for embedding in embeddings_offres]\n#df_offres['embedding'] = model.encode(df_offres['description'].tolist(), show_progress_bar=True)",
+        "detail": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "documentation": {}
+    },
+    {
+        "label": "df_offres['description']",
+        "kind": 5,
+        "importPath": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "description": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "peekOfCode": "df_offres['description'] = df_offres['COMPETENCES'] + \", \" + df_offres['LANGUES'] + \", \" + df_offres['FORMATION'] + \", \" + df_offres['EXPERIENCE_DUR'].astype(str)\nembeddings_offres = model.encode(df_offres['description'].tolist(), show_progress_bar=True)\n# Assurez-vous que les embeddings sont bien sous forme de liste de tableaux 1D\ndf_offres['embedding'] = [embedding.tolist() for embedding in embeddings_offres]\n#df_offres['embedding'] = model.encode(df_offres['description'].tolist(), show_progress_bar=True)\n# Générer des embeddings pour les candidats\ndf_candidats['description'] = df_candidats['COMPETENCES'] + \", \" + df_candidats['LANGUES'] + \", \" + df_candidats['FORMATION'] + \", \" + df_candidats['NBR_YEARS_EXP'].astype(str)\nembeddings_candidats = model.encode(df_candidats['description'].tolist(), show_progress_bar=True)\n# Assurez-vous que les embeddings sont bien sous forme de liste de tableaux 1D\ndf_candidats['embedding'] = [embedding.tolist() for embedding in embeddings_candidats]",
+        "detail": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "documentation": {}
+    },
+    {
+        "label": "embeddings_offres",
+        "kind": 5,
+        "importPath": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "description": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "peekOfCode": "embeddings_offres = model.encode(df_offres['description'].tolist(), show_progress_bar=True)\n# Assurez-vous que les embeddings sont bien sous forme de liste de tableaux 1D\ndf_offres['embedding'] = [embedding.tolist() for embedding in embeddings_offres]\n#df_offres['embedding'] = model.encode(df_offres['description'].tolist(), show_progress_bar=True)\n# Générer des embeddings pour les candidats\ndf_candidats['description'] = df_candidats['COMPETENCES'] + \", \" + df_candidats['LANGUES'] + \", \" + df_candidats['FORMATION'] + \", \" + df_candidats['NBR_YEARS_EXP'].astype(str)\nembeddings_candidats = model.encode(df_candidats['description'].tolist(), show_progress_bar=True)\n# Assurez-vous que les embeddings sont bien sous forme de liste de tableaux 1D\ndf_candidats['embedding'] = [embedding.tolist() for embedding in embeddings_candidats]\n# Vérifier le résultat",
+        "detail": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "documentation": {}
+    },
+    {
+        "label": "df_offres['embedding']",
+        "kind": 5,
+        "importPath": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "description": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "peekOfCode": "df_offres['embedding'] = [embedding.tolist() for embedding in embeddings_offres]\n#df_offres['embedding'] = model.encode(df_offres['description'].tolist(), show_progress_bar=True)\n# Générer des embeddings pour les candidats\ndf_candidats['description'] = df_candidats['COMPETENCES'] + \", \" + df_candidats['LANGUES'] + \", \" + df_candidats['FORMATION'] + \", \" + df_candidats['NBR_YEARS_EXP'].astype(str)\nembeddings_candidats = model.encode(df_candidats['description'].tolist(), show_progress_bar=True)\n# Assurez-vous que les embeddings sont bien sous forme de liste de tableaux 1D\ndf_candidats['embedding'] = [embedding.tolist() for embedding in embeddings_candidats]\n# Vérifier le résultat\nprint(df_offres.head())\nprint(df_candidats.head())",
+        "detail": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "documentation": {}
+    },
+    {
+        "label": "#df_offres['embedding']",
+        "kind": 5,
+        "importPath": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "description": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "peekOfCode": "#df_offres['embedding'] = model.encode(df_offres['description'].tolist(), show_progress_bar=True)\n# Générer des embeddings pour les candidats\ndf_candidats['description'] = df_candidats['COMPETENCES'] + \", \" + df_candidats['LANGUES'] + \", \" + df_candidats['FORMATION'] + \", \" + df_candidats['NBR_YEARS_EXP'].astype(str)\nembeddings_candidats = model.encode(df_candidats['description'].tolist(), show_progress_bar=True)\n# Assurez-vous que les embeddings sont bien sous forme de liste de tableaux 1D\ndf_candidats['embedding'] = [embedding.tolist() for embedding in embeddings_candidats]\n# Vérifier le résultat\nprint(df_offres.head())\nprint(df_candidats.head())\n#df_candidats['embedding'] = model.encode(df_candidats['description'].tolist(), show_progress_bar=True)",
+        "detail": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "documentation": {}
+    },
+    {
+        "label": "df_candidats['description']",
+        "kind": 5,
+        "importPath": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "description": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "peekOfCode": "df_candidats['description'] = df_candidats['COMPETENCES'] + \", \" + df_candidats['LANGUES'] + \", \" + df_candidats['FORMATION'] + \", \" + df_candidats['NBR_YEARS_EXP'].astype(str)\nembeddings_candidats = model.encode(df_candidats['description'].tolist(), show_progress_bar=True)\n# Assurez-vous que les embeddings sont bien sous forme de liste de tableaux 1D\ndf_candidats['embedding'] = [embedding.tolist() for embedding in embeddings_candidats]\n# Vérifier le résultat\nprint(df_offres.head())\nprint(df_candidats.head())\n#df_candidats['embedding'] = model.encode(df_candidats['description'].tolist(), show_progress_bar=True)\n# Étape 3 : Charger les embeddings dans Pinecone\nfrom pinecone import Pinecone, ServerlessSpec, PineconeApiException",
+        "detail": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "documentation": {}
+    },
+    {
+        "label": "embeddings_candidats",
+        "kind": 5,
+        "importPath": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "description": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "peekOfCode": "embeddings_candidats = model.encode(df_candidats['description'].tolist(), show_progress_bar=True)\n# Assurez-vous que les embeddings sont bien sous forme de liste de tableaux 1D\ndf_candidats['embedding'] = [embedding.tolist() for embedding in embeddings_candidats]\n# Vérifier le résultat\nprint(df_offres.head())\nprint(df_candidats.head())\n#df_candidats['embedding'] = model.encode(df_candidats['description'].tolist(), show_progress_bar=True)\n# Étape 3 : Charger les embeddings dans Pinecone\nfrom pinecone import Pinecone, ServerlessSpec, PineconeApiException\nimport pinecone",
+        "detail": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "documentation": {}
+    },
+    {
+        "label": "df_candidats['embedding']",
+        "kind": 5,
+        "importPath": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "description": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "peekOfCode": "df_candidats['embedding'] = [embedding.tolist() for embedding in embeddings_candidats]\n# Vérifier le résultat\nprint(df_offres.head())\nprint(df_candidats.head())\n#df_candidats['embedding'] = model.encode(df_candidats['description'].tolist(), show_progress_bar=True)\n# Étape 3 : Charger les embeddings dans Pinecone\nfrom pinecone import Pinecone, ServerlessSpec, PineconeApiException\nimport pinecone\n# Créez une instance de Pinecone avec votre clé API\napi_key = \"pcsk_Bek39_GoSxAyBEKDYpgNTADG9gjATrshAMneRiTtY9cEET1LvmsH4mCqyYoYxazS1cPp2\"",
+        "detail": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "documentation": {}
+    },
+    {
+        "label": "#df_candidats['embedding']",
+        "kind": 5,
+        "importPath": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "description": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "peekOfCode": "#df_candidats['embedding'] = model.encode(df_candidats['description'].tolist(), show_progress_bar=True)\n# Étape 3 : Charger les embeddings dans Pinecone\nfrom pinecone import Pinecone, ServerlessSpec, PineconeApiException\nimport pinecone\n# Créez une instance de Pinecone avec votre clé API\napi_key = \"pcsk_Bek39_GoSxAyBEKDYpgNTADG9gjATrshAMneRiTtY9cEET1LvmsH4mCqyYoYxazS1cPp2\"\npc = pinecone.Pinecone(api_key=api_key)\n# Vérifiez si l'index existe déjà\nif 'jobcandidates' not in pc.list_indexes().names():\n    try:",
+        "detail": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "documentation": {}
+    },
+    {
+        "label": "api_key",
+        "kind": 5,
+        "importPath": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "description": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "peekOfCode": "api_key = \"pcsk_Bek39_GoSxAyBEKDYpgNTADG9gjATrshAMneRiTtY9cEET1LvmsH4mCqyYoYxazS1cPp2\"\npc = pinecone.Pinecone(api_key=api_key)\n# Vérifiez si l'index existe déjà\nif 'jobcandidates' not in pc.list_indexes().names():\n    try:\n        # Créez l'index si nécessaire\n        pc.create_index(\n            name='jobcandidates',\n            dimension=384,  # Adaptez la dimension selon le modèle utilisé\n            metric='cosine',  # Vous pouvez choisir la métrique appropriée",
+        "detail": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "documentation": {}
+    },
+    {
+        "label": "pc",
+        "kind": 5,
+        "importPath": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "description": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "peekOfCode": "pc = pinecone.Pinecone(api_key=api_key)\n# Vérifiez si l'index existe déjà\nif 'jobcandidates' not in pc.list_indexes().names():\n    try:\n        # Créez l'index si nécessaire\n        pc.create_index(\n            name='jobcandidates',\n            dimension=384,  # Adaptez la dimension selon le modèle utilisé\n            metric='cosine',  # Vous pouvez choisir la métrique appropriée\n            spec=ServerlessSpec(",
+        "detail": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 5,
+        "importPath": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "description": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "peekOfCode": "index = pc.Index(\"jobcandidates\")\ndef batch_vectors(vectors, batch_size):\n    \"\"\"\n    Divise une liste de vecteurs en lots plus petits.\n    \"\"\"\n    for i in range(0, len(vectors), batch_size):\n        yield vectors[i:i + batch_size]\n# Taille maximale des lots (ajustez si nécessaire)\nbatch_size = 100  # Taille de lot initiale, adaptée à vos besoins et à vos tests.\n# --- Insérer les offres ---",
+        "detail": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "documentation": {}
+    },
+    {
+        "label": "batch_size",
+        "kind": 5,
+        "importPath": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "description": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "peekOfCode": "batch_size = 100  # Taille de lot initiale, adaptée à vos besoins et à vos tests.\n# --- Insérer les offres ---\noffre_vectors = [(str(row.OFFRE_ID), row.embedding) for _, row in df_offres.iterrows()]\n# Vérifiez la dimension des vecteurs\nfor vector_id, vector_values in offre_vectors:\n    if len(vector_values) != 384:\n        print(f\"Erreur : le vecteur avec l'ID {vector_id} a une dimension incorrecte ({len(vector_values)})\")\n        break\n# Insérer les vecteurs en lots\nfor batch in batch_vectors(offre_vectors, batch_size):",
+        "detail": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "documentation": {}
+    },
+    {
+        "label": "offre_vectors",
+        "kind": 5,
+        "importPath": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "description": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "peekOfCode": "offre_vectors = [(str(row.OFFRE_ID), row.embedding) for _, row in df_offres.iterrows()]\n# Vérifiez la dimension des vecteurs\nfor vector_id, vector_values in offre_vectors:\n    if len(vector_values) != 384:\n        print(f\"Erreur : le vecteur avec l'ID {vector_id} a une dimension incorrecte ({len(vector_values)})\")\n        break\n# Insérer les vecteurs en lots\nfor batch in batch_vectors(offre_vectors, batch_size):\n    try:\n        index.upsert(vectors=batch)",
+        "detail": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "documentation": {}
+    },
+    {
+        "label": "candidat_vectors",
+        "kind": 5,
+        "importPath": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "description": "snowflake_to_pinecone.snowflake_to_pinecone",
+        "peekOfCode": "candidat_vectors = [(str(row.CANDIDAT_ID), row.embedding) for _, row in df_candidats.iterrows()]\n# Vérifiez la dimension des vecteurs\nfor vector_id, vector_values in candidat_vectors:\n    if len(vector_values) != 384:\n        print(f\"Erreur : le vecteur avec l'ID {vector_id} a une dimension incorrecte ({len(vector_values)})\")\n        break\n# Insérer les vecteurs en lots\nfor batch in batch_vectors(candidat_vectors, batch_size):\n    try:\n        index.upsert(vectors=batch)",
+        "detail": "snowflake_to_pinecone.snowflake_to_pinecone",
         "documentation": {}
     },
     {
