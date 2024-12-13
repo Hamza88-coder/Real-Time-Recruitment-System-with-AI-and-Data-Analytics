@@ -4,13 +4,14 @@ import random
 from kafka import KafkaProducer
 from time import sleep
 import config as cfg
-from offre_Process.spark.gen import serveur_kafka  # Import de la configuration externe pour les paramètres
-from notoyage_data.llama_formation_sector import api_key
+
+
+# Compteur global pour les offres
+compteur_offres = 0
 
 def generer_offre_emploi(api_key, resume_data):
     try:
         from groq import Groq  # Import du client Groq
-
         groq_client = Groq(api_key=api_key)
 
         # Messages pour le modèle
@@ -77,7 +78,9 @@ def envoyer_vers_kafka(serveur_kafka, topic, message):
         # Envoi du message
         producer.send(topic, message)
         producer.flush()  # Assure que le message est bien envoyé
-        print("Message envoyé avec succès à Kafka.")
+        global compteur_offres
+        compteur_offres += 1  # Incrémente le compteur
+        print(f"Offre numéro {compteur_offres} envoyée avec succès à Kafka.")
     except Exception as e:
         print(f"Erreur lors de l'envoi à Kafka : {str(e)}")
 
@@ -113,9 +116,10 @@ def simulation_offres(api_key, serveur_kafka, topic):
         except KeyboardInterrupt:
             print("\nSimulation interrompue par l'utilisateur.")
             break
+
 topic = cfg.topic
-serveur_kafka=cfg.serveur_kafka
-api_key=cfg.api_key
+serveur_kafka = cfg.serveur_kafka
+api_key = cfg.api_key
 
 # Lancer la simulation
 simulation_offres(api_key, serveur_kafka, topic)

@@ -1261,22 +1261,6 @@
         "documentation": {}
     },
     {
-        "label": "serveur_kafka",
-        "importPath": "offre_Process.spark.gen",
-        "description": "offre_Process.spark.gen",
-        "isExtraImport": true,
-        "detail": "offre_Process.spark.gen",
-        "documentation": {}
-    },
-    {
-        "label": "api_key",
-        "importPath": "notoyage_data.llama_formation_sector",
-        "description": "notoyage_data.llama_formation_sector",
-        "isExtraImport": true,
-        "detail": "notoyage_data.llama_formation_sector",
-        "documentation": {}
-    },
-    {
         "label": "extract_job_info",
         "importPath": "extractor",
         "description": "extractor",
@@ -3338,11 +3322,38 @@
         "documentation": {}
     },
     {
+        "label": "compteur_offres",
+        "kind": 5,
+        "importPath": "offre_Process.data.producer",
+        "description": "offre_Process.data.producer",
+        "peekOfCode": "compteur_offres = 0\ndef generer_offre_emploi(api_key, resume_data):\n    try:\n        from groq import Groq  # Import du client Groq\n        groq_client = Groq(api_key=api_key)\n        # Messages pour le modèle\n        messages = [\n            {\n                \"role\": \"system\",\n                \"content\": \"Tu es un assistant chargé de générer des offres d'emploi basées sur un modèle structuré.\"",
+        "detail": "offre_Process.data.producer",
+        "documentation": {}
+    },
+    {
         "label": "topic",
         "kind": 5,
         "importPath": "offre_Process.data.producer",
         "description": "offre_Process.data.producer",
-        "peekOfCode": "topic = cfg.topic\nserveur_kafka=cfg.serveur_kafka\napi_key=cfg.api_key\n# Lancer la simulation\nsimulation_offres(api_key, serveur_kafka, topic)",
+        "peekOfCode": "topic = cfg.topic\nserveur_kafka = cfg.serveur_kafka\napi_key = cfg.api_key\n# Lancer la simulation\nsimulation_offres(api_key, serveur_kafka, topic)",
+        "detail": "offre_Process.data.producer",
+        "documentation": {}
+    },
+    {
+        "label": "serveur_kafka",
+        "kind": 5,
+        "importPath": "offre_Process.data.producer",
+        "description": "offre_Process.data.producer",
+        "peekOfCode": "serveur_kafka = cfg.serveur_kafka\napi_key = cfg.api_key\n# Lancer la simulation\nsimulation_offres(api_key, serveur_kafka, topic)",
+        "detail": "offre_Process.data.producer",
+        "documentation": {}
+    },
+    {
+        "label": "api_key",
+        "kind": 5,
+        "importPath": "offre_Process.data.producer",
+        "description": "offre_Process.data.producer",
+        "peekOfCode": "api_key = cfg.api_key\n# Lancer la simulation\nsimulation_offres(api_key, serveur_kafka, topic)",
         "detail": "offre_Process.data.producer",
         "documentation": {}
     },
