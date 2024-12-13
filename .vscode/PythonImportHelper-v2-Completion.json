@@ -1693,6 +1693,42 @@
         "documentation": {}
     },
     {
+        "label": "subprocess",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "subprocess",
+        "description": "subprocess",
+        "detail": "subprocess",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "tarfile",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "tarfile",
+        "description": "tarfile",
+        "detail": "tarfile",
+        "documentation": {}
+    },
+    {
         "label": "topic",
         "kind": 5,
         "importPath": "CV_Processus.consumerSpark.config",
@@ -4327,6 +4363,15 @@
         "description": "generator_offre",
         "peekOfCode": "offre = generer_offre_emploi(api_key, prompt, resume_data)\nprint(offre)",
         "detail": "generator_offre",
+        "documentation": {}
+    },
+    {
+        "label": "setup_pyspark",
+        "kind": 2,
+        "importPath": "seyp",
+        "description": "seyp",
+        "peekOfCode": "def setup_pyspark():\n    # Installe pyspark et findspark s'ils ne sont pas déjà installés\n    try:\n        import pyspark\n    except ImportError:\n        print(\"Installation de PySpark...\")\n        subprocess.check_call([sys.executable, \"-m\", \"pip\", \"install\", \"pyspark\", \"findspark\", \"delta-spark\"])\n    import findspark\n    # Configuration des chemins pour Spark et Java\n    spark_home = os.environ.get(\"SPARK_HOME\", \"C:/spark\")",
+        "detail": "seyp",
         "documentation": {}
     },
     {
