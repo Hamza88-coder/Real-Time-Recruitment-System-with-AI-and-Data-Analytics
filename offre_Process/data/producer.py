@@ -4,16 +4,26 @@ import random
 from time import sleep
 import config as cfg
 
-
-
-
 # Compteur global pour les offres
 compteur_offres = 0
-serveur_kafka=cfg.serveur_kafka
-topic=cfg.topic
-api_key=cfg.username
-api_secret=cfg.password
+serveur_kafka = cfg.serveur_kafka
+topic = cfg.topic
+api_key = cfg.username
+api_secret = cfg.password
 
+# Liste d'exemples pour chaque section de l'offre
+titres_poste = ["Stagiaire Data Engineer (PFE)", "Data Analyst Junior", "Développeur Backend", "Ingénieur Machine Learning"]
+societes = ["DataTech Solutions", "Tech Innovations", "DataWorks", "AlgoConsulting"]
+lieux = ["Lyon, France", "Paris, France", "Télétravail", "Marseille, France"]
+salaires = [1200, 1500, 1800, 2000]  # en EUR
+langues_requises = ["Anglais, Français", "Français", "Anglais"]
+formations = ["Étudiant en informatique ou domaine connexe", "Diplômé en ingénierie logicielle", "Master en Data Science"]
+competences = [
+    "Excellente maîtrise de Python et SQL",
+    "Expérience avec des outils ETL comme Apache Airflow ou Talend",
+    "Connaissance des bases de données NoSQL (MongoDB, Cassandra)",
+    "Familiarité avec les plateformes cloud (AWS, Google Cloud)"
+]
 
 def envoyer_vers_kafka(serveur_kafka, topic, message, api_key, api_secret):
     try:
@@ -26,7 +36,7 @@ def envoyer_vers_kafka(serveur_kafka, topic, message, api_key, api_secret):
             sasl_plain_username=api_key,
             sasl_plain_password=api_secret,
         )
-        
+
         # Envoi du message
         producer.send(topic, message)
         producer.flush()  # Assure que le message est bien envoyé
@@ -38,22 +48,30 @@ def envoyer_vers_kafka(serveur_kafka, topic, message, api_key, api_secret):
 
 
 def simulation_offres(api_key, api_secret, serveur_kafka, topic):
-    exemples_cv = [
-        "Candidat expert en Python et SQL, avec expérience dans le cloud AWS.",
-        "Candidat avec des compétences avancées en Java, Spark, et Hadoop.",
-        "Ingénieur logiciel avec 5 ans d'expérience en C++, Docker, et Kubernetes.",
-        "Étudiant en data science maîtrisant R, Tableau et machine learning.",
-        "Développeur front-end avec expertise en JavaScript, React, et TypeScript."
-    ]
-
     while True:
         try:
-            # Génération simulée d'une offre
-            resume_data = random.choice(exemples_cv)
-            offre = f"Offre générée pour : {resume_data}"
-            message = {"offre": offre}
+            # Génération simulée d'une offre complète
+            offre = {
+                "Titre du poste": random.choice(titres_poste),
+                "Société": random.choice(societes),
+                "Lieu": random.choice(lieux),
+                "Type de contrat": "Stage PFE de 6 mois",
+                "Description du poste": "Assistance à la conception, à la mise en œuvre et à l'optimisation de pipelines de données.",
+                "Compétences requises": random.sample(competences, 3),
+                "Email": "contact@domaine.fr",
+                "Téléphone": "+33 1 23 45 67 89",
+                "Type": "Hybride",
+                "Langues requises": random.choice(langues_requises),
+                "Salaire": f"{random.choice(salaires)} EUR par mois",
+                "Date de début": "15 janvier 2025",
+                "Secteur d'activité": "Technologie de l'information",
+                "Formation requise": random.choice(formations),
+                "Avantages": ["Assurance santé", "Opportunités de formation continue"],
+                "Site web": "www.domaine.fr"
+            }
 
-            # Envoi à Kafka
+            # Envoi de l'offre complète à Kafka
+            message = {"offre": offre}
             envoyer_vers_kafka(serveur_kafka, topic, message, api_key, api_secret)
 
             # Pause pour simuler l'arrivée d'offres
@@ -65,5 +83,4 @@ def simulation_offres(api_key, api_secret, serveur_kafka, topic):
 
 
 # Lancer la simulation
-
 simulation_offres(api_key, api_secret, serveur_kafka, topic)

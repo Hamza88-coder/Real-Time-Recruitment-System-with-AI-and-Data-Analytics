@@ -3402,7 +3402,7 @@
         "kind": 2,
         "importPath": "offre_Process.data.producer",
         "description": "offre_Process.data.producer",
-        "peekOfCode": "def simulation_offres(api_key, api_secret, serveur_kafka, topic):\n    exemples_cv = [\n        \"Candidat expert en Python et SQL, avec expérience dans le cloud AWS.\",\n        \"Candidat avec des compétences avancées en Java, Spark, et Hadoop.\",\n        \"Ingénieur logiciel avec 5 ans d'expérience en C++, Docker, et Kubernetes.\",\n        \"Étudiant en data science maîtrisant R, Tableau et machine learning.\",\n        \"Développeur front-end avec expertise en JavaScript, React, et TypeScript.\"\n    ]\n    while True:\n        try:",
+        "peekOfCode": "def simulation_offres(api_key, api_secret, serveur_kafka, topic):\n    while True:\n        try:\n            # Génération simulée d'une offre complète\n            offre = {\n                \"Titre du poste\": random.choice(titres_poste),\n                \"Société\": random.choice(societes),\n                \"Lieu\": random.choice(lieux),\n                \"Type de contrat\": \"Stage PFE de 6 mois\",\n                \"Description du poste\": \"Assistance à la conception, à la mise en œuvre et à l'optimisation de pipelines de données.\",",
         "detail": "offre_Process.data.producer",
         "documentation": {}
     },
@@ -3411,7 +3411,106 @@
         "kind": 5,
         "importPath": "offre_Process.data.producer",
         "description": "offre_Process.data.producer",
-        "peekOfCode": "compteur_offres = 0\nserveur_kafka=cfg.serveur_kafka\ntopic=cfg.topic\napi_key=cfg.username\napi_secret=cfg.password\ndef envoyer_vers_kafka(serveur_kafka, topic, message, api_key, api_secret):\n    try:\n        # Configuration du producteur Kafka avec SASL_SSL\n        producer = KafkaProducer(\n            bootstrap_servers=[serveur_kafka],",
+        "peekOfCode": "compteur_offres = 0\nserveur_kafka = cfg.serveur_kafka\ntopic = cfg.topic\napi_key = cfg.username\napi_secret = cfg.password\n# Liste d'exemples pour chaque section de l'offre\ntitres_poste = [\"Stagiaire Data Engineer (PFE)\", \"Data Analyst Junior\", \"Développeur Backend\", \"Ingénieur Machine Learning\"]\nsocietes = [\"DataTech Solutions\", \"Tech Innovations\", \"DataWorks\", \"AlgoConsulting\"]\nlieux = [\"Lyon, France\", \"Paris, France\", \"Télétravail\", \"Marseille, France\"]\nsalaires = [1200, 1500, 1800, 2000]  # en EUR",
+        "detail": "offre_Process.data.producer",
+        "documentation": {}
+    },
+    {
+        "label": "serveur_kafka",
+        "kind": 5,
+        "importPath": "offre_Process.data.producer",
+        "description": "offre_Process.data.producer",
+        "peekOfCode": "serveur_kafka = cfg.serveur_kafka\ntopic = cfg.topic\napi_key = cfg.username\napi_secret = cfg.password\n# Liste d'exemples pour chaque section de l'offre\ntitres_poste = [\"Stagiaire Data Engineer (PFE)\", \"Data Analyst Junior\", \"Développeur Backend\", \"Ingénieur Machine Learning\"]\nsocietes = [\"DataTech Solutions\", \"Tech Innovations\", \"DataWorks\", \"AlgoConsulting\"]\nlieux = [\"Lyon, France\", \"Paris, France\", \"Télétravail\", \"Marseille, France\"]\nsalaires = [1200, 1500, 1800, 2000]  # en EUR\nlangues_requises = [\"Anglais, Français\", \"Français\", \"Anglais\"]",
+        "detail": "offre_Process.data.producer",
+        "documentation": {}
+    },
+    {
+        "label": "topic",
+        "kind": 5,
+        "importPath": "offre_Process.data.producer",
+        "description": "offre_Process.data.producer",
+        "peekOfCode": "topic = cfg.topic\napi_key = cfg.username\napi_secret = cfg.password\n# Liste d'exemples pour chaque section de l'offre\ntitres_poste = [\"Stagiaire Data Engineer (PFE)\", \"Data Analyst Junior\", \"Développeur Backend\", \"Ingénieur Machine Learning\"]\nsocietes = [\"DataTech Solutions\", \"Tech Innovations\", \"DataWorks\", \"AlgoConsulting\"]\nlieux = [\"Lyon, France\", \"Paris, France\", \"Télétravail\", \"Marseille, France\"]\nsalaires = [1200, 1500, 1800, 2000]  # en EUR\nlangues_requises = [\"Anglais, Français\", \"Français\", \"Anglais\"]\nformations = [\"Étudiant en informatique ou domaine connexe\", \"Diplômé en ingénierie logicielle\", \"Master en Data Science\"]",
+        "detail": "offre_Process.data.producer",
+        "documentation": {}
+    },
+    {
+        "label": "api_key",
+        "kind": 5,
+        "importPath": "offre_Process.data.producer",
+        "description": "offre_Process.data.producer",
+        "peekOfCode": "api_key = cfg.username\napi_secret = cfg.password\n# Liste d'exemples pour chaque section de l'offre\ntitres_poste = [\"Stagiaire Data Engineer (PFE)\", \"Data Analyst Junior\", \"Développeur Backend\", \"Ingénieur Machine Learning\"]\nsocietes = [\"DataTech Solutions\", \"Tech Innovations\", \"DataWorks\", \"AlgoConsulting\"]\nlieux = [\"Lyon, France\", \"Paris, France\", \"Télétravail\", \"Marseille, France\"]\nsalaires = [1200, 1500, 1800, 2000]  # en EUR\nlangues_requises = [\"Anglais, Français\", \"Français\", \"Anglais\"]\nformations = [\"Étudiant en informatique ou domaine connexe\", \"Diplômé en ingénierie logicielle\", \"Master en Data Science\"]\ncompetences = [",
+        "detail": "offre_Process.data.producer",
+        "documentation": {}
+    },
+    {
+        "label": "api_secret",
+        "kind": 5,
+        "importPath": "offre_Process.data.producer",
+        "description": "offre_Process.data.producer",
+        "peekOfCode": "api_secret = cfg.password\n# Liste d'exemples pour chaque section de l'offre\ntitres_poste = [\"Stagiaire Data Engineer (PFE)\", \"Data Analyst Junior\", \"Développeur Backend\", \"Ingénieur Machine Learning\"]\nsocietes = [\"DataTech Solutions\", \"Tech Innovations\", \"DataWorks\", \"AlgoConsulting\"]\nlieux = [\"Lyon, France\", \"Paris, France\", \"Télétravail\", \"Marseille, France\"]\nsalaires = [1200, 1500, 1800, 2000]  # en EUR\nlangues_requises = [\"Anglais, Français\", \"Français\", \"Anglais\"]\nformations = [\"Étudiant en informatique ou domaine connexe\", \"Diplômé en ingénierie logicielle\", \"Master en Data Science\"]\ncompetences = [\n    \"Excellente maîtrise de Python et SQL\",",
+        "detail": "offre_Process.data.producer",
+        "documentation": {}
+    },
+    {
+        "label": "titres_poste",
+        "kind": 5,
+        "importPath": "offre_Process.data.producer",
+        "description": "offre_Process.data.producer",
+        "peekOfCode": "titres_poste = [\"Stagiaire Data Engineer (PFE)\", \"Data Analyst Junior\", \"Développeur Backend\", \"Ingénieur Machine Learning\"]\nsocietes = [\"DataTech Solutions\", \"Tech Innovations\", \"DataWorks\", \"AlgoConsulting\"]\nlieux = [\"Lyon, France\", \"Paris, France\", \"Télétravail\", \"Marseille, France\"]\nsalaires = [1200, 1500, 1800, 2000]  # en EUR\nlangues_requises = [\"Anglais, Français\", \"Français\", \"Anglais\"]\nformations = [\"Étudiant en informatique ou domaine connexe\", \"Diplômé en ingénierie logicielle\", \"Master en Data Science\"]\ncompetences = [\n    \"Excellente maîtrise de Python et SQL\",\n    \"Expérience avec des outils ETL comme Apache Airflow ou Talend\",\n    \"Connaissance des bases de données NoSQL (MongoDB, Cassandra)\",",
+        "detail": "offre_Process.data.producer",
+        "documentation": {}
+    },
+    {
+        "label": "societes",
+        "kind": 5,
+        "importPath": "offre_Process.data.producer",
+        "description": "offre_Process.data.producer",
+        "peekOfCode": "societes = [\"DataTech Solutions\", \"Tech Innovations\", \"DataWorks\", \"AlgoConsulting\"]\nlieux = [\"Lyon, France\", \"Paris, France\", \"Télétravail\", \"Marseille, France\"]\nsalaires = [1200, 1500, 1800, 2000]  # en EUR\nlangues_requises = [\"Anglais, Français\", \"Français\", \"Anglais\"]\nformations = [\"Étudiant en informatique ou domaine connexe\", \"Diplômé en ingénierie logicielle\", \"Master en Data Science\"]\ncompetences = [\n    \"Excellente maîtrise de Python et SQL\",\n    \"Expérience avec des outils ETL comme Apache Airflow ou Talend\",\n    \"Connaissance des bases de données NoSQL (MongoDB, Cassandra)\",\n    \"Familiarité avec les plateformes cloud (AWS, Google Cloud)\"",
+        "detail": "offre_Process.data.producer",
+        "documentation": {}
+    },
+    {
+        "label": "lieux",
+        "kind": 5,
+        "importPath": "offre_Process.data.producer",
+        "description": "offre_Process.data.producer",
+        "peekOfCode": "lieux = [\"Lyon, France\", \"Paris, France\", \"Télétravail\", \"Marseille, France\"]\nsalaires = [1200, 1500, 1800, 2000]  # en EUR\nlangues_requises = [\"Anglais, Français\", \"Français\", \"Anglais\"]\nformations = [\"Étudiant en informatique ou domaine connexe\", \"Diplômé en ingénierie logicielle\", \"Master en Data Science\"]\ncompetences = [\n    \"Excellente maîtrise de Python et SQL\",\n    \"Expérience avec des outils ETL comme Apache Airflow ou Talend\",\n    \"Connaissance des bases de données NoSQL (MongoDB, Cassandra)\",\n    \"Familiarité avec les plateformes cloud (AWS, Google Cloud)\"\n]",
+        "detail": "offre_Process.data.producer",
+        "documentation": {}
+    },
+    {
+        "label": "salaires",
+        "kind": 5,
+        "importPath": "offre_Process.data.producer",
+        "description": "offre_Process.data.producer",
+        "peekOfCode": "salaires = [1200, 1500, 1800, 2000]  # en EUR\nlangues_requises = [\"Anglais, Français\", \"Français\", \"Anglais\"]\nformations = [\"Étudiant en informatique ou domaine connexe\", \"Diplômé en ingénierie logicielle\", \"Master en Data Science\"]\ncompetences = [\n    \"Excellente maîtrise de Python et SQL\",\n    \"Expérience avec des outils ETL comme Apache Airflow ou Talend\",\n    \"Connaissance des bases de données NoSQL (MongoDB, Cassandra)\",\n    \"Familiarité avec les plateformes cloud (AWS, Google Cloud)\"\n]\ndef envoyer_vers_kafka(serveur_kafka, topic, message, api_key, api_secret):",
+        "detail": "offre_Process.data.producer",
+        "documentation": {}
+    },
+    {
+        "label": "langues_requises",
+        "kind": 5,
+        "importPath": "offre_Process.data.producer",
+        "description": "offre_Process.data.producer",
+        "peekOfCode": "langues_requises = [\"Anglais, Français\", \"Français\", \"Anglais\"]\nformations = [\"Étudiant en informatique ou domaine connexe\", \"Diplômé en ingénierie logicielle\", \"Master en Data Science\"]\ncompetences = [\n    \"Excellente maîtrise de Python et SQL\",\n    \"Expérience avec des outils ETL comme Apache Airflow ou Talend\",\n    \"Connaissance des bases de données NoSQL (MongoDB, Cassandra)\",\n    \"Familiarité avec les plateformes cloud (AWS, Google Cloud)\"\n]\ndef envoyer_vers_kafka(serveur_kafka, topic, message, api_key, api_secret):\n    try:",
+        "detail": "offre_Process.data.producer",
+        "documentation": {}
+    },
+    {
+        "label": "formations",
+        "kind": 5,
+        "importPath": "offre_Process.data.producer",
+        "description": "offre_Process.data.producer",
+        "peekOfCode": "formations = [\"Étudiant en informatique ou domaine connexe\", \"Diplômé en ingénierie logicielle\", \"Master en Data Science\"]\ncompetences = [\n    \"Excellente maîtrise de Python et SQL\",\n    \"Expérience avec des outils ETL comme Apache Airflow ou Talend\",\n    \"Connaissance des bases de données NoSQL (MongoDB, Cassandra)\",\n    \"Familiarité avec les plateformes cloud (AWS, Google Cloud)\"\n]\ndef envoyer_vers_kafka(serveur_kafka, topic, message, api_key, api_secret):\n    try:\n        # Configuration du producteur Kafka avec SASL_SSL",
+        "detail": "offre_Process.data.producer",
+        "documentation": {}
+    },
+    {
+        "label": "competences",
+        "kind": 5,
+        "importPath": "offre_Process.data.producer",
+        "description": "offre_Process.data.producer",
+        "peekOfCode": "competences = [\n    \"Excellente maîtrise de Python et SQL\",\n    \"Expérience avec des outils ETL comme Apache Airflow ou Talend\",\n    \"Connaissance des bases de données NoSQL (MongoDB, Cassandra)\",\n    \"Familiarité avec les plateformes cloud (AWS, Google Cloud)\"\n]\ndef envoyer_vers_kafka(serveur_kafka, topic, message, api_key, api_secret):\n    try:\n        # Configuration du producteur Kafka avec SASL_SSL\n        producer = KafkaProducer(",
         "detail": "offre_Process.data.producer",
         "documentation": {}
     },
