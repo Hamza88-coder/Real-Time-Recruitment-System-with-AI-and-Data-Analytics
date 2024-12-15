@@ -129,6 +129,22 @@
         "documentation": {}
     },
     {
+        "label": "DataFrame",
+        "importPath": "pyspark.sql",
+        "description": "pyspark.sql",
+        "isExtraImport": true,
+        "detail": "pyspark.sql",
+        "documentation": {}
+    },
+    {
+        "label": "SparkSession",
+        "importPath": "pyspark.sql",
+        "description": "pyspark.sql",
+        "isExtraImport": true,
+        "detail": "pyspark.sql",
+        "documentation": {}
+    },
+    {
         "label": "pyspark.sql.functions",
         "kind": 6,
         "isExtraImport": true,
@@ -426,6 +442,38 @@
         "documentation": {}
     },
     {
+        "label": "ArrayType",
+        "importPath": "pyspark.sql.types",
+        "description": "pyspark.sql.types",
+        "isExtraImport": true,
+        "detail": "pyspark.sql.types",
+        "documentation": {}
+    },
+    {
+        "label": "StructType",
+        "importPath": "pyspark.sql.types",
+        "description": "pyspark.sql.types",
+        "isExtraImport": true,
+        "detail": "pyspark.sql.types",
+        "documentation": {}
+    },
+    {
+        "label": "StructField",
+        "importPath": "pyspark.sql.types",
+        "description": "pyspark.sql.types",
+        "isExtraImport": true,
+        "detail": "pyspark.sql.types",
+        "documentation": {}
+    },
+    {
+        "label": "StringType",
+        "importPath": "pyspark.sql.types",
+        "description": "pyspark.sql.types",
+        "isExtraImport": true,
+        "detail": "pyspark.sql.types",
+        "documentation": {}
+    },
+    {
         "label": "IntegerType",
         "importPath": "pyspark.sql.types",
         "description": "pyspark.sql.types",
@@ -631,6 +679,14 @@
         "documentation": {}
     },
     {
+        "label": "DeltaTable",
+        "importPath": "delta.tables",
+        "description": "delta.tables",
+        "isExtraImport": true,
+        "detail": "delta.tables",
+        "documentation": {}
+    },
+    {
         "label": "Optional",
         "importPath": "typing",
         "description": "typing",
@@ -640,6 +696,22 @@
     },
     {
         "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
         "importPath": "typing",
         "description": "typing",
         "isExtraImport": true,
@@ -720,6 +792,14 @@
     },
     {
         "label": "KafkaProducer",
+        "importPath": "kafka",
+        "description": "kafka",
+        "isExtraImport": true,
+        "detail": "kafka",
+        "documentation": {}
+    },
+    {
+        "label": "KafkaConsumer",
         "importPath": "kafka",
         "description": "kafka",
         "isExtraImport": true,
@@ -1693,39 +1773,35 @@
         "documentation": {}
     },
     {
-        "label": "subprocess",
-        "kind": 6,
+        "label": "SparkContext",
+        "importPath": "pyspark",
+        "description": "pyspark",
         "isExtraImport": true,
-        "importPath": "subprocess",
-        "description": "subprocess",
-        "detail": "subprocess",
+        "detail": "pyspark",
         "documentation": {}
     },
     {
-        "label": "sys",
-        "kind": 6,
+        "label": "SparkConf",
+        "importPath": "pyspark",
+        "description": "pyspark",
         "isExtraImport": true,
-        "importPath": "sys",
-        "description": "sys",
-        "detail": "sys",
+        "detail": "pyspark",
         "documentation": {}
     },
     {
-        "label": "requests",
-        "kind": 6,
+        "label": "SparkConf",
+        "importPath": "pyspark",
+        "description": "pyspark",
         "isExtraImport": true,
-        "importPath": "requests",
-        "description": "requests",
-        "detail": "requests",
+        "detail": "pyspark",
         "documentation": {}
     },
     {
-        "label": "tarfile",
-        "kind": 6,
+        "label": "SparkContext",
+        "importPath": "pyspark",
+        "description": "pyspark",
         "isExtraImport": true,
-        "importPath": "tarfile",
-        "description": "tarfile",
-        "detail": "tarfile",
+        "detail": "pyspark",
         "documentation": {}
     },
     {
@@ -3308,35 +3384,8 @@
         "kind": 5,
         "importPath": "offre_Process.data.config",
         "description": "offre_Process.data.config",
-        "peekOfCode": "api_key = \"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\"\nserveur_kafka = \"localhost:29092\"  # Remplacez par l'adresse de votre broker Kafka\ntopic = \"offres-d-emploi\"",
+        "peekOfCode": "api_key = \"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\"\n# Required connection configs for Kafka producer, consumer, and admin\nserveur_kafka=\"pkc-619z3.us-east1.gcp.confluent.cloud:9092\"\nusername=\"OM3FCB4RLKF3L2AQ\"\npassword=\"TaIh3NYZANuLKfatv3dHcQLFaigVQvIdG+uY9Sma/eFIPzMXCWvdojhc6Q1+/BWK\"\ntopic=\"offres_trav\"",
         "detail": "offre_Process.data.config",
-        "documentation": {}
-    },
-    {
-        "label": "serveur_kafka",
-        "kind": 5,
-        "importPath": "offre_Process.data.config",
-        "description": "offre_Process.data.config",
-        "peekOfCode": "serveur_kafka = \"localhost:29092\"  # Remplacez par l'adresse de votre broker Kafka\ntopic = \"offres-d-emploi\"",
-        "detail": "offre_Process.data.config",
-        "documentation": {}
-    },
-    {
-        "label": "topic",
-        "kind": 5,
-        "importPath": "offre_Process.data.config",
-        "description": "offre_Process.data.config",
-        "peekOfCode": "topic = \"offres-d-emploi\"",
-        "detail": "offre_Process.data.config",
-        "documentation": {}
-    },
-    {
-        "label": "generer_offre_emploi",
-        "kind": 2,
-        "importPath": "offre_Process.data.producer",
-        "description": "offre_Process.data.producer",
-        "peekOfCode": "def generer_offre_emploi(api_key, resume_data):\n    try:\n        from groq import Groq  # Import du client Groq\n        groq_client = Groq(api_key=api_key)\n        # Messages pour le modèle\n        messages = [\n            {\n                \"role\": \"system\",\n                \"content\": \"Tu es un assistant chargé de générer des offres d'emploi basées sur un modèle structuré.\"\n            },",
-        "detail": "offre_Process.data.producer",
         "documentation": {}
     },
     {
@@ -3344,7 +3393,7 @@
         "kind": 2,
         "importPath": "offre_Process.data.producer",
         "description": "offre_Process.data.producer",
-        "peekOfCode": "def envoyer_vers_kafka(serveur_kafka, topic, message):\n    try:\n        # Configuration du producteur Kafka\n        producer = KafkaProducer(\n            bootstrap_servers=[serveur_kafka],\n            value_serializer=lambda m: json.dumps(m).encode('utf-8')\n        )\n        # Envoi du message\n        producer.send(topic, message)\n        producer.flush()  # Assure que le message est bien envoyé",
+        "peekOfCode": "def envoyer_vers_kafka(serveur_kafka, topic, message, api_key, api_secret):\n    try:\n        # Configuration du producteur Kafka avec SASL_SSL\n        producer = KafkaProducer(\n            bootstrap_servers=[serveur_kafka],\n            value_serializer=lambda m: json.dumps(m).encode('utf-8'),\n            security_protocol=\"SASL_SSL\",\n            sasl_mechanism=\"PLAIN\",\n            sasl_plain_username=api_key,\n            sasl_plain_password=api_secret,",
         "detail": "offre_Process.data.producer",
         "documentation": {}
     },
@@ -3353,7 +3402,7 @@
         "kind": 2,
         "importPath": "offre_Process.data.producer",
         "description": "offre_Process.data.producer",
-        "peekOfCode": "def simulation_offres(api_key, serveur_kafka, topic):\n    exemples_cv = [\n        \"Candidat expert en Python et SQL, avec expérience dans le cloud AWS.\",\n        \"Candidat avec des compétences avancées en Java, Spark, et Hadoop.\",\n        \"Ingénieur logiciel avec 5 ans d'expérience en C++, Docker, et Kubernetes.\",\n        \"Étudiant en data science maîtrisant R, Tableau et machine learning.\",\n        \"Développeur front-end avec expertise en JavaScript, React, et TypeScript.\"\n    ]\n    while True:\n        try:",
+        "peekOfCode": "def simulation_offres(api_key, api_secret, serveur_kafka, topic):\n    exemples_cv = [\n        \"Candidat expert en Python et SQL, avec expérience dans le cloud AWS.\",\n        \"Candidat avec des compétences avancées en Java, Spark, et Hadoop.\",\n        \"Ingénieur logiciel avec 5 ans d'expérience en C++, Docker, et Kubernetes.\",\n        \"Étudiant en data science maîtrisant R, Tableau et machine learning.\",\n        \"Développeur front-end avec expertise en JavaScript, React, et TypeScript.\"\n    ]\n    while True:\n        try:",
         "detail": "offre_Process.data.producer",
         "documentation": {}
     },
@@ -3362,34 +3411,7 @@
         "kind": 5,
         "importPath": "offre_Process.data.producer",
         "description": "offre_Process.data.producer",
-        "peekOfCode": "compteur_offres = 0\ndef generer_offre_emploi(api_key, resume_data):\n    try:\n        from groq import Groq  # Import du client Groq\n        groq_client = Groq(api_key=api_key)\n        # Messages pour le modèle\n        messages = [\n            {\n                \"role\": \"system\",\n                \"content\": \"Tu es un assistant chargé de générer des offres d'emploi basées sur un modèle structuré.\"",
-        "detail": "offre_Process.data.producer",
-        "documentation": {}
-    },
-    {
-        "label": "topic",
-        "kind": 5,
-        "importPath": "offre_Process.data.producer",
-        "description": "offre_Process.data.producer",
-        "peekOfCode": "topic = cfg.topic\nserveur_kafka = cfg.serveur_kafka\napi_key = cfg.api_key\n# Lancer la simulation\nsimulation_offres(api_key, serveur_kafka, topic)",
-        "detail": "offre_Process.data.producer",
-        "documentation": {}
-    },
-    {
-        "label": "serveur_kafka",
-        "kind": 5,
-        "importPath": "offre_Process.data.producer",
-        "description": "offre_Process.data.producer",
-        "peekOfCode": "serveur_kafka = cfg.serveur_kafka\napi_key = cfg.api_key\n# Lancer la simulation\nsimulation_offres(api_key, serveur_kafka, topic)",
-        "detail": "offre_Process.data.producer",
-        "documentation": {}
-    },
-    {
-        "label": "api_key",
-        "kind": 5,
-        "importPath": "offre_Process.data.producer",
-        "description": "offre_Process.data.producer",
-        "peekOfCode": "api_key = cfg.api_key\n# Lancer la simulation\nsimulation_offres(api_key, serveur_kafka, topic)",
+        "peekOfCode": "compteur_offres = 0\nserveur_kafka=cfg.serveur_kafka\ntopic=cfg.topic\napi_key=cfg.username\napi_secret=cfg.password\ndef envoyer_vers_kafka(serveur_kafka, topic, message, api_key, api_secret):\n    try:\n        # Configuration du producteur Kafka avec SASL_SSL\n        producer = KafkaProducer(\n            bootstrap_servers=[serveur_kafka],",
         "detail": "offre_Process.data.producer",
         "documentation": {}
     },
@@ -3542,7 +3564,7 @@
         "kind": 2,
         "importPath": "offre_Process.spark.sparkStreaming",
         "description": "offre_Process.spark.sparkStreaming",
-        "peekOfCode": "def process_message(spark: SparkSession, message: str):\n    \"\"\"Traiter un message Kafka et l'enregistrer dans une table Delta.\"\"\"\n    try:\n        job_posting = json.loads(message)\n        df = spark.createDataFrame([job_posting], schema=OFFRE_SCHEMA)\n        save_to_delta(df, OUTPUT_PATH)\n    except Exception as e:\n        print(f\"Error processing message: {e}\")\n# Configurer le consommateur Kafka\nconsumer = KafkaConsumer(",
+        "peekOfCode": "def process_message(spark: SparkSession, message: str):\n    \"\"\"Traiter un message Kafka et l'enregistrer dans une table Delta.\"\"\"\n    try:\n        job_posting = json.loads(message)\n        df = spark.createDataFrame([job_posting], schema=OFFRE_SCHEMA)\n        save_to_delta(df, OUTPUT_PATH)\n    except Exception as e:\n        print(f\"Error processing message: {e}\")\n# Configurer le consommateur Kafka pour Confluent\nconsumer = KafkaConsumer(",
         "detail": "offre_Process.spark.sparkStreaming",
         "documentation": {}
     },
@@ -3551,7 +3573,7 @@
         "kind": 5,
         "importPath": "offre_Process.spark.sparkStreaming",
         "description": "offre_Process.spark.sparkStreaming",
-        "peekOfCode": "ADLS_STORAGE_ACCOUNT_NAME = os.getenv(\"ADLS_STORAGE_ACCOUNT_NAME\")\nADLS_ACCOUNT_KEY = os.getenv(\"ADLS_ACCOUNT_KEY\")\nADLS_CONTAINER_NAME = os.getenv(\"ADLS_CONTAINER_NAME\")\nADLS_FOLDER_PATH = os.getenv(\"ADLS_FOLDER_PATH\")\nKAFKA_BOOTSTRAP_SERVERS = os.getenv(\"KAFKA_BOOTSTRAP_SERVERS\")\nKAFKA_GROUP_ID = os.getenv(\"KAFKA_GROUP_ID\")\nOUTPUT_PATH = (\n    f\"abfss://{ADLS_CONTAINER_NAME}@{ADLS_STORAGE_ACCOUNT_NAME}.dfs.core.windows.net/\"\n    + ADLS_FOLDER_PATH\n)",
+        "peekOfCode": "ADLS_STORAGE_ACCOUNT_NAME = os.getenv(\"ADLS_STORAGE_ACCOUNT_NAME\")\nADLS_ACCOUNT_KEY = os.getenv(\"ADLS_ACCOUNT_KEY\")\nADLS_CONTAINER_NAME = os.getenv(\"ADLS_CONTAINER_NAME\")\nADLS_FOLDER_PATH = os.getenv(\"ADLS_FOLDER_PATH\")\nKAFKA_BOOTSTRAP_SERVERS = os.getenv(\"KAFKA_BOOTSTRAP_SERVERS\")\nKAFKA_GROUP_ID = os.getenv(\"KAFKA_GROUP_ID\")\nKAFKA_API_KEY = os.getenv(\"KAFKA_API_KEY\")\nKAFKA_API_SECRET = os.getenv(\"KAFKA_API_SECRET\")\nKAFKA_TOPIC = os.getenv(\"KAFKA_TOPIC\")\nOUTPUT_PATH = (",
         "detail": "offre_Process.spark.sparkStreaming",
         "documentation": {}
     },
@@ -3560,7 +3582,7 @@
         "kind": 5,
         "importPath": "offre_Process.spark.sparkStreaming",
         "description": "offre_Process.spark.sparkStreaming",
-        "peekOfCode": "ADLS_ACCOUNT_KEY = os.getenv(\"ADLS_ACCOUNT_KEY\")\nADLS_CONTAINER_NAME = os.getenv(\"ADLS_CONTAINER_NAME\")\nADLS_FOLDER_PATH = os.getenv(\"ADLS_FOLDER_PATH\")\nKAFKA_BOOTSTRAP_SERVERS = os.getenv(\"KAFKA_BOOTSTRAP_SERVERS\")\nKAFKA_GROUP_ID = os.getenv(\"KAFKA_GROUP_ID\")\nOUTPUT_PATH = (\n    f\"abfss://{ADLS_CONTAINER_NAME}@{ADLS_STORAGE_ACCOUNT_NAME}.dfs.core.windows.net/\"\n    + ADLS_FOLDER_PATH\n)\n# Packages requis pour Spark",
+        "peekOfCode": "ADLS_ACCOUNT_KEY = os.getenv(\"ADLS_ACCOUNT_KEY\")\nADLS_CONTAINER_NAME = os.getenv(\"ADLS_CONTAINER_NAME\")\nADLS_FOLDER_PATH = os.getenv(\"ADLS_FOLDER_PATH\")\nKAFKA_BOOTSTRAP_SERVERS = os.getenv(\"KAFKA_BOOTSTRAP_SERVERS\")\nKAFKA_GROUP_ID = os.getenv(\"KAFKA_GROUP_ID\")\nKAFKA_API_KEY = os.getenv(\"KAFKA_API_KEY\")\nKAFKA_API_SECRET = os.getenv(\"KAFKA_API_SECRET\")\nKAFKA_TOPIC = os.getenv(\"KAFKA_TOPIC\")\nOUTPUT_PATH = (\n    f\"abfss://{ADLS_CONTAINER_NAME}@{ADLS_STORAGE_ACCOUNT_NAME}.dfs.core.windows.net/\"",
         "detail": "offre_Process.spark.sparkStreaming",
         "documentation": {}
     },
@@ -3569,7 +3591,7 @@
         "kind": 5,
         "importPath": "offre_Process.spark.sparkStreaming",
         "description": "offre_Process.spark.sparkStreaming",
-        "peekOfCode": "ADLS_CONTAINER_NAME = os.getenv(\"ADLS_CONTAINER_NAME\")\nADLS_FOLDER_PATH = os.getenv(\"ADLS_FOLDER_PATH\")\nKAFKA_BOOTSTRAP_SERVERS = os.getenv(\"KAFKA_BOOTSTRAP_SERVERS\")\nKAFKA_GROUP_ID = os.getenv(\"KAFKA_GROUP_ID\")\nOUTPUT_PATH = (\n    f\"abfss://{ADLS_CONTAINER_NAME}@{ADLS_STORAGE_ACCOUNT_NAME}.dfs.core.windows.net/\"\n    + ADLS_FOLDER_PATH\n)\n# Packages requis pour Spark\nPACKAGES = [",
+        "peekOfCode": "ADLS_CONTAINER_NAME = os.getenv(\"ADLS_CONTAINER_NAME\")\nADLS_FOLDER_PATH = os.getenv(\"ADLS_FOLDER_PATH\")\nKAFKA_BOOTSTRAP_SERVERS = os.getenv(\"KAFKA_BOOTSTRAP_SERVERS\")\nKAFKA_GROUP_ID = os.getenv(\"KAFKA_GROUP_ID\")\nKAFKA_API_KEY = os.getenv(\"KAFKA_API_KEY\")\nKAFKA_API_SECRET = os.getenv(\"KAFKA_API_SECRET\")\nKAFKA_TOPIC = os.getenv(\"KAFKA_TOPIC\")\nOUTPUT_PATH = (\n    f\"abfss://{ADLS_CONTAINER_NAME}@{ADLS_STORAGE_ACCOUNT_NAME}.dfs.core.windows.net/\"\n    + ADLS_FOLDER_PATH",
         "detail": "offre_Process.spark.sparkStreaming",
         "documentation": {}
     },
@@ -3578,7 +3600,7 @@
         "kind": 5,
         "importPath": "offre_Process.spark.sparkStreaming",
         "description": "offre_Process.spark.sparkStreaming",
-        "peekOfCode": "ADLS_FOLDER_PATH = os.getenv(\"ADLS_FOLDER_PATH\")\nKAFKA_BOOTSTRAP_SERVERS = os.getenv(\"KAFKA_BOOTSTRAP_SERVERS\")\nKAFKA_GROUP_ID = os.getenv(\"KAFKA_GROUP_ID\")\nOUTPUT_PATH = (\n    f\"abfss://{ADLS_CONTAINER_NAME}@{ADLS_STORAGE_ACCOUNT_NAME}.dfs.core.windows.net/\"\n    + ADLS_FOLDER_PATH\n)\n# Packages requis pour Spark\nPACKAGES = [\n    \"io.delta:delta-spark_2.12:3.0.0\",",
+        "peekOfCode": "ADLS_FOLDER_PATH = os.getenv(\"ADLS_FOLDER_PATH\")\nKAFKA_BOOTSTRAP_SERVERS = os.getenv(\"KAFKA_BOOTSTRAP_SERVERS\")\nKAFKA_GROUP_ID = os.getenv(\"KAFKA_GROUP_ID\")\nKAFKA_API_KEY = os.getenv(\"KAFKA_API_KEY\")\nKAFKA_API_SECRET = os.getenv(\"KAFKA_API_SECRET\")\nKAFKA_TOPIC = os.getenv(\"KAFKA_TOPIC\")\nOUTPUT_PATH = (\n    f\"abfss://{ADLS_CONTAINER_NAME}@{ADLS_STORAGE_ACCOUNT_NAME}.dfs.core.windows.net/\"\n    + ADLS_FOLDER_PATH\n)",
         "detail": "offre_Process.spark.sparkStreaming",
         "documentation": {}
     },
@@ -3587,7 +3609,7 @@
         "kind": 5,
         "importPath": "offre_Process.spark.sparkStreaming",
         "description": "offre_Process.spark.sparkStreaming",
-        "peekOfCode": "KAFKA_BOOTSTRAP_SERVERS = os.getenv(\"KAFKA_BOOTSTRAP_SERVERS\")\nKAFKA_GROUP_ID = os.getenv(\"KAFKA_GROUP_ID\")\nOUTPUT_PATH = (\n    f\"abfss://{ADLS_CONTAINER_NAME}@{ADLS_STORAGE_ACCOUNT_NAME}.dfs.core.windows.net/\"\n    + ADLS_FOLDER_PATH\n)\n# Packages requis pour Spark\nPACKAGES = [\n    \"io.delta:delta-spark_2.12:3.0.0\",\n    \"org.apache.hadoop:hadoop-azure:3.3.6\",",
+        "peekOfCode": "KAFKA_BOOTSTRAP_SERVERS = os.getenv(\"KAFKA_BOOTSTRAP_SERVERS\")\nKAFKA_GROUP_ID = os.getenv(\"KAFKA_GROUP_ID\")\nKAFKA_API_KEY = os.getenv(\"KAFKA_API_KEY\")\nKAFKA_API_SECRET = os.getenv(\"KAFKA_API_SECRET\")\nKAFKA_TOPIC = os.getenv(\"KAFKA_TOPIC\")\nOUTPUT_PATH = (\n    f\"abfss://{ADLS_CONTAINER_NAME}@{ADLS_STORAGE_ACCOUNT_NAME}.dfs.core.windows.net/\"\n    + ADLS_FOLDER_PATH\n)\n# Packages requis pour Spark",
         "detail": "offre_Process.spark.sparkStreaming",
         "documentation": {}
     },
@@ -3596,7 +3618,34 @@
         "kind": 5,
         "importPath": "offre_Process.spark.sparkStreaming",
         "description": "offre_Process.spark.sparkStreaming",
-        "peekOfCode": "KAFKA_GROUP_ID = os.getenv(\"KAFKA_GROUP_ID\")\nOUTPUT_PATH = (\n    f\"abfss://{ADLS_CONTAINER_NAME}@{ADLS_STORAGE_ACCOUNT_NAME}.dfs.core.windows.net/\"\n    + ADLS_FOLDER_PATH\n)\n# Packages requis pour Spark\nPACKAGES = [\n    \"io.delta:delta-spark_2.12:3.0.0\",\n    \"org.apache.hadoop:hadoop-azure:3.3.6\",\n    \"org.apache.hadoop:hadoop-azure-datalake:3.3.6\",",
+        "peekOfCode": "KAFKA_GROUP_ID = os.getenv(\"KAFKA_GROUP_ID\")\nKAFKA_API_KEY = os.getenv(\"KAFKA_API_KEY\")\nKAFKA_API_SECRET = os.getenv(\"KAFKA_API_SECRET\")\nKAFKA_TOPIC = os.getenv(\"KAFKA_TOPIC\")\nOUTPUT_PATH = (\n    f\"abfss://{ADLS_CONTAINER_NAME}@{ADLS_STORAGE_ACCOUNT_NAME}.dfs.core.windows.net/\"\n    + ADLS_FOLDER_PATH\n)\n# Packages requis pour Spark\nPACKAGES = [",
+        "detail": "offre_Process.spark.sparkStreaming",
+        "documentation": {}
+    },
+    {
+        "label": "KAFKA_API_KEY",
+        "kind": 5,
+        "importPath": "offre_Process.spark.sparkStreaming",
+        "description": "offre_Process.spark.sparkStreaming",
+        "peekOfCode": "KAFKA_API_KEY = os.getenv(\"KAFKA_API_KEY\")\nKAFKA_API_SECRET = os.getenv(\"KAFKA_API_SECRET\")\nKAFKA_TOPIC = os.getenv(\"KAFKA_TOPIC\")\nOUTPUT_PATH = (\n    f\"abfss://{ADLS_CONTAINER_NAME}@{ADLS_STORAGE_ACCOUNT_NAME}.dfs.core.windows.net/\"\n    + ADLS_FOLDER_PATH\n)\n# Packages requis pour Spark\nPACKAGES = [\n    \"io.delta:delta-spark_2.12:3.0.0\",",
+        "detail": "offre_Process.spark.sparkStreaming",
+        "documentation": {}
+    },
+    {
+        "label": "KAFKA_API_SECRET",
+        "kind": 5,
+        "importPath": "offre_Process.spark.sparkStreaming",
+        "description": "offre_Process.spark.sparkStreaming",
+        "peekOfCode": "KAFKA_API_SECRET = os.getenv(\"KAFKA_API_SECRET\")\nKAFKA_TOPIC = os.getenv(\"KAFKA_TOPIC\")\nOUTPUT_PATH = (\n    f\"abfss://{ADLS_CONTAINER_NAME}@{ADLS_STORAGE_ACCOUNT_NAME}.dfs.core.windows.net/\"\n    + ADLS_FOLDER_PATH\n)\n# Packages requis pour Spark\nPACKAGES = [\n    \"io.delta:delta-spark_2.12:3.0.0\",\n    \"org.apache.hadoop:hadoop-azure:3.3.6\",",
+        "detail": "offre_Process.spark.sparkStreaming",
+        "documentation": {}
+    },
+    {
+        "label": "KAFKA_TOPIC",
+        "kind": 5,
+        "importPath": "offre_Process.spark.sparkStreaming",
+        "description": "offre_Process.spark.sparkStreaming",
+        "peekOfCode": "KAFKA_TOPIC = os.getenv(\"KAFKA_TOPIC\")\nOUTPUT_PATH = (\n    f\"abfss://{ADLS_CONTAINER_NAME}@{ADLS_STORAGE_ACCOUNT_NAME}.dfs.core.windows.net/\"\n    + ADLS_FOLDER_PATH\n)\n# Packages requis pour Spark\nPACKAGES = [\n    \"io.delta:delta-spark_2.12:3.0.0\",\n    \"org.apache.hadoop:hadoop-azure:3.3.6\",\n    \"org.apache.hadoop:hadoop-azure-datalake:3.3.6\",",
         "detail": "offre_Process.spark.sparkStreaming",
         "documentation": {}
     },
@@ -3623,7 +3672,7 @@
         "kind": 5,
         "importPath": "offre_Process.spark.sparkStreaming",
         "description": "offre_Process.spark.sparkStreaming",
-        "peekOfCode": "consumer = KafkaConsumer(\n    'offres_travail',\n    bootstrap_servers=KAFKA_BOOTSTRAP_SERVERS,\n    group_id=KAFKA_GROUP_ID,\n    auto_offset_reset='earliest',\n    enable_auto_commit=True\n)\n# Entrée principale\nif __name__ == \"__main__\":\n    # Créer une session Spark",
+        "peekOfCode": "consumer = KafkaConsumer(\n    KAFKA_TOPIC,\n    bootstrap_servers=KAFKA_BOOTSTRAP_SERVERS,\n    group_id=KAFKA_GROUP_ID,\n    auto_offset_reset='earliest',\n    enable_auto_commit=True,\n    security_protocol=\"SASL_SSL\",\n    sasl_mechanism=\"PLAIN\",\n    sasl_plain_username=KAFKA_API_KEY,\n    sasl_plain_password=KAFKA_API_SECRET,",
         "detail": "offre_Process.spark.sparkStreaming",
         "documentation": {}
     },
@@ -4366,11 +4415,209 @@
         "documentation": {}
     },
     {
-        "label": "setup_pyspark",
+        "label": "create_or_get_spark",
         "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def create_or_get_spark(app_name: str, packages: List[str]) -> SparkSession:\n    \"\"\"Créer une session Spark avec Delta et Azure.\"\"\"\n    jars = \",\".join(packages)\n    spark = (\n        SparkSession.builder.appName(app_name)\n        .config(\"spark.jars.packages\", jars)\n        .config(\"spark.sql.extensions\", \"io.delta.sql.DeltaSparkSessionExtension\")\n        .config(\"spark.sql.catalog.spark_catalog\", \"org.apache.spark.sql.delta.catalog.DeltaCatalog\")\n        .config(\"fs.abfss.impl\", \"org.apache.hadoop.fs.azurebfs.SecureAzureBlobFileSystem\")\n        .master(\"local[*]\")",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "create_empty_delta_table",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def create_empty_delta_table(\n    spark: SparkSession,\n    schema: StructType,\n    path: str,\n    partition_cols: Optional[List[str]] = None,\n    enable_cdc: Optional[bool] = False,\n):\n    \"\"\"Créer une table Delta vide si elle n'existe pas.\"\"\"\n    try:\n        DeltaTable.forPath(spark, path)",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "save_to_delta",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def save_to_delta(df: DataFrame, output_path: str):\n    \"\"\"Sauvegarder les données dans une Delta Table.\"\"\"\n    df.write.format(\"delta\").mode(\"append\").option(\"mergeSchema\", \"true\").save(output_path)\n    print(\"Data written to Delta Table.\")\ndef process_message(spark: SparkSession, message: str):\n    \"\"\"Traiter un message Kafka et l'enregistrer dans une table Delta.\"\"\"\n    try:\n        job_posting = json.loads(message)\n        df = spark.createDataFrame([job_posting], schema=OFFRE_SCHEMA)\n        save_to_delta(df, OUTPUT_PATH)",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "process_message",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def process_message(spark: SparkSession, message: str):\n    \"\"\"Traiter un message Kafka et l'enregistrer dans une table Delta.\"\"\"\n    try:\n        job_posting = json.loads(message)\n        df = spark.createDataFrame([job_posting], schema=OFFRE_SCHEMA)\n        save_to_delta(df, OUTPUT_PATH)\n    except Exception as e:\n        print(f\"Error processing message: {e}\")\n# Configurer le consommateur Kafka pour Confluent\nconsumer = KafkaConsumer(",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "OFFRE_SCHEMA",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "OFFRE_SCHEMA = StructType([\n    StructField(\"titre_du_poste\", StringType(), True),\n    StructField(\"societe\", StringType(), True),\n    StructField(\"competences\", ArrayType(StringType()), True),\n    StructField(\"lieu\", StringType(), True),\n    StructField(\"type_offre\", StringType(), True),\n    StructField(\"durée\", StringType(), True),\n    StructField(\"type_de_contrat\", StringType(), True),\n    StructField(\"email\", StringType(), True),\n    StructField(\"telephone\", StringType(), True),",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "GROQ_API_KEY",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "GROQ_API_KEY = \"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\"\nADLS_STORAGE_ACCOUNT_NAME = \"dataoffre\"\nADLS_ACCOUNT_KEY = \"1eNXm2As1DuaMeSt2Yjegn22fFCvIUa8nBhknayEyTgfBZb6xEEyZhnvl9OiGT7U4O7cFrygjBE/+ASt1hkNQQ==\"  # A remplacer par votre clé\nADLS_CONTAINER_NAME = \"postes\"\nADLS_FOLDER_PATH = \"offres_trav\"\nKAFKA_BOOTSTRAP_SERVERS = \"pkc-619z3.us-east1.gcp.confluent.cloud:9092\"\nKAFKA_GROUP_ID = \"groupe_traitement\"\nKAFKA_API_KEY = \"OM3FCB4RLKF3L2AQ\"\nKAFKA_API_SECRET = \"TaIh3NYZANuLKfatv3dHcQLFaigVQvIdG+uY9Sma/eFIPzMXCWvdojhc6Q1+/BWK\"\nKAFKA_TOPIC = \"offres_trav\"",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "ADLS_STORAGE_ACCOUNT_NAME",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "ADLS_STORAGE_ACCOUNT_NAME = \"dataoffre\"\nADLS_ACCOUNT_KEY = \"1eNXm2As1DuaMeSt2Yjegn22fFCvIUa8nBhknayEyTgfBZb6xEEyZhnvl9OiGT7U4O7cFrygjBE/+ASt1hkNQQ==\"  # A remplacer par votre clé\nADLS_CONTAINER_NAME = \"postes\"\nADLS_FOLDER_PATH = \"offres_trav\"\nKAFKA_BOOTSTRAP_SERVERS = \"pkc-619z3.us-east1.gcp.confluent.cloud:9092\"\nKAFKA_GROUP_ID = \"groupe_traitement\"\nKAFKA_API_KEY = \"OM3FCB4RLKF3L2AQ\"\nKAFKA_API_SECRET = \"TaIh3NYZANuLKfatv3dHcQLFaigVQvIdG+uY9Sma/eFIPzMXCWvdojhc6Q1+/BWK\"\nKAFKA_TOPIC = \"offres_trav\"\nOUTPUT_PATH = f\"abfss://{ADLS_CONTAINER_NAME}@{ADLS_STORAGE_ACCOUNT_NAME}.dfs.core.windows.net/{ADLS_FOLDER_PATH}\"",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "ADLS_ACCOUNT_KEY",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "ADLS_ACCOUNT_KEY = \"1eNXm2As1DuaMeSt2Yjegn22fFCvIUa8nBhknayEyTgfBZb6xEEyZhnvl9OiGT7U4O7cFrygjBE/+ASt1hkNQQ==\"  # A remplacer par votre clé\nADLS_CONTAINER_NAME = \"postes\"\nADLS_FOLDER_PATH = \"offres_trav\"\nKAFKA_BOOTSTRAP_SERVERS = \"pkc-619z3.us-east1.gcp.confluent.cloud:9092\"\nKAFKA_GROUP_ID = \"groupe_traitement\"\nKAFKA_API_KEY = \"OM3FCB4RLKF3L2AQ\"\nKAFKA_API_SECRET = \"TaIh3NYZANuLKfatv3dHcQLFaigVQvIdG+uY9Sma/eFIPzMXCWvdojhc6Q1+/BWK\"\nKAFKA_TOPIC = \"offres_trav\"\nOUTPUT_PATH = f\"abfss://{ADLS_CONTAINER_NAME}@{ADLS_STORAGE_ACCOUNT_NAME}.dfs.core.windows.net/{ADLS_FOLDER_PATH}\"\n# Packages requis pour Spark",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "ADLS_CONTAINER_NAME",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "ADLS_CONTAINER_NAME = \"postes\"\nADLS_FOLDER_PATH = \"offres_trav\"\nKAFKA_BOOTSTRAP_SERVERS = \"pkc-619z3.us-east1.gcp.confluent.cloud:9092\"\nKAFKA_GROUP_ID = \"groupe_traitement\"\nKAFKA_API_KEY = \"OM3FCB4RLKF3L2AQ\"\nKAFKA_API_SECRET = \"TaIh3NYZANuLKfatv3dHcQLFaigVQvIdG+uY9Sma/eFIPzMXCWvdojhc6Q1+/BWK\"\nKAFKA_TOPIC = \"offres_trav\"\nOUTPUT_PATH = f\"abfss://{ADLS_CONTAINER_NAME}@{ADLS_STORAGE_ACCOUNT_NAME}.dfs.core.windows.net/{ADLS_FOLDER_PATH}\"\n# Packages requis pour Spark\nPACKAGES = [",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "ADLS_FOLDER_PATH",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "ADLS_FOLDER_PATH = \"offres_trav\"\nKAFKA_BOOTSTRAP_SERVERS = \"pkc-619z3.us-east1.gcp.confluent.cloud:9092\"\nKAFKA_GROUP_ID = \"groupe_traitement\"\nKAFKA_API_KEY = \"OM3FCB4RLKF3L2AQ\"\nKAFKA_API_SECRET = \"TaIh3NYZANuLKfatv3dHcQLFaigVQvIdG+uY9Sma/eFIPzMXCWvdojhc6Q1+/BWK\"\nKAFKA_TOPIC = \"offres_trav\"\nOUTPUT_PATH = f\"abfss://{ADLS_CONTAINER_NAME}@{ADLS_STORAGE_ACCOUNT_NAME}.dfs.core.windows.net/{ADLS_FOLDER_PATH}\"\n# Packages requis pour Spark\nPACKAGES = [\n    \"io.delta:delta-spark_2.12:3.0.0\",",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "KAFKA_BOOTSTRAP_SERVERS",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "KAFKA_BOOTSTRAP_SERVERS = \"pkc-619z3.us-east1.gcp.confluent.cloud:9092\"\nKAFKA_GROUP_ID = \"groupe_traitement\"\nKAFKA_API_KEY = \"OM3FCB4RLKF3L2AQ\"\nKAFKA_API_SECRET = \"TaIh3NYZANuLKfatv3dHcQLFaigVQvIdG+uY9Sma/eFIPzMXCWvdojhc6Q1+/BWK\"\nKAFKA_TOPIC = \"offres_trav\"\nOUTPUT_PATH = f\"abfss://{ADLS_CONTAINER_NAME}@{ADLS_STORAGE_ACCOUNT_NAME}.dfs.core.windows.net/{ADLS_FOLDER_PATH}\"\n# Packages requis pour Spark\nPACKAGES = [\n    \"io.delta:delta-spark_2.12:3.0.0\",\n    \"org.apache.hadoop:hadoop-azure:3.3.6\",",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "KAFKA_GROUP_ID",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "KAFKA_GROUP_ID = \"groupe_traitement\"\nKAFKA_API_KEY = \"OM3FCB4RLKF3L2AQ\"\nKAFKA_API_SECRET = \"TaIh3NYZANuLKfatv3dHcQLFaigVQvIdG+uY9Sma/eFIPzMXCWvdojhc6Q1+/BWK\"\nKAFKA_TOPIC = \"offres_trav\"\nOUTPUT_PATH = f\"abfss://{ADLS_CONTAINER_NAME}@{ADLS_STORAGE_ACCOUNT_NAME}.dfs.core.windows.net/{ADLS_FOLDER_PATH}\"\n# Packages requis pour Spark\nPACKAGES = [\n    \"io.delta:delta-spark_2.12:3.0.0\",\n    \"org.apache.hadoop:hadoop-azure:3.3.6\",\n    \"org.apache.hadoop:hadoop-azure-datalake:3.3.6\",",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "KAFKA_API_KEY",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "KAFKA_API_KEY = \"OM3FCB4RLKF3L2AQ\"\nKAFKA_API_SECRET = \"TaIh3NYZANuLKfatv3dHcQLFaigVQvIdG+uY9Sma/eFIPzMXCWvdojhc6Q1+/BWK\"\nKAFKA_TOPIC = \"offres_trav\"\nOUTPUT_PATH = f\"abfss://{ADLS_CONTAINER_NAME}@{ADLS_STORAGE_ACCOUNT_NAME}.dfs.core.windows.net/{ADLS_FOLDER_PATH}\"\n# Packages requis pour Spark\nPACKAGES = [\n    \"io.delta:delta-spark_2.12:3.0.0\",\n    \"org.apache.hadoop:hadoop-azure:3.3.6\",\n    \"org.apache.hadoop:hadoop-azure-datalake:3.3.6\",\n]",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "KAFKA_API_SECRET",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "KAFKA_API_SECRET = \"TaIh3NYZANuLKfatv3dHcQLFaigVQvIdG+uY9Sma/eFIPzMXCWvdojhc6Q1+/BWK\"\nKAFKA_TOPIC = \"offres_trav\"\nOUTPUT_PATH = f\"abfss://{ADLS_CONTAINER_NAME}@{ADLS_STORAGE_ACCOUNT_NAME}.dfs.core.windows.net/{ADLS_FOLDER_PATH}\"\n# Packages requis pour Spark\nPACKAGES = [\n    \"io.delta:delta-spark_2.12:3.0.0\",\n    \"org.apache.hadoop:hadoop-azure:3.3.6\",\n    \"org.apache.hadoop:hadoop-azure-datalake:3.3.6\",\n]\ndef create_or_get_spark(app_name: str, packages: List[str]) -> SparkSession:",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "KAFKA_TOPIC",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "KAFKA_TOPIC = \"offres_trav\"\nOUTPUT_PATH = f\"abfss://{ADLS_CONTAINER_NAME}@{ADLS_STORAGE_ACCOUNT_NAME}.dfs.core.windows.net/{ADLS_FOLDER_PATH}\"\n# Packages requis pour Spark\nPACKAGES = [\n    \"io.delta:delta-spark_2.12:3.0.0\",\n    \"org.apache.hadoop:hadoop-azure:3.3.6\",\n    \"org.apache.hadoop:hadoop-azure-datalake:3.3.6\",\n]\ndef create_or_get_spark(app_name: str, packages: List[str]) -> SparkSession:\n    \"\"\"Créer une session Spark avec Delta et Azure.\"\"\"",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "OUTPUT_PATH",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "OUTPUT_PATH = f\"abfss://{ADLS_CONTAINER_NAME}@{ADLS_STORAGE_ACCOUNT_NAME}.dfs.core.windows.net/{ADLS_FOLDER_PATH}\"\n# Packages requis pour Spark\nPACKAGES = [\n    \"io.delta:delta-spark_2.12:3.0.0\",\n    \"org.apache.hadoop:hadoop-azure:3.3.6\",\n    \"org.apache.hadoop:hadoop-azure-datalake:3.3.6\",\n]\ndef create_or_get_spark(app_name: str, packages: List[str]) -> SparkSession:\n    \"\"\"Créer une session Spark avec Delta et Azure.\"\"\"\n    jars = \",\".join(packages)",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "PACKAGES",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "PACKAGES = [\n    \"io.delta:delta-spark_2.12:3.0.0\",\n    \"org.apache.hadoop:hadoop-azure:3.3.6\",\n    \"org.apache.hadoop:hadoop-azure-datalake:3.3.6\",\n]\ndef create_or_get_spark(app_name: str, packages: List[str]) -> SparkSession:\n    \"\"\"Créer une session Spark avec Delta et Azure.\"\"\"\n    jars = \",\".join(packages)\n    spark = (\n        SparkSession.builder.appName(app_name)",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "consumer",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "consumer = KafkaConsumer(\n    KAFKA_TOPIC,\n    bootstrap_servers=KAFKA_BOOTSTRAP_SERVERS,\n    group_id=KAFKA_GROUP_ID,\n    auto_offset_reset='earliest',\n    enable_auto_commit=True,\n    security_protocol=\"SASL_SSL\",\n    sasl_mechanism=\"PLAIN\",\n    sasl_plain_username=KAFKA_API_KEY,\n    sasl_plain_password=KAFKA_API_SECRET,",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"PYSPARK_PYTHON\"]",
+        "kind": 5,
         "importPath": "seyp",
         "description": "seyp",
-        "peekOfCode": "def setup_pyspark():\n    # Installe pyspark et findspark s'ils ne sont pas déjà installés\n    try:\n        import pyspark\n    except ImportError:\n        print(\"Installation de PySpark...\")\n        subprocess.check_call([sys.executable, \"-m\", \"pip\", \"install\", \"pyspark\", \"findspark\", \"delta-spark\"])\n    import findspark\n    # Configuration des chemins pour Spark et Java\n    spark_home = os.environ.get(\"SPARK_HOME\", \"C:/spark\")",
+        "peekOfCode": "os.environ[\"PYSPARK_PYTHON\"] = \"python\"\nfrom pyspark import SparkConf, SparkContext\n# Créer une configuration Spark\nconf = SparkConf().setAppName(\"WordCount\").setMaster(\"spark://localhost:7077\")  # Set the correct Spark master URL\nsc = SparkContext(conf=conf)\n# Vous pouvez maintenant utiliser sc pour exécuter votre travail Spark\n# Créer un RDD avec une liste de mots\ndata = sc.parallelize([\"Spark\", \"Scala\",\"Scala\", \"Hadoop\", \"Big Data\", \"Spark\"])\n# Compter le nombre d'occurrences de chaque mot\nword_counts = data.map(lambda word: (word, 1)).reduceByKey(lambda x, y: x + y)",
+        "detail": "seyp",
+        "documentation": {}
+    },
+    {
+        "label": "conf",
+        "kind": 5,
+        "importPath": "seyp",
+        "description": "seyp",
+        "peekOfCode": "conf = SparkConf().setAppName(\"WordCount\").setMaster(\"spark://localhost:7077\")  # Set the correct Spark master URL\nsc = SparkContext(conf=conf)\n# Vous pouvez maintenant utiliser sc pour exécuter votre travail Spark\n# Créer un RDD avec une liste de mots\ndata = sc.parallelize([\"Spark\", \"Scala\",\"Scala\", \"Hadoop\", \"Big Data\", \"Spark\"])\n# Compter le nombre d'occurrences de chaque mot\nword_counts = data.map(lambda word: (word, 1)).reduceByKey(lambda x, y: x + y)\n# Afficher les résultats\nfor word, count in word_counts.collect():\n    print(f\"{word}: {count}\")",
+        "detail": "seyp",
+        "documentation": {}
+    },
+    {
+        "label": "sc",
+        "kind": 5,
+        "importPath": "seyp",
+        "description": "seyp",
+        "peekOfCode": "sc = SparkContext(conf=conf)\n# Vous pouvez maintenant utiliser sc pour exécuter votre travail Spark\n# Créer un RDD avec une liste de mots\ndata = sc.parallelize([\"Spark\", \"Scala\",\"Scala\", \"Hadoop\", \"Big Data\", \"Spark\"])\n# Compter le nombre d'occurrences de chaque mot\nword_counts = data.map(lambda word: (word, 1)).reduceByKey(lambda x, y: x + y)\n# Afficher les résultats\nfor word, count in word_counts.collect():\n    print(f\"{word}: {count}\")\n# Arrêter le contexte Spark",
+        "detail": "seyp",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "seyp",
+        "description": "seyp",
+        "peekOfCode": "data = sc.parallelize([\"Spark\", \"Scala\",\"Scala\", \"Hadoop\", \"Big Data\", \"Spark\"])\n# Compter le nombre d'occurrences de chaque mot\nword_counts = data.map(lambda word: (word, 1)).reduceByKey(lambda x, y: x + y)\n# Afficher les résultats\nfor word, count in word_counts.collect():\n    print(f\"{word}: {count}\")\n# Arrêter le contexte Spark\nsc.stop()",
+        "detail": "seyp",
+        "documentation": {}
+    },
+    {
+        "label": "word_counts",
+        "kind": 5,
+        "importPath": "seyp",
+        "description": "seyp",
+        "peekOfCode": "word_counts = data.map(lambda word: (word, 1)).reduceByKey(lambda x, y: x + y)\n# Afficher les résultats\nfor word, count in word_counts.collect():\n    print(f\"{word}: {count}\")\n# Arrêter le contexte Spark\nsc.stop()",
         "detail": "seyp",
         "documentation": {}
     },
@@ -4398,6 +4645,15 @@
         "importPath": "spark_TO_delta(inspiratio)",
         "description": "spark_TO_delta(inspiratio)",
         "peekOfCode": "def save_to_delta(df: DataFrame, output_path: str):\n    # Sauvegarder les données traitées dans la table Delta avec la fusion de schémas\n    df.write.format(\"delta\") \\\n        .mode(\"append\") \\\n        .option(\"mergeSchema\", \"true\") \\\n        .save(output_path)\n    print(\"Data written to Delta Table\")\n# ===================================================================================\n#                           MAIN ENTRYPOINT\n# ===================================================================================",
+        "detail": "spark_TO_delta(inspiratio)",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"PYSPARK_PIN_THREAD\"]",
+        "kind": 5,
+        "importPath": "spark_TO_delta(inspiratio)",
+        "description": "spark_TO_delta(inspiratio)",
+        "peekOfCode": "os.environ[\"PYSPARK_PIN_THREAD\"] = \"true\"\n# Définir le schéma pour le JSON\nPERSON_SCHEMA = StructType([\n    StructField(\"last_name\", StringType(), True),\n    StructField(\"full_name\", StringType(), True),\n    StructField(\"title\", StringType(), True),\n    StructField(\"address\", StructType([\n        StructField(\"formatted_location\", StringType(), True),\n        StructField(\"city\", StringType(), True),\n        StructField(\"region\", StringType(), True),",
         "detail": "spark_TO_delta(inspiratio)",
         "documentation": {}
     },

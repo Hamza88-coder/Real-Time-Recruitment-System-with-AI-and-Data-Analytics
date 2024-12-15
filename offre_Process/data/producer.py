@@ -1,78 +1,30 @@
-import re
+from kafka import KafkaProducer
 import json
 import random
-from kafka import KafkaProducer
 from time import sleep
 import config as cfg
 
 
+
+
 # Compteur global pour les offres
 compteur_offres = 0
+serveur_kafka=cfg.serveur_kafka
+topic=cfg.topic
+api_key=cfg.username
+api_secret=cfg.password
 
-def generer_offre_emploi(api_key, resume_data):
+
+def envoyer_vers_kafka(serveur_kafka, topic, message, api_key, api_secret):
     try:
-        from groq import Groq  # Import du client Groq
-        groq_client = Groq(api_key=api_key)
-
-        # Messages pour le modèle
-        messages = [
-            {
-                "role": "system",
-                "content": "Tu es un assistant chargé de générer des offres d'emploi basées sur un modèle structuré."
-            },
-            {
-                "role": "user",
-                "content": f"""Voici les informations de base d'un candidat :
-                {resume_data}
-                Génère une offre d'emploi sous un format texte suivant ce modèle :
-                Titre du poste : Stagiaire Data Engineer (PFE)
-                Société : DataTech Solutions
-                Compétences requises : Python, SQL, Apache Airflow, Talend, MongoDB, Cassandra, AWS, Google Cloud
-                Lieu : Lyon, France
-                Type d'offre : stage
-                Type de contrat : Stage PFE
-                Durée : 6 mois
-                Email : contact@datatechsolutions.fr
-                Téléphone : +33 1 23 45 67 89
-                Type : Hybride
-                Langues requises : Anglais, Français
-                Salaire : 1 200 EUR par mois
-                Date de début : 15 janvier 2025
-                Secteur d'activité : Technologie de l'information
-                Expérience demandée : None
-                Formation requise : Étudiant en informatique ou domaine connexe
-                Avantages : Assurance santé, Opportunités de formation continue
-                Site web : www.datatechsolutions.fr
-                """
-            }
-        ]
-
-        # Appel au modèle
-        response = groq_client.chat.completions.create(
-            model="llama3-8b-8192",
-            messages=messages,
-            temperature=0.7,
-            max_tokens=1500
-        )
-
-        # Extraction du contenu généré
-        data = response.choices[0].message.content
-
-        # Vérifier si un texte bien formé est retourné
-        if data:
-            return data.strip()
-        else:
-            return "Erreur : Aucune donnée générée."
-
-    except Exception as e:
-        return f"Erreur lors de l'analyse : {str(e)}"
-
-def envoyer_vers_kafka(serveur_kafka, topic, message):
-    try:
-        # Configuration du producteur Kafka
+        # Configuration du producteur Kafka avec SASL_SSL
         producer = KafkaProducer(
             bootstrap_servers=[serveur_kafka],
-            value_serializer=lambda m: json.dumps(m).encode('utf-8')
+            value_serializer=lambda m: json.dumps(m).encode('utf-8'),
+            security_protocol="SASL_SSL",
+            sasl_mechanism="PLAIN",
+            sasl_plain_username=api_key,
+            sasl_plain_password=api_secret,
         )
         
         # Envoi du message
@@ -84,8 +36,8 @@ def envoyer_vers_kafka(serveur_kafka, topic, message):
     except Exception as e:
         print(f"Erreur lors de l'envoi à Kafka : {str(e)}")
 
-# Simulation d'offres illimitées
-def simulation_offres(api_key, serveur_kafka, topic):
+
+def simulation_offres(api_key, api_secret, serveur_kafka, topic):
     exemples_cv = [
         "Candidat expert en Python et SQL, avec expérience dans le cloud AWS.",
         "Candidat avec des compétences avancées en Java, Spark, et Hadoop.",
@@ -96,30 +48,22 @@ def simulation_offres(api_key, serveur_kafka, topic):
 
     while True:
         try:
-            # Choisir aléatoirement un CV
+            # Génération simulée d'une offre
             resume_data = random.choice(exemples_cv)
+            offre = f"Offre générée pour : {resume_data}"
+            message = {"offre": offre}
 
-            # Générer l'offre
-            offre = generer_offre_emploi(api_key, resume_data)
+            # Envoi à Kafka
+            envoyer_vers_kafka(serveur_kafka, topic, message, api_key, api_secret)
 
-            # Vérification et envoi
-            if "Erreur" not in offre:
-                # Convertir en format JSON
-                message = {"offre": offre}
-                envoyer_vers_kafka(serveur_kafka, topic, message)
-            else:
-                print(offre)
-
-            # Pause pour simuler des arrivées d'offres espacées
+            # Pause pour simuler l'arrivée d'offres
             sleep(random.uniform(0.5, 2.0))
 
         except KeyboardInterrupt:
             print("\nSimulation interrompue par l'utilisateur.")
             break
 
-topic = cfg.topic
-serveur_kafka = cfg.serveur_kafka
-api_key = cfg.api_key
 
 # Lancer la simulation
-simulation_offres(api_key, serveur_kafka, topic)
+
+simulation_offres(api_key, api_secret, serveur_kafka, topic)
