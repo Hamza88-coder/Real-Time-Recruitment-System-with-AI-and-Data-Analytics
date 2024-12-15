@@ -1,284 +1,115 @@
 import dotenv
-from pyspark.sql import SparkSession
-from pyspark.sql.functions import col, udf
-from pyspark.sql.types import StringType, StructType, StructField
-import fitz
-import yaml
-from groq import Groq
-import json
-from dotenv import load_dotenv
-import re
-from io import BytesIO
-from datetime import datetime
 import os
+import json
+from typing import List, Optional
+from dotenv import load_dotenv
+
+from kafka import KafkaConsumer
+from pyspark.sql import SparkSession, DataFrame
+from pyspark.sql.types import StructType, StructField, StringType, ArrayType
 from delta.tables import DeltaTable
-from typing import Optional, List
 
-from CV_Processus.consumerSpark.schema import PERSON_SCHPERSON_SCHEMA
-from CV_Processus.consumerSpark.consumerspark import api_key
-
-# Load environment variables
+from schema import OFFRE_SCHEMA
 load_dotenv()
+
+
+
+# Variables d'environnement (à remplacer par des valeurs sécurisées en production)
+GROQ_API_KEY =os.getenv("GROQ_API_KEY")
 ADLS_STORAGE_ACCOUNT_NAME = os.getenv("ADLS_STORAGE_ACCOUNT_NAME")
-ADLS_ACCOUNT_KEY = os.getenv("ADLS_ACCOUNT_KEY")
+ADLS_ACCOUNT_KEY = os.getenv("ADLS_ACCOUNT_KEY")  # A remplacer par votre clé
 ADLS_CONTAINER_NAME = os.getenv("ADLS_CONTAINER_NAME")
 ADLS_FOLDER_PATH = os.getenv("ADLS_FOLDER_PATH")
-api_key=os.getenv("api_key")
 
-ADLS_FOLDER_PATH = "offres_trav"
-OUTPUT_PATH = (
-    f"abfss://{ADLS_CONTAINER_NAME}@{ADLS_STORAGE_ACCOUNT_NAME}.dfs.core.windows.net/"
-    + ADLS_FOLDER_PATH
-)
+KAFKA_BOOTSTRAP_SERVERS = os.getenv("KAFKA_BOOTSTRAP_SERVERS")
+KAFKA_GROUP_ID = os.getenv("KAFKA_GROUP_ID")
+KAFKA_API_KEY = os.getenv("KAFKA_API_KEY")
+KAFKA_API_SECRET = os.getenv("KAFKA_API_SECRET")
+KAFKA_TOPIC = os.getenv("KAFKA_TOPIC ")
 
-# Required Spark packages
+OUTPUT_PATH = f"abfss://{ADLS_CONTAINER_NAME}@{ADLS_STORAGE_ACCOUNT_NAME}.dfs.core.windows.net/{ADLS_FOLDER_PATH}"
+
+# Packages requis pour Spark
 PACKAGES = [
-    "io.delta:delta-spark_2.12:3.0.0",
+    "io.delta:delta-spark_2.12:1.1.0",
     "org.apache.hadoop:hadoop-azure:3.3.6",
     "org.apache.hadoop:hadoop-azure-datalake:3.3.6",
-    "org.apache.hadoop:hadoop-common:3.3.6",
 ]
 
-# Initialisation de Spark
-app_name = "MonApplicationSpark"
-packages = ["org.apache.spark:spark-sql_2.12:3.1.1", "io.delta:delta-core_2.12:1.0.0"]
-cluster_manager = "local[*]"
-
-# Créer ou récupérer la session Spark
-jars = ",".join(packages)
-spark = (
-    SparkSession.builder.appName(app_name)
-    .config("spark.streaming.stopGracefullyOnShutdown", True)
-    .config("spark.jars.packages", jars)
-    .config("spark.sql.extensions", "io.delta.sql.DeltaSparkSessionExtension")
-    .config(
-        "spark.sql.catalog.spark_catalog",
-        "org.apache.spark.sql.delta.catalog.DeltaCatalog",
+def create_or_get_spark(app_name: str, packages: List[str]) -> SparkSession:
+    """Créer une session Spark avec Delta et Azure."""
+    jars = ",".join(packages)
+    spark = (
+        SparkSession.builder.appName(app_name)
+        .config("spark.jars.packages", jars)
+        .config("spark.sql.extensions", "io.delta.sql.DeltaSparkSessionExtension")
+        .config("spark.sql.catalog.spark_catalog", "org.apache.spark.sql.delta.catalog.DeltaCatalog")
+        .config("fs.abfss.impl", "org.apache.hadoop.fs.azurebfs.SecureAzureBlobFileSystem")
+        .master("local[*]")
+        .getOrCreate()
     )
-    .config(
-        "fs.abfss.impl", "org.apache.hadoop.fs.azurebfs.SecureAzureBlobFileSystem"
+    spark.conf.set(
+        f"fs.azure.account.key.{ADLS_STORAGE_ACCOUNT_NAME}.dfs.core.windows.net",
+        ADLS_ACCOUNT_KEY,
     )
-    .master(cluster_manager)
-    .getOrCreate()
-)
+    return spark
 
-# Configurer la connexion à Azure
-spark.conf.set(
-    f"fs.azure.account.key.{ADLS_STORAGE_ACCOUNT_NAME}.dfs.core.windows.net",
-    ADLS_ACCOUNT_KEY,
-)
-
-# Définition du schéma de sortie
-output_schema = StructType([
-    StructField("pdf_text", StringType(), True),
-    StructField("analysis_result", StringType(), True)
-])
-
-# Chargement de la configuration
-def load_config():
-    CONFIG_PATH = "config.yaml"
-    with open(CONFIG_PATH) as file:
-        data = yaml.load(file, Loader=yaml.FullLoader)
-        return data['GROQ_API_KEY']
-
-# Fonction d'extraction du texte depuis les bytes
-def extract_text_from_bytes(pdf_bytes):
+def create_empty_delta_table(
+    spark: SparkSession,
+    schema: StructType,
+    path: str,
+    partition_cols: Optional[List[str]] = None,
+    enable_cdc: Optional[bool] = False,
+):
+    """Créer une table Delta vide si elle n'existe pas."""
     try:
-        memory_buffer = BytesIO(pdf_bytes)
-        with fitz.open(stream=memory_buffer, filetype="pdf") as doc:
-            text = ""
-            for page_num in range(doc.page_count):
-                page = doc.load_page(page_num)
-                text += page.get_text("text")
-            return text
-    except Exception as e:
-        return f"Erreur lors de l'extraction du texte: {str(e)}"
-    finally:
-        memory_buffer.close()
+        DeltaTable.forPath(spark, path)
+        print(f"Delta Table already exists at path: {path}")
+    except Exception:
+        print(f"Creating new Delta Table at: {path}")
+        custom_builder = DeltaTable.createIfNotExists(spark).location(path).addColumns(schema)
+        if partition_cols:
+            custom_builder = custom_builder.partitionedBy(partition_cols)
+        if enable_cdc:
+            custom_builder = custom_builder.property("delta.enableChangeDataFeed", "true")
+        custom_builder.execute()
 
-# Fonction d'analyse avec Groq
-def ats_extractor(resume_data, api_key):
-    prompt = '''
-    You are an AI bot designed to act as a professional for parsing resumes. You are given a resume, and your job is to extract the following information:
-    1. first name
-    2. last name
-    1. full name
-    4. title
-    5. address
-    6. objective
-    7. date_of_birth
-    8. place_of_birth
-    9. phones
-    10. urls
-    11. gender
-    12. nationality
-    13. education details
-    14. total years education
-    15. experience details
-    16. total years experience
-    17. skills
-    18. projects
-    19. languages
-    20. certifications 
-    Provide the extracted information in JSON format only,If a field does not exist, do "None".
-    Expected example:
-    {
-  "first_name": "Le prénom du candidat.",
-  "last_name": "Le nom de famille du candidat.",
-  "full_name": "Le nom complet du candidat (prénom et nom).",
-  "title": "Titre professionnel du candidat (ex: Stagiare, Ingénieur, Développeur).",
-  "address": {
-       "formatted_location": "Adresse complète du candidat au format texte.",
-       "city": "Ville de résidence du candidat.",
-       "region": "Région de résidence du candidat.",
-       "country": "Pays de résidence du candidat.",
-       "postal_code": "Code postal de l’adresse du candidat."
-  },
-  "objective": "Objectif de carrière ou déclaration personnelle du candidat.",
-  "date_of_birth": "Date de naissance du candidat (format AAAA-MM-JJ).",
-  "place_of_birth": "Lieu de naissance du candidat (ville, région, pays).",
-  "phones": "Liste des numéros de téléphone du candidat.",
-  "email": "Adresse email principale du candidat.",
-  "urls": {
-       "GitHub": "Lien vers le profil GitHub du candidat.",
-       "portfolio": "Lien vers le portfolio en ligne du candidat.",
-       "LinkedIn": "Lien vers le profil LinkedIn du candidat.",
-       "site_web": "Lien vers le site web personnel ou professionnel du candidat."
-  },
-  "gender": "Genre du candidat (ex: masculin, féminin).",
-  "nationality": "Nationalité ou citoyenneté du candidat.",
-  "education_details": [ (liste des etude de condidat)
-    {
-      "etude_title": "Titre ou diplôme obtenu (ex: Licence, Master, Doctorat).",
-      "etablissement_name": "Nom de l’établissement d’enseignement.",
-      "start_date": "Date de début des études (format AAAA-MM-JJ).",
-      "end_date": "Date de fin des études ou date prévue de fin (format AAAA-MM-JJ).",
-      "etude_city": "Ville où les études ont été effectuées.",
-      "etude_region": "Région où les études ont été effectuées.",
-      "etude_contry": "Pays où les études ont été effectuées."
-    }
-  ],
-  "total_years_education": "Nombre total d'années de formation du candidat (ex 2.5 ce signifiee 2 annees et demi annee).",
-  "work_experience_details": [(liste des experience de condidat)
-    {
-      "job_title": "Intitulé du poste occupé.",
-      "company_name": "Nom de l’entreprise ou de l’organisation.",
-      "city": "Ville où l’emploi a été exercé.",
-      "region": "Région où l’emploi a été exercé.",
-      "sector_of_activity": "Secteur d’activité de l’entreprise.",
-      "start_date": "Date de début du poste (format AAAA-MM-JJ).",
-      "end_date": "Date de fin du poste ou « actuel » pour les postes en cours."
-    }
-  ],
-  "total_years_work_experience": "Nombre total d'années d’expérience professionnelle.",
-  "skills": [
-    "Liste des compétences et technologies maitrisées par le candidat (ex: Java, gestion de projet)."
-  ],
-  "projects":[(liste de projetcs){
-      "name":
-      "outils":[liste de outils utilisee dans ce projet]
-}]
-  "language": [
-    {
-      "name": "Nom de la langue parlée (ex: anglais, français).",
-      "level": "Niveau de maîtrise de la langue (ex: débutant, intermédiaire, avancé, bilingue)."
-    }
-  ],
-  "certifications": [
-    {
-      "name": "Nom de la certification obtenue.",
-      "etablissement_certification": "Nom de l’organisme délivrant la certification.",
-      "date": "Date d’obtention de la certification (format AAAA-MM-JJ)."
-    }
-  ]
-}
+def save_to_delta(df: DataFrame, output_path: str):
+    """Sauvegarder les données dans une Delta Table."""
+    df.write.format("delta").mode("append").option("mergeSchema", "true").save(output_path)
+    print("Data written to Delta Table.")
 
-    '''
-    
-    
-   
-    
+def process_message(spark: SparkSession, message: str):
+    """Traiter un message Kafka et l'enregistrer dans une table Delta."""
     try:
-        groq_client = Groq(api_key=api_key)
-        messages = [
-            {"role": "system", "content": prompt},
-            {"role": "user", "content": resume_data}
-        ]
-        
-        response = groq_client.chat.completions.create(
-            model="llama3-8b-8192",
-            messages=messages,
-            temperature=0.0,
-            max_tokens=1500
-        )
-        
-        data = response.choices[0].message.content
-        json_match = re.search(r"\{.*\}", data, re.DOTALL)
-        
-        if json_match:
-            return json.loads(json_match.group(0))
-        else:
-            return {"error": "JSON non trouvé dans la sortie."}
-            
+        job_posting = json.loads(message)
+        df = spark.createDataFrame([job_posting], schema=OFFRE_SCHEMA)
+        save_to_delta(df, OUTPUT_PATH)
     except Exception as e:
-        return {"error": f"Erreur lors de l'analyse: {str(e)}"}
+        print(f"Error processing message: {e}")
 
-# UDF pour le traitement complet
-@udf(returnType=output_schema)
-def process_pdf_udf(value):
-    try:
-        # Les données arrivent déjà en bytes depuis Kafka
-        pdf_bytes = value
-        
-        # Extraction du texte directement depuis les bytes
-        extracted_text = extract_text_from_bytes(pdf_bytes)
-        
-        # Analyse avec Groq
-        analysis_result = ats_extractor(extracted_text, api_key)
-        
-        return (extracted_text, json.dumps(analysis_result))
-    except Exception as e:
-        error_msg = f"Erreur lors du traitement: {str(e)}"
-        return (error_msg, json.dumps({"error": error_msg}))
-
-# Fonction de traitement pour chaque micro-batch
-def process_batch(df, epoch_id):
-    # Conversion du DataFrame en liste de dictionnaires pour traitement
-    rows = df.collect()
-    for row in rows:
-        # Sauvegarde dans Delta
-        delta_df = spark.createDataFrame([(row['offset'], row['extracted_text'], row['analysis_result'])], schema=output_schema)
-        delta_table = DeltaTable.forPath(spark, OUTPUT_PATH)
-        
-        # Merge or Insert new data into Delta table
-        delta_table.alias("t").merge(
-            delta_df.alias("s"),
-            "t.offset = s.offset"
-        ).whenNotMatchedInsertAll().execute()
-
-# Lecture du stream Kafka
-df = spark.readStream.format("kafka") \
-    .option("kafka.bootstrap.servers", "192.168.1.21:29093") \
-    .option("subscribe", "TopicCV") \
-    .load()
-
-# Application du traitement
-processed_df = df.select(
-    col("offset"),
-    process_pdf_udf(col("value")).alias("processed_data")
+# Configurer le consommateur Kafka pour Confluent
+consumer = KafkaConsumer(
+    KAFKA_TOPIC,
+    bootstrap_servers=KAFKA_BOOTSTRAP_SERVERS,
+    group_id=KAFKA_GROUP_ID,
+    auto_offset_reset='earliest',
+    enable_auto_commit=True,
+    security_protocol="SASL_SSL",
+    sasl_mechanism="PLAIN",
+    sasl_plain_username=KAFKA_API_KEY,
+    sasl_plain_password=KAFKA_API_SECRET,
 )
 
-# Extraction des colonnes du struct retourné par l'UDF
-final_df = processed_df.select(
-    col("offset"),
-    col("processed_data.pdf_text").alias("extracted_text"),
-    col("processed_data.analysis_result").alias("analysis_result")
-)
-
-# Configuration des streams de sortie
-json_query = final_df.writeStream \
-    .foreachBatch(process_batch) \
-    .start()
-
-# Attente de la terminaison du stream
-spark.streams.awaitAnyTermination()
+if __name__ == "__main__":
+    # Créer une session Spark
+    spark = create_or_get_spark("json_to_delta", PACKAGES)
+    
+    # Créer une table Delta vide
+    create_empty_delta_table(spark, OFFRE_SCHEMA, OUTPUT_PATH, partition_cols=["societe"])
+    print("Listening to Kafka topic...")
+    
+    # Lire les messages de Kafka
+    for message in consumer:
+        message_value = message.value.decode("utf-8")
+        process_message(spark, message_value)
