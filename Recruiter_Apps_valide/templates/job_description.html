@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Description du poste</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .outer-container {
+            border: 2px solid #000;
+            width: 600px;
+            height: 400px;
+            display: flex;
+            background-color: #ffffff;
+            border-radius: 15px;
+            overflow: hidden;
+        }
+
+        .left-section {
+            width: 50%;
+            background-color: #007bff; /* Fond bleu */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .left-section img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+
+        .right-section {
+            width: 50%;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .right-section h1 {
+            color: #333;
+            font-size: 24px;
+            margin: 0 0 20px 0;
+        }
+
+        .right-section p {
+            font-size: 16px;
+            margin-bottom: 20px;
+            color: #555;
+        }
+
+        .file-input {
+            width: 80%;
+            padding: 10px;
+            background-color: white;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            text-align: center;
+            cursor: pointer;
+            margin-bottom: 20px;
+        }
+
+        .btn {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: #0056b3;
+        }
+        /* Centrage et mise en forme du textarea et du bouton */
+        textarea {
+            width: 80%;
+            height: 100px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            resize: none;
+        }
+
+        .right-section form {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="outer-container">
+        <!-- Section gauche pour l'image -->
+        <div class="left-section">
+            <img src="{{ url_for('static', filename='recrutement.jpg') }}" alt="Image illustrative">
+        </div>
+
+        <!-- Section droite pour la saisie de la description du poste -->
+        <div class="right-section">
+            <h1>Entrez la description du poste</h1>
+            <form action="/" method="POST">
+                <textarea name="job_description" placeholder="Saisissez la description du poste ici"></textarea>
+                <br>
+                <button type="submit" class="btn">Analyser les CVs</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
