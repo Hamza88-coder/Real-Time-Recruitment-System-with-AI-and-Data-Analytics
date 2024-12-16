@@ -123,9 +123,7 @@ def get_average_word_vector(tokens, model):
         return np.zeros(model.vector_size)
     return np.mean(word_vectors, axis=0)
 
-# Fonction pour extraire du texte des fichiers PDF
-import os
-import fitz  # PyMuPDF
+
 
 def extract_text_from_pdf(upload_folder):
     """

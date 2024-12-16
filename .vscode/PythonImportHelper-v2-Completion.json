@@ -267,22 +267,6 @@
         "documentation": {}
     },
     {
-        "label": "SparkSession",
-        "importPath": "pyspark.sql",
-        "description": "pyspark.sql",
-        "isExtraImport": true,
-        "detail": "pyspark.sql",
-        "documentation": {}
-    },
-    {
-        "label": "SparkSession",
-        "importPath": "pyspark.sql",
-        "description": "pyspark.sql",
-        "isExtraImport": true,
-        "detail": "pyspark.sql",
-        "documentation": {}
-    },
-    {
         "label": "DataFrame",
         "importPath": "pyspark.sql",
         "description": "pyspark.sql",
@@ -822,6 +806,22 @@
         "documentation": {}
     },
     {
+        "label": "Groq",
+        "importPath": "groq",
+        "description": "groq",
+        "isExtraImport": true,
+        "detail": "groq",
+        "documentation": {}
+    },
+    {
+        "label": "Groq",
+        "importPath": "groq",
+        "description": "groq",
+        "isExtraImport": true,
+        "detail": "groq",
+        "documentation": {}
+    },
+    {
         "label": "re",
         "kind": 6,
         "isExtraImport": true,
@@ -844,6 +844,22 @@
         "description": "io",
         "isExtraImport": true,
         "detail": "io",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
         "documentation": {}
     },
     {
@@ -916,27 +932,370 @@
         "documentation": {}
     },
     {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "url_for",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "url_for",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "flash",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "url_for",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "url_for",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "flash",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "jsonify",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "gensim",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "gensim",
+        "description": "gensim",
+        "detail": "gensim",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "word_tokenize",
+        "importPath": "nltk",
+        "description": "nltk",
+        "isExtraImport": true,
+        "detail": "nltk",
+        "documentation": {}
+    },
+    {
+        "label": "word_tokenize",
+        "importPath": "nltk",
+        "description": "nltk",
+        "isExtraImport": true,
+        "detail": "nltk",
+        "documentation": {}
+    },
+    {
+        "label": "cosine_similarity",
+        "importPath": "sklearn.metrics.pairwise",
+        "description": "sklearn.metrics.pairwise",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics.pairwise",
+        "documentation": {}
+    },
+    {
+        "label": "cosine_similarity",
+        "importPath": "sklearn.metrics.pairwise",
+        "description": "sklearn.metrics.pairwise",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics.pairwise",
+        "documentation": {}
+    },
+    {
+        "label": "csv",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "csv",
+        "description": "csv",
+        "detail": "csv",
+        "documentation": {}
+    },
+    {
+        "label": "pinecone",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pinecone",
+        "description": "pinecone",
+        "detail": "pinecone",
+        "documentation": {}
+    },
+    {
+        "label": "Pinecone",
+        "importPath": "pinecone",
+        "description": "pinecone",
+        "isExtraImport": true,
+        "detail": "pinecone",
+        "documentation": {}
+    },
+    {
+        "label": "ServerlessSpec",
+        "importPath": "pinecone",
+        "description": "pinecone",
+        "isExtraImport": true,
+        "detail": "pinecone",
+        "documentation": {}
+    },
+    {
+        "label": "PineconeApiException",
+        "importPath": "pinecone",
+        "description": "pinecone",
+        "isExtraImport": true,
+        "detail": "pinecone",
+        "documentation": {}
+    },
+    {
+        "label": "SentenceTransformer",
+        "importPath": "sentence_transformers",
+        "description": "sentence_transformers",
+        "isExtraImport": true,
+        "detail": "sentence_transformers",
+        "documentation": {}
+    },
+    {
+        "label": "SentenceTransformer",
+        "importPath": "sentence_transformers",
+        "description": "sentence_transformers",
+        "isExtraImport": true,
+        "detail": "sentence_transformers",
+        "documentation": {}
+    },
+    {
+        "label": "SentenceTransformer",
+        "importPath": "sentence_transformers",
+        "description": "sentence_transformers",
+        "isExtraImport": true,
+        "detail": "sentence_transformers",
+        "documentation": {}
+    },
+    {
+        "label": "SentenceTransformer",
+        "importPath": "sentence_transformers",
+        "description": "sentence_transformers",
+        "isExtraImport": true,
+        "detail": "sentence_transformers",
+        "documentation": {}
+    },
+    {
+        "label": "snowflake.connector",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "snowflake.connector",
+        "description": "snowflake.connector",
+        "detail": "snowflake.connector",
+        "documentation": {}
+    },
+    {
+        "label": "uuid",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "uuid",
+        "description": "uuid",
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "redis",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "redis",
+        "description": "redis",
+        "detail": "redis",
+        "documentation": {}
+    },
+    {
         "label": "PdfReader",
         "importPath": "PyPDF2",
         "description": "PyPDF2",
         "isExtraImport": true,
         "detail": "PyPDF2",
-        "documentation": {}
-    },
-    {
-        "label": "SentenceTransformer",
-        "importPath": "sentence_transformers",
-        "description": "sentence_transformers",
-        "isExtraImport": true,
-        "detail": "sentence_transformers",
-        "documentation": {}
-    },
-    {
-        "label": "SentenceTransformer",
-        "importPath": "sentence_transformers",
-        "description": "sentence_transformers",
-        "isExtraImport": true,
-        "detail": "sentence_transformers",
         "documentation": {}
     },
     {
@@ -1061,38 +1420,6 @@
         "documentation": {}
     },
     {
-        "label": "Flask",
-        "importPath": "flask",
-        "description": "flask",
-        "isExtraImport": true,
-        "detail": "flask",
-        "documentation": {}
-    },
-    {
-        "label": "render_template",
-        "importPath": "flask",
-        "description": "flask",
-        "isExtraImport": true,
-        "detail": "flask",
-        "documentation": {}
-    },
-    {
-        "label": "jsonify",
-        "importPath": "flask",
-        "description": "flask",
-        "isExtraImport": true,
-        "detail": "flask",
-        "documentation": {}
-    },
-    {
-        "label": "request",
-        "importPath": "flask",
-        "description": "flask",
-        "isExtraImport": true,
-        "detail": "flask",
-        "documentation": {}
-    },
-    {
         "label": "get_text_chunks",
         "importPath": "ecommbot.ingest",
         "description": "ecommbot.ingest",
@@ -1149,30 +1476,6 @@
         "documentation": {}
     },
     {
-        "label": "KMeans",
-        "importPath": "pyspark.ml.clustering",
-        "description": "pyspark.ml.clustering",
-        "isExtraImport": true,
-        "detail": "pyspark.ml.clustering",
-        "documentation": {}
-    },
-    {
-        "label": "CandidatDataLoader",
-        "importPath": "reader_data",
-        "description": "reader_data",
-        "isExtraImport": true,
-        "detail": "reader_data",
-        "documentation": {}
-    },
-    {
-        "label": "CandidatDataLoader",
-        "importPath": "reader_data",
-        "description": "reader_data",
-        "isExtraImport": true,
-        "detail": "reader_data",
-        "documentation": {}
-    },
-    {
         "label": "CandidatDataLoader",
         "importPath": "reader_data",
         "description": "reader_data",
@@ -1194,55 +1497,6 @@
         "description": "transformer",
         "isExtraImport": true,
         "detail": "transformer",
-        "documentation": {}
-    },
-    {
-        "label": "CandidatTransformer",
-        "importPath": "transformer",
-        "description": "transformer",
-        "isExtraImport": true,
-        "detail": "transformer",
-        "documentation": {}
-    },
-    {
-        "label": "matplotlib.pyplot",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "matplotlib.pyplot",
-        "description": "matplotlib.pyplot",
-        "detail": "matplotlib.pyplot",
-        "documentation": {}
-    },
-    {
-        "label": "PCA",
-        "importPath": "pyspark.ml.feature",
-        "description": "pyspark.ml.feature",
-        "isExtraImport": true,
-        "detail": "pyspark.ml.feature",
-        "documentation": {}
-    },
-    {
-        "label": "StringIndexer",
-        "importPath": "pyspark.ml.feature",
-        "description": "pyspark.ml.feature",
-        "isExtraImport": true,
-        "detail": "pyspark.ml.feature",
-        "documentation": {}
-    },
-    {
-        "label": "OneHotEncoder",
-        "importPath": "pyspark.ml.feature",
-        "description": "pyspark.ml.feature",
-        "isExtraImport": true,
-        "detail": "pyspark.ml.feature",
-        "documentation": {}
-    },
-    {
-        "label": "VectorAssembler",
-        "importPath": "pyspark.ml.feature",
-        "description": "pyspark.ml.feature",
-        "isExtraImport": true,
-        "detail": "pyspark.ml.feature",
         "documentation": {}
     },
     {
@@ -1286,69 +1540,11 @@
         "documentation": {}
     },
     {
-        "label": "Pipeline",
-        "importPath": "pyspark.ml",
-        "description": "pyspark.ml",
-        "isExtraImport": true,
-        "detail": "pyspark.ml",
-        "documentation": {}
-    },
-    {
         "label": "LogisticRegression",
         "importPath": "pyspark.ml.classification",
         "description": "pyspark.ml.classification",
         "isExtraImport": true,
         "detail": "pyspark.ml.classification",
-        "documentation": {}
-    },
-    {
-        "label": "LogisticRegression",
-        "importPath": "pyspark.ml.classification",
-        "description": "pyspark.ml.classification",
-        "isExtraImport": true,
-        "detail": "pyspark.ml.classification",
-        "documentation": {}
-    },
-    {
-        "label": "snowflake.connector",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "snowflake.connector",
-        "description": "snowflake.connector",
-        "detail": "snowflake.connector",
-        "documentation": {}
-    },
-    {
-        "label": "pinecone",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "pinecone",
-        "description": "pinecone",
-        "detail": "pinecone",
-        "documentation": {}
-    },
-    {
-        "label": "Pinecone",
-        "importPath": "pinecone",
-        "description": "pinecone",
-        "isExtraImport": true,
-        "detail": "pinecone",
-        "documentation": {}
-    },
-    {
-        "label": "ServerlessSpec",
-        "importPath": "pinecone",
-        "description": "pinecone",
-        "isExtraImport": true,
-        "detail": "pinecone",
-        "documentation": {}
-    },
-    {
-        "label": "PineconeApiException",
-        "importPath": "pinecone",
-        "description": "pinecone",
-        "isExtraImport": true,
-        "detail": "pinecone",
         "documentation": {}
     },
     {
@@ -3287,6 +3483,402 @@
         "documentation": {}
     },
     {
+        "label": "ats_extractor",
+        "kind": 2,
+        "importPath": "Recruiter_Apps.app_cvs",
+        "description": "Recruiter_Apps.app_cvs",
+        "peekOfCode": "def ats_extractor(resume_data):\n    # Prompt for extracting specific information from the resume\n    prompt = '''\n    You are an AI bot designed to act as a professional for parsing resumes. You are given a resume, and your job is to extract the following information:\n    1. skills \n    2. languages\n    3. education (field of study such as Computer Science, Management, Medicine, Marketing, Electrical Engineering, etc.)\n    4. total number of work experiences\n    Provide the extracted information in JSON format only with english translation. Additionally, generate a unique ID for the candidate .\n    If a field does not exist, do \"None\".",
+        "detail": "Recruiter_Apps.app_cvs",
+        "documentation": {}
+    },
+    {
+        "label": "preprocess_text",
+        "kind": 2,
+        "importPath": "Recruiter_Apps.app_cvs",
+        "description": "Recruiter_Apps.app_cvs",
+        "peekOfCode": "def preprocess_text(text):\n    tokens = word_tokenize(text.lower())\n    tokens = [token for token in tokens if token.isalpha()]\n    return tokens\n# Fonction pour obtenir les embeddings moyennés\ndef get_average_word_vector(tokens, model):\n    word_vectors = [model.wv[token] for token in tokens if token in model.wv]\n    if not word_vectors:\n        return np.zeros(model.vector_size)\n    return np.mean(word_vectors, axis=0)",
+        "detail": "Recruiter_Apps.app_cvs",
+        "documentation": {}
+    },
+    {
+        "label": "get_average_word_vector",
+        "kind": 2,
+        "importPath": "Recruiter_Apps.app_cvs",
+        "description": "Recruiter_Apps.app_cvs",
+        "peekOfCode": "def get_average_word_vector(tokens, model):\n    word_vectors = [model.wv[token] for token in tokens if token in model.wv]\n    if not word_vectors:\n        return np.zeros(model.vector_size)\n    return np.mean(word_vectors, axis=0)\n# Fonction pour extraire du texte des fichiers PDF\nimport os\nimport fitz  # PyMuPDF\ndef extract_text_from_pdf(upload_folder):\n    \"\"\"",
+        "detail": "Recruiter_Apps.app_cvs",
+        "documentation": {}
+    },
+    {
+        "label": "extract_text_from_pdf",
+        "kind": 2,
+        "importPath": "Recruiter_Apps.app_cvs",
+        "description": "Recruiter_Apps.app_cvs",
+        "peekOfCode": "def extract_text_from_pdf(upload_folder):\n    \"\"\"\n    Extrait le texte de tous les fichiers PDF dans un dossier.\n    Args:\n        upload_folder (str): Chemin du dossier contenant les fichiers PDF.\n    Returns:\n        dict: Dictionnaire avec les noms de fichiers comme clés et les textes extraits comme valeurs.\n    \"\"\"\n    #extracted_text = {}\n    try:",
+        "detail": "Recruiter_Apps.app_cvs",
+        "documentation": {}
+    },
+    {
+        "label": "generee_offres",
+        "kind": 2,
+        "importPath": "Recruiter_Apps.app_cvs",
+        "description": "Recruiter_Apps.app_cvs",
+        "peekOfCode": "def generee_offres(descriptions):\n    description_prompt = '''\n        You are an AI bot designed to generate detailed job descriptions. Based on the following candidate information, create a professional job description in English. The format should include:\n        - Industry: Mention the industry (e.g., \"Computer and Technology\").\n        - Job Title: Suggest a title based on skills and education (e.g., \"Data Scientist\").\n        - Date: Use the current date in the format YYYY-MM-DD.\n        - Description: Provide a paragraph summarizing the skills, languages, education, and years of experience. Make the description engaging and professional.\n        Example:\n        Industry: Computer And Technology\n        Data Scientist",
+        "detail": "Recruiter_Apps.app_cvs",
+        "documentation": {}
+    },
+    {
+        "label": "save_picture",
+        "kind": 2,
+        "importPath": "Recruiter_Apps.app_cvs",
+        "description": "Recruiter_Apps.app_cvs",
+        "peekOfCode": "def save_picture(form_picture):\n    f_name, f_ext = os.path.splitext(form_picture.filename)\n    picture_fn = f_name + f_ext\n    picture_path = os.path.join(app.root_path, 'static', picture_fn)\n    form_picture.save(picture_path)\n    return picture_fn\ndef json_to_csv(json_data, csv_file_path):\n    # Ensure json_data is a dictionary\n    if not isinstance(json_data, dict):\n        return {\"error\": \"Invalid JSON data.\"}",
+        "detail": "Recruiter_Apps.app_cvs",
+        "documentation": {}
+    },
+    {
+        "label": "json_to_csv",
+        "kind": 2,
+        "importPath": "Recruiter_Apps.app_cvs",
+        "description": "Recruiter_Apps.app_cvs",
+        "peekOfCode": "def json_to_csv(json_data, csv_file_path):\n    # Ensure json_data is a dictionary\n    if not isinstance(json_data, dict):\n        return {\"error\": \"Invalid JSON data.\"}\n    # Define the CSV header\n    header = [\"candidate_id\", \"competences\", \"langues\", \"formation\", \"nbr_years_exp\"]\n    # Convert data into a list of rows\n    rows = [\n        [\n            json_data.get(\"candidate_id\", \"None\"),",
+        "detail": "Recruiter_Apps.app_cvs",
+        "documentation": {}
+    },
+    {
+        "label": "search_similar_vectors_candidat",
+        "kind": 2,
+        "importPath": "Recruiter_Apps.app_cvs",
+        "description": "Recruiter_Apps.app_cvs",
+        "peekOfCode": "def search_similar_vectors_candidat(query_embedding, top_k=5):\n    pc = pinecone.Pinecone(api_key=api_key_pin)\n    # Connexion à l'index Pinecone\n    index_name = 'candidates'  # Le nom de votre index Pinecone\n    index_candidats = pc.Index(index_name)\n    print(f\"Query embedding: {query_embedding}\")\n    result = index_candidats.query(vector=query_embedding, top_k=top_k, include_metadata=True)\n    print(f\"Result: {result}\")\n    # Vérification de la présence de la clé 'matches'\n    if 'matches' in result:",
+        "detail": "Recruiter_Apps.app_cvs",
+        "documentation": {}
+    },
+    {
+        "label": "search_similar_vectors_job",
+        "kind": 2,
+        "importPath": "Recruiter_Apps.app_cvs",
+        "description": "Recruiter_Apps.app_cvs",
+        "peekOfCode": "def search_similar_vectors_job(query_embedding, top_k=5):\n    pc = pinecone.Pinecone(api_key=api_key_pin)\n    # Connexion à l'index Pinecone\n    index_name = 'job'  # Le nom de votre index Pinecone\n    index_job= pc.Index(index_name)\n    print(f\"Query embedding: {query_embedding}\")\n    result = index_job.query(vector=query_embedding, top_k=top_k, include_metadata=True)\n    print(f\"Result: {result}\")\n    # Vérification de la présence de la clé 'matches'\n    if 'matches' in result:",
+        "detail": "Recruiter_Apps.app_cvs",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 2,
+        "importPath": "Recruiter_Apps.app_cvs",
+        "description": "Recruiter_Apps.app_cvs",
+        "peekOfCode": "def index():\n    global similar_vectors_candidat\n    global similar_vectors_job\n    global nom_cv\n    if request.method == 'POST':\n        if 'resume_folder' in request.files:\n            # Traiter le téléchargement des fichiers PDF\n            resume_folder = request.files.getlist('resume_folder')\n            os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)\n            for file in resume_folder:",
+        "detail": "Recruiter_Apps.app_cvs",
+        "documentation": {}
+    },
+    {
+        "label": "ranking",
+        "kind": 2,
+        "importPath": "Recruiter_Apps.app_cvs",
+        "description": "Recruiter_Apps.app_cvs",
+        "peekOfCode": "def ranking():\n    global similar_vectors_candidat\n    #global similar_vectors_job\n    # Nombre de vecteurs similaires\n    nbr_simil = len(similar_vectors_candidat)\n    # Générer la liste `resumes` avec les champs id et score arrondi (en pourcentage)\n    resumes_candidat = [\n        {\n            \"ID\": vector['id'],  # ID du vecteur\n            \"Score\": round(vector['score'] * 100, 2)  # Score en pourcentage",
+        "detail": "Recruiter_Apps.app_cvs",
+        "documentation": {}
+    },
+    {
+        "label": "jobs",
+        "kind": 2,
+        "importPath": "Recruiter_Apps.app_cvs",
+        "description": "Recruiter_Apps.app_cvs",
+        "peekOfCode": "def jobs():\n    global similar_vectors_candidat\n    global similar_vectors_job\n    global resumes_job\n    # Nombre de vecteurs similaires\n    nbr_simil = len(similar_vectors_job)\n    # Générer la liste `resumes` avec les champs id et score arrondi (en pourcentage)\n    resumes_job = [\n        {\n            \"ID\": vector['id'],  # ID du vecteur",
+        "detail": "Recruiter_Apps.app_cvs",
+        "documentation": {}
+    },
+    {
+        "label": "show_jobs",
+        "kind": 2,
+        "importPath": "Recruiter_Apps.app_cvs",
+        "description": "Recruiter_Apps.app_cvs",
+        "peekOfCode": "def show_jobs():\n    global resumes_job\n    global descriptions\n    print(resumes_job)\n    # Récupération des IDs (avec protection pour éviter l'erreur d'indexation)\n    id_job1 = resumes_job[0]['ID'] if len(resumes_job) > 0 else None\n    id_job2 = resumes_job[1]['ID'] if len(resumes_job) > 1 else None\n    id_job3 = resumes_job[2]['ID'] if len(resumes_job) > 2 else None\n    id_job4 = resumes_job[3]['ID'] if len(resumes_job) > 3 else None\n    id_job5 = resumes_job[4]['ID'] if len(resumes_job) > 4 else None",
+        "detail": "Recruiter_Apps.app_cvs",
+        "documentation": {}
+    },
+    {
+        "label": "post_cvs",
+        "kind": 2,
+        "importPath": "Recruiter_Apps.app_cvs",
+        "description": "Recruiter_Apps.app_cvs",
+        "peekOfCode": "def post_cvs(key):\n    global descriptions\n    global nom_cv\n    # Exemple de nom de CV (ceci peut être dynamique si récupéré de l'utilisateur ou d'une base de données)\n      # Exemple de nom, à remplacer par une logique dynamique si nécessaire.\n    # Ajouter les informations dans Redis sous la forme (key: offer_id) -> CV name\n    redis_client.set(key, nom_cv)  # Stocke le nom du CV pour l'ID de l'offre\n    # Ajouter un message de notification avec flash\n    flash(f\"Submit your CV: {nom_cv} for Offer ID: {key}\", \"info\")\n    # Rediriger vers la page des offres après l'application",
+        "detail": "Recruiter_Apps.app_cvs",
+        "documentation": {}
+    },
+    {
+        "label": "api_key_pin",
+        "kind": 5,
+        "importPath": "Recruiter_Apps.app_cvs",
+        "description": "Recruiter_Apps.app_cvs",
+        "peekOfCode": "api_key_pin = \"pcsk_vUaKS_3PK35kGth5rcmSKZkihFFuaS7B44xzMycHCnot1s9Czf1WE8iXSPZg4nDph81Ak\"\n# Détails de connexion à Snowflake\naccount = \"phztxrc-go36107\"\nuser = \"SAID\"\npassword = \"SaidKHALID2002!\"\nrole = \"dev_role\"\nwarehouse = \"projet_warehouse\"\ndatabase = \"my_project_database\"\nschema = \"my_project_schema\"\n# Connexion à Snowflake",
+        "detail": "Recruiter_Apps.app_cvs",
+        "documentation": {}
+    },
+    {
+        "label": "account",
+        "kind": 5,
+        "importPath": "Recruiter_Apps.app_cvs",
+        "description": "Recruiter_Apps.app_cvs",
+        "peekOfCode": "account = \"phztxrc-go36107\"\nuser = \"SAID\"\npassword = \"SaidKHALID2002!\"\nrole = \"dev_role\"\nwarehouse = \"projet_warehouse\"\ndatabase = \"my_project_database\"\nschema = \"my_project_schema\"\n# Connexion à Snowflake\nconn = snowflake.connector.connect(\n    account=account,",
+        "detail": "Recruiter_Apps.app_cvs",
+        "documentation": {}
+    },
+    {
+        "label": "user",
+        "kind": 5,
+        "importPath": "Recruiter_Apps.app_cvs",
+        "description": "Recruiter_Apps.app_cvs",
+        "peekOfCode": "user = \"SAID\"\npassword = \"SaidKHALID2002!\"\nrole = \"dev_role\"\nwarehouse = \"projet_warehouse\"\ndatabase = \"my_project_database\"\nschema = \"my_project_schema\"\n# Connexion à Snowflake\nconn = snowflake.connector.connect(\n    account=account,\n    user=user,",
+        "detail": "Recruiter_Apps.app_cvs",
+        "documentation": {}
+    },
+    {
+        "label": "password",
+        "kind": 5,
+        "importPath": "Recruiter_Apps.app_cvs",
+        "description": "Recruiter_Apps.app_cvs",
+        "peekOfCode": "password = \"SaidKHALID2002!\"\nrole = \"dev_role\"\nwarehouse = \"projet_warehouse\"\ndatabase = \"my_project_database\"\nschema = \"my_project_schema\"\n# Connexion à Snowflake\nconn = snowflake.connector.connect(\n    account=account,\n    user=user,\n    password=password,",
+        "detail": "Recruiter_Apps.app_cvs",
+        "documentation": {}
+    },
+    {
+        "label": "role",
+        "kind": 5,
+        "importPath": "Recruiter_Apps.app_cvs",
+        "description": "Recruiter_Apps.app_cvs",
+        "peekOfCode": "role = \"dev_role\"\nwarehouse = \"projet_warehouse\"\ndatabase = \"my_project_database\"\nschema = \"my_project_schema\"\n# Connexion à Snowflake\nconn = snowflake.connector.connect(\n    account=account,\n    user=user,\n    password=password,\n    role=role,",
+        "detail": "Recruiter_Apps.app_cvs",
+        "documentation": {}
+    },
+    {
+        "label": "warehouse",
+        "kind": 5,
+        "importPath": "Recruiter_Apps.app_cvs",
+        "description": "Recruiter_Apps.app_cvs",
+        "peekOfCode": "warehouse = \"projet_warehouse\"\ndatabase = \"my_project_database\"\nschema = \"my_project_schema\"\n# Connexion à Snowflake\nconn = snowflake.connector.connect(\n    account=account,\n    user=user,\n    password=password,\n    role=role,\n    warehouse=warehouse,",
+        "detail": "Recruiter_Apps.app_cvs",
+        "documentation": {}
+    },
+    {
+        "label": "database",
+        "kind": 5,
+        "importPath": "Recruiter_Apps.app_cvs",
+        "description": "Recruiter_Apps.app_cvs",
+        "peekOfCode": "database = \"my_project_database\"\nschema = \"my_project_schema\"\n# Connexion à Snowflake\nconn = snowflake.connector.connect(\n    account=account,\n    user=user,\n    password=password,\n    role=role,\n    warehouse=warehouse,\n    database=database,",
+        "detail": "Recruiter_Apps.app_cvs",
+        "documentation": {}
+    },
+    {
+        "label": "schema",
+        "kind": 5,
+        "importPath": "Recruiter_Apps.app_cvs",
+        "description": "Recruiter_Apps.app_cvs",
+        "peekOfCode": "schema = \"my_project_schema\"\n# Connexion à Snowflake\nconn = snowflake.connector.connect(\n    account=account,\n    user=user,\n    password=password,\n    role=role,\n    warehouse=warehouse,\n    database=database,\n    schema=schema",
+        "detail": "Recruiter_Apps.app_cvs",
+        "documentation": {}
+    },
+    {
+        "label": "conn",
+        "kind": 5,
+        "importPath": "Recruiter_Apps.app_cvs",
+        "description": "Recruiter_Apps.app_cvs",
+        "peekOfCode": "conn = snowflake.connector.connect(\n    account=account,\n    user=user,\n    password=password,\n    role=role,\n    warehouse=warehouse,\n    database=database,\n    schema=schema\n)\napp = Flask(__name__)",
+        "detail": "Recruiter_Apps.app_cvs",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "Recruiter_Apps.app_cvs",
+        "description": "Recruiter_Apps.app_cvs",
+        "peekOfCode": "app = Flask(__name__)\napp.config['UPLOAD_FOLDER'] = 'uploads/'\napp.config['REDIS_URL'] = \"redis://localhost:6379/0\"  # Utilisez l'URL de votre instance Redis\n# Définir une clé secrète pour la session\napp.secret_key = 'said'\n# Connexion à Redis\nredis_client = redis.StrictRedis.from_url(app.config['REDIS_URL'])\n# Charger le modèle Word2Vec\n#model = gensim.models.Word2Vec.load(\"D:/mémoire/resume_word2vec.model\")\nimport json",
+        "detail": "Recruiter_Apps.app_cvs",
+        "documentation": {}
+    },
+    {
+        "label": "app.config['UPLOAD_FOLDER']",
+        "kind": 5,
+        "importPath": "Recruiter_Apps.app_cvs",
+        "description": "Recruiter_Apps.app_cvs",
+        "peekOfCode": "app.config['UPLOAD_FOLDER'] = 'uploads/'\napp.config['REDIS_URL'] = \"redis://localhost:6379/0\"  # Utilisez l'URL de votre instance Redis\n# Définir une clé secrète pour la session\napp.secret_key = 'said'\n# Connexion à Redis\nredis_client = redis.StrictRedis.from_url(app.config['REDIS_URL'])\n# Charger le modèle Word2Vec\n#model = gensim.models.Word2Vec.load(\"D:/mémoire/resume_word2vec.model\")\nimport json\nimport uuid",
+        "detail": "Recruiter_Apps.app_cvs",
+        "documentation": {}
+    },
+    {
+        "label": "app.config['REDIS_URL']",
+        "kind": 5,
+        "importPath": "Recruiter_Apps.app_cvs",
+        "description": "Recruiter_Apps.app_cvs",
+        "peekOfCode": "app.config['REDIS_URL'] = \"redis://localhost:6379/0\"  # Utilisez l'URL de votre instance Redis\n# Définir une clé secrète pour la session\napp.secret_key = 'said'\n# Connexion à Redis\nredis_client = redis.StrictRedis.from_url(app.config['REDIS_URL'])\n# Charger le modèle Word2Vec\n#model = gensim.models.Word2Vec.load(\"D:/mémoire/resume_word2vec.model\")\nimport json\nimport uuid\ndef ats_extractor(resume_data):",
+        "detail": "Recruiter_Apps.app_cvs",
+        "documentation": {}
+    },
+    {
+        "label": "app.secret_key",
+        "kind": 5,
+        "importPath": "Recruiter_Apps.app_cvs",
+        "description": "Recruiter_Apps.app_cvs",
+        "peekOfCode": "app.secret_key = 'said'\n# Connexion à Redis\nredis_client = redis.StrictRedis.from_url(app.config['REDIS_URL'])\n# Charger le modèle Word2Vec\n#model = gensim.models.Word2Vec.load(\"D:/mémoire/resume_word2vec.model\")\nimport json\nimport uuid\ndef ats_extractor(resume_data):\n    # Prompt for extracting specific information from the resume\n    prompt = '''",
+        "detail": "Recruiter_Apps.app_cvs",
+        "documentation": {}
+    },
+    {
+        "label": "redis_client",
+        "kind": 5,
+        "importPath": "Recruiter_Apps.app_cvs",
+        "description": "Recruiter_Apps.app_cvs",
+        "peekOfCode": "redis_client = redis.StrictRedis.from_url(app.config['REDIS_URL'])\n# Charger le modèle Word2Vec\n#model = gensim.models.Word2Vec.load(\"D:/mémoire/resume_word2vec.model\")\nimport json\nimport uuid\ndef ats_extractor(resume_data):\n    # Prompt for extracting specific information from the resume\n    prompt = '''\n    You are an AI bot designed to act as a professional for parsing resumes. You are given a resume, and your job is to extract the following information:\n    1. skills ",
+        "detail": "Recruiter_Apps.app_cvs",
+        "documentation": {}
+    },
+    {
+        "label": "#model",
+        "kind": 5,
+        "importPath": "Recruiter_Apps.app_cvs",
+        "description": "Recruiter_Apps.app_cvs",
+        "peekOfCode": "#model = gensim.models.Word2Vec.load(\"D:/mémoire/resume_word2vec.model\")\nimport json\nimport uuid\ndef ats_extractor(resume_data):\n    # Prompt for extracting specific information from the resume\n    prompt = '''\n    You are an AI bot designed to act as a professional for parsing resumes. You are given a resume, and your job is to extract the following information:\n    1. skills \n    2. languages\n    3. education (field of study such as Computer Science, Management, Medicine, Marketing, Electrical Engineering, etc.)",
+        "detail": "Recruiter_Apps.app_cvs",
+        "documentation": {}
+    },
+    {
+        "label": "ats_extractor",
+        "kind": 2,
+        "importPath": "Recruiter_Apps.app_offres",
+        "description": "Recruiter_Apps.app_offres",
+        "peekOfCode": "def ats_extractor(resume_data):\n    # Prompt for extracting specific information from the resume\n    prompt = '''\n    You are an AI bot designed to act as a professional for parsing resumes. You are given a resume, and your job is to extract the following information:\n    1. skills \n    2. languages\n    3. education (field of study such as Computer Science, Management, Medicine, Marketing, Electrical Engineering, etc.)\n    4. total number of work experiences\n    Provide the extracted information in JSON format only with english translation. Additionally, generate a unique ID for the job .\n    If a field does not exist, do \"None\".",
+        "detail": "Recruiter_Apps.app_offres",
+        "documentation": {}
+    },
+    {
+        "label": "preprocess_text",
+        "kind": 2,
+        "importPath": "Recruiter_Apps.app_offres",
+        "description": "Recruiter_Apps.app_offres",
+        "peekOfCode": "def preprocess_text(text):\n    tokens = word_tokenize(text.lower())\n    tokens = [token for token in tokens if token.isalpha()]\n    return tokens\n# Fonction pour extraire du texte des fichiers PDF\nimport os\nimport fitz  # PyMuPDF\ndef json_to_csv(json_data, csv_file_path):\n    # Ensure json_data is a dictionary\n    if not isinstance(json_data, dict):",
+        "detail": "Recruiter_Apps.app_offres",
+        "documentation": {}
+    },
+    {
+        "label": "json_to_csv",
+        "kind": 2,
+        "importPath": "Recruiter_Apps.app_offres",
+        "description": "Recruiter_Apps.app_offres",
+        "peekOfCode": "def json_to_csv(json_data, csv_file_path):\n    # Ensure json_data is a dictionary\n    if not isinstance(json_data, dict):\n        return {\"error\": \"Invalid JSON data.\"}\n    # Define the CSV header\n    header = [\"candidate_id\", \"competences\", \"langues\", \"formation\", \"nbr_years_exp\"]\n    # Convert data into a list of rows\n    rows = [\n        [\n            json_data.get(\"candidate_id\", \"None\"),",
+        "detail": "Recruiter_Apps.app_offres",
+        "documentation": {}
+    },
+    {
+        "label": "search_similar_vectors_candidat",
+        "kind": 2,
+        "importPath": "Recruiter_Apps.app_offres",
+        "description": "Recruiter_Apps.app_offres",
+        "peekOfCode": "def search_similar_vectors_candidat(query_embedding, top_k=5):\n    pc = pinecone.Pinecone(api_key=api_key_pin)\n    # Connexion à l'index Pinecone\n    index_name = 'candidates'  # Le nom de votre index Pinecone\n    index_candidats = pc.Index(index_name)\n    print(f\"Query embedding: {query_embedding}\")\n    result = index_candidats.query(vector=query_embedding, top_k=top_k, include_metadata=True)\n    print(f\"Result: {result}\")\n    # Vérification de la présence de la clé 'matches'\n    if 'matches' in result:",
+        "detail": "Recruiter_Apps.app_offres",
+        "documentation": {}
+    },
+    {
+        "label": "job_description",
+        "kind": 2,
+        "importPath": "Recruiter_Apps.app_offres",
+        "description": "Recruiter_Apps.app_offres",
+        "peekOfCode": "def job_description():\n    global similar_vectors_candidat\n    if request.method == 'POST':\n        job_description = request.form['job_description']\n        # Pass the extracted text to the ats_extractor function\n        extracted_info = ats_extractor(job_description)\n        resumes_csv = json_to_csv(extracted_info, \"resumes.csv\")\n        data = pd.read_csv(\"resumes.csv\")\n        model = SentenceTransformer('all-MiniLM-L6-v2')\n        data['competences'] = data['competences'].apply(",
+        "detail": "Recruiter_Apps.app_offres",
+        "documentation": {}
+    },
+    {
+        "label": "ranking2",
+        "kind": 2,
+        "importPath": "Recruiter_Apps.app_offres",
+        "description": "Recruiter_Apps.app_offres",
+        "peekOfCode": "def ranking2():\n    global similar_vectors_candidat\n    # Nombre de vecteurs similaires\n    nbr_simil = len(similar_vectors_candidat)\n    # Générer la liste `resumes` avec les champs id et score arrondi (en pourcentage)\n    resumes_candidat = [\n        {\n            \"ID\": vector['id'],  # ID du vecteur\n            \"Score\": round(vector['score'] * 100, 2)  # Score en pourcentage\n        }",
+        "detail": "Recruiter_Apps.app_offres",
+        "documentation": {}
+    },
+    {
+        "label": "chatbot",
+        "kind": 2,
+        "importPath": "Recruiter_Apps.app_offres",
+        "description": "Recruiter_Apps.app_offres",
+        "peekOfCode": "def chatbot():\n    return f\"9alib 3liha\"\n@app.route('/chatbot_key/<key>', methods=['GET', 'POST'])\ndef chatbot_key(key):\n    return f\"9alib 3liha\"+key\n@app.route('/post_cvs/<key>', methods=['GET', 'POST'])\ndef post_cvs(key):\n    return 0\nif __name__ == '__main__':\n    app.run(debug=True)",
+        "detail": "Recruiter_Apps.app_offres",
+        "documentation": {}
+    },
+    {
+        "label": "chatbot_key",
+        "kind": 2,
+        "importPath": "Recruiter_Apps.app_offres",
+        "description": "Recruiter_Apps.app_offres",
+        "peekOfCode": "def chatbot_key(key):\n    return f\"9alib 3liha\"+key\n@app.route('/post_cvs/<key>', methods=['GET', 'POST'])\ndef post_cvs(key):\n    return 0\nif __name__ == '__main__':\n    app.run(debug=True)",
+        "detail": "Recruiter_Apps.app_offres",
+        "documentation": {}
+    },
+    {
+        "label": "post_cvs",
+        "kind": 2,
+        "importPath": "Recruiter_Apps.app_offres",
+        "description": "Recruiter_Apps.app_offres",
+        "peekOfCode": "def post_cvs(key):\n    return 0\nif __name__ == '__main__':\n    app.run(debug=True)",
+        "detail": "Recruiter_Apps.app_offres",
+        "documentation": {}
+    },
+    {
+        "label": "api_key_pin",
+        "kind": 5,
+        "importPath": "Recruiter_Apps.app_offres",
+        "description": "Recruiter_Apps.app_offres",
+        "peekOfCode": "api_key_pin = \"pcsk_vUaKS_3PK35kGth5rcmSKZkihFFuaS7B44xzMycHCnot1s9Czf1WE8iXSPZg4nDph81Ak\"\napp = Flask(__name__)\napp.config['REDIS_URL'] = \"redis://localhost:6379/0\"  # Utilisez l'URL de votre instance Redis\n# Définir une clé secrète pour la session\napp.secret_key = 'said'\n# Connexion à Redis\nredis_client = redis.StrictRedis.from_url(app.config['REDIS_URL'])\n# Charger le modèle Word2Vec\n#model = gensim.models.Word2Vec.load(\"D:/mémoire/resume_word2vec.model\")\nimport json",
+        "detail": "Recruiter_Apps.app_offres",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "Recruiter_Apps.app_offres",
+        "description": "Recruiter_Apps.app_offres",
+        "peekOfCode": "app = Flask(__name__)\napp.config['REDIS_URL'] = \"redis://localhost:6379/0\"  # Utilisez l'URL de votre instance Redis\n# Définir une clé secrète pour la session\napp.secret_key = 'said'\n# Connexion à Redis\nredis_client = redis.StrictRedis.from_url(app.config['REDIS_URL'])\n# Charger le modèle Word2Vec\n#model = gensim.models.Word2Vec.load(\"D:/mémoire/resume_word2vec.model\")\nimport json\nimport uuid",
+        "detail": "Recruiter_Apps.app_offres",
+        "documentation": {}
+    },
+    {
+        "label": "app.config['REDIS_URL']",
+        "kind": 5,
+        "importPath": "Recruiter_Apps.app_offres",
+        "description": "Recruiter_Apps.app_offres",
+        "peekOfCode": "app.config['REDIS_URL'] = \"redis://localhost:6379/0\"  # Utilisez l'URL de votre instance Redis\n# Définir une clé secrète pour la session\napp.secret_key = 'said'\n# Connexion à Redis\nredis_client = redis.StrictRedis.from_url(app.config['REDIS_URL'])\n# Charger le modèle Word2Vec\n#model = gensim.models.Word2Vec.load(\"D:/mémoire/resume_word2vec.model\")\nimport json\nimport uuid\ndef ats_extractor(resume_data):",
+        "detail": "Recruiter_Apps.app_offres",
+        "documentation": {}
+    },
+    {
+        "label": "app.secret_key",
+        "kind": 5,
+        "importPath": "Recruiter_Apps.app_offres",
+        "description": "Recruiter_Apps.app_offres",
+        "peekOfCode": "app.secret_key = 'said'\n# Connexion à Redis\nredis_client = redis.StrictRedis.from_url(app.config['REDIS_URL'])\n# Charger le modèle Word2Vec\n#model = gensim.models.Word2Vec.load(\"D:/mémoire/resume_word2vec.model\")\nimport json\nimport uuid\ndef ats_extractor(resume_data):\n    # Prompt for extracting specific information from the resume\n    prompt = '''",
+        "detail": "Recruiter_Apps.app_offres",
+        "documentation": {}
+    },
+    {
+        "label": "redis_client",
+        "kind": 5,
+        "importPath": "Recruiter_Apps.app_offres",
+        "description": "Recruiter_Apps.app_offres",
+        "peekOfCode": "redis_client = redis.StrictRedis.from_url(app.config['REDIS_URL'])\n# Charger le modèle Word2Vec\n#model = gensim.models.Word2Vec.load(\"D:/mémoire/resume_word2vec.model\")\nimport json\nimport uuid\ndef ats_extractor(resume_data):\n    # Prompt for extracting specific information from the resume\n    prompt = '''\n    You are an AI bot designed to act as a professional for parsing resumes. You are given a resume, and your job is to extract the following information:\n    1. skills ",
+        "detail": "Recruiter_Apps.app_offres",
+        "documentation": {}
+    },
+    {
+        "label": "#model",
+        "kind": 5,
+        "importPath": "Recruiter_Apps.app_offres",
+        "description": "Recruiter_Apps.app_offres",
+        "peekOfCode": "#model = gensim.models.Word2Vec.load(\"D:/mémoire/resume_word2vec.model\")\nimport json\nimport uuid\ndef ats_extractor(resume_data):\n    # Prompt for extracting specific information from the resume\n    prompt = '''\n    You are an AI bot designed to act as a professional for parsing resumes. You are given a resume, and your job is to extract the following information:\n    1. skills \n    2. languages\n    3. education (field of study such as Computer Science, Management, Medicine, Marketing, Electrical Engineering, etc.)",
+        "detail": "Recruiter_Apps.app_offres",
+        "documentation": {}
+    },
+    {
         "label": "get_pdf_text",
         "kind": 2,
         "importPath": "Recruitment_chatBot.recruitboot.converteur",
@@ -3392,33 +3984,6 @@
         "description": "Recruitment_chatBot.app",
         "peekOfCode": "conversation_chain = create_conversation_chain(vectorstore)\n@app.route(\"/\")\ndef index():\n    return render_template('chat.html')\n@app.route(\"/get\", methods=[\"POST\"])\ndef chat():\n    msg = request.form[\"msg\"]\n    input = msg  # Le message utilisateur\n    try:\n        # Appel à invoke() pour obtenir la réponse",
         "detail": "Recruitment_chatBot.app",
-        "documentation": {}
-    },
-    {
-        "label": "CandidatDataLoader",
-        "kind": 6,
-        "importPath": "segmentationSpark.reader_data",
-        "description": "segmentationSpark.reader_data",
-        "peekOfCode": "class CandidatDataLoader:\n    def __init__(self, jdbc_url=\"jdbc:postgresql://localhost:5433/cond_db\"):\n        \"\"\"\n        Initialise la classe pour charger les données depuis PostgreSQL.\n        :param jdbc_url: URL de connexion JDBC à la base de données PostgreSQL.\n        \"\"\"\n        self.jdbc_url = jdbc_url\n        self.query = \"\"\"\n        SELECT \n            c.full_name AS candidate_name,",
-        "detail": "segmentationSpark.reader_data",
-        "documentation": {}
-    },
-    {
-        "label": "CandidatSegmentation",
-        "kind": 6,
-        "importPath": "segmentationSpark.segmentation",
-        "description": "segmentationSpark.segmentation",
-        "peekOfCode": "class CandidatSegmentation:\n    def __init__(self, df, k=3, seed=42):\n        \"\"\"\n        Initialise la classe pour la segmentation des candidats.\n        :param df: DataFrame Spark contenant les données transformées.\n        :param k: Nombre de clusters pour KMeans.\n        :param seed: Seed pour la reproductibilité.\n        \"\"\"\n        self.df = df\n        self.k = k",
-        "detail": "segmentationSpark.segmentation",
-        "documentation": {}
-    },
-    {
-        "label": "CandidatTransformer",
-        "kind": 6,
-        "importPath": "segmentationSpark.transformer",
-        "description": "segmentationSpark.transformer",
-        "peekOfCode": "class CandidatTransformer:\n    def __init__(self, df):\n        \"\"\"\n        Initialise la classe avec un DataFrame Spark.\n        :param df: DataFrame Spark contenant les données.\n        \"\"\"\n        self.df = df\n    def build_pipeline(self):\n        \"\"\"\n        Construit un pipeline pour transformer les données.",
-        "detail": "segmentationSpark.transformer",
         "documentation": {}
     },
     {
