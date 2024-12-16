@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analyse de CVs</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .outer-container {
+            border: 2px solid #333;
+            width: 500px;
+            height: 500px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #fff;
+        }
+
+        .inner-container {
+            background-color: #007bff; /* Bleu à l'intérieur */
+            padding: 30px;
+            width: 90%;
+            height: 90%;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        h1 {
+            color: white;
+            font-size: 24px;
+            margin: 0;
+        }
+
+        .file-input {
+            width: 80%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-align: center;
+        }
+
+        .btn {
+            background-color: #fff;
+            color: #007bff;
+            padding: 10px 20px;
+            margin-top: 20px;
+            border: 2px solid white;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        .btn:hover {
+            background-color: #0056b3;
+            color: #fff;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="outer-container">
+        <div class="inner-container">
+            <h1>Bienvenue</h1>
+            <p style="color: white;">Téléchargez les CVs à analyser</p>
+            <input type="file" class="file-input" multiple>
+            <button class="btn">Analyser</button>
+        </div>
+    </div>
+
+</body>
+</html>

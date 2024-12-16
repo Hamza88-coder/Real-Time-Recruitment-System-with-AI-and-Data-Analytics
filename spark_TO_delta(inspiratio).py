@@ -7,6 +7,9 @@ from delta.tables import DeltaTable
 from pyspark.sql import SparkSession
 from pyspark.sql.types import StructType, StructField, StringType, ArrayType
 
+os.environ["PYSPARK_PIN_THREAD"] = "true"
+
+
 
 
 # Définir le schéma pour le JSON

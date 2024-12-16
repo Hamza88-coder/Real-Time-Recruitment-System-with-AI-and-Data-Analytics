@@ -1,0 +1,44 @@
+version: '3'
+services:
+  # Spark Master
+  spark-master:
+    image: bitnami/spark:latest
+    container_name: spark-master
+    ports:
+      - "8080:8080"   # Spark Web UI
+      - "7077:7077"   # Spark Master port for worker communication
+    environment:
+      - SPARK_MODE=master
+      - SPARK_MASTER_HOST=spark-master
+      - SPARK_MASTER_PORT=7077
+    networks:
+      - spark-network
+
+  # Spark Worker
+  spark-worker:
+    image: bitnami/spark:latest
+    container_name: spark-worker
+    environment:
+      - SPARK_MODE=worker
+      - SPARK_MASTER=spark://spark-master:7077  # Connect worker to master
+    networks:
+      - spark-network
+
+  # Jupyter Notebook
+  jupyter:
+    image: jupyter/pyspark-notebook:latest
+    container_name: jupyter
+    ports:
+      - "8888:8888"  # Jupyter Notebook port
+    environment:
+      - SPARK_HOME=/opt/bitnami/spark
+      - PYSPARK_PYTHON=python3
+      - PYSPARK_DRIVER_PYTHON=jupyter
+      - PYSPARK_DRIVER_PYTHON_OPTS="notebook"
+      - SPARK_MASTER=spark://spark-master:7077  # Point to Spark Master
+    networks:
+      - spark-network
+
+networks:
+  spark-network:
+    driver: bridge

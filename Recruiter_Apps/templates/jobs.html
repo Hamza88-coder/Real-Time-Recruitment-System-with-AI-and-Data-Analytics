@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classement des CVs</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: auto; /* Ajusté pour s'adapter au contenu */
+        }
+
+        .outer-container {
+            border: 2px solid #000;
+            width: 900px;
+            height: auto;
+            display: flex;
+            background-color: #ffffff;
+            border-radius: 15px;
+            overflow: hidden;
+        }
+
+        .left-section {
+            width: 50%;
+            background-color: #007bff; /* Fond bleu */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .left-section img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+
+        .right-section {
+            width: 50%;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .right-section h1 {
+            color: #333;
+            font-size: 24px;
+            margin: 0 0 20px 0;
+        }
+
+        .right-section p {
+            font-size: 16px;
+            margin-bottom: 20px;
+            color: #555;
+        }
+
+        .ranking-table {
+            width: 80%;
+            border-collapse: collapse;
+        }
+
+        .ranking-table th, .ranking-table td {
+            padding: 10px;
+            border: 1px solid #ccc;
+            text-align: left;
+        }
+
+        .ranking-table th {
+            background-color: #007bff;
+            color: white;
+        }
+
+        .ranking-table tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        .btn {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-weight: bold;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+
+        .btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+
+</head>
+<body>
+
+    <div class="outer-container">
+        <div class="left-section">
+            <img src="{{ url_for('static', filename='recrutement.jpg') }}" alt="Image illustrative">
+        </div>
+
+        <div class="right-section">
+            <h1>Classement du CV/Offres</h1>
+            <p>Nombre des offres similaire : <strong>{{ nbr_simil }}</strong></p>
+
+            <table class="ranking-table">
+                <thead>
+                    <tr>
+                        <th>ID du offre</th>
+                        <th>Score de similarité</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for resume in resumes %}
+                    <tr>
+                        <td>{{ resume.ID }}</td>
+                        <td>{{ resume.Score }}%</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+
+            <a href="/" class="btn">Revenir à l'accueil</a>
+            <a href="/show_jobs" class="btn">Voir les offres</a>
+
+        </div>
+    </div>
+
+</body>
+</html>
