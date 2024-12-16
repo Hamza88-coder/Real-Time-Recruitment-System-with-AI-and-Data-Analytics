@@ -1,0 +1,3 @@
+*
+* Dans consumer: lecture depuis la topic Kafka et application de LLM pour l'extraction des données depuis le pdf et puis envoi du données à delta table apres de définir son schema de façon statique.
+* Dans Test : lecture fichier parquet depuis delta table dans ADLS
