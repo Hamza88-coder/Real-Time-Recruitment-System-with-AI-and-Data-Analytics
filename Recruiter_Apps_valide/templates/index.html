@@ -1,10 +1,9 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Classement des CVs</title>
-
+    <title>Analyse de CVs</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -13,13 +12,13 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            height: auto; /* Ajusté pour s'adapter au contenu */
+            height: 100vh;
         }
 
         .outer-container {
             border: 2px solid #000;
-            width: 900px;
-            height: auto;
+            width: 600px;
+            height: 400px;
             display: flex;
             background-color: #ffffff;
             border-radius: 15px;
@@ -46,6 +45,7 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
+            text-align: center;
         }
 
         .right-section h1 {
@@ -60,26 +60,17 @@
             color: #555;
         }
 
-        .ranking-table {
+        .file-input {
             width: 80%;
-            border-collapse: collapse;
-        }
-
-        .ranking-table th, .ranking-table td {
             padding: 10px;
+            background-color: white;
             border: 1px solid #ccc;
-            text-align: left;
+            border-radius: 5px;
+            text-align: center;
+            cursor: pointer;
+            margin-bottom: 20px;
         }
 
-        .ranking-table th {
-            background-color: #007bff;
-            color: white;
-        }
-
-        .ranking-table tr:nth-child(even) {
-            background-color: #f2f2f2;
-        }
-        
         .btn {
             background-color: #007bff;
             color: white;
@@ -88,52 +79,29 @@
             border-radius: 5px;
             font-weight: bold;
             cursor: pointer;
-            margin-top: 20px;
         }
 
         .btn:hover {
             background-color: #0056b3;
         }
     </style>
-    
 </head>
 <body>
 
     <div class="outer-container">
+        <!-- Section gauche pour l'image -->
         <div class="left-section">
             <img src="{{ url_for('static', filename='recrutement.jpg') }}" alt="Image illustrative">
         </div>
 
+        <!-- Section droite pour les textes et le bouton -->
         <div class="right-section">
-            <h1>Classement du Offre/Candidats</h1>
-            <p>Nombre des candidats similaire : <strong>{{ nbr_simil }}</strong></p>
-
-            <table class="ranking-table">
-                <thead>
-                    <tr>
-                        <th>ID du candidat</th>
-                        <th>Score de similarité</th>
-                        <th>Action</th> <!-- Nouvelle colonne pour le bouton -->
-                    </tr>
-                </thead>
-                <tbody>
-                    {% for resume in resumes %}
-                    <tr>
-                        <td>{{ resume.ID }}</td>
-                        <td>{{ resume.Score }}%</td>
-                         <td>
-                <!-- Bouton Chat -->
-                           <a href="/chatbot" class="btn btn-primary mb-2" role="button" aria-disabled="true">Chat</a>
-                         </td>
-                    </tr>
-
-                    {% endfor %}
-                </tbody>
-            </table>
-
-            <a href="/" class="btn">Revenir à l'accueil</a>
-            <!-- Nouveau bouton pour rediriger vers /jobs -->
-            <a href="/chatbot" class="btn">Entrer le chatbot</a>
+            <h1>Bienvenue</h1>
+            <form action="/" method="POST" enctype="multipart/form-data">
+                <p>Téléchargez les CVs à analyser</p>
+                <input type="file" class="file-input" name="resume_folder" multiple>
+                <button type="submit" class="btn">Analyser</button>
+            </form>
         </div>
     </div>
 

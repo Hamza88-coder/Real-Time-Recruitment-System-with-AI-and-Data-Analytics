@@ -105,7 +105,7 @@
         </div>
 
         <div class="right-section">
-            <h1>Classement du Offre/Candidats</h1>
+            <h1>Classement du CV/Candidats</h1>
             <p>Nombre des candidats similaire : <strong>{{ nbr_simil }}</strong></p>
 
             <table class="ranking-table">
@@ -113,7 +113,6 @@
                     <tr>
                         <th>ID du candidat</th>
                         <th>Score de similarité</th>
-                        <th>Action</th> <!-- Nouvelle colonne pour le bouton -->
                     </tr>
                 </thead>
                 <tbody>
@@ -121,19 +120,14 @@
                     <tr>
                         <td>{{ resume.ID }}</td>
                         <td>{{ resume.Score }}%</td>
-                         <td>
-                <!-- Bouton Chat -->
-                           <a href="/chatbot" class="btn btn-primary mb-2" role="button" aria-disabled="true">Chat</a>
-                         </td>
                     </tr>
-
                     {% endfor %}
                 </tbody>
             </table>
 
             <a href="/" class="btn">Revenir à l'accueil</a>
             <!-- Nouveau bouton pour rediriger vers /jobs -->
-            <a href="/chatbot" class="btn">Entrer le chatbot</a>
+            <a href="/jobs" class="btn">Voir les offres</a>
         </div>
     </div>
 

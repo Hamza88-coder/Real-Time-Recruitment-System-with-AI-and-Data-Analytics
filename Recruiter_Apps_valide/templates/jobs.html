@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
@@ -79,7 +79,7 @@
         .ranking-table tr:nth-child(even) {
             background-color: #f2f2f2;
         }
-        
+
         .btn {
             background-color: #007bff;
             color: white;
@@ -95,7 +95,7 @@
             background-color: #0056b3;
         }
     </style>
-    
+
 </head>
 <body>
 
@@ -105,15 +105,14 @@
         </div>
 
         <div class="right-section">
-            <h1>Classement du Offre/Candidats</h1>
-            <p>Nombre des candidats similaire : <strong>{{ nbr_simil }}</strong></p>
+            <h1>Classement du CV/Offres</h1>
+            <p>Nombre des offres similaire : <strong>{{ nbr_simil }}</strong></p>
 
             <table class="ranking-table">
                 <thead>
                     <tr>
-                        <th>ID du candidat</th>
+                        <th>ID du offre</th>
                         <th>Score de similarité</th>
-                        <th>Action</th> <!-- Nouvelle colonne pour le bouton -->
                     </tr>
                 </thead>
                 <tbody>
@@ -121,22 +120,16 @@
                     <tr>
                         <td>{{ resume.ID }}</td>
                         <td>{{ resume.Score }}%</td>
-                         <td>
-                <!-- Bouton Chat -->
-                           <a href="/chatbot" class="btn btn-primary mb-2" role="button" aria-disabled="true">Chat</a>
-                         </td>
                     </tr>
-
                     {% endfor %}
                 </tbody>
             </table>
 
             <a href="/" class="btn">Revenir à l'accueil</a>
-            <!-- Nouveau bouton pour rediriger vers /jobs -->
-            <a href="/chatbot" class="btn">Entrer le chatbot</a>
+            <a href="/show_jobs" class="btn">Voir les offres</a>
+
         </div>
     </div>
-
 
 </body>
 </html>
