@@ -38,7 +38,7 @@ We also have a segmentation process, where data flows from **Postgres** to **Spa
 - **Data Storage**:
   - **[Delta Lake](https://delta.io/)**: Used for efficient data storage and versioning.
   - **[Snowflake](https://www.snowflake.com/en/)**: Cloud data warehouse for storage and querying.
-  
+
 - **Data Transformation**: 
   - **[dbt](https://www.getdbt.com/)**: Used for data transformations in Snowflake.
 
@@ -46,16 +46,17 @@ We also have a segmentation process, where data flows from **Postgres** to **Spa
   - **[Pinecone](https://www.pinecone.io/)**: Data indexing and similarity search.
   - **[Redis](https://redis.io/)**: Used for caching and quick access.
 
-- **Machine Learning Model Deployment**:
-  - **[Flask](https://flask.palletsprojects.com/)**: Server for deploying machine learning models.
+- **Machine Learning Model Deployment and User Interface**:
+  - **[Flask](https://flask.palletsprojects.com/)**: Provides the system's user interface where users can upload a CV and receive job offers recommendations, or upload a job offer and receive candidate recommendations. It also allows users to interact with the CVs of recommended candidates through a chatbot.
 
 - **Data Segmentation**:
   - **[Postgres](https://www.postgresql.org/)**: Used for storing data before segmentation.
-  - **[Spark](https://spark.apache.org/)**: Handles data segmentation.
-  - **[Tableau](https://www.tableau.com/)**: Visualizes the segmented data for insights.
+  - **[Spark](https://spark.apache.org/)**: Handles data segmentation of candidate profiles.
+  - **[Tableau](https://www.tableau.com/)**: Visualizes the segmented data for insights from the data warehouse.
+  - **[Apache NiFi](https://nifi.apache.org/)**: Orchestrates and automates the segmentation process, ensuring smooth data flow and transformation.
 
 - **Chatbot Integration**: 
-  - **FISS**: Used for integrating the chatbot with the system.
+  - **[FAISS](https://github.com/facebookresearch/faiss)**: A vector database that allows recruiters to interact with and discuss candidate CVs recommended by the system.
 
 - **Programming Language**: 
   - **[Python](https://www.python.org/)**: The primary language used for the development and deployment of the system.
@@ -64,13 +65,35 @@ We also have a segmentation process, where data flows from **Postgres** to **Spa
 
 Feel free to explore and analyze the data simulation and processing pipeline to uncover valuable insights into job offers, candidate profiles, and real-time data interactions. If you have any questions or need further information, refer to the provided documentation or contact the project contributors.
 
-
 # Architecture
 ![](./Architecture/Architecture_project.gif)
 
 
-# Final Result
-![](./images/metabase/dashbaord.png)
+# Final Result and User Interface Images
+
+
+1. **CV Upload and Recommendations Interface**:  
+   This interface allows users to upload their CV and receive a list of recommended job offers.
+   
+   ![CV Upload and Recommendations](./images/upload_cv.png)
+   ![CV Upload and Recommendations](./images/classification_offr.png)
+
+
+2. **Job Offer Upload and Candidate Recommendations**:  
+   In this part of the interface, users can upload a job offer and receive a list of recommended candidates.
+   
+   ![Job Offer Upload and Candidate Recommendations](path_to_your_image_2.jpg)
+
+3. **Chat with Candidate CVs**:  
+   Here, users can interact with the CVs of recommended candidates through a chatbot to discuss details.
+   
+   ![Chat with Candidate CVs](path_to_your_image_3.jpg)
+
+4. **Candidate Segmentation Dashboard**:  
+   This dashboard visualizes the segmentation of candidates for better insights into their profiles.
+   
+   ![Candidate Segmentation Dashboard](path_to_your_image_4.jpg)
+
 # Project Flow
 
 - Setup Free Azure account & Azure Keyvault - **[Setup](https://github.com/abdkumar/spotify-stream-analytics/blob/main/setup/azure.md)**
