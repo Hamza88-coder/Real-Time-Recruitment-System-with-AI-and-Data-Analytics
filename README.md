@@ -1,5 +1,12 @@
-# titre
-Generate synthetic Spotify music stream dataset to create dashboards. Spotify API generates fake event data emitted to Kafka. Spark consumes and processes Kafka data, saving it to the Datalake. Airflow orchestrates the pipeline. dbt moves data to Snowflake, transforms it, and creates dashboards.
+# Real-Time Recruitment System with AI and Data Analytics
+
+## Overview
+
+In this project, we simulate job offers and CVs using **Llama** to generate synthetic data, which is sent to **Kafka** for real-time processing. Afterward, **Ray** is used for classification of CVs, job offers, and other data. The data is then processed by **Spark** to extract information in JSON format, which is saved in **Delta Tables** for further analysis in **Databricks**. 
+
+From Databricks, the data is moved to **Snowflake** for storage and transformation with **dbt**. **Pinecone** and **Redis** are utilized for data indexing and caching, respectively, while a **Flask** server is set up for machine learning model deployment. Additionally, the system is integrated with a chatbot based on **FISS**.
+
+We also have a segmentation process, where data flows from **Postgres** to **Spark** and finally to **Tableau** for visualization.
 
 
 # Dataset Simulation
@@ -13,12 +20,6 @@ Generate synthetic Spotify music stream dataset to create dashboards. Spotify AP
 
 #  Processing Pipeline
 
-## Overview
-In this project, we simulate job offers and CVs using **Llama** to generate synthetic data, which is sent to **Kafka** for real-time processing. Afterward, **Ray** is used for classification of CVs, job offers, and other data. The data is then processed by **Spark** to extract information in JSON format, which is saved in **Delta Tables** for further analysis in **Databricks**. 
-
-From Databricks, the data is moved to **Snowflake** for storage and transformation with **dbt**. **Pinecone** and **Redis** are utilized for data indexing and caching, respectively, while a **Flask** server is set up for machine learning model deployment. Additionally, the system is integrated with a chatbot based on **FISS**.
-
-We also have a segmentation process, where data flows from **Postgres** to **Spark** and finally to **Tableau** for visualization.
 
 ## Tools & Technologies
 
