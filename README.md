@@ -102,17 +102,16 @@ Feel free to explore and analyze the data simulation and processing pipeline to 
 
 # Project Flow
 
-- Setup Free Azure account & Azure Keyvault - **[Setup](https://github.com/abdkumar/spotify-stream-analytics/blob/main/setup/azure.md)**
-- Setup Terraform and create resources - **[Setup](https://github.com/abdkumar/spotify-stream-analytics/blob/main/setup/terraform.md)**
+- Setup Free Azure account & Azure Keyvault - **[Setup](https://github.com/Hamza88-coder/bigData_project/blob/main/setup/azure.md)**
 - SSH into VM (kafka-vm)
-  - Setup Kafka Server - **[Setup](https://github.com/abdkumar/spotify-stream-analytics/blob/main/setup/kafka.md)**
-  - Setup Spotify API account & Generate Spotify Stream Events Data - **[Setup](https://github.com/abdkumar/spotify-stream-analytics/blob/main/setup/data.md)**
-  - Setup Spark streaming job - **[Setup](https://github.com/abdkumar/spotify-stream-analytics/blob/main/setup/spark.md)**
-- Setup Snowflake Warehouse - **[Setup](https://github.com/abdkumar/spotify-stream-analytics/blob/main/setup/snowflake.md)**
-- Setup Databricks Workspace & CDC (Change Data Capture) job - **[Setup](https://github.com/abdkumar/spotify-stream-analytics/blob/main/setup/databricks.md)**
+  - Setup Kafka Server - **[Setup](https://github.com/Hamza88-coder/bigData_project/blob/main/setup/kafka.md)**
+  - Setup Spotify API account & Generate Spotify Stream Events Data - **[Setup](https://github.com/Hamza88-coder/bigData_project/blob/main/setup/data.md)**
+  - Setup Spark streaming job - **[Setup](https://github.com/Hamza88-coder/bigData_project/blob/main/setup/spark.md)**
+- Setup Snowflake Warehouse - **[Setup](https://github.com/Hamza88-coder/bigData_project/blob/main/setup/snowflake.md)**
+- Setup Databricks Workspace & CDC (Change Data Capture) job - **[Setup](https://github.com/Hamza88-coder/bigData_project/blob/main/setup/databricks.md)**
 - SSH into another VM (airflow-vm)
-  - Setup dbt models - **[Setup](https://github.com/abdkumar/spotify-stream-analytics/blob/main/setup/dbt.md)**
-  - Setup airflow - **[Setup](https://github.com/abdkumar/spotify-stream-analytics/blob/main/setup/airflow.md)**
+  - Setup dbt models - **[Setup](https://github.com/Hamza88-coder/bigData_project/blob/main/setup/dbt.md)**
+  - Setup airflow - **[Setup](https://github.com/Hamza88-coder/bigData_project/blob/main/setup/airflow.md)**
 
 
 

@@ -29,7 +29,7 @@ Within the processing logic of the streaming job:
 ### 6. Append Stream Writes:
 
 - Configure a write stream for the processed stream, writing in append mode to the Delta table.
-- Specify partition columns (month, day, hour) to organize data efficiently.
+- Specify partition columns (societe,first_name) to organize data efficiently.
 - Set a processing time interval of 120 seconds (2 minutes) to trigger micro-batch processing and writes to ADLS.
 
 ### 7. Checkpointing and Monitoring:
@@ -94,7 +94,12 @@ spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.5.0,io.delt
 
 - If your Spark job runs successfully, you should see Delta Parquet files created in the specified folder within your Azure ADLS Gen2 storage account.
 - Look for files with names matching your Delta table schema and partition columns.
-![](../images/azure/adls_output.png)
-![](../images/azure/adls_output1.png)
+![](../images/delta_table1.png)
+![](../images/delta_table2.png)
+![](../images/delta_table3.png)
+![](../images/delta_table4.png)
+![](../images/delta_table5.png)
+
+
 
 This confirms that your job is processing and writing data correctly to the desired location.
