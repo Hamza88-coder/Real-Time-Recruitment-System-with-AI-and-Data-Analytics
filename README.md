@@ -77,22 +77,28 @@ Feel free to explore and analyze the data simulation and processing pipeline to 
    
    ![CV Upload and Recommendations](./images/upload_cv.png)
    ![CV Upload and Recommendations](./images/classification_offr.png)
+   ![CV Upload and Recommendations](./images/offre.png)
+   ![CV Upload and Recommendations](./images/offre2.png)
 
 
 2. **Job Offer Upload and Candidate Recommendations**:  
    In this part of the interface, users can upload a job offer and receive a list of recommended candidates.
    
-   ![Job Offer Upload and Candidate Recommendations](path_to_your_image_2.jpg)
+   ![Job Offer Upload and Candidate Recommendations](./images/upload_off.png)
+   ![Job Offer Upload and Candidate Recommendations](./images/classification_of_candid.png)
 
 3. **Chat with Candidate CVs**:  
    Here, users can interact with the CVs of recommended candidates through a chatbot to discuss details.
    
-   ![Chat with Candidate CVs](path_to_your_image_3.jpg)
+   ![Chat with Candidate CVs](./images/chat1.png)
+   ![Chat with Candidate CVs](./images/chat2.png)
+   ![Chat with Candidate CVs](./images/chat3.png)
 
 4. **Candidate Segmentation Dashboard**:  
    This dashboard visualizes the segmentation of candidates for better insights into their profiles.
    
-   ![Candidate Segmentation Dashboard](path_to_your_image_4.jpg)
+   ![Candidate Segmentation Dashboard](./images/dash_seg1.png)
+   ![Candidate Segmentation Dashboard](./images/dash_seg2.png)
 
 # Project Flow
 
