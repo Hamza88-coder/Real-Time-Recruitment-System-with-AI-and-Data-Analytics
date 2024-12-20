@@ -631,6 +631,14 @@
         "documentation": {}
     },
     {
+        "label": "Groq",
+        "importPath": "groq",
+        "description": "groq",
+        "isExtraImport": true,
+        "detail": "groq",
+        "documentation": {}
+    },
+    {
         "label": "pandas",
         "kind": 6,
         "isExtraImport": true,
@@ -691,6 +699,30 @@
         "documentation": {}
     },
     {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
         "label": "extract_job_info",
         "importPath": "extractor",
         "description": "extractor",
@@ -704,6 +736,14 @@
         "description": "schema",
         "isExtraImport": true,
         "detail": "schema",
+        "documentation": {}
+    },
+    {
+        "label": "PdfReader",
+        "importPath": "PyPDF2",
+        "description": "PyPDF2",
+        "isExtraImport": true,
+        "detail": "PyPDF2",
         "documentation": {}
     },
     {
@@ -747,6 +787,70 @@
         "documentation": {}
     },
     {
+        "label": "SentenceTransformer",
+        "importPath": "sentence_transformers",
+        "description": "sentence_transformers",
+        "isExtraImport": true,
+        "detail": "sentence_transformers",
+        "documentation": {}
+    },
+    {
+        "label": "SentenceTransformer",
+        "importPath": "sentence_transformers",
+        "description": "sentence_transformers",
+        "isExtraImport": true,
+        "detail": "sentence_transformers",
+        "documentation": {}
+    },
+    {
+        "label": "SentenceTransformer",
+        "importPath": "sentence_transformers",
+        "description": "sentence_transformers",
+        "isExtraImport": true,
+        "detail": "sentence_transformers",
+        "documentation": {}
+    },
+    {
+        "label": "FAISS",
+        "importPath": "langchain_community.vectorstores",
+        "description": "langchain_community.vectorstores",
+        "isExtraImport": true,
+        "detail": "langchain_community.vectorstores",
+        "documentation": {}
+    },
+    {
+        "label": "FAISS",
+        "importPath": "langchain_community.vectorstores",
+        "description": "langchain_community.vectorstores",
+        "isExtraImport": true,
+        "detail": "langchain_community.vectorstores",
+        "documentation": {}
+    },
+    {
+        "label": "FAISS",
+        "importPath": "langchain_community.vectorstores",
+        "description": "langchain_community.vectorstores",
+        "isExtraImport": true,
+        "detail": "langchain_community.vectorstores",
+        "documentation": {}
+    },
+    {
+        "label": "FAISS",
+        "importPath": "langchain_community.vectorstores",
+        "description": "langchain_community.vectorstores",
+        "isExtraImport": true,
+        "detail": "langchain_community.vectorstores",
+        "documentation": {}
+    },
+    {
+        "label": "FAISS",
+        "importPath": "langchain_community.vectorstores",
+        "description": "langchain_community.vectorstores",
+        "isExtraImport": true,
+        "detail": "langchain_community.vectorstores",
+        "documentation": {}
+    },
+    {
         "label": "FAISS",
         "importPath": "langchain_community.vectorstores",
         "description": "langchain_community.vectorstores",
@@ -779,11 +883,43 @@
         "documentation": {}
     },
     {
+        "label": "CharacterTextSplitter",
+        "importPath": "langchain.text_splitter",
+        "description": "langchain.text_splitter",
+        "isExtraImport": true,
+        "detail": "langchain.text_splitter",
+        "documentation": {}
+    },
+    {
         "label": "HuggingFaceHub",
         "importPath": "langchain.llms",
         "description": "langchain.llms",
         "isExtraImport": true,
         "detail": "langchain.llms",
+        "documentation": {}
+    },
+    {
+        "label": "HuggingFaceHub",
+        "importPath": "langchain.llms",
+        "description": "langchain.llms",
+        "isExtraImport": true,
+        "detail": "langchain.llms",
+        "documentation": {}
+    },
+    {
+        "label": "HuggingFaceInstructEmbeddings",
+        "importPath": "langchain.embeddings",
+        "description": "langchain.embeddings",
+        "isExtraImport": true,
+        "detail": "langchain.embeddings",
+        "documentation": {}
+    },
+    {
+        "label": "HuggingFaceEmbeddings",
+        "importPath": "langchain.embeddings",
+        "description": "langchain.embeddings",
+        "isExtraImport": true,
+        "detail": "langchain.embeddings",
         "documentation": {}
     },
     {
@@ -811,6 +947,46 @@
         "documentation": {}
     },
     {
+        "label": "Document",
+        "importPath": "langchain.schema",
+        "description": "langchain.schema",
+        "isExtraImport": true,
+        "detail": "langchain.schema",
+        "documentation": {}
+    },
+    {
+        "label": "ConversationalRetrievalChain",
+        "importPath": "langchain.chains",
+        "description": "langchain.chains",
+        "isExtraImport": true,
+        "detail": "langchain.chains",
+        "documentation": {}
+    },
+    {
+        "label": "ConversationalRetrievalChain",
+        "importPath": "langchain.chains",
+        "description": "langchain.chains",
+        "isExtraImport": true,
+        "detail": "langchain.chains",
+        "documentation": {}
+    },
+    {
+        "label": "ConversationalRetrievalChain",
+        "importPath": "langchain.chains",
+        "description": "langchain.chains",
+        "isExtraImport": true,
+        "detail": "langchain.chains",
+        "documentation": {}
+    },
+    {
+        "label": "ConversationalRetrievalChain",
+        "importPath": "langchain.chains",
+        "description": "langchain.chains",
+        "isExtraImport": true,
+        "detail": "langchain.chains",
+        "documentation": {}
+    },
+    {
         "label": "ConversationalRetrievalChain",
         "importPath": "langchain.chains",
         "description": "langchain.chains",
@@ -843,6 +1019,38 @@
         "documentation": {}
     },
     {
+        "label": "HuggingFaceHub",
+        "importPath": "langchain_community.llms",
+        "description": "langchain_community.llms",
+        "isExtraImport": true,
+        "detail": "langchain_community.llms",
+        "documentation": {}
+    },
+    {
+        "label": "HuggingFaceHub",
+        "importPath": "langchain_community.llms",
+        "description": "langchain_community.llms",
+        "isExtraImport": true,
+        "detail": "langchain_community.llms",
+        "documentation": {}
+    },
+    {
+        "label": "HuggingFaceHub",
+        "importPath": "langchain_community.llms",
+        "description": "langchain_community.llms",
+        "isExtraImport": true,
+        "detail": "langchain_community.llms",
+        "documentation": {}
+    },
+    {
+        "label": "HuggingFaceHub",
+        "importPath": "langchain_community.llms",
+        "description": "langchain_community.llms",
+        "isExtraImport": true,
+        "detail": "langchain_community.llms",
+        "documentation": {}
+    },
+    {
         "label": "ConversationBufferMemory",
         "importPath": "langchain.memory",
         "description": "langchain.memory",
@@ -856,6 +1064,89 @@
         "description": "langchain.memory",
         "isExtraImport": true,
         "detail": "langchain.memory",
+        "documentation": {}
+    },
+    {
+        "label": "ConversationBufferMemory",
+        "importPath": "langchain.memory",
+        "description": "langchain.memory",
+        "isExtraImport": true,
+        "detail": "langchain.memory",
+        "documentation": {}
+    },
+    {
+        "label": "ConversationBufferMemory",
+        "importPath": "langchain.memory",
+        "description": "langchain.memory",
+        "isExtraImport": true,
+        "detail": "langchain.memory",
+        "documentation": {}
+    },
+    {
+        "label": "ConversationBufferMemory",
+        "importPath": "langchain.memory",
+        "description": "langchain.memory",
+        "isExtraImport": true,
+        "detail": "langchain.memory",
+        "documentation": {}
+    },
+    {
+        "label": "ConversationBufferMemory",
+        "importPath": "langchain.memory",
+        "description": "langchain.memory",
+        "isExtraImport": true,
+        "detail": "langchain.memory",
+        "documentation": {}
+    },
+    {
+        "label": "csv",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "csv",
+        "description": "csv",
+        "detail": "csv",
+        "documentation": {}
+    },
+    {
+        "label": "uuid",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "uuid",
+        "description": "uuid",
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "pinecone",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pinecone",
+        "description": "pinecone",
+        "detail": "pinecone",
+        "documentation": {}
+    },
+    {
+        "label": "Pinecone",
+        "importPath": "pinecone",
+        "description": "pinecone",
+        "isExtraImport": true,
+        "detail": "pinecone",
+        "documentation": {}
+    },
+    {
+        "label": "ServerlessSpec",
+        "importPath": "pinecone",
+        "description": "pinecone",
+        "isExtraImport": true,
+        "detail": "pinecone",
+        "documentation": {}
+    },
+    {
+        "label": "PineconeApiException",
+        "importPath": "pinecone",
+        "description": "pinecone",
+        "isExtraImport": true,
+        "detail": "pinecone",
         "documentation": {}
     },
     {
@@ -865,6 +1156,166 @@
         "importPath": "threading",
         "description": "threading",
         "detail": "threading",
+        "documentation": {}
+    },
+    {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "jsonify",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "url_for",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "flash",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "jsonify",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "url_for",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "flash",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
         "documentation": {}
     },
     {
@@ -996,6 +1447,38 @@
         "documentation": {}
     },
     {
+        "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "jsonify",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
         "label": "request",
         "importPath": "flask",
         "description": "flask",
@@ -1092,11 +1575,43 @@
         "documentation": {}
     },
     {
+        "label": "get_text_chunks",
+        "importPath": "ecommbot.ingest",
+        "description": "ecommbot.ingest",
+        "isExtraImport": true,
+        "detail": "ecommbot.ingest",
+        "documentation": {}
+    },
+    {
+        "label": "get_vectorstore",
+        "importPath": "ecommbot.ingest",
+        "description": "ecommbot.ingest",
+        "isExtraImport": true,
+        "detail": "ecommbot.ingest",
+        "documentation": {}
+    },
+    {
         "label": "create_conversation_chain",
         "importPath": "ecommbot.retrieval_generation",
         "description": "ecommbot.retrieval_generation",
         "isExtraImport": true,
         "detail": "ecommbot.retrieval_generation",
+        "documentation": {}
+    },
+    {
+        "label": "create_conversation_chain",
+        "importPath": "ecommbot.retrieval_generation",
+        "description": "ecommbot.retrieval_generation",
+        "isExtraImport": true,
+        "detail": "ecommbot.retrieval_generation",
+        "documentation": {}
+    },
+    {
+        "label": "get_pdf_text",
+        "importPath": "ecommbot.converteur",
+        "description": "ecommbot.converteur",
+        "isExtraImport": true,
+        "detail": "ecommbot.converteur",
         "documentation": {}
     },
     {
@@ -1121,6 +1636,208 @@
         "description": "datetime",
         "isExtraImport": true,
         "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "search_similar_vectors_candidat",
+        "importPath": "utils.similar_vectors",
+        "description": "utils.similar_vectors",
+        "isExtraImport": true,
+        "detail": "utils.similar_vectors",
+        "documentation": {}
+    },
+    {
+        "label": "search_similar_vectors_job",
+        "importPath": "utils.similar_vectors",
+        "description": "utils.similar_vectors",
+        "isExtraImport": true,
+        "detail": "utils.similar_vectors",
+        "documentation": {}
+    },
+    {
+        "label": "search_similar_vectors_candidat",
+        "importPath": "utils.similar_vectors",
+        "description": "utils.similar_vectors",
+        "isExtraImport": true,
+        "detail": "utils.similar_vectors",
+        "documentation": {}
+    },
+    {
+        "label": "extract_text_from_pdf",
+        "importPath": "utils.prepare_data",
+        "description": "utils.prepare_data",
+        "isExtraImport": true,
+        "detail": "utils.prepare_data",
+        "documentation": {}
+    },
+    {
+        "label": "ats_extractor",
+        "importPath": "utils.prepare_data",
+        "description": "utils.prepare_data",
+        "isExtraImport": true,
+        "detail": "utils.prepare_data",
+        "documentation": {}
+    },
+    {
+        "label": "json_to_csv",
+        "importPath": "utils.prepare_data",
+        "description": "utils.prepare_data",
+        "isExtraImport": true,
+        "detail": "utils.prepare_data",
+        "documentation": {}
+    },
+    {
+        "label": "generee_offres",
+        "importPath": "utils.prepare_data",
+        "description": "utils.prepare_data",
+        "isExtraImport": true,
+        "detail": "utils.prepare_data",
+        "documentation": {}
+    },
+    {
+        "label": "ats_extractor",
+        "importPath": "utils.prepare_data",
+        "description": "utils.prepare_data",
+        "isExtraImport": true,
+        "detail": "utils.prepare_data",
+        "documentation": {}
+    },
+    {
+        "label": "json_to_csv",
+        "importPath": "utils.prepare_data",
+        "description": "utils.prepare_data",
+        "isExtraImport": true,
+        "detail": "utils.prepare_data",
+        "documentation": {}
+    },
+    {
+        "label": "snowflake.connector",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "snowflake.connector",
+        "description": "snowflake.connector",
+        "detail": "snowflake.connector",
+        "documentation": {}
+    },
+    {
+        "label": "redis",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "redis",
+        "description": "redis",
+        "detail": "redis",
+        "documentation": {}
+    },
+    {
+        "label": "get_text_chunks",
+        "importPath": "recruitboot.ingest",
+        "description": "recruitboot.ingest",
+        "isExtraImport": true,
+        "detail": "recruitboot.ingest",
+        "documentation": {}
+    },
+    {
+        "label": "get_vectorstore",
+        "importPath": "recruitboot.ingest",
+        "description": "recruitboot.ingest",
+        "isExtraImport": true,
+        "detail": "recruitboot.ingest",
+        "documentation": {}
+    },
+    {
+        "label": "get_text_chunks",
+        "importPath": "recruitboot.ingest",
+        "description": "recruitboot.ingest",
+        "isExtraImport": true,
+        "detail": "recruitboot.ingest",
+        "documentation": {}
+    },
+    {
+        "label": "get_vectorstore",
+        "importPath": "recruitboot.ingest",
+        "description": "recruitboot.ingest",
+        "isExtraImport": true,
+        "detail": "recruitboot.ingest",
+        "documentation": {}
+    },
+    {
+        "label": "create_conversation_chain",
+        "importPath": "recruitboot.retrieval_generation",
+        "description": "recruitboot.retrieval_generation",
+        "isExtraImport": true,
+        "detail": "recruitboot.retrieval_generation",
+        "documentation": {}
+    },
+    {
+        "label": "create_conversation_chain",
+        "importPath": "recruitboot.retrieval_generation",
+        "description": "recruitboot.retrieval_generation",
+        "isExtraImport": true,
+        "detail": "recruitboot.retrieval_generation",
+        "documentation": {}
+    },
+    {
+        "label": "get_pdf_text",
+        "importPath": "recruitboot.converteur",
+        "description": "recruitboot.converteur",
+        "isExtraImport": true,
+        "detail": "recruitboot.converteur",
+        "documentation": {}
+    },
+    {
+        "label": "get_pdf_text",
+        "importPath": "recruitboot.converteur",
+        "description": "recruitboot.converteur",
+        "isExtraImport": true,
+        "detail": "recruitboot.converteur",
+        "documentation": {}
+    },
+    {
+        "label": "find_packages",
+        "importPath": "setuptools",
+        "description": "setuptools",
+        "isExtraImport": true,
+        "detail": "setuptools",
+        "documentation": {}
+    },
+    {
+        "label": "setup",
+        "importPath": "setuptools",
+        "description": "setuptools",
+        "isExtraImport": true,
+        "detail": "setuptools",
+        "documentation": {}
+    },
+    {
+        "label": "find_packages",
+        "importPath": "setuptools",
+        "description": "setuptools",
+        "isExtraImport": true,
+        "detail": "setuptools",
+        "documentation": {}
+    },
+    {
+        "label": "setup",
+        "importPath": "setuptools",
+        "description": "setuptools",
+        "isExtraImport": true,
+        "detail": "setuptools",
         "documentation": {}
     },
     {
@@ -1171,91 +1888,6 @@
         "description": "sklearn.metrics.pairwise",
         "isExtraImport": true,
         "detail": "sklearn.metrics.pairwise",
-        "documentation": {}
-    },
-    {
-        "label": "csv",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "csv",
-        "description": "csv",
-        "detail": "csv",
-        "documentation": {}
-    },
-    {
-        "label": "pinecone",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "pinecone",
-        "description": "pinecone",
-        "detail": "pinecone",
-        "documentation": {}
-    },
-    {
-        "label": "Pinecone",
-        "importPath": "pinecone",
-        "description": "pinecone",
-        "isExtraImport": true,
-        "detail": "pinecone",
-        "documentation": {}
-    },
-    {
-        "label": "ServerlessSpec",
-        "importPath": "pinecone",
-        "description": "pinecone",
-        "isExtraImport": true,
-        "detail": "pinecone",
-        "documentation": {}
-    },
-    {
-        "label": "PineconeApiException",
-        "importPath": "pinecone",
-        "description": "pinecone",
-        "isExtraImport": true,
-        "detail": "pinecone",
-        "documentation": {}
-    },
-    {
-        "label": "snowflake.connector",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "snowflake.connector",
-        "description": "snowflake.connector",
-        "detail": "snowflake.connector",
-        "documentation": {}
-    },
-    {
-        "label": "uuid",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "uuid",
-        "description": "uuid",
-        "detail": "uuid",
-        "documentation": {}
-    },
-    {
-        "label": "redis",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "redis",
-        "description": "redis",
-        "detail": "redis",
-        "documentation": {}
-    },
-    {
-        "label": "find_packages",
-        "importPath": "setuptools",
-        "description": "setuptools",
-        "isExtraImport": true,
-        "detail": "setuptools",
-        "documentation": {}
-    },
-    {
-        "label": "setup",
-        "importPath": "setuptools",
-        "description": "setuptools",
-        "isExtraImport": true,
-        "detail": "setuptools",
         "documentation": {}
     },
     {
@@ -3157,6 +3789,60 @@
         "documentation": {}
     },
     {
+        "label": "ats_extractor",
+        "kind": 2,
+        "importPath": "Recruiter_Apps.utils.prepare_data",
+        "description": "Recruiter_Apps.utils.prepare_data",
+        "peekOfCode": "def ats_extractor(resume_data):\n    api_key_grouq = \"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\"\n    # Prompt for extracting specific information from the resume\n    prompt = '''\n    You are an AI bot designed to act as a professional for parsing resumes. You are given a resume, and your job is to extract the following information:\n    1. skills \n    2. languages\n    3. education (field of study such as Computer Science, Management, Medicine, Marketing, Electrical Engineering, etc.)\n    4. total number of work experiences\n    Provide the extracted information in JSON format only with english translation. Additionally, generate a unique ID for the candidate .",
+        "detail": "Recruiter_Apps.utils.prepare_data",
+        "documentation": {}
+    },
+    {
+        "label": "extract_text_from_pdf",
+        "kind": 2,
+        "importPath": "Recruiter_Apps.utils.prepare_data",
+        "description": "Recruiter_Apps.utils.prepare_data",
+        "peekOfCode": "def extract_text_from_pdf(upload_folder):\n    \"\"\"\n    Extrait le texte de tous les fichiers PDF dans un dossier.\n    Args:\n        upload_folder (str): Chemin du dossier contenant les fichiers PDF.\n    Returns:\n        dict: Dictionnaire avec les noms de fichiers comme clés et les textes extraits comme valeurs.\n    \"\"\"\n    #extracted_text = {}\n    try:",
+        "detail": "Recruiter_Apps.utils.prepare_data",
+        "documentation": {}
+    },
+    {
+        "label": "generee_offres",
+        "kind": 2,
+        "importPath": "Recruiter_Apps.utils.prepare_data",
+        "description": "Recruiter_Apps.utils.prepare_data",
+        "peekOfCode": "def generee_offres(descriptions):\n    api_key_grouq = \"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\"\n    description_prompt = '''\n        You are an AI bot designed to generate detailed job descriptions. Based on the following candidate information, create a professional job description in English. The format should include:\n        - Industry: Mention the industry (e.g., \"Computer and Technology\").\n        - Job Title: Suggest a title based on skills and education (e.g., \"Data Scientist\").\n        - Date: Use the current date in the format YYYY-MM-DD.\n        - Description: Provide a paragraph summarizing the skills, languages, education, and years of experience. Make the description engaging and professional.\n        Example:\n        Industry: Computer And Technology",
+        "detail": "Recruiter_Apps.utils.prepare_data",
+        "documentation": {}
+    },
+    {
+        "label": "json_to_csv",
+        "kind": 2,
+        "importPath": "Recruiter_Apps.utils.prepare_data",
+        "description": "Recruiter_Apps.utils.prepare_data",
+        "peekOfCode": "def json_to_csv(json_data, csv_file_path):\n    # Ensure json_data is a dictionary\n    if not isinstance(json_data, dict):\n        return {\"error\": \"Invalid JSON data.\"}\n    # Define the CSV header\n    header = [\"candidate_id\", \"competences\", \"langues\", \"formation\", \"nbr_years_exp\"]\n    # Convert data into a list of rows\n    rows = [\n        [\n            json_data.get(\"candidate_id\", \"None\"),",
+        "detail": "Recruiter_Apps.utils.prepare_data",
+        "documentation": {}
+    },
+    {
+        "label": "search_similar_vectors_candidat",
+        "kind": 2,
+        "importPath": "Recruiter_Apps.utils.similar_vectors",
+        "description": "Recruiter_Apps.utils.similar_vectors",
+        "peekOfCode": "def search_similar_vectors_candidat(query_embedding, top_k=5):\n    api_key_pin = \"pcsk_vUaKS_3PK35kGth5rcmSKZkihFFuaS7B44xzMycHCnot1s9Czf1WE8iXSPZg4nDph81Ak\"\n    pc = pinecone.Pinecone(api_key=api_key_pin)\n    # Connexion à l'index Pinecone\n    index_name = 'candidates'  # Le nom de votre index Pinecone\n    index_candidats = pc.Index(index_name)\n    print(f\"Query embedding: {query_embedding}\")\n    result = index_candidats.query(vector=query_embedding, top_k=top_k, include_metadata=True)\n    print(f\"Result: {result}\")\n    # Vérification de la présence de la clé 'matches'",
+        "detail": "Recruiter_Apps.utils.similar_vectors",
+        "documentation": {}
+    },
+    {
+        "label": "search_similar_vectors_job",
+        "kind": 2,
+        "importPath": "Recruiter_Apps.utils.similar_vectors",
+        "description": "Recruiter_Apps.utils.similar_vectors",
+        "peekOfCode": "def search_similar_vectors_job(query_embedding, top_k=5):\n    api_key_pin = \"pcsk_vUaKS_3PK35kGth5rcmSKZkihFFuaS7B44xzMycHCnot1s9Czf1WE8iXSPZg4nDph81Ak\"\n    pc = pinecone.Pinecone(api_key=api_key_pin)\n    # Connexion à l'index Pinecone\n    index_name = 'job'  # Le nom de votre index Pinecone\n    index_job= pc.Index(index_name)\n    print(f\"Query embedding: {query_embedding}\")\n    result = index_job.query(vector=query_embedding, top_k=top_k, include_metadata=True)\n    print(f\"Result: {result}\")\n    # Vérification de la présence de la clé 'matches'",
+        "detail": "Recruiter_Apps.utils.similar_vectors",
+        "documentation": {}
+    },
+    {
         "label": "index",
         "kind": 2,
         "importPath": "Recruiter_Apps.app",
@@ -3229,87 +3915,6 @@
         "documentation": {}
     },
     {
-        "label": "ats_extractor",
-        "kind": 2,
-        "importPath": "Recruiter_Apps.app_cvs",
-        "description": "Recruiter_Apps.app_cvs",
-        "peekOfCode": "def ats_extractor(resume_data):\n    # Prompt for extracting specific information from the resume\n    prompt = '''\n    You are an AI bot designed to act as a professional for parsing resumes. You are given a resume, and your job is to extract the following information:\n    1. skills \n    2. languages\n    3. education (field of study such as Computer Science, Management, Medicine, Marketing, Electrical Engineering, etc.)\n    4. total number of work experiences\n    Provide the extracted information in JSON format only with english translation. Additionally, generate a unique ID for the candidate .\n    If a field does not exist, do \"None\".",
-        "detail": "Recruiter_Apps.app_cvs",
-        "documentation": {}
-    },
-    {
-        "label": "preprocess_text",
-        "kind": 2,
-        "importPath": "Recruiter_Apps.app_cvs",
-        "description": "Recruiter_Apps.app_cvs",
-        "peekOfCode": "def preprocess_text(text):\n    tokens = word_tokenize(text.lower())\n    tokens = [token for token in tokens if token.isalpha()]\n    return tokens\n# Fonction pour obtenir les embeddings moyennés\ndef get_average_word_vector(tokens, model):\n    word_vectors = [model.wv[token] for token in tokens if token in model.wv]\n    if not word_vectors:\n        return np.zeros(model.vector_size)\n    return np.mean(word_vectors, axis=0)",
-        "detail": "Recruiter_Apps.app_cvs",
-        "documentation": {}
-    },
-    {
-        "label": "get_average_word_vector",
-        "kind": 2,
-        "importPath": "Recruiter_Apps.app_cvs",
-        "description": "Recruiter_Apps.app_cvs",
-        "peekOfCode": "def get_average_word_vector(tokens, model):\n    word_vectors = [model.wv[token] for token in tokens if token in model.wv]\n    if not word_vectors:\n        return np.zeros(model.vector_size)\n    return np.mean(word_vectors, axis=0)\ndef extract_text_from_pdf(upload_folder):\n    \"\"\"\n    Extrait le texte de tous les fichiers PDF dans un dossier.\n    Args:\n        upload_folder (str): Chemin du dossier contenant les fichiers PDF.",
-        "detail": "Recruiter_Apps.app_cvs",
-        "documentation": {}
-    },
-    {
-        "label": "extract_text_from_pdf",
-        "kind": 2,
-        "importPath": "Recruiter_Apps.app_cvs",
-        "description": "Recruiter_Apps.app_cvs",
-        "peekOfCode": "def extract_text_from_pdf(upload_folder):\n    \"\"\"\n    Extrait le texte de tous les fichiers PDF dans un dossier.\n    Args:\n        upload_folder (str): Chemin du dossier contenant les fichiers PDF.\n    Returns:\n        dict: Dictionnaire avec les noms de fichiers comme clés et les textes extraits comme valeurs.\n    \"\"\"\n    #extracted_text = {}\n    try:",
-        "detail": "Recruiter_Apps.app_cvs",
-        "documentation": {}
-    },
-    {
-        "label": "generee_offres",
-        "kind": 2,
-        "importPath": "Recruiter_Apps.app_cvs",
-        "description": "Recruiter_Apps.app_cvs",
-        "peekOfCode": "def generee_offres(descriptions):\n    description_prompt = '''\n        You are an AI bot designed to generate detailed job descriptions. Based on the following candidate information, create a professional job description in English. The format should include:\n        - Industry: Mention the industry (e.g., \"Computer and Technology\").\n        - Job Title: Suggest a title based on skills and education (e.g., \"Data Scientist\").\n        - Date: Use the current date in the format YYYY-MM-DD.\n        - Description: Provide a paragraph summarizing the skills, languages, education, and years of experience. Make the description engaging and professional.\n        Example:\n        Industry: Computer And Technology\n        Data Scientist",
-        "detail": "Recruiter_Apps.app_cvs",
-        "documentation": {}
-    },
-    {
-        "label": "save_picture",
-        "kind": 2,
-        "importPath": "Recruiter_Apps.app_cvs",
-        "description": "Recruiter_Apps.app_cvs",
-        "peekOfCode": "def save_picture(form_picture):\n    f_name, f_ext = os.path.splitext(form_picture.filename)\n    picture_fn = f_name + f_ext\n    picture_path = os.path.join(app.root_path, 'static', picture_fn)\n    form_picture.save(picture_path)\n    return picture_fn\ndef json_to_csv(json_data, csv_file_path):\n    # Ensure json_data is a dictionary\n    if not isinstance(json_data, dict):\n        return {\"error\": \"Invalid JSON data.\"}",
-        "detail": "Recruiter_Apps.app_cvs",
-        "documentation": {}
-    },
-    {
-        "label": "json_to_csv",
-        "kind": 2,
-        "importPath": "Recruiter_Apps.app_cvs",
-        "description": "Recruiter_Apps.app_cvs",
-        "peekOfCode": "def json_to_csv(json_data, csv_file_path):\n    # Ensure json_data is a dictionary\n    if not isinstance(json_data, dict):\n        return {\"error\": \"Invalid JSON data.\"}\n    # Define the CSV header\n    header = [\"candidate_id\", \"competences\", \"langues\", \"formation\", \"nbr_years_exp\"]\n    # Convert data into a list of rows\n    rows = [\n        [\n            json_data.get(\"candidate_id\", \"None\"),",
-        "detail": "Recruiter_Apps.app_cvs",
-        "documentation": {}
-    },
-    {
-        "label": "search_similar_vectors_candidat",
-        "kind": 2,
-        "importPath": "Recruiter_Apps.app_cvs",
-        "description": "Recruiter_Apps.app_cvs",
-        "peekOfCode": "def search_similar_vectors_candidat(query_embedding, top_k=5):\n    pc = pinecone.Pinecone(api_key=api_key_pin)\n    # Connexion à l'index Pinecone\n    index_name = 'candidates'  # Le nom de votre index Pinecone\n    index_candidats = pc.Index(index_name)\n    print(f\"Query embedding: {query_embedding}\")\n    result = index_candidats.query(vector=query_embedding, top_k=top_k, include_metadata=True)\n    print(f\"Result: {result}\")\n    # Vérification de la présence de la clé 'matches'\n    if 'matches' in result:",
-        "detail": "Recruiter_Apps.app_cvs",
-        "documentation": {}
-    },
-    {
-        "label": "search_similar_vectors_job",
-        "kind": 2,
-        "importPath": "Recruiter_Apps.app_cvs",
-        "description": "Recruiter_Apps.app_cvs",
-        "peekOfCode": "def search_similar_vectors_job(query_embedding, top_k=5):\n    pc = pinecone.Pinecone(api_key=api_key_pin)\n    # Connexion à l'index Pinecone\n    index_name = 'job'  # Le nom de votre index Pinecone\n    index_job= pc.Index(index_name)\n    print(f\"Query embedding: {query_embedding}\")\n    result = index_job.query(vector=query_embedding, top_k=top_k, include_metadata=True)\n    print(f\"Result: {result}\")\n    # Vérification de la présence de la clé 'matches'\n    if 'matches' in result:",
-        "detail": "Recruiter_Apps.app_cvs",
-        "documentation": {}
-    },
-    {
         "label": "index",
         "kind": 2,
         "importPath": "Recruiter_Apps.app_cvs",
@@ -3351,15 +3956,6 @@
         "importPath": "Recruiter_Apps.app_cvs",
         "description": "Recruiter_Apps.app_cvs",
         "peekOfCode": "def post_cvs(key):\n    global descriptions\n    global nom_cv\n    # Exemple de nom de CV (ceci peut être dynamique si récupéré de l'utilisateur ou d'une base de données)\n      # Exemple de nom, à remplacer par une logique dynamique si nécessaire.\n    # Ajouter les informations dans Redis sous la forme (key: offer_id) -> CV name\n    redis_client.set(key, nom_cv)  # Stocke le nom du CV pour l'ID de l'offre\n    # Ajouter un message de notification avec flash\n    flash(f\"Submit your CV: {nom_cv} for Offer ID: {key}\", \"info\")\n    # Rediriger vers la page des offres après l'application",
-        "detail": "Recruiter_Apps.app_cvs",
-        "documentation": {}
-    },
-    {
-        "label": "api_key_pin",
-        "kind": 5,
-        "importPath": "Recruiter_Apps.app_cvs",
-        "description": "Recruiter_Apps.app_cvs",
-        "peekOfCode": "api_key_pin = \"pcsk_vUaKS_3PK35kGth5rcmSKZkihFFuaS7B44xzMycHCnot1s9Czf1WE8iXSPZg4nDph81Ak\"\n# Détails de connexion à Snowflake\naccount = \"phztxrc-go36107\"\nuser = \"SAID\"\npassword = \"SaidKHALID2002!\"\nrole = \"dev_role\"\nwarehouse = \"projet_warehouse\"\ndatabase = \"my_project_database\"\nschema = \"my_project_schema\"\n# Connexion à Snowflake",
         "detail": "Recruiter_Apps.app_cvs",
         "documentation": {}
     },
@@ -3440,7 +4036,7 @@
         "kind": 5,
         "importPath": "Recruiter_Apps.app_cvs",
         "description": "Recruiter_Apps.app_cvs",
-        "peekOfCode": "app = Flask(__name__)\napp.config['UPLOAD_FOLDER'] = 'uploads/'\napp.config['REDIS_URL'] = \"redis://localhost:6379/0\"  # Utilisez l'URL de votre instance Redis\n# Définir une clé secrète pour la session\napp.secret_key = 'said'\n# Connexion à Redis\nredis_client = redis.StrictRedis.from_url(app.config['REDIS_URL'])\n# Charger le modèle Word2Vec\n#model = gensim.models.Word2Vec.load(\"D:/mémoire/resume_word2vec.model\")\nimport json",
+        "peekOfCode": "app = Flask(__name__)\napp.config['UPLOAD_FOLDER'] = 'uploads/'\napp.config['REDIS_URL'] = \"redis://localhost:6379/0\"  # Utilisez l'URL de votre instance Redis\n# Définir une clé secrète pour la session\napp.secret_key = 'said'\n# Connexion à Redis\nredis_client = redis.StrictRedis.from_url(app.config['REDIS_URL'])\n@app.route('/', methods=['GET', 'POST'])\ndef index():\n    global similar_vectors_candidat",
         "detail": "Recruiter_Apps.app_cvs",
         "documentation": {}
     },
@@ -3449,7 +4045,7 @@
         "kind": 5,
         "importPath": "Recruiter_Apps.app_cvs",
         "description": "Recruiter_Apps.app_cvs",
-        "peekOfCode": "app.config['UPLOAD_FOLDER'] = 'uploads/'\napp.config['REDIS_URL'] = \"redis://localhost:6379/0\"  # Utilisez l'URL de votre instance Redis\n# Définir une clé secrète pour la session\napp.secret_key = 'said'\n# Connexion à Redis\nredis_client = redis.StrictRedis.from_url(app.config['REDIS_URL'])\n# Charger le modèle Word2Vec\n#model = gensim.models.Word2Vec.load(\"D:/mémoire/resume_word2vec.model\")\nimport json\nimport uuid",
+        "peekOfCode": "app.config['UPLOAD_FOLDER'] = 'uploads/'\napp.config['REDIS_URL'] = \"redis://localhost:6379/0\"  # Utilisez l'URL de votre instance Redis\n# Définir une clé secrète pour la session\napp.secret_key = 'said'\n# Connexion à Redis\nredis_client = redis.StrictRedis.from_url(app.config['REDIS_URL'])\n@app.route('/', methods=['GET', 'POST'])\ndef index():\n    global similar_vectors_candidat\n    global similar_vectors_job",
         "detail": "Recruiter_Apps.app_cvs",
         "documentation": {}
     },
@@ -3458,7 +4054,7 @@
         "kind": 5,
         "importPath": "Recruiter_Apps.app_cvs",
         "description": "Recruiter_Apps.app_cvs",
-        "peekOfCode": "app.config['REDIS_URL'] = \"redis://localhost:6379/0\"  # Utilisez l'URL de votre instance Redis\n# Définir une clé secrète pour la session\napp.secret_key = 'said'\n# Connexion à Redis\nredis_client = redis.StrictRedis.from_url(app.config['REDIS_URL'])\n# Charger le modèle Word2Vec\n#model = gensim.models.Word2Vec.load(\"D:/mémoire/resume_word2vec.model\")\nimport json\nimport uuid\ndef ats_extractor(resume_data):",
+        "peekOfCode": "app.config['REDIS_URL'] = \"redis://localhost:6379/0\"  # Utilisez l'URL de votre instance Redis\n# Définir une clé secrète pour la session\napp.secret_key = 'said'\n# Connexion à Redis\nredis_client = redis.StrictRedis.from_url(app.config['REDIS_URL'])\n@app.route('/', methods=['GET', 'POST'])\ndef index():\n    global similar_vectors_candidat\n    global similar_vectors_job\n    global nom_cv",
         "detail": "Recruiter_Apps.app_cvs",
         "documentation": {}
     },
@@ -3467,7 +4063,7 @@
         "kind": 5,
         "importPath": "Recruiter_Apps.app_cvs",
         "description": "Recruiter_Apps.app_cvs",
-        "peekOfCode": "app.secret_key = 'said'\n# Connexion à Redis\nredis_client = redis.StrictRedis.from_url(app.config['REDIS_URL'])\n# Charger le modèle Word2Vec\n#model = gensim.models.Word2Vec.load(\"D:/mémoire/resume_word2vec.model\")\nimport json\nimport uuid\ndef ats_extractor(resume_data):\n    # Prompt for extracting specific information from the resume\n    prompt = '''",
+        "peekOfCode": "app.secret_key = 'said'\n# Connexion à Redis\nredis_client = redis.StrictRedis.from_url(app.config['REDIS_URL'])\n@app.route('/', methods=['GET', 'POST'])\ndef index():\n    global similar_vectors_candidat\n    global similar_vectors_job\n    global nom_cv\n    if request.method == 'POST':\n        if 'resume_folder' in request.files:",
         "detail": "Recruiter_Apps.app_cvs",
         "documentation": {}
     },
@@ -3476,53 +4072,8 @@
         "kind": 5,
         "importPath": "Recruiter_Apps.app_cvs",
         "description": "Recruiter_Apps.app_cvs",
-        "peekOfCode": "redis_client = redis.StrictRedis.from_url(app.config['REDIS_URL'])\n# Charger le modèle Word2Vec\n#model = gensim.models.Word2Vec.load(\"D:/mémoire/resume_word2vec.model\")\nimport json\nimport uuid\ndef ats_extractor(resume_data):\n    # Prompt for extracting specific information from the resume\n    prompt = '''\n    You are an AI bot designed to act as a professional for parsing resumes. You are given a resume, and your job is to extract the following information:\n    1. skills ",
+        "peekOfCode": "redis_client = redis.StrictRedis.from_url(app.config['REDIS_URL'])\n@app.route('/', methods=['GET', 'POST'])\ndef index():\n    global similar_vectors_candidat\n    global similar_vectors_job\n    global nom_cv\n    if request.method == 'POST':\n        if 'resume_folder' in request.files:\n            # Traiter le téléchargement des fichiers PDF\n            resume_folder = request.files.getlist('resume_folder')",
         "detail": "Recruiter_Apps.app_cvs",
-        "documentation": {}
-    },
-    {
-        "label": "#model",
-        "kind": 5,
-        "importPath": "Recruiter_Apps.app_cvs",
-        "description": "Recruiter_Apps.app_cvs",
-        "peekOfCode": "#model = gensim.models.Word2Vec.load(\"D:/mémoire/resume_word2vec.model\")\nimport json\nimport uuid\ndef ats_extractor(resume_data):\n    # Prompt for extracting specific information from the resume\n    prompt = '''\n    You are an AI bot designed to act as a professional for parsing resumes. You are given a resume, and your job is to extract the following information:\n    1. skills \n    2. languages\n    3. education (field of study such as Computer Science, Management, Medicine, Marketing, Electrical Engineering, etc.)",
-        "detail": "Recruiter_Apps.app_cvs",
-        "documentation": {}
-    },
-    {
-        "label": "ats_extractor",
-        "kind": 2,
-        "importPath": "Recruiter_Apps.app_offres",
-        "description": "Recruiter_Apps.app_offres",
-        "peekOfCode": "def ats_extractor(resume_data):\n    # Prompt for extracting specific information from the resume\n    prompt = '''\n    You are an AI bot designed to act as a professional for parsing resumes. You are given a resume, and your job is to extract the following information:\n    1. skills \n    2. languages\n    3. education (field of study such as Computer Science, Management, Medicine, Marketing, Electrical Engineering, etc.)\n    4. total number of work experiences\n    Provide the extracted information in JSON format only with english translation. Additionally, generate a unique ID for the job .\n    If a field does not exist, do \"None\".",
-        "detail": "Recruiter_Apps.app_offres",
-        "documentation": {}
-    },
-    {
-        "label": "preprocess_text",
-        "kind": 2,
-        "importPath": "Recruiter_Apps.app_offres",
-        "description": "Recruiter_Apps.app_offres",
-        "peekOfCode": "def preprocess_text(text):\n    tokens = word_tokenize(text.lower())\n    tokens = [token for token in tokens if token.isalpha()]\n    return tokens\n# Fonction pour extraire du texte des fichiers PDF\nimport os\nimport fitz  # PyMuPDF\ndef json_to_csv(json_data, csv_file_path):\n    # Ensure json_data is a dictionary\n    if not isinstance(json_data, dict):",
-        "detail": "Recruiter_Apps.app_offres",
-        "documentation": {}
-    },
-    {
-        "label": "json_to_csv",
-        "kind": 2,
-        "importPath": "Recruiter_Apps.app_offres",
-        "description": "Recruiter_Apps.app_offres",
-        "peekOfCode": "def json_to_csv(json_data, csv_file_path):\n    # Ensure json_data is a dictionary\n    if not isinstance(json_data, dict):\n        return {\"error\": \"Invalid JSON data.\"}\n    # Define the CSV header\n    header = [\"candidate_id\", \"competences\", \"langues\", \"formation\", \"nbr_years_exp\"]\n    # Convert data into a list of rows\n    rows = [\n        [\n            json_data.get(\"candidate_id\", \"None\"),",
-        "detail": "Recruiter_Apps.app_offres",
-        "documentation": {}
-    },
-    {
-        "label": "search_similar_vectors_candidat",
-        "kind": 2,
-        "importPath": "Recruiter_Apps.app_offres",
-        "description": "Recruiter_Apps.app_offres",
-        "peekOfCode": "def search_similar_vectors_candidat(query_embedding, top_k=5):\n    pc = pinecone.Pinecone(api_key=api_key_pin)\n    # Connexion à l'index Pinecone\n    index_name = 'candidates'  # Le nom de votre index Pinecone\n    index_candidats = pc.Index(index_name)\n    print(f\"Query embedding: {query_embedding}\")\n    result = index_candidats.query(vector=query_embedding, top_k=top_k, include_metadata=True)\n    print(f\"Result: {result}\")\n    # Vérification de la présence de la clé 'matches'\n    if 'matches' in result:",
-        "detail": "Recruiter_Apps.app_offres",
         "documentation": {}
     },
     {
@@ -3544,11 +4095,11 @@
         "documentation": {}
     },
     {
-        "label": "chatbot",
+        "label": "index",
         "kind": 2,
         "importPath": "Recruiter_Apps.app_offres",
         "description": "Recruiter_Apps.app_offres",
-        "peekOfCode": "def chatbot():\n    return f\"9alib 3liha\"\n@app.route('/chatbot_key/<key>', methods=['GET', 'POST'])\ndef chatbot_key(key):\n    return f\"9alib 3liha\"+key\n@app.route('/post_cvs/<key>', methods=['GET', 'POST'])\ndef post_cvs(key):\n    return 0\nif __name__ == '__main__':\n    app.run(debug=True)",
+        "peekOfCode": "def index():\n    return render_template('chat.html')\n@app.route('/chatbot_key/<key>', methods=['GET', 'POST'])\ndef chatbot_key(key):\n    return f\"9alib 3liha\"+key\n@app.route(\"/get\", methods=[\"POST\"])\ndef chat():\n    msg = request.form[\"msg\"]\n    input = msg  # Le message utilisateur\n    try:",
         "detail": "Recruiter_Apps.app_offres",
         "documentation": {}
     },
@@ -3557,25 +4108,61 @@
         "kind": 2,
         "importPath": "Recruiter_Apps.app_offres",
         "description": "Recruiter_Apps.app_offres",
-        "peekOfCode": "def chatbot_key(key):\n    return f\"9alib 3liha\"+key\n@app.route('/post_cvs/<key>', methods=['GET', 'POST'])\ndef post_cvs(key):\n    return 0\nif __name__ == '__main__':\n    app.run(debug=True)",
+        "peekOfCode": "def chatbot_key(key):\n    return f\"9alib 3liha\"+key\n@app.route(\"/get\", methods=[\"POST\"])\ndef chat():\n    msg = request.form[\"msg\"]\n    input = msg  # Le message utilisateur\n    try:\n        # Appel à invoke() pour obtenir la réponse\n        result = conversation_chain.invoke({\"question\": input})\n        print(\"Response: \", result)",
         "detail": "Recruiter_Apps.app_offres",
         "documentation": {}
     },
     {
-        "label": "post_cvs",
+        "label": "chat",
         "kind": 2,
         "importPath": "Recruiter_Apps.app_offres",
         "description": "Recruiter_Apps.app_offres",
-        "peekOfCode": "def post_cvs(key):\n    return 0\nif __name__ == '__main__':\n    app.run(debug=True)",
+        "peekOfCode": "def chat():\n    msg = request.form[\"msg\"]\n    input = msg  # Le message utilisateur\n    try:\n        # Appel à invoke() pour obtenir la réponse\n        result = conversation_chain.invoke({\"question\": input})\n        print(\"Response: \", result)\n        # Retourner uniquement la réponse textuelle sans l'objet complet\n        answer = result[\"answer\"] if \"answer\" in result else \"Désolé, je n'ai pas pu trouver une réponse.\"\n        return jsonify({\"response\": answer})  # Retourner la réponse du chatbot",
         "detail": "Recruiter_Apps.app_offres",
         "documentation": {}
     },
     {
-        "label": "api_key_pin",
+        "label": "pdf_docs",
         "kind": 5,
         "importPath": "Recruiter_Apps.app_offres",
         "description": "Recruiter_Apps.app_offres",
-        "peekOfCode": "api_key_pin = \"pcsk_vUaKS_3PK35kGth5rcmSKZkihFFuaS7B44xzMycHCnot1s9Czf1WE8iXSPZg4nDph81Ak\"\napp = Flask(__name__)\napp.config['REDIS_URL'] = \"redis://localhost:6379/0\"  # Utilisez l'URL de votre instance Redis\n# Définir une clé secrète pour la session\napp.secret_key = 'said'\n# Connexion à Redis\nredis_client = redis.StrictRedis.from_url(app.config['REDIS_URL'])\n# Charger le modèle Word2Vec\n#model = gensim.models.Word2Vec.load(\"D:/mémoire/resume_word2vec.model\")\nimport json",
+        "peekOfCode": "pdf_docs = [r\"data\\hamza.pdf\"]\ntext = get_pdf_text(pdf_docs)\nchunks = get_text_chunks(text)\nvectorstore = get_vectorstore(chunks)\n# Création de la chaîne de conversation\nconversation_chain = create_conversation_chain(vectorstore)\napp = Flask(__name__)\napp.config['REDIS_URL'] = \"redis://localhost:6379/0\"  # Utilisez l'URL de votre instance Redis\n# Définir une clé secrète pour la session\napp.secret_key = 'said'",
+        "detail": "Recruiter_Apps.app_offres",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "kind": 5,
+        "importPath": "Recruiter_Apps.app_offres",
+        "description": "Recruiter_Apps.app_offres",
+        "peekOfCode": "text = get_pdf_text(pdf_docs)\nchunks = get_text_chunks(text)\nvectorstore = get_vectorstore(chunks)\n# Création de la chaîne de conversation\nconversation_chain = create_conversation_chain(vectorstore)\napp = Flask(__name__)\napp.config['REDIS_URL'] = \"redis://localhost:6379/0\"  # Utilisez l'URL de votre instance Redis\n# Définir une clé secrète pour la session\napp.secret_key = 'said'\n# Connexion à Redis",
+        "detail": "Recruiter_Apps.app_offres",
+        "documentation": {}
+    },
+    {
+        "label": "chunks",
+        "kind": 5,
+        "importPath": "Recruiter_Apps.app_offres",
+        "description": "Recruiter_Apps.app_offres",
+        "peekOfCode": "chunks = get_text_chunks(text)\nvectorstore = get_vectorstore(chunks)\n# Création de la chaîne de conversation\nconversation_chain = create_conversation_chain(vectorstore)\napp = Flask(__name__)\napp.config['REDIS_URL'] = \"redis://localhost:6379/0\"  # Utilisez l'URL de votre instance Redis\n# Définir une clé secrète pour la session\napp.secret_key = 'said'\n# Connexion à Redis\nredis_client = redis.StrictRedis.from_url(app.config['REDIS_URL'])",
+        "detail": "Recruiter_Apps.app_offres",
+        "documentation": {}
+    },
+    {
+        "label": "vectorstore",
+        "kind": 5,
+        "importPath": "Recruiter_Apps.app_offres",
+        "description": "Recruiter_Apps.app_offres",
+        "peekOfCode": "vectorstore = get_vectorstore(chunks)\n# Création de la chaîne de conversation\nconversation_chain = create_conversation_chain(vectorstore)\napp = Flask(__name__)\napp.config['REDIS_URL'] = \"redis://localhost:6379/0\"  # Utilisez l'URL de votre instance Redis\n# Définir une clé secrète pour la session\napp.secret_key = 'said'\n# Connexion à Redis\nredis_client = redis.StrictRedis.from_url(app.config['REDIS_URL'])\n@app.route('/', methods=['GET', 'POST'])",
+        "detail": "Recruiter_Apps.app_offres",
+        "documentation": {}
+    },
+    {
+        "label": "conversation_chain",
+        "kind": 5,
+        "importPath": "Recruiter_Apps.app_offres",
+        "description": "Recruiter_Apps.app_offres",
+        "peekOfCode": "conversation_chain = create_conversation_chain(vectorstore)\napp = Flask(__name__)\napp.config['REDIS_URL'] = \"redis://localhost:6379/0\"  # Utilisez l'URL de votre instance Redis\n# Définir une clé secrète pour la session\napp.secret_key = 'said'\n# Connexion à Redis\nredis_client = redis.StrictRedis.from_url(app.config['REDIS_URL'])\n@app.route('/', methods=['GET', 'POST'])\ndef job_description():\n    global similar_vectors_candidat",
         "detail": "Recruiter_Apps.app_offres",
         "documentation": {}
     },
@@ -3584,7 +4171,7 @@
         "kind": 5,
         "importPath": "Recruiter_Apps.app_offres",
         "description": "Recruiter_Apps.app_offres",
-        "peekOfCode": "app = Flask(__name__)\napp.config['REDIS_URL'] = \"redis://localhost:6379/0\"  # Utilisez l'URL de votre instance Redis\n# Définir une clé secrète pour la session\napp.secret_key = 'said'\n# Connexion à Redis\nredis_client = redis.StrictRedis.from_url(app.config['REDIS_URL'])\n# Charger le modèle Word2Vec\n#model = gensim.models.Word2Vec.load(\"D:/mémoire/resume_word2vec.model\")\nimport json\nimport uuid",
+        "peekOfCode": "app = Flask(__name__)\napp.config['REDIS_URL'] = \"redis://localhost:6379/0\"  # Utilisez l'URL de votre instance Redis\n# Définir une clé secrète pour la session\napp.secret_key = 'said'\n# Connexion à Redis\nredis_client = redis.StrictRedis.from_url(app.config['REDIS_URL'])\n@app.route('/', methods=['GET', 'POST'])\ndef job_description():\n    global similar_vectors_candidat\n    if request.method == 'POST':",
         "detail": "Recruiter_Apps.app_offres",
         "documentation": {}
     },
@@ -3593,7 +4180,7 @@
         "kind": 5,
         "importPath": "Recruiter_Apps.app_offres",
         "description": "Recruiter_Apps.app_offres",
-        "peekOfCode": "app.config['REDIS_URL'] = \"redis://localhost:6379/0\"  # Utilisez l'URL de votre instance Redis\n# Définir une clé secrète pour la session\napp.secret_key = 'said'\n# Connexion à Redis\nredis_client = redis.StrictRedis.from_url(app.config['REDIS_URL'])\n# Charger le modèle Word2Vec\n#model = gensim.models.Word2Vec.load(\"D:/mémoire/resume_word2vec.model\")\nimport json\nimport uuid\ndef ats_extractor(resume_data):",
+        "peekOfCode": "app.config['REDIS_URL'] = \"redis://localhost:6379/0\"  # Utilisez l'URL de votre instance Redis\n# Définir une clé secrète pour la session\napp.secret_key = 'said'\n# Connexion à Redis\nredis_client = redis.StrictRedis.from_url(app.config['REDIS_URL'])\n@app.route('/', methods=['GET', 'POST'])\ndef job_description():\n    global similar_vectors_candidat\n    if request.method == 'POST':\n        job_description = request.form['job_description']",
         "detail": "Recruiter_Apps.app_offres",
         "documentation": {}
     },
@@ -3602,7 +4189,7 @@
         "kind": 5,
         "importPath": "Recruiter_Apps.app_offres",
         "description": "Recruiter_Apps.app_offres",
-        "peekOfCode": "app.secret_key = 'said'\n# Connexion à Redis\nredis_client = redis.StrictRedis.from_url(app.config['REDIS_URL'])\n# Charger le modèle Word2Vec\n#model = gensim.models.Word2Vec.load(\"D:/mémoire/resume_word2vec.model\")\nimport json\nimport uuid\ndef ats_extractor(resume_data):\n    # Prompt for extracting specific information from the resume\n    prompt = '''",
+        "peekOfCode": "app.secret_key = 'said'\n# Connexion à Redis\nredis_client = redis.StrictRedis.from_url(app.config['REDIS_URL'])\n@app.route('/', methods=['GET', 'POST'])\ndef job_description():\n    global similar_vectors_candidat\n    if request.method == 'POST':\n        job_description = request.form['job_description']\n        # Pass the extracted text to the ats_extractor function\n        extracted_info = ats_extractor(job_description)",
         "detail": "Recruiter_Apps.app_offres",
         "documentation": {}
     },
@@ -3611,17 +4198,557 @@
         "kind": 5,
         "importPath": "Recruiter_Apps.app_offres",
         "description": "Recruiter_Apps.app_offres",
-        "peekOfCode": "redis_client = redis.StrictRedis.from_url(app.config['REDIS_URL'])\n# Charger le modèle Word2Vec\n#model = gensim.models.Word2Vec.load(\"D:/mémoire/resume_word2vec.model\")\nimport json\nimport uuid\ndef ats_extractor(resume_data):\n    # Prompt for extracting specific information from the resume\n    prompt = '''\n    You are an AI bot designed to act as a professional for parsing resumes. You are given a resume, and your job is to extract the following information:\n    1. skills ",
+        "peekOfCode": "redis_client = redis.StrictRedis.from_url(app.config['REDIS_URL'])\n@app.route('/', methods=['GET', 'POST'])\ndef job_description():\n    global similar_vectors_candidat\n    if request.method == 'POST':\n        job_description = request.form['job_description']\n        # Pass the extracted text to the ats_extractor function\n        extracted_info = ats_extractor(job_description)\n        resumes_csv = json_to_csv(extracted_info, \"resumes.csv\")\n        data = pd.read_csv(\"resumes.csv\")",
         "detail": "Recruiter_Apps.app_offres",
+        "documentation": {}
+    },
+    {
+        "label": "get_pdf_text",
+        "kind": 2,
+        "importPath": "Recruiter_Apps_valide.recruitboot.converteur",
+        "description": "Recruiter_Apps_valide.recruitboot.converteur",
+        "peekOfCode": "def get_pdf_text(pdf_docs):\n    text = \"\"\n    for pdf in pdf_docs:\n        # Vérifiez si le chemin du fichier PDF est valide\n        if not os.path.exists(pdf):\n            print(f\"Le fichier {pdf} n'existe pas.\")\n            continue  # Passez au fichier suivant si celui-ci n'existe pas\n        try:\n            pdf_reader = PdfReader(pdf)\n            # Parcourir toutes les pages du PDF et extraire le texte",
+        "detail": "Recruiter_Apps_valide.recruitboot.converteur",
+        "documentation": {}
+    },
+    {
+        "label": "get_text_chunks",
+        "kind": 2,
+        "importPath": "Recruiter_Apps_valide.recruitboot.ingest",
+        "description": "Recruiter_Apps_valide.recruitboot.ingest",
+        "peekOfCode": "def get_text_chunks(text):\n    text_splitter = CharacterTextSplitter(\n        separator=\"\\n\",\n        chunk_size=1000,\n        chunk_overlap=200,\n        length_function=len\n    )\n    chunks = text_splitter.split_text(text)\n    return chunks\ndef get_vectorstore(text_chunks):",
+        "detail": "Recruiter_Apps_valide.recruitboot.ingest",
+        "documentation": {}
+    },
+    {
+        "label": "get_vectorstore",
+        "kind": 2,
+        "importPath": "Recruiter_Apps_valide.recruitboot.ingest",
+        "description": "Recruiter_Apps_valide.recruitboot.ingest",
+        "peekOfCode": "def get_vectorstore(text_chunks):\n    # Charger les embeddings Hugging Face\n    embeddings = HuggingFaceEmbeddings(model_name=\"sentence-transformers/all-MiniLM-L6-v2\")\n    # Créer le vecteur FAISS à partir des textes et des embeddings\n    vectorstore = FAISS.from_texts(texts=text_chunks, embedding=embeddings)\n    return vectorstore",
+        "detail": "Recruiter_Apps_valide.recruitboot.ingest",
+        "documentation": {}
+    },
+    {
+        "label": "create_conversation_chain",
+        "kind": 2,
+        "importPath": "Recruiter_Apps_valide.recruitboot.retrieval_generation",
+        "description": "Recruiter_Apps_valide.recruitboot.retrieval_generation",
+        "peekOfCode": "def create_conversation_chain(vectorstore):\n    if not isinstance(vectorstore, FAISS):\n        raise TypeError(\"Le vectorstore doit être un objet de type FAISS.\")\n    # Initialisation du LLM avec HuggingFaceHub\n    llm = HuggingFaceHub(\n        repo_id=\"google/flan-t5-large\",\n        huggingfacehub_api_token=\"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\",\n        model_kwargs={\"temperature\": 0.5, \"max_length\": 512}\n    )\n    # Configuration de la mémoire pour conserver l'historique des conversations",
+        "detail": "Recruiter_Apps_valide.recruitboot.retrieval_generation",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 2,
+        "importPath": "Recruiter_Apps_valide.app",
+        "description": "Recruiter_Apps_valide.app",
+        "peekOfCode": "def index():\n    return render_template('chat.html')\n@app.route(\"/get\", methods=[\"POST\"])\ndef chat():\n    msg = request.form[\"msg\"]\n    input = msg  # Le message utilisateur\n    try:\n        # Appel à invoke() pour obtenir la réponse\n        result = conversation_chain.invoke({\"question\": input})\n        print(\"Response: \", result)",
+        "detail": "Recruiter_Apps_valide.app",
+        "documentation": {}
+    },
+    {
+        "label": "chat",
+        "kind": 2,
+        "importPath": "Recruiter_Apps_valide.app",
+        "description": "Recruiter_Apps_valide.app",
+        "peekOfCode": "def chat():\n    msg = request.form[\"msg\"]\n    input = msg  # Le message utilisateur\n    try:\n        # Appel à invoke() pour obtenir la réponse\n        result = conversation_chain.invoke({\"question\": input})\n        print(\"Response: \", result)\n        # Retourner uniquement la réponse textuelle sans l'objet complet\n        answer = result[\"answer\"] if \"answer\" in result else \"Désolé, je n'ai pas pu trouver une réponse.\"\n        return jsonify({\"response\": answer})  # Retourner la réponse du chatbot",
+        "detail": "Recruiter_Apps_valide.app",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "Recruiter_Apps_valide.app",
+        "description": "Recruiter_Apps_valide.app",
+        "peekOfCode": "app = Flask(__name__)\nload_dotenv()\n# Fonction de génération de la chaîne conversationnelle (pour intégrer LangChain)\n# Traitement du PDF\npdf_docs = [r\"C:\\Users\\HP\\OneDrive\\Desktop\\bigData_project\\E-Commerce-Chatbot\\data\\hamza.pdf\"]\ntext = get_pdf_text(pdf_docs)\nchunks = get_text_chunks(text)\nvectorstore = get_vectorstore(chunks)\n# Création de la chaîne de conversation\nconversation_chain = create_conversation_chain(vectorstore)",
+        "detail": "Recruiter_Apps_valide.app",
+        "documentation": {}
+    },
+    {
+        "label": "pdf_docs",
+        "kind": 5,
+        "importPath": "Recruiter_Apps_valide.app",
+        "description": "Recruiter_Apps_valide.app",
+        "peekOfCode": "pdf_docs = [r\"C:\\Users\\HP\\OneDrive\\Desktop\\bigData_project\\E-Commerce-Chatbot\\data\\hamza.pdf\"]\ntext = get_pdf_text(pdf_docs)\nchunks = get_text_chunks(text)\nvectorstore = get_vectorstore(chunks)\n# Création de la chaîne de conversation\nconversation_chain = create_conversation_chain(vectorstore)\n@app.route(\"/\")\ndef index():\n    return render_template('chat.html')\n@app.route(\"/get\", methods=[\"POST\"])",
+        "detail": "Recruiter_Apps_valide.app",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "kind": 5,
+        "importPath": "Recruiter_Apps_valide.app",
+        "description": "Recruiter_Apps_valide.app",
+        "peekOfCode": "text = get_pdf_text(pdf_docs)\nchunks = get_text_chunks(text)\nvectorstore = get_vectorstore(chunks)\n# Création de la chaîne de conversation\nconversation_chain = create_conversation_chain(vectorstore)\n@app.route(\"/\")\ndef index():\n    return render_template('chat.html')\n@app.route(\"/get\", methods=[\"POST\"])\ndef chat():",
+        "detail": "Recruiter_Apps_valide.app",
+        "documentation": {}
+    },
+    {
+        "label": "chunks",
+        "kind": 5,
+        "importPath": "Recruiter_Apps_valide.app",
+        "description": "Recruiter_Apps_valide.app",
+        "peekOfCode": "chunks = get_text_chunks(text)\nvectorstore = get_vectorstore(chunks)\n# Création de la chaîne de conversation\nconversation_chain = create_conversation_chain(vectorstore)\n@app.route(\"/\")\ndef index():\n    return render_template('chat.html')\n@app.route(\"/get\", methods=[\"POST\"])\ndef chat():\n    msg = request.form[\"msg\"]",
+        "detail": "Recruiter_Apps_valide.app",
+        "documentation": {}
+    },
+    {
+        "label": "vectorstore",
+        "kind": 5,
+        "importPath": "Recruiter_Apps_valide.app",
+        "description": "Recruiter_Apps_valide.app",
+        "peekOfCode": "vectorstore = get_vectorstore(chunks)\n# Création de la chaîne de conversation\nconversation_chain = create_conversation_chain(vectorstore)\n@app.route(\"/\")\ndef index():\n    return render_template('chat.html')\n@app.route(\"/get\", methods=[\"POST\"])\ndef chat():\n    msg = request.form[\"msg\"]\n    input = msg  # Le message utilisateur",
+        "detail": "Recruiter_Apps_valide.app",
+        "documentation": {}
+    },
+    {
+        "label": "conversation_chain",
+        "kind": 5,
+        "importPath": "Recruiter_Apps_valide.app",
+        "description": "Recruiter_Apps_valide.app",
+        "peekOfCode": "conversation_chain = create_conversation_chain(vectorstore)\n@app.route(\"/\")\ndef index():\n    return render_template('chat.html')\n@app.route(\"/get\", methods=[\"POST\"])\ndef chat():\n    msg = request.form[\"msg\"]\n    input = msg  # Le message utilisateur\n    try:\n        # Appel à invoke() pour obtenir la réponse",
+        "detail": "Recruiter_Apps_valide.app",
+        "documentation": {}
+    },
+    {
+        "label": "ats_extractor",
+        "kind": 2,
+        "importPath": "Recruiter_Apps_valide.app_cvs",
+        "description": "Recruiter_Apps_valide.app_cvs",
+        "peekOfCode": "def ats_extractor(resume_data):\n    # Prompt for extracting specific information from the resume\n    prompt = '''\n    You are an AI bot designed to act as a professional for parsing resumes. You are given a resume, and your job is to extract the following information:\n    1. skills \n    2. languages\n    3. education (field of study such as Computer Science, Management, Medicine, Marketing, Electrical Engineering, etc.)\n    4. total number of work experiences\n    Provide the extracted information in JSON format only with english translation. Additionally, generate a unique ID for the candidate .\n    If a field does not exist, do \"None\".",
+        "detail": "Recruiter_Apps_valide.app_cvs",
+        "documentation": {}
+    },
+    {
+        "label": "preprocess_text",
+        "kind": 2,
+        "importPath": "Recruiter_Apps_valide.app_cvs",
+        "description": "Recruiter_Apps_valide.app_cvs",
+        "peekOfCode": "def preprocess_text(text):\n    tokens = word_tokenize(text.lower())\n    tokens = [token for token in tokens if token.isalpha()]\n    return tokens\n# Fonction pour obtenir les embeddings moyennés\ndef get_average_word_vector(tokens, model):\n    word_vectors = [model.wv[token] for token in tokens if token in model.wv]\n    if not word_vectors:\n        return np.zeros(model.vector_size)\n    return np.mean(word_vectors, axis=0)",
+        "detail": "Recruiter_Apps_valide.app_cvs",
+        "documentation": {}
+    },
+    {
+        "label": "get_average_word_vector",
+        "kind": 2,
+        "importPath": "Recruiter_Apps_valide.app_cvs",
+        "description": "Recruiter_Apps_valide.app_cvs",
+        "peekOfCode": "def get_average_word_vector(tokens, model):\n    word_vectors = [model.wv[token] for token in tokens if token in model.wv]\n    if not word_vectors:\n        return np.zeros(model.vector_size)\n    return np.mean(word_vectors, axis=0)\ndef extract_text_from_pdf(upload_folder):\n    \"\"\"\n    Extrait le texte de tous les fichiers PDF dans un dossier.\n    Args:\n        upload_folder (str): Chemin du dossier contenant les fichiers PDF.",
+        "detail": "Recruiter_Apps_valide.app_cvs",
+        "documentation": {}
+    },
+    {
+        "label": "extract_text_from_pdf",
+        "kind": 2,
+        "importPath": "Recruiter_Apps_valide.app_cvs",
+        "description": "Recruiter_Apps_valide.app_cvs",
+        "peekOfCode": "def extract_text_from_pdf(upload_folder):\n    \"\"\"\n    Extrait le texte de tous les fichiers PDF dans un dossier.\n    Args:\n        upload_folder (str): Chemin du dossier contenant les fichiers PDF.\n    Returns:\n        dict: Dictionnaire avec les noms de fichiers comme clés et les textes extraits comme valeurs.\n    \"\"\"\n    #extracted_text = {}\n    try:",
+        "detail": "Recruiter_Apps_valide.app_cvs",
+        "documentation": {}
+    },
+    {
+        "label": "generee_offres",
+        "kind": 2,
+        "importPath": "Recruiter_Apps_valide.app_cvs",
+        "description": "Recruiter_Apps_valide.app_cvs",
+        "peekOfCode": "def generee_offres(descriptions):\n    description_prompt = '''\n        You are an AI bot designed to generate detailed job descriptions. Based on the following candidate information, create a professional job description in English. The format should include:\n        - Industry: Mention the industry (e.g., \"Computer and Technology\").\n        - Job Title: Suggest a title based on skills and education (e.g., \"Data Scientist\").\n        - Date: Use the current date in the format YYYY-MM-DD.\n        - Description: Provide a paragraph summarizing the skills, languages, education, and years of experience. Make the description engaging and professional.\n        Example:\n        Industry: Computer And Technology\n        Data Scientist",
+        "detail": "Recruiter_Apps_valide.app_cvs",
+        "documentation": {}
+    },
+    {
+        "label": "save_picture",
+        "kind": 2,
+        "importPath": "Recruiter_Apps_valide.app_cvs",
+        "description": "Recruiter_Apps_valide.app_cvs",
+        "peekOfCode": "def save_picture(form_picture):\n    f_name, f_ext = os.path.splitext(form_picture.filename)\n    picture_fn = f_name + f_ext\n    picture_path = os.path.join(app.root_path, 'static', picture_fn)\n    form_picture.save(picture_path)\n    return picture_fn\ndef json_to_csv(json_data, csv_file_path):\n    # Ensure json_data is a dictionary\n    if not isinstance(json_data, dict):\n        return {\"error\": \"Invalid JSON data.\"}",
+        "detail": "Recruiter_Apps_valide.app_cvs",
+        "documentation": {}
+    },
+    {
+        "label": "json_to_csv",
+        "kind": 2,
+        "importPath": "Recruiter_Apps_valide.app_cvs",
+        "description": "Recruiter_Apps_valide.app_cvs",
+        "peekOfCode": "def json_to_csv(json_data, csv_file_path):\n    # Ensure json_data is a dictionary\n    if not isinstance(json_data, dict):\n        return {\"error\": \"Invalid JSON data.\"}\n    # Define the CSV header\n    header = [\"candidate_id\", \"competences\", \"langues\", \"formation\", \"nbr_years_exp\"]\n    # Convert data into a list of rows\n    rows = [\n        [\n            json_data.get(\"candidate_id\", \"None\"),",
+        "detail": "Recruiter_Apps_valide.app_cvs",
+        "documentation": {}
+    },
+    {
+        "label": "search_similar_vectors_candidat",
+        "kind": 2,
+        "importPath": "Recruiter_Apps_valide.app_cvs",
+        "description": "Recruiter_Apps_valide.app_cvs",
+        "peekOfCode": "def search_similar_vectors_candidat(query_embedding, top_k=5):\n    pc = pinecone.Pinecone(api_key=api_key_pin)\n    # Connexion à l'index Pinecone\n    index_name = 'candidates'  # Le nom de votre index Pinecone\n    index_candidats = pc.Index(index_name)\n    print(f\"Query embedding: {query_embedding}\")\n    result = index_candidats.query(vector=query_embedding, top_k=top_k, include_metadata=True)\n    print(f\"Result: {result}\")\n    # Vérification de la présence de la clé 'matches'\n    if 'matches' in result:",
+        "detail": "Recruiter_Apps_valide.app_cvs",
+        "documentation": {}
+    },
+    {
+        "label": "search_similar_vectors_job",
+        "kind": 2,
+        "importPath": "Recruiter_Apps_valide.app_cvs",
+        "description": "Recruiter_Apps_valide.app_cvs",
+        "peekOfCode": "def search_similar_vectors_job(query_embedding, top_k=5):\n    pc = pinecone.Pinecone(api_key=api_key_pin)\n    # Connexion à l'index Pinecone\n    index_name = 'job'  # Le nom de votre index Pinecone\n    index_job= pc.Index(index_name)\n    print(f\"Query embedding: {query_embedding}\")\n    result = index_job.query(vector=query_embedding, top_k=top_k, include_metadata=True)\n    print(f\"Result: {result}\")\n    # Vérification de la présence de la clé 'matches'\n    if 'matches' in result:",
+        "detail": "Recruiter_Apps_valide.app_cvs",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 2,
+        "importPath": "Recruiter_Apps_valide.app_cvs",
+        "description": "Recruiter_Apps_valide.app_cvs",
+        "peekOfCode": "def index():\n    global similar_vectors_candidat\n    global similar_vectors_job\n    global nom_cv\n    if request.method == 'POST':\n        if 'resume_folder' in request.files:\n            # Traiter le téléchargement des fichiers PDF\n            resume_folder = request.files.getlist('resume_folder')\n            os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)\n            for file in resume_folder:",
+        "detail": "Recruiter_Apps_valide.app_cvs",
+        "documentation": {}
+    },
+    {
+        "label": "ranking",
+        "kind": 2,
+        "importPath": "Recruiter_Apps_valide.app_cvs",
+        "description": "Recruiter_Apps_valide.app_cvs",
+        "peekOfCode": "def ranking():\n    global similar_vectors_candidat\n    #global similar_vectors_job\n    # Nombre de vecteurs similaires\n    nbr_simil = len(similar_vectors_candidat)\n    # Générer la liste `resumes` avec les champs id et score arrondi (en pourcentage)\n    resumes_candidat = [\n        {\n            \"ID\": vector['id'],  # ID du vecteur\n            \"Score\": round(vector['score'] * 100, 2)  # Score en pourcentage",
+        "detail": "Recruiter_Apps_valide.app_cvs",
+        "documentation": {}
+    },
+    {
+        "label": "jobs",
+        "kind": 2,
+        "importPath": "Recruiter_Apps_valide.app_cvs",
+        "description": "Recruiter_Apps_valide.app_cvs",
+        "peekOfCode": "def jobs():\n    global similar_vectors_candidat\n    global similar_vectors_job\n    global resumes_job\n    # Nombre de vecteurs similaires\n    nbr_simil = len(similar_vectors_job)\n    # Générer la liste `resumes` avec les champs id et score arrondi (en pourcentage)\n    resumes_job = [\n        {\n            \"ID\": vector['id'],  # ID du vecteur",
+        "detail": "Recruiter_Apps_valide.app_cvs",
+        "documentation": {}
+    },
+    {
+        "label": "show_jobs",
+        "kind": 2,
+        "importPath": "Recruiter_Apps_valide.app_cvs",
+        "description": "Recruiter_Apps_valide.app_cvs",
+        "peekOfCode": "def show_jobs():\n    global resumes_job\n    global descriptions\n    print(resumes_job)\n    # Récupération des IDs (avec protection pour éviter l'erreur d'indexation)\n    id_job1 = resumes_job[0]['ID'] if len(resumes_job) > 0 else None\n    id_job2 = resumes_job[1]['ID'] if len(resumes_job) > 1 else None\n    id_job3 = resumes_job[2]['ID'] if len(resumes_job) > 2 else None\n    id_job4 = resumes_job[3]['ID'] if len(resumes_job) > 3 else None\n    id_job5 = resumes_job[4]['ID'] if len(resumes_job) > 4 else None",
+        "detail": "Recruiter_Apps_valide.app_cvs",
+        "documentation": {}
+    },
+    {
+        "label": "post_cvs",
+        "kind": 2,
+        "importPath": "Recruiter_Apps_valide.app_cvs",
+        "description": "Recruiter_Apps_valide.app_cvs",
+        "peekOfCode": "def post_cvs(key):\n    global descriptions\n    global nom_cv\n    # Exemple de nom de CV (ceci peut être dynamique si récupéré de l'utilisateur ou d'une base de données)\n      # Exemple de nom, à remplacer par une logique dynamique si nécessaire.\n    # Ajouter les informations dans Redis sous la forme (key: offer_id) -> CV name\n    redis_client.set(key, nom_cv)  # Stocke le nom du CV pour l'ID de l'offre\n    # Ajouter un message de notification avec flash\n    flash(f\"Submit your CV: {nom_cv} for Offer ID: {key}\", \"info\")\n    # Rediriger vers la page des offres après l'application",
+        "detail": "Recruiter_Apps_valide.app_cvs",
+        "documentation": {}
+    },
+    {
+        "label": "api_key_pin",
+        "kind": 5,
+        "importPath": "Recruiter_Apps_valide.app_cvs",
+        "description": "Recruiter_Apps_valide.app_cvs",
+        "peekOfCode": "api_key_pin = \"pcsk_vUaKS_3PK35kGth5rcmSKZkihFFuaS7B44xzMycHCnot1s9Czf1WE8iXSPZg4nDph81Ak\"\n# Détails de connexion à Snowflake\naccount = \"phztxrc-go36107\"\nuser = \"SAID\"\npassword = \"SaidKHALID2002!\"\nrole = \"dev_role\"\nwarehouse = \"projet_warehouse\"\ndatabase = \"my_project_database\"\nschema = \"my_project_schema\"\n# Connexion à Snowflake",
+        "detail": "Recruiter_Apps_valide.app_cvs",
+        "documentation": {}
+    },
+    {
+        "label": "account",
+        "kind": 5,
+        "importPath": "Recruiter_Apps_valide.app_cvs",
+        "description": "Recruiter_Apps_valide.app_cvs",
+        "peekOfCode": "account = \"phztxrc-go36107\"\nuser = \"SAID\"\npassword = \"SaidKHALID2002!\"\nrole = \"dev_role\"\nwarehouse = \"projet_warehouse\"\ndatabase = \"my_project_database\"\nschema = \"my_project_schema\"\n# Connexion à Snowflake\nconn = snowflake.connector.connect(\n    account=account,",
+        "detail": "Recruiter_Apps_valide.app_cvs",
+        "documentation": {}
+    },
+    {
+        "label": "user",
+        "kind": 5,
+        "importPath": "Recruiter_Apps_valide.app_cvs",
+        "description": "Recruiter_Apps_valide.app_cvs",
+        "peekOfCode": "user = \"SAID\"\npassword = \"SaidKHALID2002!\"\nrole = \"dev_role\"\nwarehouse = \"projet_warehouse\"\ndatabase = \"my_project_database\"\nschema = \"my_project_schema\"\n# Connexion à Snowflake\nconn = snowflake.connector.connect(\n    account=account,\n    user=user,",
+        "detail": "Recruiter_Apps_valide.app_cvs",
+        "documentation": {}
+    },
+    {
+        "label": "password",
+        "kind": 5,
+        "importPath": "Recruiter_Apps_valide.app_cvs",
+        "description": "Recruiter_Apps_valide.app_cvs",
+        "peekOfCode": "password = \"SaidKHALID2002!\"\nrole = \"dev_role\"\nwarehouse = \"projet_warehouse\"\ndatabase = \"my_project_database\"\nschema = \"my_project_schema\"\n# Connexion à Snowflake\nconn = snowflake.connector.connect(\n    account=account,\n    user=user,\n    password=password,",
+        "detail": "Recruiter_Apps_valide.app_cvs",
+        "documentation": {}
+    },
+    {
+        "label": "role",
+        "kind": 5,
+        "importPath": "Recruiter_Apps_valide.app_cvs",
+        "description": "Recruiter_Apps_valide.app_cvs",
+        "peekOfCode": "role = \"dev_role\"\nwarehouse = \"projet_warehouse\"\ndatabase = \"my_project_database\"\nschema = \"my_project_schema\"\n# Connexion à Snowflake\nconn = snowflake.connector.connect(\n    account=account,\n    user=user,\n    password=password,\n    role=role,",
+        "detail": "Recruiter_Apps_valide.app_cvs",
+        "documentation": {}
+    },
+    {
+        "label": "warehouse",
+        "kind": 5,
+        "importPath": "Recruiter_Apps_valide.app_cvs",
+        "description": "Recruiter_Apps_valide.app_cvs",
+        "peekOfCode": "warehouse = \"projet_warehouse\"\ndatabase = \"my_project_database\"\nschema = \"my_project_schema\"\n# Connexion à Snowflake\nconn = snowflake.connector.connect(\n    account=account,\n    user=user,\n    password=password,\n    role=role,\n    warehouse=warehouse,",
+        "detail": "Recruiter_Apps_valide.app_cvs",
+        "documentation": {}
+    },
+    {
+        "label": "database",
+        "kind": 5,
+        "importPath": "Recruiter_Apps_valide.app_cvs",
+        "description": "Recruiter_Apps_valide.app_cvs",
+        "peekOfCode": "database = \"my_project_database\"\nschema = \"my_project_schema\"\n# Connexion à Snowflake\nconn = snowflake.connector.connect(\n    account=account,\n    user=user,\n    password=password,\n    role=role,\n    warehouse=warehouse,\n    database=database,",
+        "detail": "Recruiter_Apps_valide.app_cvs",
+        "documentation": {}
+    },
+    {
+        "label": "schema",
+        "kind": 5,
+        "importPath": "Recruiter_Apps_valide.app_cvs",
+        "description": "Recruiter_Apps_valide.app_cvs",
+        "peekOfCode": "schema = \"my_project_schema\"\n# Connexion à Snowflake\nconn = snowflake.connector.connect(\n    account=account,\n    user=user,\n    password=password,\n    role=role,\n    warehouse=warehouse,\n    database=database,\n    schema=schema",
+        "detail": "Recruiter_Apps_valide.app_cvs",
+        "documentation": {}
+    },
+    {
+        "label": "conn",
+        "kind": 5,
+        "importPath": "Recruiter_Apps_valide.app_cvs",
+        "description": "Recruiter_Apps_valide.app_cvs",
+        "peekOfCode": "conn = snowflake.connector.connect(\n    account=account,\n    user=user,\n    password=password,\n    role=role,\n    warehouse=warehouse,\n    database=database,\n    schema=schema\n)\napp = Flask(__name__)",
+        "detail": "Recruiter_Apps_valide.app_cvs",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "Recruiter_Apps_valide.app_cvs",
+        "description": "Recruiter_Apps_valide.app_cvs",
+        "peekOfCode": "app = Flask(__name__)\napp.config['UPLOAD_FOLDER'] = 'uploads/'\napp.config['REDIS_URL'] = \"redis://localhost:6379/0\"  # Utilisez l'URL de votre instance Redis\n# Définir une clé secrète pour la session\napp.secret_key = 'said'\n# Connexion à Redis\nredis_client = redis.StrictRedis.from_url(app.config['REDIS_URL'])\n# Charger le modèle Word2Vec\n#model = gensim.models.Word2Vec.load(\"D:/mémoire/resume_word2vec.model\")\nimport json",
+        "detail": "Recruiter_Apps_valide.app_cvs",
+        "documentation": {}
+    },
+    {
+        "label": "app.config['UPLOAD_FOLDER']",
+        "kind": 5,
+        "importPath": "Recruiter_Apps_valide.app_cvs",
+        "description": "Recruiter_Apps_valide.app_cvs",
+        "peekOfCode": "app.config['UPLOAD_FOLDER'] = 'uploads/'\napp.config['REDIS_URL'] = \"redis://localhost:6379/0\"  # Utilisez l'URL de votre instance Redis\n# Définir une clé secrète pour la session\napp.secret_key = 'said'\n# Connexion à Redis\nredis_client = redis.StrictRedis.from_url(app.config['REDIS_URL'])\n# Charger le modèle Word2Vec\n#model = gensim.models.Word2Vec.load(\"D:/mémoire/resume_word2vec.model\")\nimport json\nimport uuid",
+        "detail": "Recruiter_Apps_valide.app_cvs",
+        "documentation": {}
+    },
+    {
+        "label": "app.config['REDIS_URL']",
+        "kind": 5,
+        "importPath": "Recruiter_Apps_valide.app_cvs",
+        "description": "Recruiter_Apps_valide.app_cvs",
+        "peekOfCode": "app.config['REDIS_URL'] = \"redis://localhost:6379/0\"  # Utilisez l'URL de votre instance Redis\n# Définir une clé secrète pour la session\napp.secret_key = 'said'\n# Connexion à Redis\nredis_client = redis.StrictRedis.from_url(app.config['REDIS_URL'])\n# Charger le modèle Word2Vec\n#model = gensim.models.Word2Vec.load(\"D:/mémoire/resume_word2vec.model\")\nimport json\nimport uuid\ndef ats_extractor(resume_data):",
+        "detail": "Recruiter_Apps_valide.app_cvs",
+        "documentation": {}
+    },
+    {
+        "label": "app.secret_key",
+        "kind": 5,
+        "importPath": "Recruiter_Apps_valide.app_cvs",
+        "description": "Recruiter_Apps_valide.app_cvs",
+        "peekOfCode": "app.secret_key = 'said'\n# Connexion à Redis\nredis_client = redis.StrictRedis.from_url(app.config['REDIS_URL'])\n# Charger le modèle Word2Vec\n#model = gensim.models.Word2Vec.load(\"D:/mémoire/resume_word2vec.model\")\nimport json\nimport uuid\ndef ats_extractor(resume_data):\n    # Prompt for extracting specific information from the resume\n    prompt = '''",
+        "detail": "Recruiter_Apps_valide.app_cvs",
+        "documentation": {}
+    },
+    {
+        "label": "redis_client",
+        "kind": 5,
+        "importPath": "Recruiter_Apps_valide.app_cvs",
+        "description": "Recruiter_Apps_valide.app_cvs",
+        "peekOfCode": "redis_client = redis.StrictRedis.from_url(app.config['REDIS_URL'])\n# Charger le modèle Word2Vec\n#model = gensim.models.Word2Vec.load(\"D:/mémoire/resume_word2vec.model\")\nimport json\nimport uuid\ndef ats_extractor(resume_data):\n    # Prompt for extracting specific information from the resume\n    prompt = '''\n    You are an AI bot designed to act as a professional for parsing resumes. You are given a resume, and your job is to extract the following information:\n    1. skills ",
+        "detail": "Recruiter_Apps_valide.app_cvs",
         "documentation": {}
     },
     {
         "label": "#model",
         "kind": 5,
-        "importPath": "Recruiter_Apps.app_offres",
-        "description": "Recruiter_Apps.app_offres",
+        "importPath": "Recruiter_Apps_valide.app_cvs",
+        "description": "Recruiter_Apps_valide.app_cvs",
         "peekOfCode": "#model = gensim.models.Word2Vec.load(\"D:/mémoire/resume_word2vec.model\")\nimport json\nimport uuid\ndef ats_extractor(resume_data):\n    # Prompt for extracting specific information from the resume\n    prompt = '''\n    You are an AI bot designed to act as a professional for parsing resumes. You are given a resume, and your job is to extract the following information:\n    1. skills \n    2. languages\n    3. education (field of study such as Computer Science, Management, Medicine, Marketing, Electrical Engineering, etc.)",
-        "detail": "Recruiter_Apps.app_offres",
+        "detail": "Recruiter_Apps_valide.app_cvs",
+        "documentation": {}
+    },
+    {
+        "label": "ats_extractor",
+        "kind": 2,
+        "importPath": "Recruiter_Apps_valide.app_offres",
+        "description": "Recruiter_Apps_valide.app_offres",
+        "peekOfCode": "def ats_extractor(resume_data):\n    # Prompt for extracting specific information from the resume\n    prompt = '''\n    You are an AI bot designed to act as a professional for parsing resumes. You are given a resume, and your job is to extract the following information:\n    1. skills \n    2. languages\n    3. education (field of study such as Computer Science, Management, Medicine, Marketing, Electrical Engineering, etc.)\n    4. total number of work experiences\n    Provide the extracted information in JSON format only with english translation. Additionally, generate a unique ID for the job .\n    If a field does not exist, do \"None\".",
+        "detail": "Recruiter_Apps_valide.app_offres",
+        "documentation": {}
+    },
+    {
+        "label": "preprocess_text",
+        "kind": 2,
+        "importPath": "Recruiter_Apps_valide.app_offres",
+        "description": "Recruiter_Apps_valide.app_offres",
+        "peekOfCode": "def preprocess_text(text):\n    tokens = word_tokenize(text.lower())\n    tokens = [token for token in tokens if token.isalpha()]\n    return tokens\n# Fonction pour extraire du texte des fichiers PDF\nimport os\nimport fitz  # PyMuPDF\ndef json_to_csv(json_data, csv_file_path):\n    # Ensure json_data is a dictionary\n    if not isinstance(json_data, dict):",
+        "detail": "Recruiter_Apps_valide.app_offres",
+        "documentation": {}
+    },
+    {
+        "label": "json_to_csv",
+        "kind": 2,
+        "importPath": "Recruiter_Apps_valide.app_offres",
+        "description": "Recruiter_Apps_valide.app_offres",
+        "peekOfCode": "def json_to_csv(json_data, csv_file_path):\n    # Ensure json_data is a dictionary\n    if not isinstance(json_data, dict):\n        return {\"error\": \"Invalid JSON data.\"}\n    # Define the CSV header\n    header = [\"candidate_id\", \"competences\", \"langues\", \"formation\", \"nbr_years_exp\"]\n    # Convert data into a list of rows\n    rows = [\n        [\n            json_data.get(\"candidate_id\", \"None\"),",
+        "detail": "Recruiter_Apps_valide.app_offres",
+        "documentation": {}
+    },
+    {
+        "label": "search_similar_vectors_candidat",
+        "kind": 2,
+        "importPath": "Recruiter_Apps_valide.app_offres",
+        "description": "Recruiter_Apps_valide.app_offres",
+        "peekOfCode": "def search_similar_vectors_candidat(query_embedding, top_k=5):\n    pc = pinecone.Pinecone(api_key=api_key_pin)\n    # Connexion à l'index Pinecone\n    index_name = 'candidates'  # Le nom de votre index Pinecone\n    index_candidats = pc.Index(index_name)\n    print(f\"Query embedding: {query_embedding}\")\n    result = index_candidats.query(vector=query_embedding, top_k=top_k, include_metadata=True)\n    print(f\"Result: {result}\")\n    # Vérification de la présence de la clé 'matches'\n    if 'matches' in result:",
+        "detail": "Recruiter_Apps_valide.app_offres",
+        "documentation": {}
+    },
+    {
+        "label": "job_description",
+        "kind": 2,
+        "importPath": "Recruiter_Apps_valide.app_offres",
+        "description": "Recruiter_Apps_valide.app_offres",
+        "peekOfCode": "def job_description():\n    global similar_vectors_candidat\n    if request.method == 'POST':\n        job_description = request.form['job_description']\n        # Pass the extracted text to the ats_extractor function\n        extracted_info = ats_extractor(job_description)\n        resumes_csv = json_to_csv(extracted_info, \"resumes.csv\")\n        data = pd.read_csv(\"resumes.csv\")\n        model = SentenceTransformer('all-MiniLM-L6-v2')\n        data['competences'] = data['competences'].apply(",
+        "detail": "Recruiter_Apps_valide.app_offres",
+        "documentation": {}
+    },
+    {
+        "label": "ranking2",
+        "kind": 2,
+        "importPath": "Recruiter_Apps_valide.app_offres",
+        "description": "Recruiter_Apps_valide.app_offres",
+        "peekOfCode": "def ranking2():\n    global similar_vectors_candidat\n    # Nombre de vecteurs similaires\n    nbr_simil = len(similar_vectors_candidat)\n    # Générer la liste `resumes` avec les champs id et score arrondi (en pourcentage)\n    resumes_candidat = [\n        {\n            \"ID\": vector['id'],  # ID du vecteur\n            \"Score\": round(vector['score'] * 100, 2)  # Score en pourcentage\n        }",
+        "detail": "Recruiter_Apps_valide.app_offres",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 2,
+        "importPath": "Recruiter_Apps_valide.app_offres",
+        "description": "Recruiter_Apps_valide.app_offres",
+        "peekOfCode": "def index():\n    return render_template('chat.html')\n@app.route('/chatbot_key/<key>', methods=['GET', 'POST'])\ndef chatbot_key(key):\n    return f\"9alib 3liha\"+key\n@app.route(\"/get\", methods=[\"POST\"])\ndef chat():\n    msg = request.form[\"msg\"]\n    input = msg  # Le message utilisateur\n    try:",
+        "detail": "Recruiter_Apps_valide.app_offres",
+        "documentation": {}
+    },
+    {
+        "label": "chatbot_key",
+        "kind": 2,
+        "importPath": "Recruiter_Apps_valide.app_offres",
+        "description": "Recruiter_Apps_valide.app_offres",
+        "peekOfCode": "def chatbot_key(key):\n    return f\"9alib 3liha\"+key\n@app.route(\"/get\", methods=[\"POST\"])\ndef chat():\n    msg = request.form[\"msg\"]\n    input = msg  # Le message utilisateur\n    try:\n        # Appel à invoke() pour obtenir la réponse\n        result = conversation_chain.invoke({\"question\": input})\n        print(\"Response: \", result)",
+        "detail": "Recruiter_Apps_valide.app_offres",
+        "documentation": {}
+    },
+    {
+        "label": "chat",
+        "kind": 2,
+        "importPath": "Recruiter_Apps_valide.app_offres",
+        "description": "Recruiter_Apps_valide.app_offres",
+        "peekOfCode": "def chat():\n    msg = request.form[\"msg\"]\n    input = msg  # Le message utilisateur\n    try:\n        # Appel à invoke() pour obtenir la réponse\n        result = conversation_chain.invoke({\"question\": input})\n        print(\"Response: \", result)\n        # Retourner uniquement la réponse textuelle sans l'objet complet\n        answer = result[\"answer\"] if \"answer\" in result else \"Désolé, je n'ai pas pu trouver une réponse.\"\n        return jsonify({\"response\": answer})  # Retourner la réponse du chatbot",
+        "detail": "Recruiter_Apps_valide.app_offres",
+        "documentation": {}
+    },
+    {
+        "label": "api_key_pin",
+        "kind": 5,
+        "importPath": "Recruiter_Apps_valide.app_offres",
+        "description": "Recruiter_Apps_valide.app_offres",
+        "peekOfCode": "api_key_pin = \"pcsk_vUaKS_3PK35kGth5rcmSKZkihFFuaS7B44xzMycHCnot1s9Czf1WE8iXSPZg4nDph81Ak\"\n# Traitement du PDF\npdf_docs = [r\"data\\hamza.pdf\"]\ntext = get_pdf_text(pdf_docs)\nchunks = get_text_chunks(text)\nvectorstore = get_vectorstore(chunks)\n# Création de la chaîne de conversation\nconversation_chain = create_conversation_chain(vectorstore)\napp = Flask(__name__)\napp.config['REDIS_URL'] = \"redis://localhost:6379/0\"  # Utilisez l'URL de votre instance Redis",
+        "detail": "Recruiter_Apps_valide.app_offres",
+        "documentation": {}
+    },
+    {
+        "label": "pdf_docs",
+        "kind": 5,
+        "importPath": "Recruiter_Apps_valide.app_offres",
+        "description": "Recruiter_Apps_valide.app_offres",
+        "peekOfCode": "pdf_docs = [r\"data\\hamza.pdf\"]\ntext = get_pdf_text(pdf_docs)\nchunks = get_text_chunks(text)\nvectorstore = get_vectorstore(chunks)\n# Création de la chaîne de conversation\nconversation_chain = create_conversation_chain(vectorstore)\napp = Flask(__name__)\napp.config['REDIS_URL'] = \"redis://localhost:6379/0\"  # Utilisez l'URL de votre instance Redis\n# Définir une clé secrète pour la session\napp.secret_key = 'said'",
+        "detail": "Recruiter_Apps_valide.app_offres",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "kind": 5,
+        "importPath": "Recruiter_Apps_valide.app_offres",
+        "description": "Recruiter_Apps_valide.app_offres",
+        "peekOfCode": "text = get_pdf_text(pdf_docs)\nchunks = get_text_chunks(text)\nvectorstore = get_vectorstore(chunks)\n# Création de la chaîne de conversation\nconversation_chain = create_conversation_chain(vectorstore)\napp = Flask(__name__)\napp.config['REDIS_URL'] = \"redis://localhost:6379/0\"  # Utilisez l'URL de votre instance Redis\n# Définir une clé secrète pour la session\napp.secret_key = 'said'\n# Connexion à Redis",
+        "detail": "Recruiter_Apps_valide.app_offres",
+        "documentation": {}
+    },
+    {
+        "label": "chunks",
+        "kind": 5,
+        "importPath": "Recruiter_Apps_valide.app_offres",
+        "description": "Recruiter_Apps_valide.app_offres",
+        "peekOfCode": "chunks = get_text_chunks(text)\nvectorstore = get_vectorstore(chunks)\n# Création de la chaîne de conversation\nconversation_chain = create_conversation_chain(vectorstore)\napp = Flask(__name__)\napp.config['REDIS_URL'] = \"redis://localhost:6379/0\"  # Utilisez l'URL de votre instance Redis\n# Définir une clé secrète pour la session\napp.secret_key = 'said'\n# Connexion à Redis\nredis_client = redis.StrictRedis.from_url(app.config['REDIS_URL'])",
+        "detail": "Recruiter_Apps_valide.app_offres",
+        "documentation": {}
+    },
+    {
+        "label": "vectorstore",
+        "kind": 5,
+        "importPath": "Recruiter_Apps_valide.app_offres",
+        "description": "Recruiter_Apps_valide.app_offres",
+        "peekOfCode": "vectorstore = get_vectorstore(chunks)\n# Création de la chaîne de conversation\nconversation_chain = create_conversation_chain(vectorstore)\napp = Flask(__name__)\napp.config['REDIS_URL'] = \"redis://localhost:6379/0\"  # Utilisez l'URL de votre instance Redis\n# Définir une clé secrète pour la session\napp.secret_key = 'said'\n# Connexion à Redis\nredis_client = redis.StrictRedis.from_url(app.config['REDIS_URL'])\n# Charger le modèle Word2Vec",
+        "detail": "Recruiter_Apps_valide.app_offres",
+        "documentation": {}
+    },
+    {
+        "label": "conversation_chain",
+        "kind": 5,
+        "importPath": "Recruiter_Apps_valide.app_offres",
+        "description": "Recruiter_Apps_valide.app_offres",
+        "peekOfCode": "conversation_chain = create_conversation_chain(vectorstore)\napp = Flask(__name__)\napp.config['REDIS_URL'] = \"redis://localhost:6379/0\"  # Utilisez l'URL de votre instance Redis\n# Définir une clé secrète pour la session\napp.secret_key = 'said'\n# Connexion à Redis\nredis_client = redis.StrictRedis.from_url(app.config['REDIS_URL'])\n# Charger le modèle Word2Vec\n#model = gensim.models.Word2Vec.load(\"D:/mémoire/resume_word2vec.model\")\nimport json",
+        "detail": "Recruiter_Apps_valide.app_offres",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "Recruiter_Apps_valide.app_offres",
+        "description": "Recruiter_Apps_valide.app_offres",
+        "peekOfCode": "app = Flask(__name__)\napp.config['REDIS_URL'] = \"redis://localhost:6379/0\"  # Utilisez l'URL de votre instance Redis\n# Définir une clé secrète pour la session\napp.secret_key = 'said'\n# Connexion à Redis\nredis_client = redis.StrictRedis.from_url(app.config['REDIS_URL'])\n# Charger le modèle Word2Vec\n#model = gensim.models.Word2Vec.load(\"D:/mémoire/resume_word2vec.model\")\nimport json\nimport uuid",
+        "detail": "Recruiter_Apps_valide.app_offres",
+        "documentation": {}
+    },
+    {
+        "label": "app.config['REDIS_URL']",
+        "kind": 5,
+        "importPath": "Recruiter_Apps_valide.app_offres",
+        "description": "Recruiter_Apps_valide.app_offres",
+        "peekOfCode": "app.config['REDIS_URL'] = \"redis://localhost:6379/0\"  # Utilisez l'URL de votre instance Redis\n# Définir une clé secrète pour la session\napp.secret_key = 'said'\n# Connexion à Redis\nredis_client = redis.StrictRedis.from_url(app.config['REDIS_URL'])\n# Charger le modèle Word2Vec\n#model = gensim.models.Word2Vec.load(\"D:/mémoire/resume_word2vec.model\")\nimport json\nimport uuid\ndef ats_extractor(resume_data):",
+        "detail": "Recruiter_Apps_valide.app_offres",
+        "documentation": {}
+    },
+    {
+        "label": "app.secret_key",
+        "kind": 5,
+        "importPath": "Recruiter_Apps_valide.app_offres",
+        "description": "Recruiter_Apps_valide.app_offres",
+        "peekOfCode": "app.secret_key = 'said'\n# Connexion à Redis\nredis_client = redis.StrictRedis.from_url(app.config['REDIS_URL'])\n# Charger le modèle Word2Vec\n#model = gensim.models.Word2Vec.load(\"D:/mémoire/resume_word2vec.model\")\nimport json\nimport uuid\ndef ats_extractor(resume_data):\n    # Prompt for extracting specific information from the resume\n    prompt = '''",
+        "detail": "Recruiter_Apps_valide.app_offres",
+        "documentation": {}
+    },
+    {
+        "label": "redis_client",
+        "kind": 5,
+        "importPath": "Recruiter_Apps_valide.app_offres",
+        "description": "Recruiter_Apps_valide.app_offres",
+        "peekOfCode": "redis_client = redis.StrictRedis.from_url(app.config['REDIS_URL'])\n# Charger le modèle Word2Vec\n#model = gensim.models.Word2Vec.load(\"D:/mémoire/resume_word2vec.model\")\nimport json\nimport uuid\ndef ats_extractor(resume_data):\n    # Prompt for extracting specific information from the resume\n    prompt = '''\n    You are an AI bot designed to act as a professional for parsing resumes. You are given a resume, and your job is to extract the following information:\n    1. skills ",
+        "detail": "Recruiter_Apps_valide.app_offres",
+        "documentation": {}
+    },
+    {
+        "label": "#model",
+        "kind": 5,
+        "importPath": "Recruiter_Apps_valide.app_offres",
+        "description": "Recruiter_Apps_valide.app_offres",
+        "peekOfCode": "#model = gensim.models.Word2Vec.load(\"D:/mémoire/resume_word2vec.model\")\nimport json\nimport uuid\ndef ats_extractor(resume_data):\n    # Prompt for extracting specific information from the resume\n    prompt = '''\n    You are an AI bot designed to act as a professional for parsing resumes. You are given a resume, and your job is to extract the following information:\n    1. skills \n    2. languages\n    3. education (field of study such as Computer Science, Management, Medicine, Marketing, Electrical Engineering, etc.)",
+        "detail": "Recruiter_Apps_valide.app_offres",
         "documentation": {}
     },
     {
