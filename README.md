@@ -66,7 +66,7 @@ Feel free to explore and analyze the data simulation and processing pipeline to 
 
 
 # Architecture
-![](./images/stream-analytics-architecture.png)
+![](./Architecture/Architecture_project.gif)
 
 
 # Final Result
