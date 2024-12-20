@@ -120,13 +120,12 @@ While processing data in a Spark environment with Delta Lake, an error related t
 
 
 
-# How can I make this better?!
-A lot can still be done :).
+## Notes and Suggestions
+## Integration of Ray for Stream Classification (Offer/CV or Other)
 
-- Choose managed Infra
-  - Confluent Cloud for Kafka
-- Write data quality tests
-- Include CI/CD
-- Add more visualizations
+We have integrated Ray into the architecture for stream classification, aiming to differentiate between offer/CV streams and other types. However, this approach has not been fully implemented at this stage.
+
+For a production-ready solution, if we want to connect our system to a job portal, it is essential to have a dedicated component responsible for stream classification. This component would ensure that streams are processed and classified accurately, enabling smooth interaction with external systems.
+
 
 
