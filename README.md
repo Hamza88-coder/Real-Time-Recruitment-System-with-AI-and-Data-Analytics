@@ -110,6 +110,15 @@ Feel free to explore and analyze the data simulation and processing pipeline to 
 - Setup Snowflake Warehouse - **[Setup](https://github.com/Hamza88-coder/bigData_project/blob/main/setup/snowflake.md)**
 - Setup Databricks Workspace & CDC (Change Data Capture) job - **[Setup](https://github.com/Hamza88-coder/bigData_project/blob/main/setup/databricks.md)**
 
+## Error Resolution
+
+While processing data in a Spark environment with Delta Lake, an error related to thread management was encountered. A detailed solution has been documented in the following file:  
+-Resolving the Error with DeltaTable and Azure Blob File System - **[setup](https://github.com/Hamza88-coder/bigData_project/blob/main/setup/errors.md)**  
+
+
+
+
+
 
 # How can I make this better?!
 A lot can still be done :).
