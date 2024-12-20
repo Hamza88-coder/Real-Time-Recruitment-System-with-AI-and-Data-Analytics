@@ -63,7 +63,7 @@ ssh username@ipaddress
 Run `pyspark --version` command to verify the installation of pyspark & spark. <br>
 If spark is not installed then run the shell script
 ```bash
-bash  ~/spotify-stream-analytics/scripts/spark_setup.sh
+bash  ~/AI-Powered Recruitment Platform/scripts/spark_setup.sh
 ```
 
 ### 3. Required Environment Variables
@@ -82,7 +82,7 @@ Make sure `.env` file has the following env variables set
 
 - Change directory: Within the VM, navigate to your Spark code directory: 
 ```bash
-cd  ~/spotify-stream-analytics/spark_streaming/
+cd  ~/AI-Powered Recruitment Platform/spark_streaming/
 ```
 
 - Submit the Job
