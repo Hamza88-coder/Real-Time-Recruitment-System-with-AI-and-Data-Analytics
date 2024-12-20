@@ -1,43 +1,43 @@
 [
     {
-        "label": "dotenv",
+        "label": "KafkaProducer",
+        "importPath": "kafka",
+        "description": "kafka",
+        "isExtraImport": true,
+        "detail": "kafka",
+        "documentation": {}
+    },
+    {
+        "label": "KafkaProducer",
+        "importPath": "kafka",
+        "description": "kafka",
+        "isExtraImport": true,
+        "detail": "kafka",
+        "documentation": {}
+    },
+    {
+        "label": "KafkaConsumer",
+        "importPath": "kafka",
+        "description": "kafka",
+        "isExtraImport": true,
+        "detail": "kafka",
+        "documentation": {}
+    },
+    {
+        "label": "KafkaConsumer",
+        "importPath": "kafka",
+        "description": "kafka",
+        "isExtraImport": true,
+        "detail": "kafka",
+        "documentation": {}
+    },
+    {
+        "label": "config",
         "kind": 6,
         "isExtraImport": true,
-        "importPath": "dotenv",
-        "description": "dotenv",
-        "detail": "dotenv",
-        "documentation": {}
-    },
-    {
-        "label": "load_dotenv",
-        "importPath": "dotenv",
-        "description": "dotenv",
-        "isExtraImport": true,
-        "detail": "dotenv",
-        "documentation": {}
-    },
-    {
-        "label": "load_dotenv",
-        "importPath": "dotenv",
-        "description": "dotenv",
-        "isExtraImport": true,
-        "detail": "dotenv",
-        "documentation": {}
-    },
-    {
-        "label": "load_dotenv",
-        "importPath": "dotenv",
-        "description": "dotenv",
-        "isExtraImport": true,
-        "detail": "dotenv",
-        "documentation": {}
-    },
-    {
-        "label": "load_dotenv",
-        "importPath": "dotenv",
-        "description": "dotenv",
-        "isExtraImport": true,
-        "detail": "dotenv",
+        "importPath": "config",
+        "description": "config",
+        "detail": "config",
         "documentation": {}
     },
     {
@@ -50,6 +50,23 @@
         "documentation": {}
     },
     {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "sleep",
+        "importPath": "time",
+        "description": "time",
+        "isExtraImport": true,
+        "detail": "time",
+        "documentation": {}
+    },
+    {
         "label": "json",
         "kind": 6,
         "isExtraImport": true,
@@ -59,6 +76,31 @@
         "documentation": {}
     },
     {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "BytesIO",
+        "importPath": "io",
+        "description": "io",
+        "isExtraImport": true,
+        "detail": "io",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
         "label": "List",
         "importPath": "typing",
         "description": "typing",
@@ -83,14 +125,6 @@
         "documentation": {}
     },
     {
-        "label": "List",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
         "label": "Optional",
         "importPath": "typing",
         "description": "typing",
@@ -112,86 +146,6 @@
         "description": "typing",
         "isExtraImport": true,
         "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "List",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Optional",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "KafkaConsumer",
-        "importPath": "kafka",
-        "description": "kafka",
-        "isExtraImport": true,
-        "detail": "kafka",
-        "documentation": {}
-    },
-    {
-        "label": "KafkaProducer",
-        "importPath": "kafka",
-        "description": "kafka",
-        "isExtraImport": true,
-        "detail": "kafka",
-        "documentation": {}
-    },
-    {
-        "label": "KafkaProducer",
-        "importPath": "kafka",
-        "description": "kafka",
-        "isExtraImport": true,
-        "detail": "kafka",
-        "documentation": {}
-    },
-    {
-        "label": "KafkaConsumer",
-        "importPath": "kafka",
-        "description": "kafka",
-        "isExtraImport": true,
-        "detail": "kafka",
-        "documentation": {}
-    },
-    {
-        "label": "KafkaConsumer",
-        "importPath": "kafka",
-        "description": "kafka",
-        "isExtraImport": true,
-        "detail": "kafka",
-        "documentation": {}
-    },
-    {
-        "label": "SparkSession",
-        "importPath": "pyspark.sql",
-        "description": "pyspark.sql",
-        "isExtraImport": true,
-        "detail": "pyspark.sql",
-        "documentation": {}
-    },
-    {
-        "label": "DataFrame",
-        "importPath": "pyspark.sql",
-        "description": "pyspark.sql",
-        "isExtraImport": true,
-        "detail": "pyspark.sql",
-        "documentation": {}
-    },
-    {
-        "label": "SparkSession",
-        "importPath": "pyspark.sql",
-        "description": "pyspark.sql",
-        "isExtraImport": true,
-        "detail": "pyspark.sql",
         "documentation": {}
     },
     {
@@ -280,382 +234,6 @@
         "description": "pyspark.sql",
         "isExtraImport": true,
         "detail": "pyspark.sql",
-        "documentation": {}
-    },
-    {
-        "label": "StructType",
-        "importPath": "pyspark.sql.types",
-        "description": "pyspark.sql.types",
-        "isExtraImport": true,
-        "detail": "pyspark.sql.types",
-        "documentation": {}
-    },
-    {
-        "label": "StructField",
-        "importPath": "pyspark.sql.types",
-        "description": "pyspark.sql.types",
-        "isExtraImport": true,
-        "detail": "pyspark.sql.types",
-        "documentation": {}
-    },
-    {
-        "label": "StringType",
-        "importPath": "pyspark.sql.types",
-        "description": "pyspark.sql.types",
-        "isExtraImport": true,
-        "detail": "pyspark.sql.types",
-        "documentation": {}
-    },
-    {
-        "label": "ArrayType",
-        "importPath": "pyspark.sql.types",
-        "description": "pyspark.sql.types",
-        "isExtraImport": true,
-        "detail": "pyspark.sql.types",
-        "documentation": {}
-    },
-    {
-        "label": "StringType",
-        "importPath": "pyspark.sql.types",
-        "description": "pyspark.sql.types",
-        "isExtraImport": true,
-        "detail": "pyspark.sql.types",
-        "documentation": {}
-    },
-    {
-        "label": "StructType",
-        "importPath": "pyspark.sql.types",
-        "description": "pyspark.sql.types",
-        "isExtraImport": true,
-        "detail": "pyspark.sql.types",
-        "documentation": {}
-    },
-    {
-        "label": "StructField",
-        "importPath": "pyspark.sql.types",
-        "description": "pyspark.sql.types",
-        "isExtraImport": true,
-        "detail": "pyspark.sql.types",
-        "documentation": {}
-    },
-    {
-        "label": "StructType",
-        "importPath": "pyspark.sql.types",
-        "description": "pyspark.sql.types",
-        "isExtraImport": true,
-        "detail": "pyspark.sql.types",
-        "documentation": {}
-    },
-    {
-        "label": "StructField",
-        "importPath": "pyspark.sql.types",
-        "description": "pyspark.sql.types",
-        "isExtraImport": true,
-        "detail": "pyspark.sql.types",
-        "documentation": {}
-    },
-    {
-        "label": "StringType",
-        "importPath": "pyspark.sql.types",
-        "description": "pyspark.sql.types",
-        "isExtraImport": true,
-        "detail": "pyspark.sql.types",
-        "documentation": {}
-    },
-    {
-        "label": "ArrayType",
-        "importPath": "pyspark.sql.types",
-        "description": "pyspark.sql.types",
-        "isExtraImport": true,
-        "detail": "pyspark.sql.types",
-        "documentation": {}
-    },
-    {
-        "label": "StructType",
-        "importPath": "pyspark.sql.types",
-        "description": "pyspark.sql.types",
-        "isExtraImport": true,
-        "detail": "pyspark.sql.types",
-        "documentation": {}
-    },
-    {
-        "label": "StructField",
-        "importPath": "pyspark.sql.types",
-        "description": "pyspark.sql.types",
-        "isExtraImport": true,
-        "detail": "pyspark.sql.types",
-        "documentation": {}
-    },
-    {
-        "label": "StringType",
-        "importPath": "pyspark.sql.types",
-        "description": "pyspark.sql.types",
-        "isExtraImport": true,
-        "detail": "pyspark.sql.types",
-        "documentation": {}
-    },
-    {
-        "label": "ArrayType",
-        "importPath": "pyspark.sql.types",
-        "description": "pyspark.sql.types",
-        "isExtraImport": true,
-        "detail": "pyspark.sql.types",
-        "documentation": {}
-    },
-    {
-        "label": "DoubleType",
-        "importPath": "pyspark.sql.types",
-        "description": "pyspark.sql.types",
-        "isExtraImport": true,
-        "detail": "pyspark.sql.types",
-        "documentation": {}
-    },
-    {
-        "label": "StructType",
-        "importPath": "pyspark.sql.types",
-        "description": "pyspark.sql.types",
-        "isExtraImport": true,
-        "detail": "pyspark.sql.types",
-        "documentation": {}
-    },
-    {
-        "label": "StructType",
-        "importPath": "pyspark.sql.types",
-        "description": "pyspark.sql.types",
-        "isExtraImport": true,
-        "detail": "pyspark.sql.types",
-        "documentation": {}
-    },
-    {
-        "label": "StructField",
-        "importPath": "pyspark.sql.types",
-        "description": "pyspark.sql.types",
-        "isExtraImport": true,
-        "detail": "pyspark.sql.types",
-        "documentation": {}
-    },
-    {
-        "label": "StringType",
-        "importPath": "pyspark.sql.types",
-        "description": "pyspark.sql.types",
-        "isExtraImport": true,
-        "detail": "pyspark.sql.types",
-        "documentation": {}
-    },
-    {
-        "label": "IntegerType",
-        "importPath": "pyspark.sql.types",
-        "description": "pyspark.sql.types",
-        "isExtraImport": true,
-        "detail": "pyspark.sql.types",
-        "documentation": {}
-    },
-    {
-        "label": "DoubleType",
-        "importPath": "pyspark.sql.types",
-        "description": "pyspark.sql.types",
-        "isExtraImport": true,
-        "detail": "pyspark.sql.types",
-        "documentation": {}
-    },
-    {
-        "label": "TimestampType",
-        "importPath": "pyspark.sql.types",
-        "description": "pyspark.sql.types",
-        "isExtraImport": true,
-        "detail": "pyspark.sql.types",
-        "documentation": {}
-    },
-    {
-        "label": "StructType",
-        "importPath": "pyspark.sql.types",
-        "description": "pyspark.sql.types",
-        "isExtraImport": true,
-        "detail": "pyspark.sql.types",
-        "documentation": {}
-    },
-    {
-        "label": "StructField",
-        "importPath": "pyspark.sql.types",
-        "description": "pyspark.sql.types",
-        "isExtraImport": true,
-        "detail": "pyspark.sql.types",
-        "documentation": {}
-    },
-    {
-        "label": "StringType",
-        "importPath": "pyspark.sql.types",
-        "description": "pyspark.sql.types",
-        "isExtraImport": true,
-        "detail": "pyspark.sql.types",
-        "documentation": {}
-    },
-    {
-        "label": "ArrayType",
-        "importPath": "pyspark.sql.types",
-        "description": "pyspark.sql.types",
-        "isExtraImport": true,
-        "detail": "pyspark.sql.types",
-        "documentation": {}
-    },
-    {
-        "label": "StructType",
-        "importPath": "pyspark.sql.types",
-        "description": "pyspark.sql.types",
-        "isExtraImport": true,
-        "detail": "pyspark.sql.types",
-        "documentation": {}
-    },
-    {
-        "label": "StructField",
-        "importPath": "pyspark.sql.types",
-        "description": "pyspark.sql.types",
-        "isExtraImport": true,
-        "detail": "pyspark.sql.types",
-        "documentation": {}
-    },
-    {
-        "label": "StringType",
-        "importPath": "pyspark.sql.types",
-        "description": "pyspark.sql.types",
-        "isExtraImport": true,
-        "detail": "pyspark.sql.types",
-        "documentation": {}
-    },
-    {
-        "label": "StructType",
-        "importPath": "pyspark.sql.types",
-        "description": "pyspark.sql.types",
-        "isExtraImport": true,
-        "detail": "pyspark.sql.types",
-        "documentation": {}
-    },
-    {
-        "label": "StructField",
-        "importPath": "pyspark.sql.types",
-        "description": "pyspark.sql.types",
-        "isExtraImport": true,
-        "detail": "pyspark.sql.types",
-        "documentation": {}
-    },
-    {
-        "label": "StringType",
-        "importPath": "pyspark.sql.types",
-        "description": "pyspark.sql.types",
-        "isExtraImport": true,
-        "detail": "pyspark.sql.types",
-        "documentation": {}
-    },
-    {
-        "label": "IntegerType",
-        "importPath": "pyspark.sql.types",
-        "description": "pyspark.sql.types",
-        "isExtraImport": true,
-        "detail": "pyspark.sql.types",
-        "documentation": {}
-    },
-    {
-        "label": "DoubleType",
-        "importPath": "pyspark.sql.types",
-        "description": "pyspark.sql.types",
-        "isExtraImport": true,
-        "detail": "pyspark.sql.types",
-        "documentation": {}
-    },
-    {
-        "label": "TimestampType",
-        "importPath": "pyspark.sql.types",
-        "description": "pyspark.sql.types",
-        "isExtraImport": true,
-        "detail": "pyspark.sql.types",
-        "documentation": {}
-    },
-    {
-        "label": "StructType",
-        "importPath": "pyspark.sql.types",
-        "description": "pyspark.sql.types",
-        "isExtraImport": true,
-        "detail": "pyspark.sql.types",
-        "documentation": {}
-    },
-    {
-        "label": "StructField",
-        "importPath": "pyspark.sql.types",
-        "description": "pyspark.sql.types",
-        "isExtraImport": true,
-        "detail": "pyspark.sql.types",
-        "documentation": {}
-    },
-    {
-        "label": "StringType",
-        "importPath": "pyspark.sql.types",
-        "description": "pyspark.sql.types",
-        "isExtraImport": true,
-        "detail": "pyspark.sql.types",
-        "documentation": {}
-    },
-    {
-        "label": "ArrayType",
-        "importPath": "pyspark.sql.types",
-        "description": "pyspark.sql.types",
-        "isExtraImport": true,
-        "detail": "pyspark.sql.types",
-        "documentation": {}
-    },
-    {
-        "label": "DeltaTable",
-        "importPath": "delta.tables",
-        "description": "delta.tables",
-        "isExtraImport": true,
-        "detail": "delta.tables",
-        "documentation": {}
-    },
-    {
-        "label": "DeltaTable",
-        "importPath": "delta.tables",
-        "description": "delta.tables",
-        "isExtraImport": true,
-        "detail": "delta.tables",
-        "documentation": {}
-    },
-    {
-        "label": "DeltaTable",
-        "importPath": "delta.tables",
-        "description": "delta.tables",
-        "isExtraImport": true,
-        "detail": "delta.tables",
-        "documentation": {}
-    },
-    {
-        "label": "DeltaTable",
-        "importPath": "delta.tables",
-        "description": "delta.tables",
-        "isExtraImport": true,
-        "detail": "delta.tables",
-        "documentation": {}
-    },
-    {
-        "label": "DeltaTable",
-        "importPath": "delta.tables",
-        "description": "delta.tables",
-        "isExtraImport": true,
-        "detail": "delta.tables",
-        "documentation": {}
-    },
-    {
-        "label": "OFFRE_SCHEMA",
-        "importPath": "schema",
-        "description": "schema",
-        "isExtraImport": true,
-        "detail": "schema",
-        "documentation": {}
-    },
-    {
-        "label": "OFFRE_SCHEMA",
-        "importPath": "schema",
-        "description": "schema",
-        "isExtraImport": true,
-        "detail": "schema",
         "documentation": {}
     },
     {
@@ -664,22 +242,6 @@
         "isExtraImport": true,
         "importPath": "pyspark.sql.functions",
         "description": "pyspark.sql.functions",
-        "detail": "pyspark.sql.functions",
-        "documentation": {}
-    },
-    {
-        "label": "col",
-        "importPath": "pyspark.sql.functions",
-        "description": "pyspark.sql.functions",
-        "isExtraImport": true,
-        "detail": "pyspark.sql.functions",
-        "documentation": {}
-    },
-    {
-        "label": "udf",
-        "importPath": "pyspark.sql.functions",
-        "description": "pyspark.sql.functions",
-        "isExtraImport": true,
         "detail": "pyspark.sql.functions",
         "documentation": {}
     },
@@ -756,6 +318,270 @@
         "documentation": {}
     },
     {
+        "label": "StructType",
+        "importPath": "pyspark.sql.types",
+        "description": "pyspark.sql.types",
+        "isExtraImport": true,
+        "detail": "pyspark.sql.types",
+        "documentation": {}
+    },
+    {
+        "label": "StructField",
+        "importPath": "pyspark.sql.types",
+        "description": "pyspark.sql.types",
+        "isExtraImport": true,
+        "detail": "pyspark.sql.types",
+        "documentation": {}
+    },
+    {
+        "label": "StringType",
+        "importPath": "pyspark.sql.types",
+        "description": "pyspark.sql.types",
+        "isExtraImport": true,
+        "detail": "pyspark.sql.types",
+        "documentation": {}
+    },
+    {
+        "label": "ArrayType",
+        "importPath": "pyspark.sql.types",
+        "description": "pyspark.sql.types",
+        "isExtraImport": true,
+        "detail": "pyspark.sql.types",
+        "documentation": {}
+    },
+    {
+        "label": "DoubleType",
+        "importPath": "pyspark.sql.types",
+        "description": "pyspark.sql.types",
+        "isExtraImport": true,
+        "detail": "pyspark.sql.types",
+        "documentation": {}
+    },
+    {
+        "label": "StructType",
+        "importPath": "pyspark.sql.types",
+        "description": "pyspark.sql.types",
+        "isExtraImport": true,
+        "detail": "pyspark.sql.types",
+        "documentation": {}
+    },
+    {
+        "label": "StructType",
+        "importPath": "pyspark.sql.types",
+        "description": "pyspark.sql.types",
+        "isExtraImport": true,
+        "detail": "pyspark.sql.types",
+        "documentation": {}
+    },
+    {
+        "label": "StructField",
+        "importPath": "pyspark.sql.types",
+        "description": "pyspark.sql.types",
+        "isExtraImport": true,
+        "detail": "pyspark.sql.types",
+        "documentation": {}
+    },
+    {
+        "label": "StringType",
+        "importPath": "pyspark.sql.types",
+        "description": "pyspark.sql.types",
+        "isExtraImport": true,
+        "detail": "pyspark.sql.types",
+        "documentation": {}
+    },
+    {
+        "label": "IntegerType",
+        "importPath": "pyspark.sql.types",
+        "description": "pyspark.sql.types",
+        "isExtraImport": true,
+        "detail": "pyspark.sql.types",
+        "documentation": {}
+    },
+    {
+        "label": "DoubleType",
+        "importPath": "pyspark.sql.types",
+        "description": "pyspark.sql.types",
+        "isExtraImport": true,
+        "detail": "pyspark.sql.types",
+        "documentation": {}
+    },
+    {
+        "label": "TimestampType",
+        "importPath": "pyspark.sql.types",
+        "description": "pyspark.sql.types",
+        "isExtraImport": true,
+        "detail": "pyspark.sql.types",
+        "documentation": {}
+    },
+    {
+        "label": "StructType",
+        "importPath": "pyspark.sql.types",
+        "description": "pyspark.sql.types",
+        "isExtraImport": true,
+        "detail": "pyspark.sql.types",
+        "documentation": {}
+    },
+    {
+        "label": "StructField",
+        "importPath": "pyspark.sql.types",
+        "description": "pyspark.sql.types",
+        "isExtraImport": true,
+        "detail": "pyspark.sql.types",
+        "documentation": {}
+    },
+    {
+        "label": "StringType",
+        "importPath": "pyspark.sql.types",
+        "description": "pyspark.sql.types",
+        "isExtraImport": true,
+        "detail": "pyspark.sql.types",
+        "documentation": {}
+    },
+    {
+        "label": "ArrayType",
+        "importPath": "pyspark.sql.types",
+        "description": "pyspark.sql.types",
+        "isExtraImport": true,
+        "detail": "pyspark.sql.types",
+        "documentation": {}
+    },
+    {
+        "label": "StructType",
+        "importPath": "pyspark.sql.types",
+        "description": "pyspark.sql.types",
+        "isExtraImport": true,
+        "detail": "pyspark.sql.types",
+        "documentation": {}
+    },
+    {
+        "label": "StructField",
+        "importPath": "pyspark.sql.types",
+        "description": "pyspark.sql.types",
+        "isExtraImport": true,
+        "detail": "pyspark.sql.types",
+        "documentation": {}
+    },
+    {
+        "label": "StringType",
+        "importPath": "pyspark.sql.types",
+        "description": "pyspark.sql.types",
+        "isExtraImport": true,
+        "detail": "pyspark.sql.types",
+        "documentation": {}
+    },
+    {
+        "label": "StructType",
+        "importPath": "pyspark.sql.types",
+        "description": "pyspark.sql.types",
+        "isExtraImport": true,
+        "detail": "pyspark.sql.types",
+        "documentation": {}
+    },
+    {
+        "label": "StructField",
+        "importPath": "pyspark.sql.types",
+        "description": "pyspark.sql.types",
+        "isExtraImport": true,
+        "detail": "pyspark.sql.types",
+        "documentation": {}
+    },
+    {
+        "label": "StringType",
+        "importPath": "pyspark.sql.types",
+        "description": "pyspark.sql.types",
+        "isExtraImport": true,
+        "detail": "pyspark.sql.types",
+        "documentation": {}
+    },
+    {
+        "label": "IntegerType",
+        "importPath": "pyspark.sql.types",
+        "description": "pyspark.sql.types",
+        "isExtraImport": true,
+        "detail": "pyspark.sql.types",
+        "documentation": {}
+    },
+    {
+        "label": "DoubleType",
+        "importPath": "pyspark.sql.types",
+        "description": "pyspark.sql.types",
+        "isExtraImport": true,
+        "detail": "pyspark.sql.types",
+        "documentation": {}
+    },
+    {
+        "label": "TimestampType",
+        "importPath": "pyspark.sql.types",
+        "description": "pyspark.sql.types",
+        "isExtraImport": true,
+        "detail": "pyspark.sql.types",
+        "documentation": {}
+    },
+    {
+        "label": "StructType",
+        "importPath": "pyspark.sql.types",
+        "description": "pyspark.sql.types",
+        "isExtraImport": true,
+        "detail": "pyspark.sql.types",
+        "documentation": {}
+    },
+    {
+        "label": "StructField",
+        "importPath": "pyspark.sql.types",
+        "description": "pyspark.sql.types",
+        "isExtraImport": true,
+        "detail": "pyspark.sql.types",
+        "documentation": {}
+    },
+    {
+        "label": "StringType",
+        "importPath": "pyspark.sql.types",
+        "description": "pyspark.sql.types",
+        "isExtraImport": true,
+        "detail": "pyspark.sql.types",
+        "documentation": {}
+    },
+    {
+        "label": "ArrayType",
+        "importPath": "pyspark.sql.types",
+        "description": "pyspark.sql.types",
+        "isExtraImport": true,
+        "detail": "pyspark.sql.types",
+        "documentation": {}
+    },
+    {
+        "label": "DeltaTable",
+        "importPath": "delta.tables",
+        "description": "delta.tables",
+        "isExtraImport": true,
+        "detail": "delta.tables",
+        "documentation": {}
+    },
+    {
+        "label": "DeltaTable",
+        "importPath": "delta.tables",
+        "description": "delta.tables",
+        "isExtraImport": true,
+        "detail": "delta.tables",
+        "documentation": {}
+    },
+    {
+        "label": "DeltaTable",
+        "importPath": "delta.tables",
+        "description": "delta.tables",
+        "isExtraImport": true,
+        "detail": "delta.tables",
+        "documentation": {}
+    },
+    {
+        "label": "DeltaTable",
+        "importPath": "delta.tables",
+        "description": "delta.tables",
+        "isExtraImport": true,
+        "detail": "delta.tables",
+        "documentation": {}
+    },
+    {
         "label": "fitz",
         "kind": 6,
         "isExtraImport": true,
@@ -765,15 +591,6 @@
         "documentation": {}
     },
     {
-        "label": "yaml",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "yaml",
-        "description": "yaml",
-        "detail": "yaml",
-        "documentation": {}
-    },
-    {
         "label": "Groq",
         "importPath": "groq",
         "description": "groq",
@@ -811,72 +628,6 @@
         "description": "groq",
         "isExtraImport": true,
         "detail": "groq",
-        "documentation": {}
-    },
-    {
-        "label": "Groq",
-        "importPath": "groq",
-        "description": "groq",
-        "isExtraImport": true,
-        "detail": "groq",
-        "documentation": {}
-    },
-    {
-        "label": "re",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "re",
-        "description": "re",
-        "detail": "re",
-        "documentation": {}
-    },
-    {
-        "label": "BytesIO",
-        "importPath": "io",
-        "description": "io",
-        "isExtraImport": true,
-        "detail": "io",
-        "documentation": {}
-    },
-    {
-        "label": "BytesIO",
-        "importPath": "io",
-        "description": "io",
-        "isExtraImport": true,
-        "detail": "io",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "config",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "config",
-        "description": "config",
-        "detail": "config",
         "documentation": {}
     },
     {
@@ -886,6 +637,15 @@
         "importPath": "pandas",
         "description": "pandas",
         "detail": "pandas",
+        "documentation": {}
+    },
+    {
+        "label": "yaml",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "yaml",
+        "description": "yaml",
+        "detail": "yaml",
         "documentation": {}
     },
     {
@@ -907,20 +667,27 @@
         "documentation": {}
     },
     {
-        "label": "time",
-        "kind": 6,
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
         "isExtraImport": true,
-        "importPath": "time",
-        "description": "time",
-        "detail": "time",
+        "detail": "dotenv",
         "documentation": {}
     },
     {
-        "label": "sleep",
-        "importPath": "time",
-        "description": "time",
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
         "isExtraImport": true,
-        "detail": "time",
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
         "documentation": {}
     },
     {
@@ -932,362 +699,11 @@
         "documentation": {}
     },
     {
-        "label": "Flask",
-        "importPath": "flask",
-        "description": "flask",
+        "label": "OFFRE_SCHEMA",
+        "importPath": "schema",
+        "description": "schema",
         "isExtraImport": true,
-        "detail": "flask",
-        "documentation": {}
-    },
-    {
-        "label": "request",
-        "importPath": "flask",
-        "description": "flask",
-        "isExtraImport": true,
-        "detail": "flask",
-        "documentation": {}
-    },
-    {
-        "label": "render_template",
-        "importPath": "flask",
-        "description": "flask",
-        "isExtraImport": true,
-        "detail": "flask",
-        "documentation": {}
-    },
-    {
-        "label": "redirect",
-        "importPath": "flask",
-        "description": "flask",
-        "isExtraImport": true,
-        "detail": "flask",
-        "documentation": {}
-    },
-    {
-        "label": "url_for",
-        "importPath": "flask",
-        "description": "flask",
-        "isExtraImport": true,
-        "detail": "flask",
-        "documentation": {}
-    },
-    {
-        "label": "Flask",
-        "importPath": "flask",
-        "description": "flask",
-        "isExtraImport": true,
-        "detail": "flask",
-        "documentation": {}
-    },
-    {
-        "label": "render_template",
-        "importPath": "flask",
-        "description": "flask",
-        "isExtraImport": true,
-        "detail": "flask",
-        "documentation": {}
-    },
-    {
-        "label": "request",
-        "importPath": "flask",
-        "description": "flask",
-        "isExtraImport": true,
-        "detail": "flask",
-        "documentation": {}
-    },
-    {
-        "label": "redirect",
-        "importPath": "flask",
-        "description": "flask",
-        "isExtraImport": true,
-        "detail": "flask",
-        "documentation": {}
-    },
-    {
-        "label": "url_for",
-        "importPath": "flask",
-        "description": "flask",
-        "isExtraImport": true,
-        "detail": "flask",
-        "documentation": {}
-    },
-    {
-        "label": "flash",
-        "importPath": "flask",
-        "description": "flask",
-        "isExtraImport": true,
-        "detail": "flask",
-        "documentation": {}
-    },
-    {
-        "label": "Flask",
-        "importPath": "flask",
-        "description": "flask",
-        "isExtraImport": true,
-        "detail": "flask",
-        "documentation": {}
-    },
-    {
-        "label": "request",
-        "importPath": "flask",
-        "description": "flask",
-        "isExtraImport": true,
-        "detail": "flask",
-        "documentation": {}
-    },
-    {
-        "label": "render_template",
-        "importPath": "flask",
-        "description": "flask",
-        "isExtraImport": true,
-        "detail": "flask",
-        "documentation": {}
-    },
-    {
-        "label": "redirect",
-        "importPath": "flask",
-        "description": "flask",
-        "isExtraImport": true,
-        "detail": "flask",
-        "documentation": {}
-    },
-    {
-        "label": "url_for",
-        "importPath": "flask",
-        "description": "flask",
-        "isExtraImport": true,
-        "detail": "flask",
-        "documentation": {}
-    },
-    {
-        "label": "Flask",
-        "importPath": "flask",
-        "description": "flask",
-        "isExtraImport": true,
-        "detail": "flask",
-        "documentation": {}
-    },
-    {
-        "label": "render_template",
-        "importPath": "flask",
-        "description": "flask",
-        "isExtraImport": true,
-        "detail": "flask",
-        "documentation": {}
-    },
-    {
-        "label": "request",
-        "importPath": "flask",
-        "description": "flask",
-        "isExtraImport": true,
-        "detail": "flask",
-        "documentation": {}
-    },
-    {
-        "label": "redirect",
-        "importPath": "flask",
-        "description": "flask",
-        "isExtraImport": true,
-        "detail": "flask",
-        "documentation": {}
-    },
-    {
-        "label": "url_for",
-        "importPath": "flask",
-        "description": "flask",
-        "isExtraImport": true,
-        "detail": "flask",
-        "documentation": {}
-    },
-    {
-        "label": "flash",
-        "importPath": "flask",
-        "description": "flask",
-        "isExtraImport": true,
-        "detail": "flask",
-        "documentation": {}
-    },
-    {
-        "label": "Flask",
-        "importPath": "flask",
-        "description": "flask",
-        "isExtraImport": true,
-        "detail": "flask",
-        "documentation": {}
-    },
-    {
-        "label": "render_template",
-        "importPath": "flask",
-        "description": "flask",
-        "isExtraImport": true,
-        "detail": "flask",
-        "documentation": {}
-    },
-    {
-        "label": "jsonify",
-        "importPath": "flask",
-        "description": "flask",
-        "isExtraImport": true,
-        "detail": "flask",
-        "documentation": {}
-    },
-    {
-        "label": "request",
-        "importPath": "flask",
-        "description": "flask",
-        "isExtraImport": true,
-        "detail": "flask",
-        "documentation": {}
-    },
-    {
-        "label": "gensim",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "gensim",
-        "description": "gensim",
-        "detail": "gensim",
-        "documentation": {}
-    },
-    {
-        "label": "numpy",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "numpy",
-        "description": "numpy",
-        "detail": "numpy",
-        "documentation": {}
-    },
-    {
-        "label": "word_tokenize",
-        "importPath": "nltk",
-        "description": "nltk",
-        "isExtraImport": true,
-        "detail": "nltk",
-        "documentation": {}
-    },
-    {
-        "label": "word_tokenize",
-        "importPath": "nltk",
-        "description": "nltk",
-        "isExtraImport": true,
-        "detail": "nltk",
-        "documentation": {}
-    },
-    {
-        "label": "cosine_similarity",
-        "importPath": "sklearn.metrics.pairwise",
-        "description": "sklearn.metrics.pairwise",
-        "isExtraImport": true,
-        "detail": "sklearn.metrics.pairwise",
-        "documentation": {}
-    },
-    {
-        "label": "cosine_similarity",
-        "importPath": "sklearn.metrics.pairwise",
-        "description": "sklearn.metrics.pairwise",
-        "isExtraImport": true,
-        "detail": "sklearn.metrics.pairwise",
-        "documentation": {}
-    },
-    {
-        "label": "csv",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "csv",
-        "description": "csv",
-        "detail": "csv",
-        "documentation": {}
-    },
-    {
-        "label": "pinecone",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "pinecone",
-        "description": "pinecone",
-        "detail": "pinecone",
-        "documentation": {}
-    },
-    {
-        "label": "Pinecone",
-        "importPath": "pinecone",
-        "description": "pinecone",
-        "isExtraImport": true,
-        "detail": "pinecone",
-        "documentation": {}
-    },
-    {
-        "label": "ServerlessSpec",
-        "importPath": "pinecone",
-        "description": "pinecone",
-        "isExtraImport": true,
-        "detail": "pinecone",
-        "documentation": {}
-    },
-    {
-        "label": "PineconeApiException",
-        "importPath": "pinecone",
-        "description": "pinecone",
-        "isExtraImport": true,
-        "detail": "pinecone",
-        "documentation": {}
-    },
-    {
-        "label": "SentenceTransformer",
-        "importPath": "sentence_transformers",
-        "description": "sentence_transformers",
-        "isExtraImport": true,
-        "detail": "sentence_transformers",
-        "documentation": {}
-    },
-    {
-        "label": "SentenceTransformer",
-        "importPath": "sentence_transformers",
-        "description": "sentence_transformers",
-        "isExtraImport": true,
-        "detail": "sentence_transformers",
-        "documentation": {}
-    },
-    {
-        "label": "SentenceTransformer",
-        "importPath": "sentence_transformers",
-        "description": "sentence_transformers",
-        "isExtraImport": true,
-        "detail": "sentence_transformers",
-        "documentation": {}
-    },
-    {
-        "label": "SentenceTransformer",
-        "importPath": "sentence_transformers",
-        "description": "sentence_transformers",
-        "isExtraImport": true,
-        "detail": "sentence_transformers",
-        "documentation": {}
-    },
-    {
-        "label": "snowflake.connector",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "snowflake.connector",
-        "description": "snowflake.connector",
-        "detail": "snowflake.connector",
-        "documentation": {}
-    },
-    {
-        "label": "uuid",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "uuid",
-        "description": "uuid",
-        "detail": "uuid",
-        "documentation": {}
-    },
-    {
-        "label": "redis",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "redis",
-        "description": "redis",
-        "detail": "redis",
+        "detail": "schema",
         "documentation": {}
     },
     {
@@ -1296,6 +712,38 @@
         "description": "PyPDF2",
         "isExtraImport": true,
         "detail": "PyPDF2",
+        "documentation": {}
+    },
+    {
+        "label": "SentenceTransformer",
+        "importPath": "sentence_transformers",
+        "description": "sentence_transformers",
+        "isExtraImport": true,
+        "detail": "sentence_transformers",
+        "documentation": {}
+    },
+    {
+        "label": "SentenceTransformer",
+        "importPath": "sentence_transformers",
+        "description": "sentence_transformers",
+        "isExtraImport": true,
+        "detail": "sentence_transformers",
+        "documentation": {}
+    },
+    {
+        "label": "SentenceTransformer",
+        "importPath": "sentence_transformers",
+        "description": "sentence_transformers",
+        "isExtraImport": true,
+        "detail": "sentence_transformers",
+        "documentation": {}
+    },
+    {
+        "label": "SentenceTransformer",
+        "importPath": "sentence_transformers",
+        "description": "sentence_transformers",
+        "isExtraImport": true,
+        "detail": "sentence_transformers",
         "documentation": {}
     },
     {
@@ -1420,6 +868,214 @@
         "documentation": {}
     },
     {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "jsonify",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "url_for",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "url_for",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "flash",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "url_for",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "url_for",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "flash",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
         "label": "get_text_chunks",
         "importPath": "ecommbot.ingest",
         "description": "ecommbot.ingest",
@@ -1449,6 +1105,141 @@
         "description": "ecommbot.converteur",
         "isExtraImport": true,
         "detail": "ecommbot.converteur",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "gensim",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "gensim",
+        "description": "gensim",
+        "detail": "gensim",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "word_tokenize",
+        "importPath": "nltk",
+        "description": "nltk",
+        "isExtraImport": true,
+        "detail": "nltk",
+        "documentation": {}
+    },
+    {
+        "label": "word_tokenize",
+        "importPath": "nltk",
+        "description": "nltk",
+        "isExtraImport": true,
+        "detail": "nltk",
+        "documentation": {}
+    },
+    {
+        "label": "cosine_similarity",
+        "importPath": "sklearn.metrics.pairwise",
+        "description": "sklearn.metrics.pairwise",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics.pairwise",
+        "documentation": {}
+    },
+    {
+        "label": "cosine_similarity",
+        "importPath": "sklearn.metrics.pairwise",
+        "description": "sklearn.metrics.pairwise",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics.pairwise",
+        "documentation": {}
+    },
+    {
+        "label": "csv",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "csv",
+        "description": "csv",
+        "detail": "csv",
+        "documentation": {}
+    },
+    {
+        "label": "pinecone",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pinecone",
+        "description": "pinecone",
+        "detail": "pinecone",
+        "documentation": {}
+    },
+    {
+        "label": "Pinecone",
+        "importPath": "pinecone",
+        "description": "pinecone",
+        "isExtraImport": true,
+        "detail": "pinecone",
+        "documentation": {}
+    },
+    {
+        "label": "ServerlessSpec",
+        "importPath": "pinecone",
+        "description": "pinecone",
+        "isExtraImport": true,
+        "detail": "pinecone",
+        "documentation": {}
+    },
+    {
+        "label": "PineconeApiException",
+        "importPath": "pinecone",
+        "description": "pinecone",
+        "isExtraImport": true,
+        "detail": "pinecone",
+        "documentation": {}
+    },
+    {
+        "label": "snowflake.connector",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "snowflake.connector",
+        "description": "snowflake.connector",
+        "detail": "snowflake.connector",
+        "documentation": {}
+    },
+    {
+        "label": "uuid",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "uuid",
+        "description": "uuid",
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "redis",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "redis",
+        "description": "redis",
+        "detail": "redis",
         "documentation": {}
     },
     {
@@ -1548,174 +1339,12 @@
         "documentation": {}
     },
     {
-        "label": "topic",
-        "kind": 5,
-        "importPath": "CV_Processus.consumerSpark.config",
-        "description": "CV_Processus.consumerSpark.config",
-        "peekOfCode": "topic = \"TopicCV\"",
-        "detail": "CV_Processus.consumerSpark.config",
-        "documentation": {}
-    },
-    {
-        "label": "create_or_get_spark",
-        "kind": 2,
-        "importPath": "CV_Processus.consumerSpark.consumerspark",
-        "description": "CV_Processus.consumerSpark.consumerspark",
-        "peekOfCode": "def create_or_get_spark(app_name: str, packages: List[str]) -> SparkSession:\n    \"\"\"Créer une session Spark avec Delta et Azure.\"\"\"\n    jars = \",\".join(packages)\n    spark = (\n        SparkSession.builder.appName(app_name)\n        .config(\"spark.jars.packages\", jars)\n        .config(\"spark.sql.extensions\", \"io.delta.sql.DeltaSparkSessionExtension\")\n        .config(\"spark.sql.catalog.spark_catalog\", \"org.apache.spark.sql.delta.catalog.DeltaCatalog\")\n        .config(\"fs.abfss.impl\", \"org.apache.hadoop.fs.azurebfs.SecureAzureBlobFileSystem\")\n        .master(\"local[*]\")",
-        "detail": "CV_Processus.consumerSpark.consumerspark",
-        "documentation": {}
-    },
-    {
-        "label": "create_empty_delta_table",
-        "kind": 2,
-        "importPath": "CV_Processus.consumerSpark.consumerspark",
-        "description": "CV_Processus.consumerSpark.consumerspark",
-        "peekOfCode": "def create_empty_delta_table(\n    spark: SparkSession,\n    schema: StructType,\n    path: str,\n    partition_cols: Optional[List[str]] = None,\n    enable_cdc: Optional[bool] = False,\n):\n    \"\"\"Créer une table Delta vide si elle n'existe pas.\"\"\"\n    try:\n        DeltaTable.forPath(spark, path)",
-        "detail": "CV_Processus.consumerSpark.consumerspark",
-        "documentation": {}
-    },
-    {
-        "label": "save_to_delta",
-        "kind": 2,
-        "importPath": "CV_Processus.consumerSpark.consumerspark",
-        "description": "CV_Processus.consumerSpark.consumerspark",
-        "peekOfCode": "def save_to_delta(df: DataFrame, output_path: str):\n    \"\"\"Sauvegarder les données dans une Delta Table.\"\"\"\n    df.write.format(\"delta\").mode(\"append\").option(\"mergeSchema\", \"true\").save(output_path)\n    print(\"Data written to Delta Table.\")\ndef process_message(spark: SparkSession, message: str):\n    \"\"\"Traiter un message Kafka et l'enregistrer dans une table Delta.\"\"\"\n    try:\n        job_posting = json.loads(message)\n        df = spark.createDataFrame([job_posting], schema=OFFRE_SCHEMA)\n        save_to_delta(df, OUTPUT_PATH)",
-        "detail": "CV_Processus.consumerSpark.consumerspark",
-        "documentation": {}
-    },
-    {
-        "label": "process_message",
-        "kind": 2,
-        "importPath": "CV_Processus.consumerSpark.consumerspark",
-        "description": "CV_Processus.consumerSpark.consumerspark",
-        "peekOfCode": "def process_message(spark: SparkSession, message: str):\n    \"\"\"Traiter un message Kafka et l'enregistrer dans une table Delta.\"\"\"\n    try:\n        job_posting = json.loads(message)\n        df = spark.createDataFrame([job_posting], schema=OFFRE_SCHEMA)\n        save_to_delta(df, OUTPUT_PATH)\n    except Exception as e:\n        print(f\"Error processing message: {e}\")\n# Configurer le consommateur Kafka pour Confluent\nconsumer = KafkaConsumer(",
-        "detail": "CV_Processus.consumerSpark.consumerspark",
-        "documentation": {}
-    },
-    {
-        "label": "ADLS_STORAGE_ACCOUNT_NAME",
-        "kind": 5,
-        "importPath": "CV_Processus.consumerSpark.consumerspark",
-        "description": "CV_Processus.consumerSpark.consumerspark",
-        "peekOfCode": "ADLS_STORAGE_ACCOUNT_NAME = os.getenv(\"ADLS_STORAGE_ACCOUNT_NAME\")\nADLS_ACCOUNT_KEY = os.getenv(\"ADLS_ACCOUNT_KEY\")  # A remplacer par votre clé\nADLS_CONTAINER_NAME = os.getenv(\"ADLS_CONTAINER_NAME\")\nADLS_FOLDER_PATH = os.getenv(\"ADLS_FOLDER_PATH\")\nKAFKA_BOOTSTRAP_SERVERS = os.getenv(\"KAFKA_BOOTSTRAP_SERVERS\")\nKAFKA_GROUP_ID = os.getenv(\"KAFKA_GROUP_ID\")\nKAFKA_API_KEY = os.getenv(\"KAFKA_API_KEY\")\nKAFKA_API_SECRET = os.getenv(\"KAFKA_API_SECRET\")\nKAFKA_TOPIC = os.getenv(\"KAFKA_TOPIC \")\nOUTPUT_PATH = f\"abfss://{ADLS_CONTAINER_NAME}@{ADLS_STORAGE_ACCOUNT_NAME}.dfs.core.windows.net/{ADLS_FOLDER_PATH}\"",
-        "detail": "CV_Processus.consumerSpark.consumerspark",
-        "documentation": {}
-    },
-    {
-        "label": "ADLS_ACCOUNT_KEY",
-        "kind": 5,
-        "importPath": "CV_Processus.consumerSpark.consumerspark",
-        "description": "CV_Processus.consumerSpark.consumerspark",
-        "peekOfCode": "ADLS_ACCOUNT_KEY = os.getenv(\"ADLS_ACCOUNT_KEY\")  # A remplacer par votre clé\nADLS_CONTAINER_NAME = os.getenv(\"ADLS_CONTAINER_NAME\")\nADLS_FOLDER_PATH = os.getenv(\"ADLS_FOLDER_PATH\")\nKAFKA_BOOTSTRAP_SERVERS = os.getenv(\"KAFKA_BOOTSTRAP_SERVERS\")\nKAFKA_GROUP_ID = os.getenv(\"KAFKA_GROUP_ID\")\nKAFKA_API_KEY = os.getenv(\"KAFKA_API_KEY\")\nKAFKA_API_SECRET = os.getenv(\"KAFKA_API_SECRET\")\nKAFKA_TOPIC = os.getenv(\"KAFKA_TOPIC \")\nOUTPUT_PATH = f\"abfss://{ADLS_CONTAINER_NAME}@{ADLS_STORAGE_ACCOUNT_NAME}.dfs.core.windows.net/{ADLS_FOLDER_PATH}\"\n# Packages requis pour Spark",
-        "detail": "CV_Processus.consumerSpark.consumerspark",
-        "documentation": {}
-    },
-    {
-        "label": "ADLS_CONTAINER_NAME",
-        "kind": 5,
-        "importPath": "CV_Processus.consumerSpark.consumerspark",
-        "description": "CV_Processus.consumerSpark.consumerspark",
-        "peekOfCode": "ADLS_CONTAINER_NAME = os.getenv(\"ADLS_CONTAINER_NAME\")\nADLS_FOLDER_PATH = os.getenv(\"ADLS_FOLDER_PATH\")\nKAFKA_BOOTSTRAP_SERVERS = os.getenv(\"KAFKA_BOOTSTRAP_SERVERS\")\nKAFKA_GROUP_ID = os.getenv(\"KAFKA_GROUP_ID\")\nKAFKA_API_KEY = os.getenv(\"KAFKA_API_KEY\")\nKAFKA_API_SECRET = os.getenv(\"KAFKA_API_SECRET\")\nKAFKA_TOPIC = os.getenv(\"KAFKA_TOPIC \")\nOUTPUT_PATH = f\"abfss://{ADLS_CONTAINER_NAME}@{ADLS_STORAGE_ACCOUNT_NAME}.dfs.core.windows.net/{ADLS_FOLDER_PATH}\"\n# Packages requis pour Spark\nPACKAGES = [",
-        "detail": "CV_Processus.consumerSpark.consumerspark",
-        "documentation": {}
-    },
-    {
-        "label": "ADLS_FOLDER_PATH",
-        "kind": 5,
-        "importPath": "CV_Processus.consumerSpark.consumerspark",
-        "description": "CV_Processus.consumerSpark.consumerspark",
-        "peekOfCode": "ADLS_FOLDER_PATH = os.getenv(\"ADLS_FOLDER_PATH\")\nKAFKA_BOOTSTRAP_SERVERS = os.getenv(\"KAFKA_BOOTSTRAP_SERVERS\")\nKAFKA_GROUP_ID = os.getenv(\"KAFKA_GROUP_ID\")\nKAFKA_API_KEY = os.getenv(\"KAFKA_API_KEY\")\nKAFKA_API_SECRET = os.getenv(\"KAFKA_API_SECRET\")\nKAFKA_TOPIC = os.getenv(\"KAFKA_TOPIC \")\nOUTPUT_PATH = f\"abfss://{ADLS_CONTAINER_NAME}@{ADLS_STORAGE_ACCOUNT_NAME}.dfs.core.windows.net/{ADLS_FOLDER_PATH}\"\n# Packages requis pour Spark\nPACKAGES = [\n    \"io.delta:delta-spark_2.12:1.1.0\",",
-        "detail": "CV_Processus.consumerSpark.consumerspark",
-        "documentation": {}
-    },
-    {
-        "label": "KAFKA_BOOTSTRAP_SERVERS",
-        "kind": 5,
-        "importPath": "CV_Processus.consumerSpark.consumerspark",
-        "description": "CV_Processus.consumerSpark.consumerspark",
-        "peekOfCode": "KAFKA_BOOTSTRAP_SERVERS = os.getenv(\"KAFKA_BOOTSTRAP_SERVERS\")\nKAFKA_GROUP_ID = os.getenv(\"KAFKA_GROUP_ID\")\nKAFKA_API_KEY = os.getenv(\"KAFKA_API_KEY\")\nKAFKA_API_SECRET = os.getenv(\"KAFKA_API_SECRET\")\nKAFKA_TOPIC = os.getenv(\"KAFKA_TOPIC \")\nOUTPUT_PATH = f\"abfss://{ADLS_CONTAINER_NAME}@{ADLS_STORAGE_ACCOUNT_NAME}.dfs.core.windows.net/{ADLS_FOLDER_PATH}\"\n# Packages requis pour Spark\nPACKAGES = [\n    \"io.delta:delta-spark_2.12:1.1.0\",\n    \"org.apache.hadoop:hadoop-azure:3.3.6\",",
-        "detail": "CV_Processus.consumerSpark.consumerspark",
-        "documentation": {}
-    },
-    {
-        "label": "KAFKA_GROUP_ID",
-        "kind": 5,
-        "importPath": "CV_Processus.consumerSpark.consumerspark",
-        "description": "CV_Processus.consumerSpark.consumerspark",
-        "peekOfCode": "KAFKA_GROUP_ID = os.getenv(\"KAFKA_GROUP_ID\")\nKAFKA_API_KEY = os.getenv(\"KAFKA_API_KEY\")\nKAFKA_API_SECRET = os.getenv(\"KAFKA_API_SECRET\")\nKAFKA_TOPIC = os.getenv(\"KAFKA_TOPIC \")\nOUTPUT_PATH = f\"abfss://{ADLS_CONTAINER_NAME}@{ADLS_STORAGE_ACCOUNT_NAME}.dfs.core.windows.net/{ADLS_FOLDER_PATH}\"\n# Packages requis pour Spark\nPACKAGES = [\n    \"io.delta:delta-spark_2.12:1.1.0\",\n    \"org.apache.hadoop:hadoop-azure:3.3.6\",\n    \"org.apache.hadoop:hadoop-azure-datalake:3.3.6\",",
-        "detail": "CV_Processus.consumerSpark.consumerspark",
-        "documentation": {}
-    },
-    {
-        "label": "KAFKA_API_KEY",
-        "kind": 5,
-        "importPath": "CV_Processus.consumerSpark.consumerspark",
-        "description": "CV_Processus.consumerSpark.consumerspark",
-        "peekOfCode": "KAFKA_API_KEY = os.getenv(\"KAFKA_API_KEY\")\nKAFKA_API_SECRET = os.getenv(\"KAFKA_API_SECRET\")\nKAFKA_TOPIC = os.getenv(\"KAFKA_TOPIC \")\nOUTPUT_PATH = f\"abfss://{ADLS_CONTAINER_NAME}@{ADLS_STORAGE_ACCOUNT_NAME}.dfs.core.windows.net/{ADLS_FOLDER_PATH}\"\n# Packages requis pour Spark\nPACKAGES = [\n    \"io.delta:delta-spark_2.12:1.1.0\",\n    \"org.apache.hadoop:hadoop-azure:3.3.6\",\n    \"org.apache.hadoop:hadoop-azure-datalake:3.3.6\",\n]",
-        "detail": "CV_Processus.consumerSpark.consumerspark",
-        "documentation": {}
-    },
-    {
-        "label": "KAFKA_API_SECRET",
-        "kind": 5,
-        "importPath": "CV_Processus.consumerSpark.consumerspark",
-        "description": "CV_Processus.consumerSpark.consumerspark",
-        "peekOfCode": "KAFKA_API_SECRET = os.getenv(\"KAFKA_API_SECRET\")\nKAFKA_TOPIC = os.getenv(\"KAFKA_TOPIC \")\nOUTPUT_PATH = f\"abfss://{ADLS_CONTAINER_NAME}@{ADLS_STORAGE_ACCOUNT_NAME}.dfs.core.windows.net/{ADLS_FOLDER_PATH}\"\n# Packages requis pour Spark\nPACKAGES = [\n    \"io.delta:delta-spark_2.12:1.1.0\",\n    \"org.apache.hadoop:hadoop-azure:3.3.6\",\n    \"org.apache.hadoop:hadoop-azure-datalake:3.3.6\",\n]\ndef create_or_get_spark(app_name: str, packages: List[str]) -> SparkSession:",
-        "detail": "CV_Processus.consumerSpark.consumerspark",
-        "documentation": {}
-    },
-    {
-        "label": "KAFKA_TOPIC",
-        "kind": 5,
-        "importPath": "CV_Processus.consumerSpark.consumerspark",
-        "description": "CV_Processus.consumerSpark.consumerspark",
-        "peekOfCode": "KAFKA_TOPIC = os.getenv(\"KAFKA_TOPIC \")\nOUTPUT_PATH = f\"abfss://{ADLS_CONTAINER_NAME}@{ADLS_STORAGE_ACCOUNT_NAME}.dfs.core.windows.net/{ADLS_FOLDER_PATH}\"\n# Packages requis pour Spark\nPACKAGES = [\n    \"io.delta:delta-spark_2.12:1.1.0\",\n    \"org.apache.hadoop:hadoop-azure:3.3.6\",\n    \"org.apache.hadoop:hadoop-azure-datalake:3.3.6\",\n]\ndef create_or_get_spark(app_name: str, packages: List[str]) -> SparkSession:\n    \"\"\"Créer une session Spark avec Delta et Azure.\"\"\"",
-        "detail": "CV_Processus.consumerSpark.consumerspark",
-        "documentation": {}
-    },
-    {
-        "label": "OUTPUT_PATH",
-        "kind": 5,
-        "importPath": "CV_Processus.consumerSpark.consumerspark",
-        "description": "CV_Processus.consumerSpark.consumerspark",
-        "peekOfCode": "OUTPUT_PATH = f\"abfss://{ADLS_CONTAINER_NAME}@{ADLS_STORAGE_ACCOUNT_NAME}.dfs.core.windows.net/{ADLS_FOLDER_PATH}\"\n# Packages requis pour Spark\nPACKAGES = [\n    \"io.delta:delta-spark_2.12:1.1.0\",\n    \"org.apache.hadoop:hadoop-azure:3.3.6\",\n    \"org.apache.hadoop:hadoop-azure-datalake:3.3.6\",\n]\ndef create_or_get_spark(app_name: str, packages: List[str]) -> SparkSession:\n    \"\"\"Créer une session Spark avec Delta et Azure.\"\"\"\n    jars = \",\".join(packages)",
-        "detail": "CV_Processus.consumerSpark.consumerspark",
-        "documentation": {}
-    },
-    {
-        "label": "PACKAGES",
-        "kind": 5,
-        "importPath": "CV_Processus.consumerSpark.consumerspark",
-        "description": "CV_Processus.consumerSpark.consumerspark",
-        "peekOfCode": "PACKAGES = [\n    \"io.delta:delta-spark_2.12:1.1.0\",\n    \"org.apache.hadoop:hadoop-azure:3.3.6\",\n    \"org.apache.hadoop:hadoop-azure-datalake:3.3.6\",\n]\ndef create_or_get_spark(app_name: str, packages: List[str]) -> SparkSession:\n    \"\"\"Créer une session Spark avec Delta et Azure.\"\"\"\n    jars = \",\".join(packages)\n    spark = (\n        SparkSession.builder.appName(app_name)",
-        "detail": "CV_Processus.consumerSpark.consumerspark",
-        "documentation": {}
-    },
-    {
-        "label": "consumer",
-        "kind": 5,
-        "importPath": "CV_Processus.consumerSpark.consumerspark",
-        "description": "CV_Processus.consumerSpark.consumerspark",
-        "peekOfCode": "consumer = KafkaConsumer(\n    KAFKA_TOPIC,\n    bootstrap_servers=KAFKA_BOOTSTRAP_SERVERS,\n    group_id=KAFKA_GROUP_ID,\n    auto_offset_reset='earliest',\n    enable_auto_commit=True,\n    security_protocol=\"SASL_SSL\",\n    sasl_mechanism=\"PLAIN\",\n    sasl_plain_username=KAFKA_API_KEY,\n    sasl_plain_password=KAFKA_API_SECRET,",
-        "detail": "CV_Processus.consumerSpark.consumerspark",
-        "documentation": {}
-    },
-    {
-        "label": "PERSON_SCHEMA",
-        "kind": 5,
-        "importPath": "CV_Processus.consumerSpark.schema",
-        "description": "CV_Processus.consumerSpark.schema",
-        "peekOfCode": "PERSON_SCHEMA = StructType([\n    StructField(\"last_name\", StringType(), True),\n    StructField(\"full_name\", StringType(), True),\n    StructField(\"title\", StringType(), True),\n    StructField(\"address\", StructType([\n        StructField(\"formatted_location\", StringType(), True),\n        StructField(\"city\", StringType(), True),\n        StructField(\"region\", StringType(), True),\n        StructField(\"country\", StringType(), True),\n        StructField(\"postal_code\", StringType(), True)",
-        "detail": "CV_Processus.consumerSpark.schema",
-        "documentation": {}
-    },
-    {
-        "label": "OFFRE_SCHEMA",
-        "kind": 5,
-        "importPath": "CV_Processus.consumerSpark.schema",
-        "description": "CV_Processus.consumerSpark.schema",
-        "peekOfCode": "OFFRE_SCHEMA = StructType([\n    StructField(\"titre_du_poste\", StringType(), True),\n    StructField(\"societe\", StringType(), True),\n    StructField(\"competences\", ArrayType(StringType()), True),\n    StructField(\"lieu\", StringType(), True),\n    StructField(\"type_offre\", StringType(), True),\n    StructField(\"durée\", StringType(), True),\n    StructField(\"type_de_contrat\", StringType(), True),\n    StructField(\"email\", StringType(), True),\n    StructField(\"telephone\", StringType(), True),",
-        "detail": "CV_Processus.consumerSpark.schema",
+        "label": "subprocess",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "subprocess",
+        "description": "subprocess",
+        "detail": "subprocess",
         "documentation": {}
     },
     {
@@ -1730,235 +1359,244 @@
     {
         "label": "producer",
         "kind": 5,
-        "importPath": "CV_Processus.producer.prod",
-        "description": "CV_Processus.producer.prod",
-        "peekOfCode": "producer = KafkaProducer(bootstrap_servers='localhost:29092')\n# 2. Lire le fichier PDF en mode binaire\nwith open('document.pdf', 'rb') as fichier_pdf:\n    contenu_pdf = fichier_pdf.read()\n# 3. Envoyer les données en bytes dans Kafka\nproducer.send(config.topic, contenu_pdf)\nproducer.flush()\nproducer.close()",
-        "detail": "CV_Processus.producer.prod",
+        "importPath": "CV_Processus.producer.producer",
+        "description": "CV_Processus.producer.producer",
+        "peekOfCode": "producer = KafkaProducer(bootstrap_servers='localhost:29092')\n# 2. Spécifier le dossier contenant les fichiers PDF\ndossier_data = os.path.join(os.path.dirname(__file__), \"data\")\n# 3. Parcourir tous les fichiers dans le dossier et envoyer chaque PDF\nfor fichier in os.listdir(dossier_data):\n    if fichier.endswith('.pdf'):  # Filtrer uniquement les fichiers PDF\n        chemin_fichier = os.path.join(dossier_data, fichier)\n        with open(chemin_fichier, 'rb') as fichier_pdf:\n            contenu_pdf = fichier_pdf.read()\n            # 4. Envoyer les données dans Kafka",
+        "detail": "CV_Processus.producer.producer",
+        "documentation": {}
+    },
+    {
+        "label": "dossier_data",
+        "kind": 5,
+        "importPath": "CV_Processus.producer.producer",
+        "description": "CV_Processus.producer.producer",
+        "peekOfCode": "dossier_data = os.path.join(os.path.dirname(__file__), \"data\")\n# 3. Parcourir tous les fichiers dans le dossier et envoyer chaque PDF\nfor fichier in os.listdir(dossier_data):\n    if fichier.endswith('.pdf'):  # Filtrer uniquement les fichiers PDF\n        chemin_fichier = os.path.join(dossier_data, fichier)\n        with open(chemin_fichier, 'rb') as fichier_pdf:\n            contenu_pdf = fichier_pdf.read()\n            # 4. Envoyer les données dans Kafka\n            producer.send(config.topic, contenu_pdf)\n            print(f\"Fichier envoyé : {fichier}\", flush=True)  # Affichage immédiat",
+        "detail": "CV_Processus.producer.producer",
         "documentation": {}
     },
     {
         "label": "create_spark_session",
         "kind": 2,
-        "importPath": "CV_Spark_To_Delta_Table.LireKafka_ExtractLlm_ToDeltaTaable",
-        "description": "CV_Spark_To_Delta_Table.LireKafka_ExtractLlm_ToDeltaTaable",
+        "importPath": "CV_Processus.consumer",
+        "description": "CV_Processus.consumer",
         "peekOfCode": "def create_spark_session(app_name: str, packages: List[str]) -> SparkSession:\n    jars = \",\".join(packages)\n    spark = (\n        SparkSession.builder.appName(app_name)\n        .config(\"spark.jars.packages\", jars)\n        .config(f\"fs.azure.account.key.{STORAGE_ACCOUNT_NAME}.dfs.core.windows.net\", STORAGE_ACCOUNT_KEY)\n        .config(\"spark.sql.extensions\", \"io.delta.sql.DeltaSparkSessionExtension\")\n        .config(\"spark.sql.catalog.spark_catalog\", \"org.apache.spark.sql.delta.catalog.DeltaCatalog\")\n        .getOrCreate()\n    )",
-        "detail": "CV_Spark_To_Delta_Table.LireKafka_ExtractLlm_ToDeltaTaable",
+        "detail": "CV_Processus.consumer",
         "documentation": {}
     },
     {
         "label": "ats_extractor",
         "kind": 2,
-        "importPath": "CV_Spark_To_Delta_Table.LireKafka_ExtractLlm_ToDeltaTaable",
-        "description": "CV_Spark_To_Delta_Table.LireKafka_ExtractLlm_ToDeltaTaable",
+        "importPath": "CV_Processus.consumer",
+        "description": "CV_Processus.consumer",
         "peekOfCode": "def ats_extractor(resume_data, api_key):\n    try:\n        groq_client = Groq(api_key=api_key)\n        messages = [\n            {\"role\": \"system\", \"content\": LLM_PROMPT},\n            {\"role\": \"user\", \"content\": resume_data}\n        ]\n        response = groq_client.chat.completions.create(\n            model=\"llama3-8b-8192\",\n            messages=messages,",
-        "detail": "CV_Spark_To_Delta_Table.LireKafka_ExtractLlm_ToDeltaTaable",
+        "detail": "CV_Processus.consumer",
         "documentation": {}
     },
     {
         "label": "extract_text_from_bytes",
         "kind": 2,
-        "importPath": "CV_Spark_To_Delta_Table.LireKafka_ExtractLlm_ToDeltaTaable",
-        "description": "CV_Spark_To_Delta_Table.LireKafka_ExtractLlm_ToDeltaTaable",
+        "importPath": "CV_Processus.consumer",
+        "description": "CV_Processus.consumer",
         "peekOfCode": "def extract_text_from_bytes(pdf_bytes):\n    try:\n        memory_buffer = BytesIO(pdf_bytes)\n        with fitz.open(stream=memory_buffer, filetype=\"pdf\") as doc:\n            text = \"\".join([page.get_text(\"text\") for page in doc])\n            return text\n    except Exception as e:\n        return f\"Error extracting text: {e}\"\n# UDF to Process PDF Data\n@udf(returnType=StringType())",
-        "detail": "CV_Spark_To_Delta_Table.LireKafka_ExtractLlm_ToDeltaTaable",
+        "detail": "CV_Processus.consumer",
         "documentation": {}
     },
     {
         "label": "process_message_udf",
         "kind": 2,
-        "importPath": "CV_Spark_To_Delta_Table.LireKafka_ExtractLlm_ToDeltaTaable",
-        "description": "CV_Spark_To_Delta_Table.LireKafka_ExtractLlm_ToDeltaTaable",
+        "importPath": "CV_Processus.consumer",
+        "description": "CV_Processus.consumer",
         "peekOfCode": "def process_message_udf(value):\n    pdf_bytes = value\n    text = extract_text_from_bytes(pdf_bytes)\n    extracted_data = ats_extractor(text, GROQ_API_KEY)\n    return json.dumps(extracted_data)\n# Create Delta Table if it Doesn't Exist\ndef create_delta_table(spark: SparkSession, schema: StructType, path: str):\n    try:\n        DeltaTable.forPath(spark, path)\n    except Exception:",
-        "detail": "CV_Spark_To_Delta_Table.LireKafka_ExtractLlm_ToDeltaTaable",
+        "detail": "CV_Processus.consumer",
         "documentation": {}
     },
     {
         "label": "create_delta_table",
         "kind": 2,
-        "importPath": "CV_Spark_To_Delta_Table.LireKafka_ExtractLlm_ToDeltaTaable",
-        "description": "CV_Spark_To_Delta_Table.LireKafka_ExtractLlm_ToDeltaTaable",
+        "importPath": "CV_Processus.consumer",
+        "description": "CV_Processus.consumer",
         "peekOfCode": "def create_delta_table(spark: SparkSession, schema: StructType, path: str):\n    try:\n        DeltaTable.forPath(spark, path)\n    except Exception:\n        DeltaTable.createIfNotExists(spark) \\\n            .location(path) \\\n            .addColumns(schema) \\\n            .execute()\n# ===================================================================================\n#       KAFKA STREAM PROCESSING",
-        "detail": "CV_Spark_To_Delta_Table.LireKafka_ExtractLlm_ToDeltaTaable",
+        "detail": "CV_Processus.consumer",
         "documentation": {}
     },
     {
         "label": "STORAGE_ACCOUNT_NAME",
         "kind": 5,
-        "importPath": "CV_Spark_To_Delta_Table.LireKafka_ExtractLlm_ToDeltaTaable",
-        "description": "CV_Spark_To_Delta_Table.LireKafka_ExtractLlm_ToDeltaTaable",
+        "importPath": "CV_Processus.consumer",
+        "description": "CV_Processus.consumer",
         "peekOfCode": "STORAGE_ACCOUNT_NAME = \"adl.............\"\nSTORAGE_ACCOUNT_KEY = \"b.................................=\"\nCONTAINER_NAME = \"cv1\"\nDELTA_TABLE_PATH = f\"abfss://{CONTAINER_NAME}@{STORAGE_ACCOUNT_NAME}.dfs.core.windows.net/delta-table\"\n# Kafka Configuration\nKAFKA_BOOTSTRAP_SERVERS = \"192.168.1.13:29093\"\nKAFKA_TOPIC = \"TopicCV\"\n# Groq API Key\nGROQ_API_KEY = \"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\"\n# Delta Table Schema",
-        "detail": "CV_Spark_To_Delta_Table.LireKafka_ExtractLlm_ToDeltaTaable",
+        "detail": "CV_Processus.consumer",
         "documentation": {}
     },
     {
         "label": "STORAGE_ACCOUNT_KEY",
         "kind": 5,
-        "importPath": "CV_Spark_To_Delta_Table.LireKafka_ExtractLlm_ToDeltaTaable",
-        "description": "CV_Spark_To_Delta_Table.LireKafka_ExtractLlm_ToDeltaTaable",
+        "importPath": "CV_Processus.consumer",
+        "description": "CV_Processus.consumer",
         "peekOfCode": "STORAGE_ACCOUNT_KEY = \"b.................................=\"\nCONTAINER_NAME = \"cv1\"\nDELTA_TABLE_PATH = f\"abfss://{CONTAINER_NAME}@{STORAGE_ACCOUNT_NAME}.dfs.core.windows.net/delta-table\"\n# Kafka Configuration\nKAFKA_BOOTSTRAP_SERVERS = \"192.168.1.13:29093\"\nKAFKA_TOPIC = \"TopicCV\"\n# Groq API Key\nGROQ_API_KEY = \"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\"\n# Delta Table Schema\nPERSON_SCHEMA = StructType([",
-        "detail": "CV_Spark_To_Delta_Table.LireKafka_ExtractLlm_ToDeltaTaable",
+        "detail": "CV_Processus.consumer",
         "documentation": {}
     },
     {
         "label": "CONTAINER_NAME",
         "kind": 5,
-        "importPath": "CV_Spark_To_Delta_Table.LireKafka_ExtractLlm_ToDeltaTaable",
-        "description": "CV_Spark_To_Delta_Table.LireKafka_ExtractLlm_ToDeltaTaable",
+        "importPath": "CV_Processus.consumer",
+        "description": "CV_Processus.consumer",
         "peekOfCode": "CONTAINER_NAME = \"cv1\"\nDELTA_TABLE_PATH = f\"abfss://{CONTAINER_NAME}@{STORAGE_ACCOUNT_NAME}.dfs.core.windows.net/delta-table\"\n# Kafka Configuration\nKAFKA_BOOTSTRAP_SERVERS = \"192.168.1.13:29093\"\nKAFKA_TOPIC = \"TopicCV\"\n# Groq API Key\nGROQ_API_KEY = \"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\"\n# Delta Table Schema\nPERSON_SCHEMA = StructType([\n    StructField(\"first_name\", StringType(), True),",
-        "detail": "CV_Spark_To_Delta_Table.LireKafka_ExtractLlm_ToDeltaTaable",
+        "detail": "CV_Processus.consumer",
         "documentation": {}
     },
     {
         "label": "DELTA_TABLE_PATH",
         "kind": 5,
-        "importPath": "CV_Spark_To_Delta_Table.LireKafka_ExtractLlm_ToDeltaTaable",
-        "description": "CV_Spark_To_Delta_Table.LireKafka_ExtractLlm_ToDeltaTaable",
+        "importPath": "CV_Processus.consumer",
+        "description": "CV_Processus.consumer",
         "peekOfCode": "DELTA_TABLE_PATH = f\"abfss://{CONTAINER_NAME}@{STORAGE_ACCOUNT_NAME}.dfs.core.windows.net/delta-table\"\n# Kafka Configuration\nKAFKA_BOOTSTRAP_SERVERS = \"192.168.1.13:29093\"\nKAFKA_TOPIC = \"TopicCV\"\n# Groq API Key\nGROQ_API_KEY = \"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\"\n# Delta Table Schema\nPERSON_SCHEMA = StructType([\n    StructField(\"first_name\", StringType(), True),\n    StructField(\"last_name\", StringType(), True),",
-        "detail": "CV_Spark_To_Delta_Table.LireKafka_ExtractLlm_ToDeltaTaable",
+        "detail": "CV_Processus.consumer",
         "documentation": {}
     },
     {
         "label": "KAFKA_BOOTSTRAP_SERVERS",
         "kind": 5,
-        "importPath": "CV_Spark_To_Delta_Table.LireKafka_ExtractLlm_ToDeltaTaable",
-        "description": "CV_Spark_To_Delta_Table.LireKafka_ExtractLlm_ToDeltaTaable",
+        "importPath": "CV_Processus.consumer",
+        "description": "CV_Processus.consumer",
         "peekOfCode": "KAFKA_BOOTSTRAP_SERVERS = \"192.168.1.13:29093\"\nKAFKA_TOPIC = \"TopicCV\"\n# Groq API Key\nGROQ_API_KEY = \"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\"\n# Delta Table Schema\nPERSON_SCHEMA = StructType([\n    StructField(\"first_name\", StringType(), True),\n    StructField(\"last_name\", StringType(), True),\n    StructField(\"full_name\", StringType(), True),\n    StructField(\"title\", StringType(), True),",
-        "detail": "CV_Spark_To_Delta_Table.LireKafka_ExtractLlm_ToDeltaTaable",
+        "detail": "CV_Processus.consumer",
         "documentation": {}
     },
     {
         "label": "KAFKA_TOPIC",
         "kind": 5,
-        "importPath": "CV_Spark_To_Delta_Table.LireKafka_ExtractLlm_ToDeltaTaable",
-        "description": "CV_Spark_To_Delta_Table.LireKafka_ExtractLlm_ToDeltaTaable",
+        "importPath": "CV_Processus.consumer",
+        "description": "CV_Processus.consumer",
         "peekOfCode": "KAFKA_TOPIC = \"TopicCV\"\n# Groq API Key\nGROQ_API_KEY = \"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\"\n# Delta Table Schema\nPERSON_SCHEMA = StructType([\n    StructField(\"first_name\", StringType(), True),\n    StructField(\"last_name\", StringType(), True),\n    StructField(\"full_name\", StringType(), True),\n    StructField(\"title\", StringType(), True),\n    StructField(\"address\", StructType([",
-        "detail": "CV_Spark_To_Delta_Table.LireKafka_ExtractLlm_ToDeltaTaable",
+        "detail": "CV_Processus.consumer",
         "documentation": {}
     },
     {
         "label": "GROQ_API_KEY",
         "kind": 5,
-        "importPath": "CV_Spark_To_Delta_Table.LireKafka_ExtractLlm_ToDeltaTaable",
-        "description": "CV_Spark_To_Delta_Table.LireKafka_ExtractLlm_ToDeltaTaable",
+        "importPath": "CV_Processus.consumer",
+        "description": "CV_Processus.consumer",
         "peekOfCode": "GROQ_API_KEY = \"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\"\n# Delta Table Schema\nPERSON_SCHEMA = StructType([\n    StructField(\"first_name\", StringType(), True),\n    StructField(\"last_name\", StringType(), True),\n    StructField(\"full_name\", StringType(), True),\n    StructField(\"title\", StringType(), True),\n    StructField(\"address\", StructType([\n        StructField(\"formatted_location\", StringType(), True),\n        StructField(\"city\", StringType(), True),",
-        "detail": "CV_Spark_To_Delta_Table.LireKafka_ExtractLlm_ToDeltaTaable",
+        "detail": "CV_Processus.consumer",
         "documentation": {}
     },
     {
         "label": "PERSON_SCHEMA",
         "kind": 5,
-        "importPath": "CV_Spark_To_Delta_Table.LireKafka_ExtractLlm_ToDeltaTaable",
-        "description": "CV_Spark_To_Delta_Table.LireKafka_ExtractLlm_ToDeltaTaable",
+        "importPath": "CV_Processus.consumer",
+        "description": "CV_Processus.consumer",
         "peekOfCode": "PERSON_SCHEMA = StructType([\n    StructField(\"first_name\", StringType(), True),\n    StructField(\"last_name\", StringType(), True),\n    StructField(\"full_name\", StringType(), True),\n    StructField(\"title\", StringType(), True),\n    StructField(\"address\", StructType([\n        StructField(\"formatted_location\", StringType(), True),\n        StructField(\"city\", StringType(), True),\n        StructField(\"region\", StringType(), True),\n        StructField(\"country\", StringType(), True),",
-        "detail": "CV_Spark_To_Delta_Table.LireKafka_ExtractLlm_ToDeltaTaable",
+        "detail": "CV_Processus.consumer",
         "documentation": {}
     },
     {
         "label": "spark",
         "kind": 5,
-        "importPath": "CV_Spark_To_Delta_Table.LireKafka_ExtractLlm_ToDeltaTaable",
-        "description": "CV_Spark_To_Delta_Table.LireKafka_ExtractLlm_ToDeltaTaable",
+        "importPath": "CV_Processus.consumer",
+        "description": "CV_Processus.consumer",
         "peekOfCode": "spark = create_spark_session(\"Kafka_to_Delta\", [\n    \"io.delta:delta-spark_2.12:3.0.0\",\n    \"org.apache.hadoop:hadoop-azure:3.3.6\",\n    \"org.apache.hadoop:hadoop-azure-datalake:3.3.6\",\n    \"org.apache.hadoop:hadoop-common:3.3.6\"\n])\n# ===================================================================================\n#       FUNCTIONS\n# ===================================================================================\n# LLM Extraction Prompt",
-        "detail": "CV_Spark_To_Delta_Table.LireKafka_ExtractLlm_ToDeltaTaable",
+        "detail": "CV_Processus.consumer",
         "documentation": {}
     },
     {
         "label": "LLM_PROMPT",
         "kind": 5,
-        "importPath": "CV_Spark_To_Delta_Table.LireKafka_ExtractLlm_ToDeltaTaable",
-        "description": "CV_Spark_To_Delta_Table.LireKafka_ExtractLlm_ToDeltaTaable",
+        "importPath": "CV_Processus.consumer",
+        "description": "CV_Processus.consumer",
         "peekOfCode": "LLM_PROMPT = '''\nYou are an AI system designed to extract structured information from resumes. \nExtract the following fields strictly following this JSON schema:\n{\n  \"first_name\": \"Le prénom du candidat.\",\n  \"last_name\": \"Le nom de famille du candidat.\",\n  \"full_name\": \"Le nom complet du candidat (prénom et nom).\",\n  \"title\": \"Titre professionnel du candidat (ex: Stagiaire, Ingénieur, Développeur).\",\n  \"address\": {\n    \"formatted_location\": \"Adresse complète du candidat au format texte.\",",
-        "detail": "CV_Spark_To_Delta_Table.LireKafka_ExtractLlm_ToDeltaTaable",
+        "detail": "CV_Processus.consumer",
         "documentation": {}
     },
     {
         "label": "df",
         "kind": 5,
-        "importPath": "CV_Spark_To_Delta_Table.LireKafka_ExtractLlm_ToDeltaTaable",
-        "description": "CV_Spark_To_Delta_Table.LireKafka_ExtractLlm_ToDeltaTaable",
+        "importPath": "CV_Processus.consumer",
+        "description": "CV_Processus.consumer",
         "peekOfCode": "df = spark.readStream.format(\"kafka\") \\\n    .option(\"kafka.bootstrap.servers\", KAFKA_BOOTSTRAP_SERVERS) \\\n    .option(\"subscribe\", KAFKA_TOPIC) \\\n    .option(\"startingOffsets\", \"latest\") \\\n    .option(\"failOnDataLoss\", \"false\") \\\n    .load()\nprocessed_df = df.selectExpr(\"CAST(value AS BINARY) as value\") \\\n    .withColumn(\"processed_data\", from_json(process_message_udf(col(\"value\")), PERSON_SCHEMA))\n# Forcer la correspondance du schéma\nfinal_df = processed_df.select(",
-        "detail": "CV_Spark_To_Delta_Table.LireKafka_ExtractLlm_ToDeltaTaable",
+        "detail": "CV_Processus.consumer",
         "documentation": {}
     },
     {
         "label": "processed_df",
         "kind": 5,
-        "importPath": "CV_Spark_To_Delta_Table.LireKafka_ExtractLlm_ToDeltaTaable",
-        "description": "CV_Spark_To_Delta_Table.LireKafka_ExtractLlm_ToDeltaTaable",
+        "importPath": "CV_Processus.consumer",
+        "description": "CV_Processus.consumer",
         "peekOfCode": "processed_df = df.selectExpr(\"CAST(value AS BINARY) as value\") \\\n    .withColumn(\"processed_data\", from_json(process_message_udf(col(\"value\")), PERSON_SCHEMA))\n# Forcer la correspondance du schéma\nfinal_df = processed_df.select(\n    col(\"processed_data.first_name\").alias(\"first_name\"),\n    col(\"processed_data.last_name\").alias(\"last_name\"),\n    col(\"processed_data.full_name\").alias(\"full_name\"),\n    col(\"processed_data.title\").alias(\"title\"),\n    col(\"processed_data.address\").alias(\"address\"),\n    col(\"processed_data.objective\").alias(\"objective\"),",
-        "detail": "CV_Spark_To_Delta_Table.LireKafka_ExtractLlm_ToDeltaTaable",
+        "detail": "CV_Processus.consumer",
         "documentation": {}
     },
     {
         "label": "final_df",
         "kind": 5,
-        "importPath": "CV_Spark_To_Delta_Table.LireKafka_ExtractLlm_ToDeltaTaable",
-        "description": "CV_Spark_To_Delta_Table.LireKafka_ExtractLlm_ToDeltaTaable",
+        "importPath": "CV_Processus.consumer",
+        "description": "CV_Processus.consumer",
         "peekOfCode": "final_df = processed_df.select(\n    col(\"processed_data.first_name\").alias(\"first_name\"),\n    col(\"processed_data.last_name\").alias(\"last_name\"),\n    col(\"processed_data.full_name\").alias(\"full_name\"),\n    col(\"processed_data.title\").alias(\"title\"),\n    col(\"processed_data.address\").alias(\"address\"),\n    col(\"processed_data.objective\").alias(\"objective\"),\n    col(\"processed_data.date_of_birth\").alias(\"date_of_birth\"),\n    col(\"processed_data.place_of_birth\").alias(\"place_of_birth\"),\n    col(\"processed_data.phones\").alias(\"phones\"),",
-        "detail": "CV_Spark_To_Delta_Table.LireKafka_ExtractLlm_ToDeltaTaable",
+        "detail": "CV_Processus.consumer",
         "documentation": {}
     },
     {
         "label": "STORAGE_ACCOUNT_NAME",
         "kind": 5,
-        "importPath": "CV_Spark_To_Delta_Table.Test_lecture_parquet_De_DeltaTable",
-        "description": "CV_Spark_To_Delta_Table.Test_lecture_parquet_De_DeltaTable",
+        "importPath": "CV_Processus.Test",
+        "description": "CV_Processus.Test",
         "peekOfCode": "STORAGE_ACCOUNT_NAME = \"a...............\"\nSTORAGE_ACCOUNT_KEY = \"b...........................................................=\"\nCONTAINER_NAME = \"cv1\"\nPARQUET_FILE_PATH = \"delta-table/part-00000-e8831429-466c-47a9-9517-06aecdc0b839-c000.snappy.parquet\"\n# Créer la session Spark\nspark = SparkSession.builder \\\n    .appName(\"Lecture Parquet depuis ADLS\") \\\n    .config(f\"fs.azure.account.key.{STORAGE_ACCOUNT_NAME}.dfs.core.windows.net\", STORAGE_ACCOUNT_KEY) \\\n    .getOrCreate()\n# Chemin du fichier Parquet",
-        "detail": "CV_Spark_To_Delta_Table.Test_lecture_parquet_De_DeltaTable",
+        "detail": "CV_Processus.Test",
         "documentation": {}
     },
     {
         "label": "STORAGE_ACCOUNT_KEY",
         "kind": 5,
-        "importPath": "CV_Spark_To_Delta_Table.Test_lecture_parquet_De_DeltaTable",
-        "description": "CV_Spark_To_Delta_Table.Test_lecture_parquet_De_DeltaTable",
+        "importPath": "CV_Processus.Test",
+        "description": "CV_Processus.Test",
         "peekOfCode": "STORAGE_ACCOUNT_KEY = \"b...........................................................=\"\nCONTAINER_NAME = \"cv1\"\nPARQUET_FILE_PATH = \"delta-table/part-00000-e8831429-466c-47a9-9517-06aecdc0b839-c000.snappy.parquet\"\n# Créer la session Spark\nspark = SparkSession.builder \\\n    .appName(\"Lecture Parquet depuis ADLS\") \\\n    .config(f\"fs.azure.account.key.{STORAGE_ACCOUNT_NAME}.dfs.core.windows.net\", STORAGE_ACCOUNT_KEY) \\\n    .getOrCreate()\n# Chemin du fichier Parquet\nparquet_path = f\"abfss://{CONTAINER_NAME}@{STORAGE_ACCOUNT_NAME}.dfs.core.windows.net/{PARQUET_FILE_PATH}\"",
-        "detail": "CV_Spark_To_Delta_Table.Test_lecture_parquet_De_DeltaTable",
+        "detail": "CV_Processus.Test",
         "documentation": {}
     },
     {
         "label": "CONTAINER_NAME",
         "kind": 5,
-        "importPath": "CV_Spark_To_Delta_Table.Test_lecture_parquet_De_DeltaTable",
-        "description": "CV_Spark_To_Delta_Table.Test_lecture_parquet_De_DeltaTable",
+        "importPath": "CV_Processus.Test",
+        "description": "CV_Processus.Test",
         "peekOfCode": "CONTAINER_NAME = \"cv1\"\nPARQUET_FILE_PATH = \"delta-table/part-00000-e8831429-466c-47a9-9517-06aecdc0b839-c000.snappy.parquet\"\n# Créer la session Spark\nspark = SparkSession.builder \\\n    .appName(\"Lecture Parquet depuis ADLS\") \\\n    .config(f\"fs.azure.account.key.{STORAGE_ACCOUNT_NAME}.dfs.core.windows.net\", STORAGE_ACCOUNT_KEY) \\\n    .getOrCreate()\n# Chemin du fichier Parquet\nparquet_path = f\"abfss://{CONTAINER_NAME}@{STORAGE_ACCOUNT_NAME}.dfs.core.windows.net/{PARQUET_FILE_PATH}\"\n# Lire les données Parquet",
-        "detail": "CV_Spark_To_Delta_Table.Test_lecture_parquet_De_DeltaTable",
+        "detail": "CV_Processus.Test",
         "documentation": {}
     },
     {
         "label": "PARQUET_FILE_PATH",
         "kind": 5,
-        "importPath": "CV_Spark_To_Delta_Table.Test_lecture_parquet_De_DeltaTable",
-        "description": "CV_Spark_To_Delta_Table.Test_lecture_parquet_De_DeltaTable",
+        "importPath": "CV_Processus.Test",
+        "description": "CV_Processus.Test",
         "peekOfCode": "PARQUET_FILE_PATH = \"delta-table/part-00000-e8831429-466c-47a9-9517-06aecdc0b839-c000.snappy.parquet\"\n# Créer la session Spark\nspark = SparkSession.builder \\\n    .appName(\"Lecture Parquet depuis ADLS\") \\\n    .config(f\"fs.azure.account.key.{STORAGE_ACCOUNT_NAME}.dfs.core.windows.net\", STORAGE_ACCOUNT_KEY) \\\n    .getOrCreate()\n# Chemin du fichier Parquet\nparquet_path = f\"abfss://{CONTAINER_NAME}@{STORAGE_ACCOUNT_NAME}.dfs.core.windows.net/{PARQUET_FILE_PATH}\"\n# Lire les données Parquet\ndf = spark.read.parquet(parquet_path)",
-        "detail": "CV_Spark_To_Delta_Table.Test_lecture_parquet_De_DeltaTable",
+        "detail": "CV_Processus.Test",
         "documentation": {}
     },
     {
         "label": "spark",
         "kind": 5,
-        "importPath": "CV_Spark_To_Delta_Table.Test_lecture_parquet_De_DeltaTable",
-        "description": "CV_Spark_To_Delta_Table.Test_lecture_parquet_De_DeltaTable",
+        "importPath": "CV_Processus.Test",
+        "description": "CV_Processus.Test",
         "peekOfCode": "spark = SparkSession.builder \\\n    .appName(\"Lecture Parquet depuis ADLS\") \\\n    .config(f\"fs.azure.account.key.{STORAGE_ACCOUNT_NAME}.dfs.core.windows.net\", STORAGE_ACCOUNT_KEY) \\\n    .getOrCreate()\n# Chemin du fichier Parquet\nparquet_path = f\"abfss://{CONTAINER_NAME}@{STORAGE_ACCOUNT_NAME}.dfs.core.windows.net/{PARQUET_FILE_PATH}\"\n# Lire les données Parquet\ndf = spark.read.parquet(parquet_path)\n# Afficher un aperçu des données dans le DataFrame\ndf.show(truncate=False)",
-        "detail": "CV_Spark_To_Delta_Table.Test_lecture_parquet_De_DeltaTable",
+        "detail": "CV_Processus.Test",
         "documentation": {}
     },
     {
         "label": "parquet_path",
         "kind": 5,
-        "importPath": "CV_Spark_To_Delta_Table.Test_lecture_parquet_De_DeltaTable",
-        "description": "CV_Spark_To_Delta_Table.Test_lecture_parquet_De_DeltaTable",
+        "importPath": "CV_Processus.Test",
+        "description": "CV_Processus.Test",
         "peekOfCode": "parquet_path = f\"abfss://{CONTAINER_NAME}@{STORAGE_ACCOUNT_NAME}.dfs.core.windows.net/{PARQUET_FILE_PATH}\"\n# Lire les données Parquet\ndf = spark.read.parquet(parquet_path)\n# Afficher un aperçu des données dans le DataFrame\ndf.show(truncate=False)\n# Afficher le schéma pour référence\ndf.printSchema()",
-        "detail": "CV_Spark_To_Delta_Table.Test_lecture_parquet_De_DeltaTable",
+        "detail": "CV_Processus.Test",
         "documentation": {}
     },
     {
         "label": "df",
         "kind": 5,
-        "importPath": "CV_Spark_To_Delta_Table.Test_lecture_parquet_De_DeltaTable",
-        "description": "CV_Spark_To_Delta_Table.Test_lecture_parquet_De_DeltaTable",
+        "importPath": "CV_Processus.Test",
+        "description": "CV_Processus.Test",
         "peekOfCode": "df = spark.read.parquet(parquet_path)\n# Afficher un aperçu des données dans le DataFrame\ndf.show(truncate=False)\n# Afficher le schéma pour référence\ndf.printSchema()",
-        "detail": "CV_Spark_To_Delta_Table.Test_lecture_parquet_De_DeltaTable",
+        "detail": "CV_Processus.Test",
         "documentation": {}
     },
     {
@@ -3483,6 +3121,114 @@
         "documentation": {}
     },
     {
+        "label": "get_pdf_text",
+        "kind": 2,
+        "importPath": "Recruiter_Apps.recruitboot.converteur",
+        "description": "Recruiter_Apps.recruitboot.converteur",
+        "peekOfCode": "def get_pdf_text(pdf_docs):\n    text = \"\"\n    for pdf in pdf_docs:\n        # Vérifiez si le chemin du fichier PDF est valide\n        if not os.path.exists(pdf):\n            print(f\"Le fichier {pdf} n'existe pas.\")\n            continue  # Passez au fichier suivant si celui-ci n'existe pas\n        try:\n            pdf_reader = PdfReader(pdf)\n            # Parcourir toutes les pages du PDF et extraire le texte",
+        "detail": "Recruiter_Apps.recruitboot.converteur",
+        "documentation": {}
+    },
+    {
+        "label": "get_text_chunks",
+        "kind": 2,
+        "importPath": "Recruiter_Apps.recruitboot.ingest",
+        "description": "Recruiter_Apps.recruitboot.ingest",
+        "peekOfCode": "def get_text_chunks(text):\n    text_splitter = CharacterTextSplitter(\n        separator=\"\\n\",\n        chunk_size=1000,\n        chunk_overlap=200,\n        length_function=len\n    )\n    chunks = text_splitter.split_text(text)\n    return chunks\ndef get_vectorstore(text_chunks):",
+        "detail": "Recruiter_Apps.recruitboot.ingest",
+        "documentation": {}
+    },
+    {
+        "label": "get_vectorstore",
+        "kind": 2,
+        "importPath": "Recruiter_Apps.recruitboot.ingest",
+        "description": "Recruiter_Apps.recruitboot.ingest",
+        "peekOfCode": "def get_vectorstore(text_chunks):\n    # Charger les embeddings Hugging Face\n    embeddings = HuggingFaceEmbeddings(model_name=\"sentence-transformers/all-MiniLM-L6-v2\")\n    # Créer le vecteur FAISS à partir des textes et des embeddings\n    vectorstore = FAISS.from_texts(texts=text_chunks, embedding=embeddings)\n    return vectorstore",
+        "detail": "Recruiter_Apps.recruitboot.ingest",
+        "documentation": {}
+    },
+    {
+        "label": "create_conversation_chain",
+        "kind": 2,
+        "importPath": "Recruiter_Apps.recruitboot.retrieval_generation",
+        "description": "Recruiter_Apps.recruitboot.retrieval_generation",
+        "peekOfCode": "def create_conversation_chain(vectorstore):\n    if not isinstance(vectorstore, FAISS):\n        raise TypeError(\"Le vectorstore doit être un objet de type FAISS.\")\n    # Initialisation du LLM avec HuggingFaceHub\n    llm = HuggingFaceHub(\n        repo_id=\"google/flan-t5-large\",\n        huggingfacehub_api_token=\"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\",\n        model_kwargs={\"temperature\": 0.5, \"max_length\": 512}\n    )\n    # Configuration de la mémoire pour conserver l'historique des conversations",
+        "detail": "Recruiter_Apps.recruitboot.retrieval_generation",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 2,
+        "importPath": "Recruiter_Apps.app",
+        "description": "Recruiter_Apps.app",
+        "peekOfCode": "def index():\n    return render_template('chat.html')\n@app.route(\"/get\", methods=[\"POST\"])\ndef chat():\n    msg = request.form[\"msg\"]\n    input = msg  # Le message utilisateur\n    try:\n        # Appel à invoke() pour obtenir la réponse\n        result = conversation_chain.invoke({\"question\": input})\n        print(\"Response: \", result)",
+        "detail": "Recruiter_Apps.app",
+        "documentation": {}
+    },
+    {
+        "label": "chat",
+        "kind": 2,
+        "importPath": "Recruiter_Apps.app",
+        "description": "Recruiter_Apps.app",
+        "peekOfCode": "def chat():\n    msg = request.form[\"msg\"]\n    input = msg  # Le message utilisateur\n    try:\n        # Appel à invoke() pour obtenir la réponse\n        result = conversation_chain.invoke({\"question\": input})\n        print(\"Response: \", result)\n        # Retourner uniquement la réponse textuelle sans l'objet complet\n        answer = result[\"answer\"] if \"answer\" in result else \"Désolé, je n'ai pas pu trouver une réponse.\"\n        return jsonify({\"response\": answer})  # Retourner la réponse du chatbot",
+        "detail": "Recruiter_Apps.app",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "Recruiter_Apps.app",
+        "description": "Recruiter_Apps.app",
+        "peekOfCode": "app = Flask(__name__)\nload_dotenv()\n# Fonction de génération de la chaîne conversationnelle (pour intégrer LangChain)\n# Traitement du PDF\npdf_docs = [r\"C:\\Users\\HP\\OneDrive\\Desktop\\bigData_project\\E-Commerce-Chatbot\\data\\hamza.pdf\"]\ntext = get_pdf_text(pdf_docs)\nchunks = get_text_chunks(text)\nvectorstore = get_vectorstore(chunks)\n# Création de la chaîne de conversation\nconversation_chain = create_conversation_chain(vectorstore)",
+        "detail": "Recruiter_Apps.app",
+        "documentation": {}
+    },
+    {
+        "label": "pdf_docs",
+        "kind": 5,
+        "importPath": "Recruiter_Apps.app",
+        "description": "Recruiter_Apps.app",
+        "peekOfCode": "pdf_docs = [r\"C:\\Users\\HP\\OneDrive\\Desktop\\bigData_project\\E-Commerce-Chatbot\\data\\hamza.pdf\"]\ntext = get_pdf_text(pdf_docs)\nchunks = get_text_chunks(text)\nvectorstore = get_vectorstore(chunks)\n# Création de la chaîne de conversation\nconversation_chain = create_conversation_chain(vectorstore)\n@app.route(\"/\")\ndef index():\n    return render_template('chat.html')\n@app.route(\"/get\", methods=[\"POST\"])",
+        "detail": "Recruiter_Apps.app",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "kind": 5,
+        "importPath": "Recruiter_Apps.app",
+        "description": "Recruiter_Apps.app",
+        "peekOfCode": "text = get_pdf_text(pdf_docs)\nchunks = get_text_chunks(text)\nvectorstore = get_vectorstore(chunks)\n# Création de la chaîne de conversation\nconversation_chain = create_conversation_chain(vectorstore)\n@app.route(\"/\")\ndef index():\n    return render_template('chat.html')\n@app.route(\"/get\", methods=[\"POST\"])\ndef chat():",
+        "detail": "Recruiter_Apps.app",
+        "documentation": {}
+    },
+    {
+        "label": "chunks",
+        "kind": 5,
+        "importPath": "Recruiter_Apps.app",
+        "description": "Recruiter_Apps.app",
+        "peekOfCode": "chunks = get_text_chunks(text)\nvectorstore = get_vectorstore(chunks)\n# Création de la chaîne de conversation\nconversation_chain = create_conversation_chain(vectorstore)\n@app.route(\"/\")\ndef index():\n    return render_template('chat.html')\n@app.route(\"/get\", methods=[\"POST\"])\ndef chat():\n    msg = request.form[\"msg\"]",
+        "detail": "Recruiter_Apps.app",
+        "documentation": {}
+    },
+    {
+        "label": "vectorstore",
+        "kind": 5,
+        "importPath": "Recruiter_Apps.app",
+        "description": "Recruiter_Apps.app",
+        "peekOfCode": "vectorstore = get_vectorstore(chunks)\n# Création de la chaîne de conversation\nconversation_chain = create_conversation_chain(vectorstore)\n@app.route(\"/\")\ndef index():\n    return render_template('chat.html')\n@app.route(\"/get\", methods=[\"POST\"])\ndef chat():\n    msg = request.form[\"msg\"]\n    input = msg  # Le message utilisateur",
+        "detail": "Recruiter_Apps.app",
+        "documentation": {}
+    },
+    {
+        "label": "conversation_chain",
+        "kind": 5,
+        "importPath": "Recruiter_Apps.app",
+        "description": "Recruiter_Apps.app",
+        "peekOfCode": "conversation_chain = create_conversation_chain(vectorstore)\n@app.route(\"/\")\ndef index():\n    return render_template('chat.html')\n@app.route(\"/get\", methods=[\"POST\"])\ndef chat():\n    msg = request.form[\"msg\"]\n    input = msg  # Le message utilisateur\n    try:\n        # Appel à invoke() pour obtenir la réponse",
+        "detail": "Recruiter_Apps.app",
+        "documentation": {}
+    },
+    {
         "label": "ats_extractor",
         "kind": 2,
         "importPath": "Recruiter_Apps.app_cvs",
@@ -3505,7 +3251,7 @@
         "kind": 2,
         "importPath": "Recruiter_Apps.app_cvs",
         "description": "Recruiter_Apps.app_cvs",
-        "peekOfCode": "def get_average_word_vector(tokens, model):\n    word_vectors = [model.wv[token] for token in tokens if token in model.wv]\n    if not word_vectors:\n        return np.zeros(model.vector_size)\n    return np.mean(word_vectors, axis=0)\n# Fonction pour extraire du texte des fichiers PDF\nimport os\nimport fitz  # PyMuPDF\ndef extract_text_from_pdf(upload_folder):\n    \"\"\"",
+        "peekOfCode": "def get_average_word_vector(tokens, model):\n    word_vectors = [model.wv[token] for token in tokens if token in model.wv]\n    if not word_vectors:\n        return np.zeros(model.vector_size)\n    return np.mean(word_vectors, axis=0)\ndef extract_text_from_pdf(upload_folder):\n    \"\"\"\n    Extrait le texte de tous les fichiers PDF dans un dossier.\n    Args:\n        upload_folder (str): Chemin du dossier contenant les fichiers PDF.",
         "detail": "Recruiter_Apps.app_cvs",
         "documentation": {}
     },
@@ -3876,114 +3622,6 @@
         "description": "Recruiter_Apps.app_offres",
         "peekOfCode": "#model = gensim.models.Word2Vec.load(\"D:/mémoire/resume_word2vec.model\")\nimport json\nimport uuid\ndef ats_extractor(resume_data):\n    # Prompt for extracting specific information from the resume\n    prompt = '''\n    You are an AI bot designed to act as a professional for parsing resumes. You are given a resume, and your job is to extract the following information:\n    1. skills \n    2. languages\n    3. education (field of study such as Computer Science, Management, Medicine, Marketing, Electrical Engineering, etc.)",
         "detail": "Recruiter_Apps.app_offres",
-        "documentation": {}
-    },
-    {
-        "label": "get_pdf_text",
-        "kind": 2,
-        "importPath": "Recruitment_chatBot.recruitboot.converteur",
-        "description": "Recruitment_chatBot.recruitboot.converteur",
-        "peekOfCode": "def get_pdf_text(pdf_docs):\n    text = \"\"\n    for pdf in pdf_docs:\n        # Vérifiez si le chemin du fichier PDF est valide\n        if not os.path.exists(pdf):\n            print(f\"Le fichier {pdf} n'existe pas.\")\n            continue  # Passez au fichier suivant si celui-ci n'existe pas\n        try:\n            pdf_reader = PdfReader(pdf)\n            # Parcourir toutes les pages du PDF et extraire le texte",
-        "detail": "Recruitment_chatBot.recruitboot.converteur",
-        "documentation": {}
-    },
-    {
-        "label": "get_text_chunks",
-        "kind": 2,
-        "importPath": "Recruitment_chatBot.recruitboot.ingest",
-        "description": "Recruitment_chatBot.recruitboot.ingest",
-        "peekOfCode": "def get_text_chunks(text):\n    text_splitter = CharacterTextSplitter(\n        separator=\"\\n\",\n        chunk_size=1000,\n        chunk_overlap=200,\n        length_function=len\n    )\n    chunks = text_splitter.split_text(text)\n    return chunks\ndef get_vectorstore(text_chunks):",
-        "detail": "Recruitment_chatBot.recruitboot.ingest",
-        "documentation": {}
-    },
-    {
-        "label": "get_vectorstore",
-        "kind": 2,
-        "importPath": "Recruitment_chatBot.recruitboot.ingest",
-        "description": "Recruitment_chatBot.recruitboot.ingest",
-        "peekOfCode": "def get_vectorstore(text_chunks):\n    # Charger les embeddings Hugging Face\n    embeddings = HuggingFaceEmbeddings(model_name=\"sentence-transformers/all-MiniLM-L6-v2\")\n    # Créer le vecteur FAISS à partir des textes et des embeddings\n    vectorstore = FAISS.from_texts(texts=text_chunks, embedding=embeddings)\n    return vectorstore",
-        "detail": "Recruitment_chatBot.recruitboot.ingest",
-        "documentation": {}
-    },
-    {
-        "label": "create_conversation_chain",
-        "kind": 2,
-        "importPath": "Recruitment_chatBot.recruitboot.retrieval_generation",
-        "description": "Recruitment_chatBot.recruitboot.retrieval_generation",
-        "peekOfCode": "def create_conversation_chain(vectorstore):\n    if not isinstance(vectorstore, FAISS):\n        raise TypeError(\"Le vectorstore doit être un objet de type FAISS.\")\n    # Initialisation du LLM avec HuggingFaceHub\n    llm = HuggingFaceHub(\n        repo_id=\"google/flan-t5-large\",\n        huggingfacehub_api_token=\"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\",\n        model_kwargs={\"temperature\": 0.5, \"max_length\": 512}\n    )\n    # Configuration de la mémoire pour conserver l'historique des conversations",
-        "detail": "Recruitment_chatBot.recruitboot.retrieval_generation",
-        "documentation": {}
-    },
-    {
-        "label": "index",
-        "kind": 2,
-        "importPath": "Recruitment_chatBot.app",
-        "description": "Recruitment_chatBot.app",
-        "peekOfCode": "def index():\n    return render_template('chat.html')\n@app.route(\"/get\", methods=[\"POST\"])\ndef chat():\n    msg = request.form[\"msg\"]\n    input = msg  # Le message utilisateur\n    try:\n        # Appel à invoke() pour obtenir la réponse\n        result = conversation_chain.invoke({\"question\": input})\n        print(\"Response: \", result)",
-        "detail": "Recruitment_chatBot.app",
-        "documentation": {}
-    },
-    {
-        "label": "chat",
-        "kind": 2,
-        "importPath": "Recruitment_chatBot.app",
-        "description": "Recruitment_chatBot.app",
-        "peekOfCode": "def chat():\n    msg = request.form[\"msg\"]\n    input = msg  # Le message utilisateur\n    try:\n        # Appel à invoke() pour obtenir la réponse\n        result = conversation_chain.invoke({\"question\": input})\n        print(\"Response: \", result)\n        # Retourner uniquement la réponse textuelle sans l'objet complet\n        answer = result[\"answer\"] if \"answer\" in result else \"Désolé, je n'ai pas pu trouver une réponse.\"\n        return jsonify({\"response\": answer})  # Retourner la réponse du chatbot",
-        "detail": "Recruitment_chatBot.app",
-        "documentation": {}
-    },
-    {
-        "label": "app",
-        "kind": 5,
-        "importPath": "Recruitment_chatBot.app",
-        "description": "Recruitment_chatBot.app",
-        "peekOfCode": "app = Flask(__name__)\nload_dotenv()\n# Fonction de génération de la chaîne conversationnelle (pour intégrer LangChain)\n# Traitement du PDF\npdf_docs = [r\"C:\\Users\\HP\\OneDrive\\Desktop\\bigData_project\\E-Commerce-Chatbot\\data\\hamza.pdf\"]\ntext = get_pdf_text(pdf_docs)\nchunks = get_text_chunks(text)\nvectorstore = get_vectorstore(chunks)\n# Création de la chaîne de conversation\nconversation_chain = create_conversation_chain(vectorstore)",
-        "detail": "Recruitment_chatBot.app",
-        "documentation": {}
-    },
-    {
-        "label": "pdf_docs",
-        "kind": 5,
-        "importPath": "Recruitment_chatBot.app",
-        "description": "Recruitment_chatBot.app",
-        "peekOfCode": "pdf_docs = [r\"C:\\Users\\HP\\OneDrive\\Desktop\\bigData_project\\E-Commerce-Chatbot\\data\\hamza.pdf\"]\ntext = get_pdf_text(pdf_docs)\nchunks = get_text_chunks(text)\nvectorstore = get_vectorstore(chunks)\n# Création de la chaîne de conversation\nconversation_chain = create_conversation_chain(vectorstore)\n@app.route(\"/\")\ndef index():\n    return render_template('chat.html')\n@app.route(\"/get\", methods=[\"POST\"])",
-        "detail": "Recruitment_chatBot.app",
-        "documentation": {}
-    },
-    {
-        "label": "text",
-        "kind": 5,
-        "importPath": "Recruitment_chatBot.app",
-        "description": "Recruitment_chatBot.app",
-        "peekOfCode": "text = get_pdf_text(pdf_docs)\nchunks = get_text_chunks(text)\nvectorstore = get_vectorstore(chunks)\n# Création de la chaîne de conversation\nconversation_chain = create_conversation_chain(vectorstore)\n@app.route(\"/\")\ndef index():\n    return render_template('chat.html')\n@app.route(\"/get\", methods=[\"POST\"])\ndef chat():",
-        "detail": "Recruitment_chatBot.app",
-        "documentation": {}
-    },
-    {
-        "label": "chunks",
-        "kind": 5,
-        "importPath": "Recruitment_chatBot.app",
-        "description": "Recruitment_chatBot.app",
-        "peekOfCode": "chunks = get_text_chunks(text)\nvectorstore = get_vectorstore(chunks)\n# Création de la chaîne de conversation\nconversation_chain = create_conversation_chain(vectorstore)\n@app.route(\"/\")\ndef index():\n    return render_template('chat.html')\n@app.route(\"/get\", methods=[\"POST\"])\ndef chat():\n    msg = request.form[\"msg\"]",
-        "detail": "Recruitment_chatBot.app",
-        "documentation": {}
-    },
-    {
-        "label": "vectorstore",
-        "kind": 5,
-        "importPath": "Recruitment_chatBot.app",
-        "description": "Recruitment_chatBot.app",
-        "peekOfCode": "vectorstore = get_vectorstore(chunks)\n# Création de la chaîne de conversation\nconversation_chain = create_conversation_chain(vectorstore)\n@app.route(\"/\")\ndef index():\n    return render_template('chat.html')\n@app.route(\"/get\", methods=[\"POST\"])\ndef chat():\n    msg = request.form[\"msg\"]\n    input = msg  # Le message utilisateur",
-        "detail": "Recruitment_chatBot.app",
-        "documentation": {}
-    },
-    {
-        "label": "conversation_chain",
-        "kind": 5,
-        "importPath": "Recruitment_chatBot.app",
-        "description": "Recruitment_chatBot.app",
-        "peekOfCode": "conversation_chain = create_conversation_chain(vectorstore)\n@app.route(\"/\")\ndef index():\n    return render_template('chat.html')\n@app.route(\"/get\", methods=[\"POST\"])\ndef chat():\n    msg = request.form[\"msg\"]\n    input = msg  # Le message utilisateur\n    try:\n        # Appel à invoke() pour obtenir la réponse",
-        "detail": "Recruitment_chatBot.app",
         "documentation": {}
     },
     {
@@ -4497,6 +4135,24 @@
         "description": "spark_TO_delta(inspiratio)",
         "peekOfCode": "df = spark.read.json(spark.sparkContext.parallelize([data]), schema=PERSON_SCHEMA)\nprint(\"JSON data loaded\")\n# Traiter les données\nprint(\"Data processed\")\n# Créer une table Delta vide (si elle n'existe pas encore)\ncreate_empty_delta_table(\n    spark=spark,\n    schema=PERSON_SCHEMA,\n    path=OUTPUT_PATH,\n    partition_cols=[\"first_name\"],",
         "detail": "spark_TO_delta(inspiratio)",
+        "documentation": {}
+    },
+    {
+        "label": "generate_requirements",
+        "kind": 2,
+        "importPath": "test",
+        "description": "test",
+        "peekOfCode": "def generate_requirements(modules, output_file=\"requirements.txt\"):\n    \"\"\"\n    Generate a requirements.txt file with the installed versions of the specified modules.\n    Args:\n        modules (list): List of module names to include in the requirements file.\n        output_file (str): The output file name for requirements.txt.\n    \"\"\"\n    requirements = []\n    for module in modules:\n        try:",
+        "detail": "test",
+        "documentation": {}
+    },
+    {
+        "label": "modules",
+        "kind": 5,
+        "importPath": "test",
+        "description": "test",
+        "peekOfCode": "modules = [\n    \"datetime\", \"flask\", \"os\", \"pandas\", \"gensim\", \"numpy\", \"nltk\",\n    \"sklearn\", \"fitz\", \"groq\", \"re\", \"csv\", \"pinecone\", \"sentence-transformers\",\n    \"snowflake-connector-python\", \"uuid\", \"redis\"\n]\n# Generate the requirements.txt file\ngenerate_requirements(modules)",
+        "detail": "test",
         "documentation": {}
     }
 ]
