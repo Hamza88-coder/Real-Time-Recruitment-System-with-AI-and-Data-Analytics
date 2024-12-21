@@ -103,18 +103,18 @@ Feel free to explore and analyze the data simulation and processing pipeline to 
 
 # Project Flow
 
-- Setup Free Azure account & Azure Keyvault - **[Setup](https://github.com/Hamza88-coder/bigData_project/blob/main/setup/azure.md)**
+- Setup Free Azure account & Azure Keyvault - **[Setup](https://github.com/Hamza88-coder/Real-Time-Recruitment-System-with-AI-and-Data-Analytics/bigData_project/blob/main/setup/azure.md)**
 - SSH into VM (kafka-vm)
-  - Setup Kafka Server - **[Setup](https://github.com/Hamza88-coder/bigData_project/blob/main/setup/kafka.md)**
+  - Setup Kafka Server - **[Setup](https://github.com/Hamza88-coder/Real-Time-Recruitment-System-with-AI-and-Data-Analytics/blob/main/setup/kafka.md)**
   
-  - Setup Spark streaming job - **[Setup](https://github.com/Hamza88-coder/bigData_project/blob/main/setup/spark.md)**
-- Setup Snowflake Warehouse - **[Setup](https://github.com/Hamza88-coder/bigData_project/blob/main/setup/snowflake.md)**
-- Setup Databricks Workspace & CDC (Change Data Capture) job - **[Setup](https://github.com/Hamza88-coder/bigData_project/blob/main/setup/databricks.md)**
+  - Setup Spark streaming job - **[Setup](https://github.com/Hamza88-coder/Real-Time-Recruitment-System-with-AI-and-Data-Analytics/blob/main/setup/spark.md)**
+- Setup Snowflake Warehouse - **[Setup](https://github.com/Hamza88-coder/Real-Time-Recruitment-System-with-AI-and-Data-Analytics/blob/main/setup/snowflake.md)**
+- Setup Databricks Workspace & CDC (Change Data Capture) job - **[Setup](https://github.com/Hamza88-coder/Real-Time-Recruitment-System-with-AI-and-Data-Analytics/blob/main/setup/databricks.md)**
 
 ## Error Resolution
 
 While processing data in a Spark environment with Delta Lake, an error related to thread management was encountered. A detailed solution has been documented in the following file:  
--Resolving the Error with DeltaTable and Azure Blob File System - **[setup](https://github.com/Hamza88-coder/bigData_project/blob/main/setup/errors.md)**  
+-Resolving the Error with DeltaTable and Azure Blob File System - **[setup](https://github.com/Hamza88-coder/Real-Time-Recruitment-System-with-AI-and-Data-Analytics/blob/main/setup/errors.md)**  
 
 
 
