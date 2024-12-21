@@ -108,17 +108,17 @@ This project includes several interactive dashboards created by analyzing data e
 
 ## Dashboard 1: Job offers distribution by city
 
-### Image:
+
 ![Dashboard 1 Image](./Tableau/dash1.PNG)
 
 ## Dashboard 2: Most Active Companies and condidates distribution by gender and years of experience 
 
-### Image:
+
 ![Dashboard 2 Image](./Tableau/dash2.PNG)
 
 ## Dashboard 3: Analysis of Candidates by Competence and years of experience
 
-### Image:
+
 ![Dashboard 3 Image](./Tableau/DASH3.PNG)
 
 ## Dashboard 4: Analysis of Salaries and offer count by contract type
@@ -126,7 +126,7 @@ This project includes several interactive dashboards created by analyzing data e
 ![Dashboard 3 Image](./Tableau/DASH4%20(2).PNG)
 
 ## Dashboard 5: Formation comparison between condidates and offers 
-### Image:
+
 ![Dashboard 3 Image](./Tableau/DASH5.PNG)
 
 # Project Flow
