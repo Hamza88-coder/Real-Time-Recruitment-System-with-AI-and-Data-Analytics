@@ -101,6 +101,34 @@ Feel free to explore and analyze the data simulation and processing pipeline to 
    ![Candidate Segmentation Dashboard](./images/dash_seg1.png)
    ![Candidate Segmentation Dashboard](./images/dash_seg2.png)
 
+
+# Dashboards Created by Analyzing Our Data Warehouse
+
+This project includes several interactive dashboards created by analyzing data extracted from our Data Warehouse. Each dashboard presents key insights based on the collected and processed data.
+
+## Dashboard 1: Job offers distribution by city
+
+### Image:
+![Dashboard 1 Image](./Tableau/dash1.PNG)
+
+## Dashboard 2: Most Active Companies and condidates distribution by gender and years of experience 
+
+### Image:
+![Dashboard 2 Image](./Tableau/dash2.PNG)
+
+## Dashboard 3: Analysis of Candidates by Competence and years of experience
+
+### Image:
+![Dashboard 3 Image](./Tableau/DASH3.PNG)
+
+## Dashboard 4: Analysis of Salaries and offer count by contract type
+### Image:
+![Dashboard 3 Image](./Tableau/DASH4%20(2).PNG)
+
+## Dashboard 5: Formation comparison between condidates and offers 
+### Image:
+![Dashboard 3 Image](./Tableau/DASH5.PNG)
+
 # Project Flow
 
 - Setup Free Azure account & Azure Keyvault - **[Setup](https://github.com/Hamza88-coder/Real-Time-Recruitment-System-with-AI-and-Data-Analytics/bigData_project/blob/main/setup/azure.md)**
