@@ -7,6 +7,8 @@ from pyspark.sql import SparkSession, DataFrame
 from pyspark.sql.types import StructType, StructField, StringType
 from delta.tables import DeltaTable
 from schema import OFFRE_SCHEMA
+from extractor import process_message_groq  # Importer la fonction
+
 
 # Charger les variables d'environnement
 load_dotenv()
@@ -84,7 +86,8 @@ def save_to_delta(df: DataFrame, output_path: str):
 def process_message(spark: SparkSession, message: str):
     """Traiter un message Kafka et l'enregistrer dans une table Delta."""
     try:
-        job_posting = json.loads(message)
+      
+        job_posting= process_message_groq(spark, message)
         df = spark.createDataFrame([job_posting], schema=OFFRE_SCHEMA)
         save_to_delta(df, OUTPUT_PATH)
     except Exception as e:

@@ -1,125 +1,61 @@
-import os
-import time
 import json
-from typing import List, Optional
-from dotenv import load_dotenv
+import requests
 from kafka import KafkaConsumer
-from pyspark.sql import SparkSession, DataFrame
-from pyspark.sql.types import StructType
-from delta.tables import DeltaTable
-from extractor import extract_job_info
-
-# Charger les variables d'environnement
+from pyspark.sql import SparkSession
+from schema import OFFRE_SCHEMA
+from dotenv import load_dotenv
 load_dotenv()
-ADLS_STORAGE_ACCOUNT_NAME = os.getenv("ADLS_STORAGE_ACCOUNT_NAME")
-ADLS_ACCOUNT_KEY = os.getenv("ADLS_ACCOUNT_KEY")
-ADLS_CONTAINER_NAME = os.getenv("ADLS_CONTAINER_NAME")
-ADLS_FOLDER_PATH = os.getenv("ADLS_FOLDER_PATH")
-KAFKA_BOOTSTRAP_SERVERS = os.getenv("KAFKA_BOOTSTRAP_SERVERS")
-KAFKA_GROUP_ID = os.getenv("KAFKA_GROUP_ID")
+import os
 
-# Configuration Kafka Consumer
-consumer = KafkaConsumer(
-    'offres_travail',
-    bootstrap_servers=KAFKA_BOOTSTRAP_SERVERS,
-    group_id=KAFKA_GROUP_ID,
-    auto_offset_reset='earliest',
-    enable_auto_commit=True
-)
 
-# Configuration Spark
-PACKAGES = [
-    "io.delta:delta-spark_2.12:3.0.0",
-    "org.apache.hadoop:hadoop-azure:3.3.6",
-    "org.apache.hadoop:hadoop-azure-datalake:3.3.6",
-    "org.apache.hadoop:hadoop-common:3.3.6",
-]
+GROQ_API_URL  = os.getenv("GROQ_API_URL ")
+GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 
-OUTPUT_PATH = (
-    f"abfss://{ADLS_CONTAINER_NAME}@{ADLS_STORAGE_ACCOUNT_NAME}.dfs.core.windows.net/"
-    + ADLS_FOLDER_PATH
-)
-
-def create_or_get_spark(app_name: str, packages: List[str]) -> SparkSession:
-    jars = ",".join(packages)
-    spark = (
-        SparkSession.builder.appName(app_name)
-        .config("spark.streaming.stopGracefullyOnShutdown", True)
-        .config("spark.jars.packages", jars)
-        .config("spark.sql.extensions", "io.delta.sql.DeltaSparkSessionExtension")
-        .config(
-            "spark.sql.catalog.spark_catalog",
-            "org.apache.spark.sql.delta.catalog.DeltaCatalog",
-        )
-        .config(
-            "fs.abfss.impl", "org.apache.hadoop.fs.azurebfs.SecureAzureBlobFileSystem"
-        )
-        .getOrCreate()
-    )
-    return spark
-
-def create_empty_delta_table(spark: SparkSession, schema: StructType, path: str, partition_cols: Optional[List[str]] = None):
+def process_message_groq(message: str):
+    """Traite un message et le formate dans le format JSON voulu."""
     try:
-        DeltaTable.forPath(spark, path)
-        print(f"Delta Table already exists at path: {path}")
-    except Exception:
-        custom_builder = (
-            DeltaTable.createIfNotExists(spark)
-            .location(path)
-            .addColumns(schema)
-        )
-        if partition_cols:
-            custom_builder = custom_builder.partitionedBy(partition_cols)
-        custom_builder.execute()
-        print(f"Delta table created at path: {path}")
+        # Envoi du texte à l'API Groq pour extraction des données
+        headers = {
+            'Authorization': f'Bearer {GROQ_API_KEY}',
+            'Content-Type': 'application/json',
+        }
+        payload = {
+            'text': message  # Le texte de l'offre que vous envoyez à l'API
+        }
 
-def save_to_delta(df: DataFrame, output_path: str):
-    df.write.format("delta").mode("append").option("mergeSchema", "true").save(output_path)
-    print("Data written to Delta Table")
+        response = requests.post(GROQ_API_URL, headers=headers, json=payload)
 
-# Initialiser Spark
-spark = create_or_get_spark(app_name="kafka_to_delta", packages=PACKAGES)
+        # Vérifiez si la requête a réussi
+        if response.status_code == 200:
+            job_posting = response.json()
 
-# Configurer la connexion Azure
-spark.conf.set(
-    f"fs.azure.account.key.{ADLS_STORAGE_ACCOUNT_NAME}.dfs.core.windows.net",
-    ADLS_ACCOUNT_KEY,
-)
-print("Spark Session Created")
+            # Structure des données selon le format souhaité
+            formatted_job_posting = {
+                "titre_du_poste": job_posting.get("job_title", ""),
+                "societe": job_posting.get("company_name", ""),
+                "competences": job_posting.get("skills", []),
+                "lieu": job_posting.get("location", ""),
+                "type_offre": job_posting.get("offer_type", ""),
+                "type_de_contrat": job_posting.get("contract_type", ""),
+                "durée": job_posting.get("duration", ""),
+                "email": job_posting.get("email", ""),
+                "telephone": job_posting.get("phone", ""),
+                "type": job_posting.get("work_type", ""),
+                "langues": job_posting.get("languages", []),
+                "salaire": job_posting.get("salary", ""),
+                "date_de_debut": job_posting.get("start_date", ""),
+                "secteur_dactivite": job_posting.get("industry", ""),
+                "experience_demande": job_posting.get("required_experience", ""),
+                "formation_requise": job_posting.get("required_education", ""),
+                "avantages": job_posting.get("benefits", []),
+                "site_web": job_posting.get("website", "")
+            }
 
-# Boucle principale pour lire et traiter les messages Kafka
-for message in consumer:
-    try:
-        # Lire le texte de l'offre d'emploi
-        job_posting_text = message.value.decode("utf-8")
+            # Afficher ou sauvegarder sous le format JSON
+            return (json.dumps(formatted_job_posting, indent=4))
 
-        # Extraire les informations
-        extracted_data = extract_job_info(job_posting_text)
-
-        # Vérifier les erreurs dans l'extraction
-        if "error" in extracted_data:
-            print(f"Error extracting data: {extracted_data['error']}")
-            continue
-
-        # Sauvegarde temporaire au format JSON
-        timestamp = time.strftime("%Y%m%d_%H%M%S")
-        output_file = f"resultat_offre_{timestamp}.json"
-        with open(output_file, "w", encoding="utf-8") as f:
-            json.dump(extracted_data, f, ensure_ascii=False, indent=4)
-
-        # Charger les données dans Spark DataFrame
-        df = spark.read.json(spark.sparkContext.parallelize([json.dumps(extracted_data)]))
-
-        # Créer une table Delta vide si elle n'existe pas
-        create_empty_delta_table(
-            spark=spark,
-            schema=df.schema,
-            path=OUTPUT_PATH,
-            partition_cols=["titre_du_poste", "secteur_dactivite"],
-        )
-
-        # Sauvegarder dans la table Delta
-        save_to_delta(df, OUTPUT_PATH)
+        else:
+            print(f"Error: {response.status_code} - {response.text}")
 
     except Exception as e:
         print(f"Error processing message: {e}")
