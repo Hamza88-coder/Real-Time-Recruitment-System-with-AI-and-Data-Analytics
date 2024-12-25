@@ -49,22 +49,6 @@
         "documentation": {}
     },
     {
-        "label": "List",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Optional",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
         "label": "pyspark.sql.functions",
         "kind": 6,
         "isExtraImport": true,
@@ -194,14 +178,6 @@
         "documentation": {}
     },
     {
-        "label": "DataFrame",
-        "importPath": "pyspark.sql",
-        "description": "pyspark.sql",
-        "isExtraImport": true,
-        "detail": "pyspark.sql",
-        "documentation": {}
-    },
-    {
         "label": "SparkSession",
         "importPath": "pyspark.sql",
         "description": "pyspark.sql",
@@ -362,14 +338,6 @@
         "documentation": {}
     },
     {
-        "label": "StructType",
-        "importPath": "pyspark.sql.types",
-        "description": "pyspark.sql.types",
-        "isExtraImport": true,
-        "detail": "pyspark.sql.types",
-        "documentation": {}
-    },
-    {
         "label": "StructField",
         "importPath": "pyspark.sql.types",
         "description": "pyspark.sql.types",
@@ -463,14 +431,6 @@
         "description": "pyspark.sql.types",
         "isExtraImport": true,
         "detail": "pyspark.sql.types",
-        "documentation": {}
-    },
-    {
-        "label": "DeltaTable",
-        "importPath": "delta.tables",
-        "description": "delta.tables",
-        "isExtraImport": true,
-        "detail": "delta.tables",
         "documentation": {}
     },
     {
@@ -607,40 +567,6 @@
         "documentation": {}
     },
     {
-        "label": "Groq",
-        "importPath": "groq",
-        "description": "groq",
-        "isExtraImport": true,
-        "detail": "groq",
-        "documentation": {}
-    },
-    {
-        "label": "Groq",
-        "importPath": "groq",
-        "description": "groq",
-        "isExtraImport": true,
-        "detail": "groq",
-        "documentation": {}
-    },
-    {
-        "label": "pandas",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "pandas",
-        "description": "pandas",
-        "detail": "pandas",
-        "documentation": {}
-    },
-    {
-        "label": "yaml",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "yaml",
-        "description": "yaml",
-        "detail": "yaml",
-        "documentation": {}
-    },
-    {
         "label": "random",
         "kind": 6,
         "isExtraImport": true,
@@ -650,52 +576,12 @@
         "documentation": {}
     },
     {
-        "label": "ast",
+        "label": "requests",
         "kind": 6,
         "isExtraImport": true,
-        "importPath": "ast",
-        "description": "ast",
-        "detail": "ast",
-        "documentation": {}
-    },
-    {
-        "label": "load_dotenv",
-        "importPath": "dotenv",
-        "description": "dotenv",
-        "isExtraImport": true,
-        "detail": "dotenv",
-        "documentation": {}
-    },
-    {
-        "label": "load_dotenv",
-        "importPath": "dotenv",
-        "description": "dotenv",
-        "isExtraImport": true,
-        "detail": "dotenv",
-        "documentation": {}
-    },
-    {
-        "label": "load_dotenv",
-        "importPath": "dotenv",
-        "description": "dotenv",
-        "isExtraImport": true,
-        "detail": "dotenv",
-        "documentation": {}
-    },
-    {
-        "label": "load_dotenv",
-        "importPath": "dotenv",
-        "description": "dotenv",
-        "isExtraImport": true,
-        "detail": "dotenv",
-        "documentation": {}
-    },
-    {
-        "label": "extract_job_info",
-        "importPath": "extractor",
-        "description": "extractor",
-        "isExtraImport": true,
-        "detail": "extractor",
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
         "documentation": {}
     },
     {
@@ -704,6 +590,54 @@
         "description": "schema",
         "isExtraImport": true,
         "detail": "schema",
+        "documentation": {}
+    },
+    {
+        "label": "OFFRE_SCHEMA",
+        "importPath": "schema",
+        "description": "schema",
+        "isExtraImport": true,
+        "detail": "schema",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "process_message_groq",
+        "importPath": "extractor",
+        "description": "extractor",
+        "isExtraImport": true,
+        "detail": "extractor",
         "documentation": {}
     },
     {
@@ -1156,6 +1090,15 @@
         "description": "datetime",
         "isExtraImport": true,
         "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "pandas",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pandas",
+        "description": "pandas",
+        "detail": "pandas",
         "documentation": {}
     },
     {
@@ -1755,1131 +1698,6 @@
         "documentation": {}
     },
     {
-        "label": "data",
-        "kind": 5,
-        "importPath": "notoyage_data.contat3",
-        "description": "notoyage_data.contat3",
-        "peekOfCode": "data = pd.read_excel('fichier_reduit_avec_id_type_trav.xlsx')\n# Charger le fichier contenant les types de contrat avec leurs identifiants\ncontrat_df = pd.read_excel('type_contrat_avec_id.xlsx')\n# Effectuer la jointure entre les deux DataFrames sur la colonne 'contrat'\ndata_with_id = data.merge(contrat_df, how='left', left_on='contrat', right_on='nom_type_contrat')\n# Sauvegarder le DataFrame mis à jour dans un nouveau fichier Excel\ndata_with_id.to_excel('fichier_reduit_avec_id_type_contrat.xlsx', index=False)\n# Afficher un aperçu des 5 premières lignes pour vérifier\nprint(data_with_id.head())",
-        "detail": "notoyage_data.contat3",
-        "documentation": {}
-    },
-    {
-        "label": "contrat_df",
-        "kind": 5,
-        "importPath": "notoyage_data.contat3",
-        "description": "notoyage_data.contat3",
-        "peekOfCode": "contrat_df = pd.read_excel('type_contrat_avec_id.xlsx')\n# Effectuer la jointure entre les deux DataFrames sur la colonne 'contrat'\ndata_with_id = data.merge(contrat_df, how='left', left_on='contrat', right_on='nom_type_contrat')\n# Sauvegarder le DataFrame mis à jour dans un nouveau fichier Excel\ndata_with_id.to_excel('fichier_reduit_avec_id_type_contrat.xlsx', index=False)\n# Afficher un aperçu des 5 premières lignes pour vérifier\nprint(data_with_id.head())",
-        "detail": "notoyage_data.contat3",
-        "documentation": {}
-    },
-    {
-        "label": "data_with_id",
-        "kind": 5,
-        "importPath": "notoyage_data.contat3",
-        "description": "notoyage_data.contat3",
-        "peekOfCode": "data_with_id = data.merge(contrat_df, how='left', left_on='contrat', right_on='nom_type_contrat')\n# Sauvegarder le DataFrame mis à jour dans un nouveau fichier Excel\ndata_with_id.to_excel('fichier_reduit_avec_id_type_contrat.xlsx', index=False)\n# Afficher un aperçu des 5 premières lignes pour vérifier\nprint(data_with_id.head())",
-        "detail": "notoyage_data.contat3",
-        "documentation": {}
-    },
-    {
-        "label": "data",
-        "kind": 5,
-        "importPath": "notoyage_data.contrat2",
-        "description": "notoyage_data.contrat2",
-        "peekOfCode": "data = pd.read_excel('fichier_reduit_avec_id_type_trav.xlsx')\n# Extraire les types de contrat uniques\nunique_contrats = data['contrat'].dropna().unique()\n# Créer un DataFrame avec l'id et le nom des types de contrat\ncontrat_df = pd.DataFrame({\n    'id_type_contrat': range(1, len(unique_contrats) + 1),\n    'nom_type_contrat': unique_contrats\n})\n# Sauvegarder le DataFrame dans un fichier Excel\ncontrat_df.to_excel('type_contrat_avec_id.xlsx', index=False)",
-        "detail": "notoyage_data.contrat2",
-        "documentation": {}
-    },
-    {
-        "label": "unique_contrats",
-        "kind": 5,
-        "importPath": "notoyage_data.contrat2",
-        "description": "notoyage_data.contrat2",
-        "peekOfCode": "unique_contrats = data['contrat'].dropna().unique()\n# Créer un DataFrame avec l'id et le nom des types de contrat\ncontrat_df = pd.DataFrame({\n    'id_type_contrat': range(1, len(unique_contrats) + 1),\n    'nom_type_contrat': unique_contrats\n})\n# Sauvegarder le DataFrame dans un fichier Excel\ncontrat_df.to_excel('type_contrat_avec_id.xlsx', index=False)\n# Afficher un aperçu des 5 premières lignes pour vérifier\nprint(contrat_df.head())",
-        "detail": "notoyage_data.contrat2",
-        "documentation": {}
-    },
-    {
-        "label": "contrat_df",
-        "kind": 5,
-        "importPath": "notoyage_data.contrat2",
-        "description": "notoyage_data.contrat2",
-        "peekOfCode": "contrat_df = pd.DataFrame({\n    'id_type_contrat': range(1, len(unique_contrats) + 1),\n    'nom_type_contrat': unique_contrats\n})\n# Sauvegarder le DataFrame dans un fichier Excel\ncontrat_df.to_excel('type_contrat_avec_id.xlsx', index=False)\n# Afficher un aperçu des 5 premières lignes pour vérifier\nprint(contrat_df.head())",
-        "detail": "notoyage_data.contrat2",
-        "documentation": {}
-    },
-    {
-        "label": "data",
-        "kind": 5,
-        "importPath": "notoyage_data.entreprise2",
-        "description": "notoyage_data.entreprise2",
-        "peekOfCode": "data = pd.read_csv('salaries_max_convertis.csv')  # Le fichier principal\ncompanies = pd.read_csv('entreprises_avec_id.csv')  # Le fichier avec id_company\n# Fusionner les deux fichiers pour ajouter la colonne id_company\n# Fusionner sur la colonne \"Company\" (nom_company dans le fichier entreprises)\ndata_with_company_id = pd.merge(data, companies[['id_company', 'nom_company']],\n                                left_on='Company', right_on='nom_company',\n                                how='left')\n# Supprimer la colonne \"nom_company\" ajoutée par la fusion pour éviter la redondance\ndata_with_company_id.drop(columns=['nom_company'], inplace=True)\n# Sauvegarder le résultat dans un nouveau fichier Excel",
-        "detail": "notoyage_data.entreprise2",
-        "documentation": {}
-    },
-    {
-        "label": "companies",
-        "kind": 5,
-        "importPath": "notoyage_data.entreprise2",
-        "description": "notoyage_data.entreprise2",
-        "peekOfCode": "companies = pd.read_csv('entreprises_avec_id.csv')  # Le fichier avec id_company\n# Fusionner les deux fichiers pour ajouter la colonne id_company\n# Fusionner sur la colonne \"Company\" (nom_company dans le fichier entreprises)\ndata_with_company_id = pd.merge(data, companies[['id_company', 'nom_company']],\n                                left_on='Company', right_on='nom_company',\n                                how='left')\n# Supprimer la colonne \"nom_company\" ajoutée par la fusion pour éviter la redondance\ndata_with_company_id.drop(columns=['nom_company'], inplace=True)\n# Sauvegarder le résultat dans un nouveau fichier Excel\ndata_with_company_id.to_csv('fichier_valide.csv', index=False)",
-        "detail": "notoyage_data.entreprise2",
-        "documentation": {}
-    },
-    {
-        "label": "data_with_company_id",
-        "kind": 5,
-        "importPath": "notoyage_data.entreprise2",
-        "description": "notoyage_data.entreprise2",
-        "peekOfCode": "data_with_company_id = pd.merge(data, companies[['id_company', 'nom_company']],\n                                left_on='Company', right_on='nom_company',\n                                how='left')\n# Supprimer la colonne \"nom_company\" ajoutée par la fusion pour éviter la redondance\ndata_with_company_id.drop(columns=['nom_company'], inplace=True)\n# Sauvegarder le résultat dans un nouveau fichier Excel\ndata_with_company_id.to_csv('fichier_valide.csv', index=False)\n# Afficher un aperçu des 5 premières lignes pour vérifier\nprint(data_with_company_id.head())",
-        "detail": "notoyage_data.entreprise2",
-        "documentation": {}
-    },
-    {
-        "label": "data",
-        "kind": 5,
-        "importPath": "notoyage_data.etat2",
-        "description": "notoyage_data.etat2",
-        "peekOfCode": "data = pd.read_excel('fichier_reduit_avec_contrat.xlsx')\n# Charger le fichier contenant la correspondance des pays avec les ID\nunique_countries = pd.read_excel('unique_countries.xlsx')\n# Fusionner les deux fichiers pour ajouter la colonne id_etat à data\ndata_with_ids = data.merge(unique_countries, how='left', left_on='Country', right_on='nom_etat')\n# Supprimer la colonne \"nom_etat\" si elle est inutile\ndata_with_ids = data_with_ids.drop(columns=['nom_etat'])\n# Sauvegarder le nouveau fichier avec la colonne id_etat ajoutée\ndata_with_ids.to_excel('fichier_reduit_avec_id_etat.xlsx', index=False)\n# Afficher un aperçu des résultats",
-        "detail": "notoyage_data.etat2",
-        "documentation": {}
-    },
-    {
-        "label": "unique_countries",
-        "kind": 5,
-        "importPath": "notoyage_data.etat2",
-        "description": "notoyage_data.etat2",
-        "peekOfCode": "unique_countries = pd.read_excel('unique_countries.xlsx')\n# Fusionner les deux fichiers pour ajouter la colonne id_etat à data\ndata_with_ids = data.merge(unique_countries, how='left', left_on='Country', right_on='nom_etat')\n# Supprimer la colonne \"nom_etat\" si elle est inutile\ndata_with_ids = data_with_ids.drop(columns=['nom_etat'])\n# Sauvegarder le nouveau fichier avec la colonne id_etat ajoutée\ndata_with_ids.to_excel('fichier_reduit_avec_id_etat.xlsx', index=False)\n# Afficher un aperçu des résultats\nprint(data_with_ids.head())",
-        "detail": "notoyage_data.etat2",
-        "documentation": {}
-    },
-    {
-        "label": "data_with_ids",
-        "kind": 5,
-        "importPath": "notoyage_data.etat2",
-        "description": "notoyage_data.etat2",
-        "peekOfCode": "data_with_ids = data.merge(unique_countries, how='left', left_on='Country', right_on='nom_etat')\n# Supprimer la colonne \"nom_etat\" si elle est inutile\ndata_with_ids = data_with_ids.drop(columns=['nom_etat'])\n# Sauvegarder le nouveau fichier avec la colonne id_etat ajoutée\ndata_with_ids.to_excel('fichier_reduit_avec_id_etat.xlsx', index=False)\n# Afficher un aperçu des résultats\nprint(data_with_ids.head())",
-        "detail": "notoyage_data.etat2",
-        "documentation": {}
-    },
-    {
-        "label": "data_with_ids",
-        "kind": 5,
-        "importPath": "notoyage_data.etat2",
-        "description": "notoyage_data.etat2",
-        "peekOfCode": "data_with_ids = data_with_ids.drop(columns=['nom_etat'])\n# Sauvegarder le nouveau fichier avec la colonne id_etat ajoutée\ndata_with_ids.to_excel('fichier_reduit_avec_id_etat.xlsx', index=False)\n# Afficher un aperçu des résultats\nprint(data_with_ids.head())",
-        "detail": "notoyage_data.etat2",
-        "documentation": {}
-    },
-    {
-        "label": "get_training_for_sector",
-        "kind": 2,
-        "importPath": "notoyage_data.llama_formation_sector",
-        "description": "notoyage_data.llama_formation_sector",
-        "peekOfCode": "def get_training_for_sector(sector_name):\n    prompt = f\"Associer le secteur '{sector_name}' avec une formation parmi les suivantes : {', '.join(formations.values())}.\"\n    messages = [\n        {\"role\": \"system\", \"content\": \"Vous êtes un assistant pour associer des secteurs à des formations.\"},\n        {\"role\": \"user\", \"content\": prompt}\n    ]\n    # Générer la réponse\n    response = groq_client.chat.completions.create(\n        model=\"llama3-8b-8192\",\n        messages=messages,",
-        "detail": "notoyage_data.llama_formation_sector",
-        "documentation": {}
-    },
-    {
-        "label": "data_corrected",
-        "kind": 5,
-        "importPath": "notoyage_data.llama_formation_sector",
-        "description": "notoyage_data.llama_formation_sector",
-        "peekOfCode": "data_corrected = {\n    \"ID\": range(1, 46),  # Adjusting the range to match the length of the training list (1 to 45 inclusive)\n    \"Training\": [\n        \"Agronomy\",\n        \"Electrical Engineering\",\n        \"Architecture\",\n        \"Medicine\",\n        \"Computer Science\",\n        \"Finance\",\n        \"Management\",",
-        "detail": "notoyage_data.llama_formation_sector",
-        "documentation": {}
-    },
-    {
-        "label": "df_corrected",
-        "kind": 5,
-        "importPath": "notoyage_data.llama_formation_sector",
-        "description": "notoyage_data.llama_formation_sector",
-        "peekOfCode": "df_corrected = pd.DataFrame(data_corrected)\n# Save to an Excel file\nfile_path_corrected = \"Training_List_Corrected.xlsx\"\ndf_corrected.to_excel(file_path_corrected, index=False)\nprint(f\"Excel file '{file_path_corrected}' has been created successfully.\")\nimport pandas as pd\n# Liste des secteurs\nsecteurs = {\n    \"ID_Secteur\": list(range(1, 205)),  # IDs des secteurs de 1 à 204\n    \"Nom_Secteur\": [",
-        "detail": "notoyage_data.llama_formation_sector",
-        "documentation": {}
-    },
-    {
-        "label": "file_path_corrected",
-        "kind": 5,
-        "importPath": "notoyage_data.llama_formation_sector",
-        "description": "notoyage_data.llama_formation_sector",
-        "peekOfCode": "file_path_corrected = \"Training_List_Corrected.xlsx\"\ndf_corrected.to_excel(file_path_corrected, index=False)\nprint(f\"Excel file '{file_path_corrected}' has been created successfully.\")\nimport pandas as pd\n# Liste des secteurs\nsecteurs = {\n    \"ID_Secteur\": list(range(1, 205)),  # IDs des secteurs de 1 à 204\n    \"Nom_Secteur\": [\n        \"Diversified\", \"Financial Services\", \"Insurance\", \"Energy\", \"Infrastructure\", \"Logistics\",\n        \"Transportation\", \"Media & Entertainment\", \"Food and Beverage\", \"Telecommunications\",",
-        "detail": "notoyage_data.llama_formation_sector",
-        "documentation": {}
-    },
-    {
-        "label": "secteurs",
-        "kind": 5,
-        "importPath": "notoyage_data.llama_formation_sector",
-        "description": "notoyage_data.llama_formation_sector",
-        "peekOfCode": "secteurs = {\n    \"ID_Secteur\": list(range(1, 205)),  # IDs des secteurs de 1 à 204\n    \"Nom_Secteur\": [\n        \"Diversified\", \"Financial Services\", \"Insurance\", \"Energy\", \"Infrastructure\", \"Logistics\",\n        \"Transportation\", \"Media & Entertainment\", \"Food and Beverage\", \"Telecommunications\",\n        \"Manufacturing\", \"Pharmaceuticals\", \"Industrial\", \"Conglomerate\", \"Financials\",\n        \"Travel and Leisure\", \"Elevators & Escalators\", \"Energy/Oil and Gas\",\n        \"Information Technology\", \"Utilities\", \"Engineering\", \"Airlines\", \"Healthcare\",\n        \"Real Estate\", \"Hospitality/Hotels\", \"Technology\", \"IT Services\", \"Consumer Goods\",\n        \"Technology/Music Streaming\", \"Automotive\", \"Media\", \"Beauty/Cosmetics\", \"Chemicals\",",
-        "detail": "notoyage_data.llama_formation_sector",
-        "documentation": {}
-    },
-    {
-        "label": "formations",
-        "kind": 5,
-        "importPath": "notoyage_data.llama_formation_sector",
-        "description": "notoyage_data.llama_formation_sector",
-        "peekOfCode": "formations = {\n    \"ID_Formation\": range(1, 46),  # IDs des formations de 1 à 45\n    \"Nom_Formation\": [\n        \"Agronomy\", \"Electrical Engineering\", \"Architecture\", \"Medicine\", \"Computer Science\",\n        \"Finance\", \"Management\", \"Law\", \"Marketing\", \"Civil Engineering\", \"Chemistry\",\n        \"Aeronautics\", \"Logistics\", \"Urban Planning\", \"Mechanical Engineering\", \"Pharmacy\",\n        \"Biotechnologies\", \"Renewable Energies\", \"Audiovisual\", \"Tourism\", \"Hospitality\",\n        \"Design\", \"Multimedia\", \"Data Science\", \"Artificial Intelligence\", \"Actuarial Science\",\n        \"Petroleum Engineering\", \"Production and Automation\", \"Electronics\", \"Communication\",\n        \"Environmental Sciences\", \"Cosmetics\", \"Agri-food\", \"Networks and Systems\",",
-        "detail": "notoyage_data.llama_formation_sector",
-        "documentation": {}
-    },
-    {
-        "label": "secteurs_formations",
-        "kind": 5,
-        "importPath": "notoyage_data.llama_formation_sector",
-        "description": "notoyage_data.llama_formation_sector",
-        "peekOfCode": "secteurs_formations = {\n    \"ID_Secteur\": secteurs[\"ID_Secteur\"],\n    \"Nom_Secteur\": secteurs[\"Nom_Secteur\"],\n    \"ID_Formation\": [i % 45 + 1 for i in secteurs[\"ID_Secteur\"]],  # Associer un ID_Formation de façon cyclique\n    \"Nom_Formation\": [formations[\"Nom_Formation\"][i % 45] for i in secteurs[\"ID_Secteur\"]]\n}\n# Convertir en DataFrame\ndf_secteurs_formations = pd.DataFrame(secteurs_formations)\n# Sauvegarder dans un fichier Excel\ndf_secteurs_formations.to_excel(\"Secteurs_Formation.xlsx\", index=False)",
-        "detail": "notoyage_data.llama_formation_sector",
-        "documentation": {}
-    },
-    {
-        "label": "df_secteurs_formations",
-        "kind": 5,
-        "importPath": "notoyage_data.llama_formation_sector",
-        "description": "notoyage_data.llama_formation_sector",
-        "peekOfCode": "df_secteurs_formations = pd.DataFrame(secteurs_formations)\n# Sauvegarder dans un fichier Excel\ndf_secteurs_formations.to_excel(\"Secteurs_Formation.xlsx\", index=False)\nprint(\"Le fichier 'Secteurs_Formation.xlsx' a été créé avec succès.\")\nimport pandas as pd\n# Liste des formations avec une association logique\nformations = [\n    (1, \"Agronomy\"),\n    (2, \"Finance\"),\n    (3, \"Insurance\"),",
-        "detail": "notoyage_data.llama_formation_sector",
-        "documentation": {}
-    },
-    {
-        "label": "formations",
-        "kind": 5,
-        "importPath": "notoyage_data.llama_formation_sector",
-        "description": "notoyage_data.llama_formation_sector",
-        "peekOfCode": "formations = [\n    (1, \"Agronomy\"),\n    (2, \"Finance\"),\n    (3, \"Insurance\"),\n    (4, \"Energy Engineering\"),\n    (5, \"Civil Engineering\"),\n    (6, \"Logistics\"),\n    (7, \"Transportation\"),\n    (8, \"Audiovisual\"),\n    (9, \"Agri-food\"),",
-        "detail": "notoyage_data.llama_formation_sector",
-        "documentation": {}
-    },
-    {
-        "label": "secteurs",
-        "kind": 5,
-        "importPath": "notoyage_data.llama_formation_sector",
-        "description": "notoyage_data.llama_formation_sector",
-        "peekOfCode": "secteurs = [\n    (1, \"Diversified\"),\n    (2, \"Financial Services\"),\n    (3, \"Insurance\"),\n    (4, \"Energy\"),\n    (5, \"Infrastructure\"),\n    (6, \"Logistics\"),\n    (7, \"Transportation\"),\n    (8, \"Media & Entertainment\"),\n    (9, \"Food and Beverage\"),",
-        "detail": "notoyage_data.llama_formation_sector",
-        "documentation": {}
-    },
-    {
-        "label": "correspondance",
-        "kind": 5,
-        "importPath": "notoyage_data.llama_formation_sector",
-        "description": "notoyage_data.llama_formation_sector",
-        "peekOfCode": "correspondance = [\n    {\n        \"ID Secteur\": secteur[0],\n        \"Nom Secteur\": secteur[1],\n        \"Formation Associée\": next(f[1] for f in formations if f[0] == secteur[0])\n    }\n    for secteur in secteurs\n]\n# Création du DataFrame avec les données\ndf = pd.DataFrame(correspondance)",
-        "detail": "notoyage_data.llama_formation_sector",
-        "documentation": {}
-    },
-    {
-        "label": "df",
-        "kind": 5,
-        "importPath": "notoyage_data.llama_formation_sector",
-        "description": "notoyage_data.llama_formation_sector",
-        "peekOfCode": "df = pd.DataFrame(correspondance)\n# Sauvegarde dans un fichier Excel\ndf.to_excel(\"secteurs_formations_association.xlsx\", index=False)\nprint(\"Le fichier Excel a été créé avec succès.\")\npip install groq\nimport pandas as pd\nimport yaml\nfrom groq import Groq # Remplacez cela avec la bibliothèque appropriée pour Llama\n# Charger les données des secteurs à partir du CSV\ndf_sectors = pd.read_csv('/content/secteurs_avec_id.csv')  # Remplacez par le chemin de votre CSV",
-        "detail": "notoyage_data.llama_formation_sector",
-        "documentation": {}
-    },
-    {
-        "label": "df_sectors",
-        "kind": 5,
-        "importPath": "notoyage_data.llama_formation_sector",
-        "description": "notoyage_data.llama_formation_sector",
-        "peekOfCode": "df_sectors = pd.read_csv('/content/secteurs_avec_id.csv')  # Remplacez par le chemin de votre CSV\n# Liste des formations (ID, nom)\nformations = {\n    1: 'Agronomy',\n    2: 'Electrical Engineering',\n    3: 'Architecture',\n    4: 'Medicine',\n    5: 'Computer Science',\n    6: 'Finance',\n    7: 'Management',",
-        "detail": "notoyage_data.llama_formation_sector",
-        "documentation": {}
-    },
-    {
-        "label": "formations",
-        "kind": 5,
-        "importPath": "notoyage_data.llama_formation_sector",
-        "description": "notoyage_data.llama_formation_sector",
-        "peekOfCode": "formations = {\n    1: 'Agronomy',\n    2: 'Electrical Engineering',\n    3: 'Architecture',\n    4: 'Medicine',\n    5: 'Computer Science',\n    6: 'Finance',\n    7: 'Management',\n    8: 'Law',\n    9: 'Marketing',",
-        "detail": "notoyage_data.llama_formation_sector",
-        "documentation": {}
-    },
-    {
-        "label": "CONFIG_PATH",
-        "kind": 5,
-        "importPath": "notoyage_data.llama_formation_sector",
-        "description": "notoyage_data.llama_formation_sector",
-        "peekOfCode": "CONFIG_PATH = r\"/content/config.yaml\"\napi_key = None\n# Charger la clé API depuis le fichier YAML\nwith open(CONFIG_PATH) as file:\n    data = yaml.load(file, Loader=yaml.FullLoader)\n    api_key = data['GROQ_API_KEY']\n# Initialiser le client Groq pour Llama\ngroq_client = Groq(api_key=api_key)\n# Fonction pour interroger Llama et obtenir une formation\ndef get_training_for_sector(sector_name):",
-        "detail": "notoyage_data.llama_formation_sector",
-        "documentation": {}
-    },
-    {
-        "label": "api_key",
-        "kind": 5,
-        "importPath": "notoyage_data.llama_formation_sector",
-        "description": "notoyage_data.llama_formation_sector",
-        "peekOfCode": "api_key = None\n# Charger la clé API depuis le fichier YAML\nwith open(CONFIG_PATH) as file:\n    data = yaml.load(file, Loader=yaml.FullLoader)\n    api_key = data['GROQ_API_KEY']\n# Initialiser le client Groq pour Llama\ngroq_client = Groq(api_key=api_key)\n# Fonction pour interroger Llama et obtenir une formation\ndef get_training_for_sector(sector_name):\n    prompt = f\"Associer le secteur '{sector_name}' avec une formation parmi les suivantes : {', '.join(formations.values())}.\"",
-        "detail": "notoyage_data.llama_formation_sector",
-        "documentation": {}
-    },
-    {
-        "label": "groq_client",
-        "kind": 5,
-        "importPath": "notoyage_data.llama_formation_sector",
-        "description": "notoyage_data.llama_formation_sector",
-        "peekOfCode": "groq_client = Groq(api_key=api_key)\n# Fonction pour interroger Llama et obtenir une formation\ndef get_training_for_sector(sector_name):\n    prompt = f\"Associer le secteur '{sector_name}' avec une formation parmi les suivantes : {', '.join(formations.values())}.\"\n    messages = [\n        {\"role\": \"system\", \"content\": \"Vous êtes un assistant pour associer des secteurs à des formations.\"},\n        {\"role\": \"user\", \"content\": prompt}\n    ]\n    # Générer la réponse\n    response = groq_client.chat.completions.create(",
-        "detail": "notoyage_data.llama_formation_sector",
-        "documentation": {}
-    },
-    {
-        "label": "df_sectors['id_formation']",
-        "kind": 5,
-        "importPath": "notoyage_data.llama_formation_sector",
-        "description": "notoyage_data.llama_formation_sector",
-        "peekOfCode": "df_sectors['id_formation'] = None\ndf_sectors['nom_formation'] = None\n# Associer chaque secteur à une formation\nfor idx, row in df_sectors.iterrows():\n    sector_name = row['nom_secteur']\n    id_formation, formation_name = get_training_for_sector(sector_name)\n    # Mettre à jour les colonnes du dataframe\n    df_sectors.at[idx, 'id_formation'] = id_formation\n    df_sectors.at[idx, 'nom_formation'] = formation_name\n# Sauvegarder le résultat dans un fichier Excel",
-        "detail": "notoyage_data.llama_formation_sector",
-        "documentation": {}
-    },
-    {
-        "label": "df_sectors['nom_formation']",
-        "kind": 5,
-        "importPath": "notoyage_data.llama_formation_sector",
-        "description": "notoyage_data.llama_formation_sector",
-        "peekOfCode": "df_sectors['nom_formation'] = None\n# Associer chaque secteur à une formation\nfor idx, row in df_sectors.iterrows():\n    sector_name = row['nom_secteur']\n    id_formation, formation_name = get_training_for_sector(sector_name)\n    # Mettre à jour les colonnes du dataframe\n    df_sectors.at[idx, 'id_formation'] = id_formation\n    df_sectors.at[idx, 'nom_formation'] = formation_name\n# Sauvegarder le résultat dans un fichier Excel\ndf_sectors.to_excel('secteurs_formations_associées.xlsx', index=False)",
-        "detail": "notoyage_data.llama_formation_sector",
-        "documentation": {}
-    },
-    {
-        "label": "data",
-        "kind": 5,
-        "importPath": "notoyage_data.secteurData",
-        "description": "notoyage_data.secteurData",
-        "peekOfCode": "data = pd.read_excel('fichier_reduit_avec_id_ville.xlsx')\nsecteurs_df = pd.read_excel('secteurs_avec_id.xlsx')\n# Associer chaque secteur à son id_secteur\n# Nous effectuons un merge (jointure) entre les deux DataFrames sur le nom du secteur\ndata = data.merge(secteurs_df, left_on='Secteur', right_on='nom_secteur', how='left')\n# Supprimer la colonne nom_secteur puisqu'on a déjà la colonne Secteur\ndata.drop(columns=['nom_secteur'], inplace=True)\n# Sauvegarder le DataFrame mis à jour dans un nouveau fichier Excel\ndata.to_excel('fichier_reduit_avec_id_secteur.xlsx', index=False)\n# Afficher un aperçu des 5 premières lignes pour vérifier",
-        "detail": "notoyage_data.secteurData",
-        "documentation": {}
-    },
-    {
-        "label": "secteurs_df",
-        "kind": 5,
-        "importPath": "notoyage_data.secteurData",
-        "description": "notoyage_data.secteurData",
-        "peekOfCode": "secteurs_df = pd.read_excel('secteurs_avec_id.xlsx')\n# Associer chaque secteur à son id_secteur\n# Nous effectuons un merge (jointure) entre les deux DataFrames sur le nom du secteur\ndata = data.merge(secteurs_df, left_on='Secteur', right_on='nom_secteur', how='left')\n# Supprimer la colonne nom_secteur puisqu'on a déjà la colonne Secteur\ndata.drop(columns=['nom_secteur'], inplace=True)\n# Sauvegarder le DataFrame mis à jour dans un nouveau fichier Excel\ndata.to_excel('fichier_reduit_avec_id_secteur.xlsx', index=False)\n# Afficher un aperçu des 5 premières lignes pour vérifier\nprint(data.head())",
-        "detail": "notoyage_data.secteurData",
-        "documentation": {}
-    },
-    {
-        "label": "data",
-        "kind": 5,
-        "importPath": "notoyage_data.secteurData",
-        "description": "notoyage_data.secteurData",
-        "peekOfCode": "data = data.merge(secteurs_df, left_on='Secteur', right_on='nom_secteur', how='left')\n# Supprimer la colonne nom_secteur puisqu'on a déjà la colonne Secteur\ndata.drop(columns=['nom_secteur'], inplace=True)\n# Sauvegarder le DataFrame mis à jour dans un nouveau fichier Excel\ndata.to_excel('fichier_reduit_avec_id_secteur.xlsx', index=False)\n# Afficher un aperçu des 5 premières lignes pour vérifier\nprint(data.head())",
-        "detail": "notoyage_data.secteurData",
-        "documentation": {}
-    },
-    {
-        "label": "df",
-        "kind": 5,
-        "importPath": "notoyage_data.skills3",
-        "description": "notoyage_data.skills3",
-        "peekOfCode": "df = pd.read_excel('skills_output.xlsx')\n# Extraire les compétences uniques (distinctes) de la colonne 'Skill'\nunique_skills = df['Skill'].drop_duplicates().reset_index(drop=True)\n# Ajouter un identifiant unique commençant à 1\nunique_skills_df = pd.DataFrame({\n    'Skill ID': range(1, len(unique_skills) + 1),\n    'Skill': unique_skills\n})\n# Enregistrer les compétences distinctes dans un nouveau fichier Excel\ndistinct_skills_excel_file = 'distinct_skills.xlsx'",
-        "detail": "notoyage_data.skills3",
-        "documentation": {}
-    },
-    {
-        "label": "unique_skills",
-        "kind": 5,
-        "importPath": "notoyage_data.skills3",
-        "description": "notoyage_data.skills3",
-        "peekOfCode": "unique_skills = df['Skill'].drop_duplicates().reset_index(drop=True)\n# Ajouter un identifiant unique commençant à 1\nunique_skills_df = pd.DataFrame({\n    'Skill ID': range(1, len(unique_skills) + 1),\n    'Skill': unique_skills\n})\n# Enregistrer les compétences distinctes dans un nouveau fichier Excel\ndistinct_skills_excel_file = 'distinct_skills.xlsx'\nunique_skills_df.to_excel(distinct_skills_excel_file, index=False)\nprint(f\"Les compétences distinctes ont été enregistrées dans le fichier Excel : {distinct_skills_excel_file}\")",
-        "detail": "notoyage_data.skills3",
-        "documentation": {}
-    },
-    {
-        "label": "unique_skills_df",
-        "kind": 5,
-        "importPath": "notoyage_data.skills3",
-        "description": "notoyage_data.skills3",
-        "peekOfCode": "unique_skills_df = pd.DataFrame({\n    'Skill ID': range(1, len(unique_skills) + 1),\n    'Skill': unique_skills\n})\n# Enregistrer les compétences distinctes dans un nouveau fichier Excel\ndistinct_skills_excel_file = 'distinct_skills.xlsx'\nunique_skills_df.to_excel(distinct_skills_excel_file, index=False)\nprint(f\"Les compétences distinctes ont été enregistrées dans le fichier Excel : {distinct_skills_excel_file}\")",
-        "detail": "notoyage_data.skills3",
-        "documentation": {}
-    },
-    {
-        "label": "distinct_skills_excel_file",
-        "kind": 5,
-        "importPath": "notoyage_data.skills3",
-        "description": "notoyage_data.skills3",
-        "peekOfCode": "distinct_skills_excel_file = 'distinct_skills.xlsx'\nunique_skills_df.to_excel(distinct_skills_excel_file, index=False)\nprint(f\"Les compétences distinctes ont été enregistrées dans le fichier Excel : {distinct_skills_excel_file}\")",
-        "detail": "notoyage_data.skills3",
-        "documentation": {}
-    },
-    {
-        "label": "skills_df",
-        "kind": 5,
-        "importPath": "notoyage_data.skills4",
-        "description": "notoyage_data.skills4",
-        "peekOfCode": "skills_df = pd.read_excel('skills_output.xlsx')  # Contient 'Job Id' et 'Skill'\ndistinct_skills_df = pd.read_excel('distinct_skills.xlsx')  # Contient 'Skill ID' et 'Skill'\n# Fusionner les deux DataFrames pour obtenir 'Skill ID' à partir du 'Skill'\nmerged_df = pd.merge(skills_df, distinct_skills_df, on='Skill', how='inner')\n# Garder uniquement les colonnes 'Job Id' et 'Skill ID'\njob_skill_df = merged_df[['Job Id', 'Skill ID']]\n# Enregistrer le résultat dans un nouveau fichier Excel\noutput_job_skill_excel = 'job_skill_mapping.xlsx'\njob_skill_df.to_excel(output_job_skill_excel, index=False)\nprint(f\"Les données Job Id et Skill ID ont été enregistrées dans le fichier Excel : {output_job_skill_excel}\")",
-        "detail": "notoyage_data.skills4",
-        "documentation": {}
-    },
-    {
-        "label": "distinct_skills_df",
-        "kind": 5,
-        "importPath": "notoyage_data.skills4",
-        "description": "notoyage_data.skills4",
-        "peekOfCode": "distinct_skills_df = pd.read_excel('distinct_skills.xlsx')  # Contient 'Skill ID' et 'Skill'\n# Fusionner les deux DataFrames pour obtenir 'Skill ID' à partir du 'Skill'\nmerged_df = pd.merge(skills_df, distinct_skills_df, on='Skill', how='inner')\n# Garder uniquement les colonnes 'Job Id' et 'Skill ID'\njob_skill_df = merged_df[['Job Id', 'Skill ID']]\n# Enregistrer le résultat dans un nouveau fichier Excel\noutput_job_skill_excel = 'job_skill_mapping.xlsx'\njob_skill_df.to_excel(output_job_skill_excel, index=False)\nprint(f\"Les données Job Id et Skill ID ont été enregistrées dans le fichier Excel : {output_job_skill_excel}\")",
-        "detail": "notoyage_data.skills4",
-        "documentation": {}
-    },
-    {
-        "label": "merged_df",
-        "kind": 5,
-        "importPath": "notoyage_data.skills4",
-        "description": "notoyage_data.skills4",
-        "peekOfCode": "merged_df = pd.merge(skills_df, distinct_skills_df, on='Skill', how='inner')\n# Garder uniquement les colonnes 'Job Id' et 'Skill ID'\njob_skill_df = merged_df[['Job Id', 'Skill ID']]\n# Enregistrer le résultat dans un nouveau fichier Excel\noutput_job_skill_excel = 'job_skill_mapping.xlsx'\njob_skill_df.to_excel(output_job_skill_excel, index=False)\nprint(f\"Les données Job Id et Skill ID ont été enregistrées dans le fichier Excel : {output_job_skill_excel}\")",
-        "detail": "notoyage_data.skills4",
-        "documentation": {}
-    },
-    {
-        "label": "job_skill_df",
-        "kind": 5,
-        "importPath": "notoyage_data.skills4",
-        "description": "notoyage_data.skills4",
-        "peekOfCode": "job_skill_df = merged_df[['Job Id', 'Skill ID']]\n# Enregistrer le résultat dans un nouveau fichier Excel\noutput_job_skill_excel = 'job_skill_mapping.xlsx'\njob_skill_df.to_excel(output_job_skill_excel, index=False)\nprint(f\"Les données Job Id et Skill ID ont été enregistrées dans le fichier Excel : {output_job_skill_excel}\")",
-        "detail": "notoyage_data.skills4",
-        "documentation": {}
-    },
-    {
-        "label": "output_job_skill_excel",
-        "kind": 5,
-        "importPath": "notoyage_data.skills4",
-        "description": "notoyage_data.skills4",
-        "peekOfCode": "output_job_skill_excel = 'job_skill_mapping.xlsx'\njob_skill_df.to_excel(output_job_skill_excel, index=False)\nprint(f\"Les données Job Id et Skill ID ont été enregistrées dans le fichier Excel : {output_job_skill_excel}\")",
-        "detail": "notoyage_data.skills4",
-        "documentation": {}
-    },
-    {
-        "label": "input_json_file",
-        "kind": 5,
-        "importPath": "notoyage_data.skils2",
-        "description": "notoyage_data.skils2",
-        "peekOfCode": "input_json_file = 'extracted_skills.json'  # Remplacez par le nom de votre fichier JSON\nwith open(input_json_file, 'r') as file:\n    json_data = json.load(file)\n# Créer une liste pour stocker les données structurées\ndata = []\n# Parcourir chaque entrée dans le fichier JSON\nfor entry in json_data:\n    job_id = entry[\"Job Id\"]\n    skills = entry[\"Skills\"]\n    # Omettre les deux premiers skills et le dernier",
-        "detail": "notoyage_data.skils2",
-        "documentation": {}
-    },
-    {
-        "label": "data",
-        "kind": 5,
-        "importPath": "notoyage_data.skils2",
-        "description": "notoyage_data.skils2",
-        "peekOfCode": "data = []\n# Parcourir chaque entrée dans le fichier JSON\nfor entry in json_data:\n    job_id = entry[\"Job Id\"]\n    skills = entry[\"Skills\"]\n    # Omettre les deux premiers skills et le dernier\n    filtered_skills = skills[2:-1]  # Exclut les deux premiers et le dernier\n    # Ajouter chaque skill avec l'ID correspondant à la liste de données\n    for skill in filtered_skills:\n        data.append({\"Job Id\": job_id, \"Skill\": skill})",
-        "detail": "notoyage_data.skils2",
-        "documentation": {}
-    },
-    {
-        "label": "df",
-        "kind": 5,
-        "importPath": "notoyage_data.skils2",
-        "description": "notoyage_data.skils2",
-        "peekOfCode": "df = pd.DataFrame(data)\n# Enregistrer les données dans un fichier Excel\noutput_excel_file = 'skills_output.xlsx'\ndf.to_excel(output_excel_file, index=False)\nprint(f\"Les données ont été transférées dans le fichier Excel : {output_excel_file}\")",
-        "detail": "notoyage_data.skils2",
-        "documentation": {}
-    },
-    {
-        "label": "output_excel_file",
-        "kind": 5,
-        "importPath": "notoyage_data.skils2",
-        "description": "notoyage_data.skils2",
-        "peekOfCode": "output_excel_file = 'skills_output.xlsx'\ndf.to_excel(output_excel_file, index=False)\nprint(f\"Les données ont été transférées dans le fichier Excel : {output_excel_file}\")",
-        "detail": "notoyage_data.skils2",
-        "documentation": {}
-    },
-    {
-        "label": "ats_extractor",
-        "kind": 2,
-        "importPath": "notoyage_data.transfert10_skills",
-        "description": "notoyage_data.transfert10_skills",
-        "peekOfCode": "def ats_extractor(text):\n    # Prompt for extracting skills information\n    prompt = \"\"\"\n    You are an AI assistant. Your task is to extract a list of skills mentioned in the text provided by the user. \n    Please list the skills you can identify, separating them with commas.\n    \"\"\"\n    messages = [\n        {\"role\": \"system\", \"content\": prompt},\n        {\"role\": \"user\", \"content\": text}\n    ]",
-        "detail": "notoyage_data.transfert10_skills",
-        "documentation": {}
-    },
-    {
-        "label": "CONFIG_PATH",
-        "kind": 5,
-        "importPath": "notoyage_data.transfert10_skills",
-        "description": "notoyage_data.transfert10_skills",
-        "peekOfCode": "CONFIG_PATH = r\"config.yaml\"\napi_key = None\n# Load the API key from YAML configuration file\nwith open(CONFIG_PATH) as file:\n    data = yaml.load(file, Loader=yaml.FullLoader)\n    api_key = data['GROQ_API_KEY']\n# Initialize the Groq API client\ngroq_client = Groq(api_key=api_key)\ndef ats_extractor(text):\n    # Prompt for extracting skills information",
-        "detail": "notoyage_data.transfert10_skills",
-        "documentation": {}
-    },
-    {
-        "label": "api_key",
-        "kind": 5,
-        "importPath": "notoyage_data.transfert10_skills",
-        "description": "notoyage_data.transfert10_skills",
-        "peekOfCode": "api_key = None\n# Load the API key from YAML configuration file\nwith open(CONFIG_PATH) as file:\n    data = yaml.load(file, Loader=yaml.FullLoader)\n    api_key = data['GROQ_API_KEY']\n# Initialize the Groq API client\ngroq_client = Groq(api_key=api_key)\ndef ats_extractor(text):\n    # Prompt for extracting skills information\n    prompt = \"\"\"",
-        "detail": "notoyage_data.transfert10_skills",
-        "documentation": {}
-    },
-    {
-        "label": "groq_client",
-        "kind": 5,
-        "importPath": "notoyage_data.transfert10_skills",
-        "description": "notoyage_data.transfert10_skills",
-        "peekOfCode": "groq_client = Groq(api_key=api_key)\ndef ats_extractor(text):\n    # Prompt for extracting skills information\n    prompt = \"\"\"\n    You are an AI assistant. Your task is to extract a list of skills mentioned in the text provided by the user. \n    Please list the skills you can identify, separating them with commas.\n    \"\"\"\n    messages = [\n        {\"role\": \"system\", \"content\": prompt},\n        {\"role\": \"user\", \"content\": text}",
-        "detail": "notoyage_data.transfert10_skills",
-        "documentation": {}
-    },
-    {
-        "label": "excel_file_path",
-        "kind": 5,
-        "importPath": "notoyage_data.transfert10_skills",
-        "description": "notoyage_data.transfert10_skills",
-        "peekOfCode": "excel_file_path = 'fichier_reduit_avec_contrat.xlsx'  # Remplacez par le chemin de votre fichier Excel\ndata = pd.read_excel(excel_file_path)\n# Create a list to store JSON data\njson_data = []\n# Iterate over the rows in the Excel file\nfor index, row in data.iterrows():\n    job_id = row['Job Id']\n    skills_text = row['skills']\n    # Extract skills using the ats_extractor function\n    skills_list = ats_extractor(skills_text)",
-        "detail": "notoyage_data.transfert10_skills",
-        "documentation": {}
-    },
-    {
-        "label": "data",
-        "kind": 5,
-        "importPath": "notoyage_data.transfert10_skills",
-        "description": "notoyage_data.transfert10_skills",
-        "peekOfCode": "data = pd.read_excel(excel_file_path)\n# Create a list to store JSON data\njson_data = []\n# Iterate over the rows in the Excel file\nfor index, row in data.iterrows():\n    job_id = row['Job Id']\n    skills_text = row['skills']\n    # Extract skills using the ats_extractor function\n    skills_list = ats_extractor(skills_text)\n    # Append data to JSON structure",
-        "detail": "notoyage_data.transfert10_skills",
-        "documentation": {}
-    },
-    {
-        "label": "json_data",
-        "kind": 5,
-        "importPath": "notoyage_data.transfert10_skills",
-        "description": "notoyage_data.transfert10_skills",
-        "peekOfCode": "json_data = []\n# Iterate over the rows in the Excel file\nfor index, row in data.iterrows():\n    job_id = row['Job Id']\n    skills_text = row['skills']\n    # Extract skills using the ats_extractor function\n    skills_list = ats_extractor(skills_text)\n    # Append data to JSON structure\n    json_data.append({\n        \"Job Id\": job_id,",
-        "detail": "notoyage_data.transfert10_skills",
-        "documentation": {}
-    },
-    {
-        "label": "output_json_file",
-        "kind": 5,
-        "importPath": "notoyage_data.transfert10_skills",
-        "description": "notoyage_data.transfert10_skills",
-        "peekOfCode": "output_json_file = 'extracted_skills.json'\nwith open(output_json_file, 'w') as json_file:\n    json.dump(json_data, json_file, indent=4)\nprint(f\"Les compétences extraites ont été sauvegardées dans {output_json_file}\")",
-        "detail": "notoyage_data.transfert10_skills",
-        "documentation": {}
-    },
-    {
-        "label": "assign_language",
-        "kind": 2,
-        "importPath": "notoyage_data.transfert11_langes",
-        "description": "notoyage_data.transfert11_langes",
-        "peekOfCode": "def assign_language(country):\n    if country == \"Morocco\":\n        # 90 % Français, 10 % Anglais\n        if random.random() < 0.9:\n            return 2  # ID de Français\n        else:\n            return 4  # ID d'Anglais\n    else:\n        # Si le pays n'est pas spécifié, retourner une langue par défaut\n        return 4  # Par exemple, ID de Arabe",
-        "detail": "notoyage_data.transfert11_langes",
-        "documentation": {}
-    },
-    {
-        "label": "data",
-        "kind": 5,
-        "importPath": "notoyage_data.transfert11_langes",
-        "description": "notoyage_data.transfert11_langes",
-        "peekOfCode": "data = pd.read_excel('fichier_reduit_avec_contrat.xlsx')\n# Charger les langues depuis un autre fichier Excel ou définir manuellement\nlanguages = [\n    {\"id_lang\": 1, \"name\": \"Arabe\"},\n    {\"id_lang\": 2, \"name\": \"Français\"},\n    {\"id_lang\": 3, \"name\": \"Amazigh\"},\n    {\"id_lang\": 4, \"name\": \"Anglais\"},\n    {\"id_lang\": 13, \"name\": \"Espagnol\"},\n    # Ajoutez d'autres langues si nécessaire\n]",
-        "detail": "notoyage_data.transfert11_langes",
-        "documentation": {}
-    },
-    {
-        "label": "languages",
-        "kind": 5,
-        "importPath": "notoyage_data.transfert11_langes",
-        "description": "notoyage_data.transfert11_langes",
-        "peekOfCode": "languages = [\n    {\"id_lang\": 1, \"name\": \"Arabe\"},\n    {\"id_lang\": 2, \"name\": \"Français\"},\n    {\"id_lang\": 3, \"name\": \"Amazigh\"},\n    {\"id_lang\": 4, \"name\": \"Anglais\"},\n    {\"id_lang\": 13, \"name\": \"Espagnol\"},\n    # Ajoutez d'autres langues si nécessaire\n]\n# Convertir les langues en DataFrame\nlanguages_df = pd.DataFrame(languages)",
-        "detail": "notoyage_data.transfert11_langes",
-        "documentation": {}
-    },
-    {
-        "label": "languages_df",
-        "kind": 5,
-        "importPath": "notoyage_data.transfert11_langes",
-        "description": "notoyage_data.transfert11_langes",
-        "peekOfCode": "languages_df = pd.DataFrame(languages)\n# Fonction pour assigner une langue en fonction du pays\ndef assign_language(country):\n    if country == \"Morocco\":\n        # 90 % Français, 10 % Anglais\n        if random.random() < 0.9:\n            return 2  # ID de Français\n        else:\n            return 4  # ID d'Anglais\n    else:",
-        "detail": "notoyage_data.transfert11_langes",
-        "documentation": {}
-    },
-    {
-        "label": "data['id_lang']",
-        "kind": 5,
-        "importPath": "notoyage_data.transfert11_langes",
-        "description": "notoyage_data.transfert11_langes",
-        "peekOfCode": "data['id_lang'] = data['Country'].apply(assign_language)\n# Créer un DataFrame pour \"Job Id\" et \"id_lang\"\noutput_df = data[['Job Id', 'id_lang']]\n# Sauvegarder les résultats dans un fichier Excel\noutput_df.to_excel('job_id_languages.xlsx', index=False)\n# Afficher un aperçu des données sauvegardées\nprint(output_df.head())",
-        "detail": "notoyage_data.transfert11_langes",
-        "documentation": {}
-    },
-    {
-        "label": "output_df",
-        "kind": 5,
-        "importPath": "notoyage_data.transfert11_langes",
-        "description": "notoyage_data.transfert11_langes",
-        "peekOfCode": "output_df = data[['Job Id', 'id_lang']]\n# Sauvegarder les résultats dans un fichier Excel\noutput_df.to_excel('job_id_languages.xlsx', index=False)\n# Afficher un aperçu des données sauvegardées\nprint(output_df.head())",
-        "detail": "notoyage_data.transfert11_langes",
-        "documentation": {}
-    },
-    {
-        "label": "data",
-        "kind": 5,
-        "importPath": "notoyage_data.transfert12_etat",
-        "description": "notoyage_data.transfert12_etat",
-        "peekOfCode": "data = pd.read_excel('fichier_reduit_avec_contrat.xlsx')\n# Extraire la colonne \"Country\" et supprimer les doublons\nunique_countries = data['Country'].drop_duplicates().reset_index(drop=True)\n# Générer un DataFrame avec id_etat et nom de l'état\nunique_countries_df = pd.DataFrame({\n    'id_etat': range(1, len(unique_countries) + 1),  # Générer des ID uniques\n    'nom_etat': unique_countries\n})\n# Sauvegarder le DataFrame dans un fichier Excel\nunique_countries_df.to_excel('unique_countries.xlsx', index=False)",
-        "detail": "notoyage_data.transfert12_etat",
-        "documentation": {}
-    },
-    {
-        "label": "unique_countries",
-        "kind": 5,
-        "importPath": "notoyage_data.transfert12_etat",
-        "description": "notoyage_data.transfert12_etat",
-        "peekOfCode": "unique_countries = data['Country'].drop_duplicates().reset_index(drop=True)\n# Générer un DataFrame avec id_etat et nom de l'état\nunique_countries_df = pd.DataFrame({\n    'id_etat': range(1, len(unique_countries) + 1),  # Générer des ID uniques\n    'nom_etat': unique_countries\n})\n# Sauvegarder le DataFrame dans un fichier Excel\nunique_countries_df.to_excel('unique_countries.xlsx', index=False)\n# Afficher un aperçu des résultats\nprint(unique_countries_df.head())",
-        "detail": "notoyage_data.transfert12_etat",
-        "documentation": {}
-    },
-    {
-        "label": "unique_countries_df",
-        "kind": 5,
-        "importPath": "notoyage_data.transfert12_etat",
-        "description": "notoyage_data.transfert12_etat",
-        "peekOfCode": "unique_countries_df = pd.DataFrame({\n    'id_etat': range(1, len(unique_countries) + 1),  # Générer des ID uniques\n    'nom_etat': unique_countries\n})\n# Sauvegarder le DataFrame dans un fichier Excel\nunique_countries_df.to_excel('unique_countries.xlsx', index=False)\n# Afficher un aperçu des résultats\nprint(unique_countries_df.head())",
-        "detail": "notoyage_data.transfert12_etat",
-        "documentation": {}
-    },
-    {
-        "label": "data",
-        "kind": 5,
-        "importPath": "notoyage_data.transfert13_ville",
-        "description": "notoyage_data.transfert13_ville",
-        "peekOfCode": "data = pd.read_excel('fichier_reduit_avec_id_etat.xlsx')\n# Extraire les colonnes 'Location' et 'id_etat'\ncities = data[['location', 'id_etat']].drop_duplicates()\n# Supprimer les lignes où 'Location' est vide ou NaN\ncities = cities.dropna(subset=['location'])\n# Générer un id_ville unique pour chaque ville\ncities['id_ville'] = range(1, len(cities) + 1)\n# Réorganiser les colonnes\ncities = cities[['id_ville', 'id_etat', 'location']]\n# Renommer les colonnes pour plus de clarté",
-        "detail": "notoyage_data.transfert13_ville",
-        "documentation": {}
-    },
-    {
-        "label": "cities",
-        "kind": 5,
-        "importPath": "notoyage_data.transfert13_ville",
-        "description": "notoyage_data.transfert13_ville",
-        "peekOfCode": "cities = data[['location', 'id_etat']].drop_duplicates()\n# Supprimer les lignes où 'Location' est vide ou NaN\ncities = cities.dropna(subset=['location'])\n# Générer un id_ville unique pour chaque ville\ncities['id_ville'] = range(1, len(cities) + 1)\n# Réorganiser les colonnes\ncities = cities[['id_ville', 'id_etat', 'location']]\n# Renommer les colonnes pour plus de clarté\ncities.rename(columns={'location': 'nom_ville'}, inplace=True)\n# Sauvegarder le nouveau fichier contenant les villes",
-        "detail": "notoyage_data.transfert13_ville",
-        "documentation": {}
-    },
-    {
-        "label": "cities",
-        "kind": 5,
-        "importPath": "notoyage_data.transfert13_ville",
-        "description": "notoyage_data.transfert13_ville",
-        "peekOfCode": "cities = cities.dropna(subset=['location'])\n# Générer un id_ville unique pour chaque ville\ncities['id_ville'] = range(1, len(cities) + 1)\n# Réorganiser les colonnes\ncities = cities[['id_ville', 'id_etat', 'location']]\n# Renommer les colonnes pour plus de clarté\ncities.rename(columns={'location': 'nom_ville'}, inplace=True)\n# Sauvegarder le nouveau fichier contenant les villes\ncities.to_excel('villes_avec_id.xlsx', index=False)\n# Afficher un aperçu du résultat",
-        "detail": "notoyage_data.transfert13_ville",
-        "documentation": {}
-    },
-    {
-        "label": "cities['id_ville']",
-        "kind": 5,
-        "importPath": "notoyage_data.transfert13_ville",
-        "description": "notoyage_data.transfert13_ville",
-        "peekOfCode": "cities['id_ville'] = range(1, len(cities) + 1)\n# Réorganiser les colonnes\ncities = cities[['id_ville', 'id_etat', 'location']]\n# Renommer les colonnes pour plus de clarté\ncities.rename(columns={'location': 'nom_ville'}, inplace=True)\n# Sauvegarder le nouveau fichier contenant les villes\ncities.to_excel('villes_avec_id.xlsx', index=False)\n# Afficher un aperçu du résultat\nprint(cities.head())",
-        "detail": "notoyage_data.transfert13_ville",
-        "documentation": {}
-    },
-    {
-        "label": "cities",
-        "kind": 5,
-        "importPath": "notoyage_data.transfert13_ville",
-        "description": "notoyage_data.transfert13_ville",
-        "peekOfCode": "cities = cities[['id_ville', 'id_etat', 'location']]\n# Renommer les colonnes pour plus de clarté\ncities.rename(columns={'location': 'nom_ville'}, inplace=True)\n# Sauvegarder le nouveau fichier contenant les villes\ncities.to_excel('villes_avec_id.xlsx', index=False)\n# Afficher un aperçu du résultat\nprint(cities.head())",
-        "detail": "notoyage_data.transfert13_ville",
-        "documentation": {}
-    },
-    {
-        "label": "data",
-        "kind": 5,
-        "importPath": "notoyage_data.transfert14_secteur",
-        "description": "notoyage_data.transfert14_secteur",
-        "peekOfCode": "data = pd.read_excel('fichier_reduit_avec_id_ville.xlsx')\n# Extraire les secteurs uniques\nsecteurs_uniques = data['Secteur'].dropna().unique()\n# Créer un DataFrame avec un id pour chaque secteur unique\nsecteurs_df = pd.DataFrame({\n    'id_secteur': range(1, len(secteurs_uniques) + 1),\n    'nom_secteur': secteurs_uniques\n})\n# Sauvegarder le fichier avec les secteurs et leurs identifiants\nsecteurs_df.to_excel('secteurs_avec_id.xlsx', index=False)",
-        "detail": "notoyage_data.transfert14_secteur",
-        "documentation": {}
-    },
-    {
-        "label": "secteurs_uniques",
-        "kind": 5,
-        "importPath": "notoyage_data.transfert14_secteur",
-        "description": "notoyage_data.transfert14_secteur",
-        "peekOfCode": "secteurs_uniques = data['Secteur'].dropna().unique()\n# Créer un DataFrame avec un id pour chaque secteur unique\nsecteurs_df = pd.DataFrame({\n    'id_secteur': range(1, len(secteurs_uniques) + 1),\n    'nom_secteur': secteurs_uniques\n})\n# Sauvegarder le fichier avec les secteurs et leurs identifiants\nsecteurs_df.to_excel('secteurs_avec_id.xlsx', index=False)\n# Afficher un aperçu des secteurs générés pour vérification\nprint(secteurs_df.head())",
-        "detail": "notoyage_data.transfert14_secteur",
-        "documentation": {}
-    },
-    {
-        "label": "secteurs_df",
-        "kind": 5,
-        "importPath": "notoyage_data.transfert14_secteur",
-        "description": "notoyage_data.transfert14_secteur",
-        "peekOfCode": "secteurs_df = pd.DataFrame({\n    'id_secteur': range(1, len(secteurs_uniques) + 1),\n    'nom_secteur': secteurs_uniques\n})\n# Sauvegarder le fichier avec les secteurs et leurs identifiants\nsecteurs_df.to_excel('secteurs_avec_id.xlsx', index=False)\n# Afficher un aperçu des secteurs générés pour vérification\nprint(secteurs_df.head())",
-        "detail": "notoyage_data.transfert14_secteur",
-        "documentation": {}
-    },
-    {
-        "label": "data",
-        "kind": 5,
-        "importPath": "notoyage_data.transfert15_type_travail",
-        "description": "notoyage_data.transfert15_type_travail",
-        "peekOfCode": "data = pd.read_excel('fichier_reduit_avec_id_secteur.xlsx')\n# Extraire les types de travail uniques\nunique_work_types = data['Work Type'].dropna().unique()\n# Créer un DataFrame avec les types de travail et leur identifiant\nwork_type_df = pd.DataFrame(unique_work_types, columns=['nom_type_trav'])\n# Ajouter un identifiant pour chaque type de travail\nwork_type_df['id_type_trav'] = range(1, len(work_type_df) + 1)\n# Sauvegarder le DataFrame dans un nouveau fichier Excel\nwork_type_df.to_excel('type_trav_avec_id.xlsx', index=False)\n# Afficher un aperçu des 5 premières lignes pour vérifier",
-        "detail": "notoyage_data.transfert15_type_travail",
-        "documentation": {}
-    },
-    {
-        "label": "unique_work_types",
-        "kind": 5,
-        "importPath": "notoyage_data.transfert15_type_travail",
-        "description": "notoyage_data.transfert15_type_travail",
-        "peekOfCode": "unique_work_types = data['Work Type'].dropna().unique()\n# Créer un DataFrame avec les types de travail et leur identifiant\nwork_type_df = pd.DataFrame(unique_work_types, columns=['nom_type_trav'])\n# Ajouter un identifiant pour chaque type de travail\nwork_type_df['id_type_trav'] = range(1, len(work_type_df) + 1)\n# Sauvegarder le DataFrame dans un nouveau fichier Excel\nwork_type_df.to_excel('type_trav_avec_id.xlsx', index=False)\n# Afficher un aperçu des 5 premières lignes pour vérifier\nprint(work_type_df.head())",
-        "detail": "notoyage_data.transfert15_type_travail",
-        "documentation": {}
-    },
-    {
-        "label": "work_type_df",
-        "kind": 5,
-        "importPath": "notoyage_data.transfert15_type_travail",
-        "description": "notoyage_data.transfert15_type_travail",
-        "peekOfCode": "work_type_df = pd.DataFrame(unique_work_types, columns=['nom_type_trav'])\n# Ajouter un identifiant pour chaque type de travail\nwork_type_df['id_type_trav'] = range(1, len(work_type_df) + 1)\n# Sauvegarder le DataFrame dans un nouveau fichier Excel\nwork_type_df.to_excel('type_trav_avec_id.xlsx', index=False)\n# Afficher un aperçu des 5 premières lignes pour vérifier\nprint(work_type_df.head())",
-        "detail": "notoyage_data.transfert15_type_travail",
-        "documentation": {}
-    },
-    {
-        "label": "work_type_df['id_type_trav']",
-        "kind": 5,
-        "importPath": "notoyage_data.transfert15_type_travail",
-        "description": "notoyage_data.transfert15_type_travail",
-        "peekOfCode": "work_type_df['id_type_trav'] = range(1, len(work_type_df) + 1)\n# Sauvegarder le DataFrame dans un nouveau fichier Excel\nwork_type_df.to_excel('type_trav_avec_id.xlsx', index=False)\n# Afficher un aperçu des 5 premières lignes pour vérifier\nprint(work_type_df.head())",
-        "detail": "notoyage_data.transfert15_type_travail",
-        "documentation": {}
-    },
-    {
-        "label": "assign_contrat",
-        "kind": 2,
-        "importPath": "notoyage_data.transfert16_contrat",
-        "description": "notoyage_data.transfert16_contrat",
-        "peekOfCode": "def assign_contrat(row, cdi_ratio=0.4):\n    work_type = row['Work Type']\n    # Si le type de travail est \"Contract\", il y a une chance de 40% d'être CDI\n    if work_type == 'Contract':\n        if random.random() < cdi_ratio:  # 40% chance de CDI\n            return 'CDI'\n        else:\n            return 'CDD'\n    # Affecter les autres types directement\n    elif work_type == 'Full-Time':",
-        "detail": "notoyage_data.transfert16_contrat",
-        "documentation": {}
-    },
-    {
-        "label": "data",
-        "kind": 5,
-        "importPath": "notoyage_data.transfert16_contrat",
-        "description": "notoyage_data.transfert16_contrat",
-        "peekOfCode": "data = pd.read_excel('fichier_reduit_avec_telephone_mise_a_jour.xlsx')\n# Fonction pour assigner les valeurs du contrat selon le type de travail\ndef assign_contrat(row, cdi_ratio=0.4):\n    work_type = row['Work Type']\n    # Si le type de travail est \"Contract\", il y a une chance de 40% d'être CDI\n    if work_type == 'Contract':\n        if random.random() < cdi_ratio:  # 40% chance de CDI\n            return 'CDI'\n        else:\n            return 'CDD'",
-        "detail": "notoyage_data.transfert16_contrat",
-        "documentation": {}
-    },
-    {
-        "label": "data['contrat']",
-        "kind": 5,
-        "importPath": "notoyage_data.transfert16_contrat",
-        "description": "notoyage_data.transfert16_contrat",
-        "peekOfCode": "data['contrat'] = data.apply(assign_contrat, axis=1)\n# Sauvegarder le DataFrame mis à jour dans un nouveau fichier Excel\ndata.to_excel('fichier_reduit_avec_contrat.xlsx', index=False)\n# Afficher un aperçu des 5 premières lignes pour vérifier\nprint(data.head())",
-        "detail": "notoyage_data.transfert16_contrat",
-        "documentation": {}
-    },
-    {
-        "label": "data",
-        "kind": 5,
-        "importPath": "notoyage_data.transfert17_entreprise",
-        "description": "notoyage_data.transfert17_entreprise",
-        "peekOfCode": "data = pd.read_csv('salaries_max_convertis.csv')\n# Supprimer les doublons par entreprise et conserver les premières occurrences de chaque entreprise\nunique_companies = data.drop_duplicates(subset=['Company'])\n# Créer un DataFrame avec les informations demandées\ncompany_data = unique_companies[['Company', 'email', 'URL', 'telephone', 'id_secteur', 'id_ville']].copy()\n# Renommer les colonnes pour correspondre au format demandé\ncompany_data.rename(columns={\n    'Company': 'nom_company',\n    'email': 'email',\n    'URL': 'URL',",
-        "detail": "notoyage_data.transfert17_entreprise",
-        "documentation": {}
-    },
-    {
-        "label": "unique_companies",
-        "kind": 5,
-        "importPath": "notoyage_data.transfert17_entreprise",
-        "description": "notoyage_data.transfert17_entreprise",
-        "peekOfCode": "unique_companies = data.drop_duplicates(subset=['Company'])\n# Créer un DataFrame avec les informations demandées\ncompany_data = unique_companies[['Company', 'email', 'URL', 'telephone', 'id_secteur', 'id_ville']].copy()\n# Renommer les colonnes pour correspondre au format demandé\ncompany_data.rename(columns={\n    'Company': 'nom_company',\n    'email': 'email',\n    'URL': 'URL',\n    'telephone': 'telephone'\n}, inplace=True)",
-        "detail": "notoyage_data.transfert17_entreprise",
-        "documentation": {}
-    },
-    {
-        "label": "company_data",
-        "kind": 5,
-        "importPath": "notoyage_data.transfert17_entreprise",
-        "description": "notoyage_data.transfert17_entreprise",
-        "peekOfCode": "company_data = unique_companies[['Company', 'email', 'URL', 'telephone', 'id_secteur', 'id_ville']].copy()\n# Renommer les colonnes pour correspondre au format demandé\ncompany_data.rename(columns={\n    'Company': 'nom_company',\n    'email': 'email',\n    'URL': 'URL',\n    'telephone': 'telephone'\n}, inplace=True)\n# Ajouter un identifiant unique pour chaque entreprise\ncompany_data['id_company'] = range(1, len(company_data) + 1)",
-        "detail": "notoyage_data.transfert17_entreprise",
-        "documentation": {}
-    },
-    {
-        "label": "company_data['id_company']",
-        "kind": 5,
-        "importPath": "notoyage_data.transfert17_entreprise",
-        "description": "notoyage_data.transfert17_entreprise",
-        "peekOfCode": "company_data['id_company'] = range(1, len(company_data) + 1)\n# Réorganiser les colonnes pour l'ordre souhaité\ncompany_data = company_data[['id_company', 'nom_company', 'email', 'URL', 'telephone', 'id_secteur', 'id_ville']]\n# Sauvegarder les informations dans un nouveau fichier Excel\ncompany_data.to_csv('entreprises_avec_id.csv', index=False)\n# Afficher un aperçu des 5 premières lignes pour vérifier\nprint(company_data.head())",
-        "detail": "notoyage_data.transfert17_entreprise",
-        "documentation": {}
-    },
-    {
-        "label": "company_data",
-        "kind": 5,
-        "importPath": "notoyage_data.transfert17_entreprise",
-        "description": "notoyage_data.transfert17_entreprise",
-        "peekOfCode": "company_data = company_data[['id_company', 'nom_company', 'email', 'URL', 'telephone', 'id_secteur', 'id_ville']]\n# Sauvegarder les informations dans un nouveau fichier Excel\ncompany_data.to_csv('entreprises_avec_id.csv', index=False)\n# Afficher un aperçu des 5 premières lignes pour vérifier\nprint(company_data.head())",
-        "detail": "notoyage_data.transfert17_entreprise",
-        "documentation": {}
-    },
-    {
-        "label": "data",
-        "kind": 5,
-        "importPath": "notoyage_data.transfert18_fait",
-        "description": "notoyage_data.transfert18_fait",
-        "peekOfCode": "data = pd.read_csv('fichier_valide.csv')\n# Sélectionner les colonnes souhaitées et renommer si nécessaire\nfields_to_keep = {\n    'Job Id': 'Job Id',              # Garder la colonne Job ID\n    'id_type_contrat': 'id_type_contrat',  # Garder la colonne id_type_contrat\n    'id_company': 'id_company',          # Garder la colonne id_company\n    'id_type_trav': 'id_type_trav',      # Garder la colonne id_type_trav\n    'salaire': 'salaire',                 # Renommer Salary en salaire\n    'Experience': 'Experience',          # Garder la colonne Experience\n    'email': 'email_offre'               # Renommer Email en email_offre",
-        "detail": "notoyage_data.transfert18_fait",
-        "documentation": {}
-    },
-    {
-        "label": "fields_to_keep",
-        "kind": 5,
-        "importPath": "notoyage_data.transfert18_fait",
-        "description": "notoyage_data.transfert18_fait",
-        "peekOfCode": "fields_to_keep = {\n    'Job Id': 'Job Id',              # Garder la colonne Job ID\n    'id_type_contrat': 'id_type_contrat',  # Garder la colonne id_type_contrat\n    'id_company': 'id_company',          # Garder la colonne id_company\n    'id_type_trav': 'id_type_trav',      # Garder la colonne id_type_trav\n    'salaire': 'salaire',                 # Renommer Salary en salaire\n    'Experience': 'Experience',          # Garder la colonne Experience\n    'email': 'email_offre'               # Renommer Email en email_offre\n}\nnew_data = data[list(fields_to_keep.keys())].rename(columns=fields_to_keep)",
-        "detail": "notoyage_data.transfert18_fait",
-        "documentation": {}
-    },
-    {
-        "label": "new_data",
-        "kind": 5,
-        "importPath": "notoyage_data.transfert18_fait",
-        "description": "notoyage_data.transfert18_fait",
-        "peekOfCode": "new_data = data[list(fields_to_keep.keys())].rename(columns=fields_to_keep)\n# Convertir la colonne 'salaire' en un nombre décimal\nnew_data['salaire'] = (\n    new_data['salaire']  # Travailler sur la colonne salaire\n    .replace({',': ''}, regex=True)  # Supprimer les virgules\n    .astype(float)  # Convertir en nombre décimal\n)\n# Sauvegarder le nouveau fichier Excel\nnew_data.to_csv('offres_emploi_filtrees2.csv', index=False)\n# Afficher un aperçu des premières lignes",
-        "detail": "notoyage_data.transfert18_fait",
-        "documentation": {}
-    },
-    {
-        "label": "new_data['salaire']",
-        "kind": 5,
-        "importPath": "notoyage_data.transfert18_fait",
-        "description": "notoyage_data.transfert18_fait",
-        "peekOfCode": "new_data['salaire'] = (\n    new_data['salaire']  # Travailler sur la colonne salaire\n    .replace({',': ''}, regex=True)  # Supprimer les virgules\n    .astype(float)  # Convertir en nombre décimal\n)\n# Sauvegarder le nouveau fichier Excel\nnew_data.to_csv('offres_emploi_filtrees2.csv', index=False)\n# Afficher un aperçu des premières lignes\nprint(new_data.head())",
-        "detail": "notoyage_data.transfert18_fait",
-        "documentation": {}
-    },
-    {
-        "label": "extract_max_salary",
-        "kind": 2,
-        "importPath": "notoyage_data.transfert1_salaire",
-        "description": "notoyage_data.transfert1_salaire",
-        "peekOfCode": "def extract_max_salary(salary_range):\n    # Diviser les valeurs en deux parties\n    _, max_salary = salary_range.split('-')\n    # Enlever le symbole $ et le K, puis multiplier par 100 pour obtenir le format décimal\n    max_decimal = float(max_salary.replace('$', '').replace('K', '')) * 100\n    # Retourner la valeur maximale en format décimal avec deux chiffres après la virgule\n    return f\"{max_decimal:,.2f}\"\n# Appliquer la conversion pour extraire la valeur maximale et créer la colonne 'salaire'\ndata['salaire'] = data['Salary Range'].apply(extract_max_salary)\n# Sauvegarder le résultat dans un nouveau fichier Excel",
-        "detail": "notoyage_data.transfert1_salaire",
-        "documentation": {}
-    },
-    {
-        "label": "data",
-        "kind": 5,
-        "importPath": "notoyage_data.transfert1_salaire",
-        "description": "notoyage_data.transfert1_salaire",
-        "peekOfCode": "data = pd.read_excel('fichier_reduit.xlsx')\n# Fonction pour convertir la valeur maximale de la plage en décimal\ndef extract_max_salary(salary_range):\n    # Diviser les valeurs en deux parties\n    _, max_salary = salary_range.split('-')\n    # Enlever le symbole $ et le K, puis multiplier par 100 pour obtenir le format décimal\n    max_decimal = float(max_salary.replace('$', '').replace('K', '')) * 100\n    # Retourner la valeur maximale en format décimal avec deux chiffres après la virgule\n    return f\"{max_decimal:,.2f}\"\n# Appliquer la conversion pour extraire la valeur maximale et créer la colonne 'salaire'",
-        "detail": "notoyage_data.transfert1_salaire",
-        "documentation": {}
-    },
-    {
-        "label": "data['salaire']",
-        "kind": 5,
-        "importPath": "notoyage_data.transfert1_salaire",
-        "description": "notoyage_data.transfert1_salaire",
-        "peekOfCode": "data['salaire'] = data['Salary Range'].apply(extract_max_salary)\n# Sauvegarder le résultat dans un nouveau fichier Excel\ndata.to_excel('salaries_max_convertis.xlsx', index=False)\nprint(\"La conversion est terminée et les données sont sauvegardées dans 'salaries_max_convertis.xlsx'.\")",
-        "detail": "notoyage_data.transfert1_salaire",
-        "documentation": {}
-    },
-    {
-        "label": "data",
-        "kind": 5,
-        "importPath": "notoyage_data.transfert2_maroc_villes",
-        "description": "notoyage_data.transfert2_maroc_villes",
-        "peekOfCode": "data = pd.read_excel('salaries_max_convertis.xlsx')\n# Liste des villes marocaines\nmoroccan_cities = [\n    'Casablanca', 'Rabat', 'Salé', 'Agadir', 'Tanger', 'Fès',\n    'Marrakech', 'Meknès', 'Oujda', 'Kenitra', 'Tétouan', 'Safi',\n    'Mohammedia', 'El Jadida', 'Khouribga', 'Beni Mellal',\n    'Nador', 'Khemisset', 'Settat', 'Larache', 'Guelmim',\n    'Taza', 'Tan-Tan', 'Errachidia', 'Azrou', 'Ouarzazate',\n    'Laâyoune', 'Al Hoceima', 'Ifrane', 'Asilah'\n]",
-        "detail": "notoyage_data.transfert2_maroc_villes",
-        "documentation": {}
-    },
-    {
-        "label": "moroccan_cities",
-        "kind": 5,
-        "importPath": "notoyage_data.transfert2_maroc_villes",
-        "description": "notoyage_data.transfert2_maroc_villes",
-        "peekOfCode": "moroccan_cities = [\n    'Casablanca', 'Rabat', 'Salé', 'Agadir', 'Tanger', 'Fès',\n    'Marrakech', 'Meknès', 'Oujda', 'Kenitra', 'Tétouan', 'Safi',\n    'Mohammedia', 'El Jadida', 'Khouribga', 'Beni Mellal',\n    'Nador', 'Khemisset', 'Settat', 'Larache', 'Guelmim',\n    'Taza', 'Tan-Tan', 'Errachidia', 'Azrou', 'Ouarzazate',\n    'Laâyoune', 'Al Hoceima', 'Ifrane', 'Asilah'\n]\n# Sélectionner aléatoirement 700 indices de lignes dans le dataset\nindices_to_change = random.sample(range(len(data)), 700)",
-        "detail": "notoyage_data.transfert2_maroc_villes",
-        "documentation": {}
-    },
-    {
-        "label": "indices_to_change",
-        "kind": 5,
-        "importPath": "notoyage_data.transfert2_maroc_villes",
-        "description": "notoyage_data.transfert2_maroc_villes",
-        "peekOfCode": "indices_to_change = random.sample(range(len(data)), 700)\n# Modifier les lignes sélectionnées avec le pays 'Morocco' et des villes marocaines aléatoires\nfor idx in indices_to_change:\n    data.at[idx, 'Country'] = 'Morocco'\n    data.at[idx, 'location'] = random.choice(moroccan_cities)\n# Sauvegarder le dataset modifié dans un nouveau fichier Excel\ndata.to_excel('fichier_reduit_avec_maroc.xlsx', index=False)\nprint(\"Modification terminée et les données sont sauvegardées dans 'fichier_reduit_avec_maroc.xlsx'.\")",
-        "detail": "notoyage_data.transfert2_maroc_villes",
-        "documentation": {}
-    },
-    {
-        "label": "extract_sector",
-        "kind": 2,
-        "importPath": "notoyage_data.transfert3_cree_sector",
-        "description": "notoyage_data.transfert3_cree_sector",
-        "peekOfCode": "def extract_sector(company_profile):\n    try:\n        # Convertir la chaîne de caractères en dictionnaire\n        profile_dict = ast.literal_eval(company_profile)\n        # Retourner la valeur du secteur\n        return profile_dict.get('Sector', None)  # Renvoie None si 'Sector' n'existe pas\n    except:\n        return None\n# Appliquer la fonction à la colonne 'Company Profile' et créer la nouvelle colonne 'Secteur'\ndata['Secteur'] = data['Company Profile'].apply(extract_sector)",
-        "detail": "notoyage_data.transfert3_cree_sector",
-        "documentation": {}
-    },
-    {
-        "label": "data",
-        "kind": 5,
-        "importPath": "notoyage_data.transfert3_cree_sector",
-        "description": "notoyage_data.transfert3_cree_sector",
-        "peekOfCode": "data = pd.read_excel('fichier_reduit_avec_maroc.xlsx')\n# Fonction pour extraire la valeur du secteur depuis la colonne \"Company Profile\"\ndef extract_sector(company_profile):\n    try:\n        # Convertir la chaîne de caractères en dictionnaire\n        profile_dict = ast.literal_eval(company_profile)\n        # Retourner la valeur du secteur\n        return profile_dict.get('Sector', None)  # Renvoie None si 'Sector' n'existe pas\n    except:\n        return None",
-        "detail": "notoyage_data.transfert3_cree_sector",
-        "documentation": {}
-    },
-    {
-        "label": "data['Secteur']",
-        "kind": 5,
-        "importPath": "notoyage_data.transfert3_cree_sector",
-        "description": "notoyage_data.transfert3_cree_sector",
-        "peekOfCode": "data['Secteur'] = data['Company Profile'].apply(extract_sector)\n# Sauvegarder le dataset modifié dans un nouveau fichier Excel\ndata.to_excel('fichier_reduit_avec_secteur.xlsx', index=False)\nprint(\"Modification terminée et les données sont sauvegardées dans 'fichier_reduit_avec_secteur.xlsx'.\")",
-        "detail": "notoyage_data.transfert3_cree_sector",
-        "documentation": {}
-    },
-    {
-        "label": "update_company",
-        "kind": 2,
-        "importPath": "notoyage_data.transfert4_sector_maroc",
-        "description": "notoyage_data.transfert4_sector_maroc",
-        "peekOfCode": "def update_company(row):\n    country = row['Country']\n    secteur = row['Secteur']  # Récupérer le secteur\n    if country == 'Morocco' and secteur in companies_by_sector:\n        # Sélectionner une entreprise au hasard dans le secteur correspondant\n        company = random.choice(companies_by_sector[secteur])\n        row['Company'] = company  # Mettre à jour la colonne 'Company'\n    return row\n# Appliquer la fonction à chaque ligne du dataframe\ndata = data.apply(update_company, axis=1)",
-        "detail": "notoyage_data.transfert4_sector_maroc",
-        "documentation": {}
-    },
-    {
-        "label": "companies_by_sector",
-        "kind": 5,
-        "importPath": "notoyage_data.transfert4_sector_maroc",
-        "description": "notoyage_data.transfert4_sector_maroc",
-        "peekOfCode": "companies_by_sector = {\n    'Energy': ['Nareva Holding', 'OCP Group', 'LafargeHolcim Maroc', 'Managem'],\n    'Consumer Goods': ['Cosumar', 'Sidi Ali', 'Danone Maroc', 'Unilever Maroc'],\n    'Healthcare Services': ['Clinique Internationale de Marrakech', 'Clinique Al Azhar', 'Réseau de santé Al Amal'],\n    'Insurance': ['Attijariwafa Assurance', 'RMA Watanya', 'Saham Assurance'],\n    'Lab Equipment': ['Biopharma', 'Medtech Maroc', 'Pharmatex'],\n    'Financial Services': ['Bank of Africa', 'Attijariwafa Bank', 'BMCE Bank of Africa', 'CIH Bank'],\n    'Healthcare Technology': ['Medisys', 'HemoTech', 'InnovHealth'],\n    'Industrial': ['LafargeHolcim Maroc', 'Maroc Chimie', 'Managem'],\n    'Logistics': ['CTM', 'Groupe BDP International', 'Transports Océan'],",
-        "detail": "notoyage_data.transfert4_sector_maroc",
-        "documentation": {}
-    },
-    {
-        "label": "data",
-        "kind": 5,
-        "importPath": "notoyage_data.transfert4_sector_maroc",
-        "description": "notoyage_data.transfert4_sector_maroc",
-        "peekOfCode": "data = pd.read_excel('fichier_reduit_avec_secteur.xlsx')\n# Fonction pour mettre à jour la colonne 'Company' en fonction du secteur et du pays\ndef update_company(row):\n    country = row['Country']\n    secteur = row['Secteur']  # Récupérer le secteur\n    if country == 'Morocco' and secteur in companies_by_sector:\n        # Sélectionner une entreprise au hasard dans le secteur correspondant\n        company = random.choice(companies_by_sector[secteur])\n        row['Company'] = company  # Mettre à jour la colonne 'Company'\n    return row",
-        "detail": "notoyage_data.transfert4_sector_maroc",
-        "documentation": {}
-    },
-    {
-        "label": "data",
-        "kind": 5,
-        "importPath": "notoyage_data.transfert4_sector_maroc",
-        "description": "notoyage_data.transfert4_sector_maroc",
-        "peekOfCode": "data = data.apply(update_company, axis=1)\n# Sauvegarder le fichier modifié dans un nouveau fichier Excel\ndata.to_excel('fichier_reduit_avec_entreprises_mises_a_jour.xlsx', index=False)\nprint(\"Les entreprises ont été mises à jour dans le fichier 'fichier_reduit_avec_entreprises_mises_a_jour.xlsx'.\")",
-        "detail": "notoyage_data.transfert4_sector_maroc",
-        "documentation": {}
-    },
-    {
-        "label": "extract_url",
-        "kind": 2,
-        "importPath": "notoyage_data.transfert5_url",
-        "description": "notoyage_data.transfert5_url",
-        "peekOfCode": "def extract_url(company_profile):\n    try:\n        # Convertir le texte JSON en dictionnaire Python\n        profile = json.loads(company_profile)\n        # Extraire l'URL si elle existe\n        return profile.get(\"Website\", \"\")  # Retourne la valeur de \"Website\" ou une chaîne vide si non trouvé\n    except (json.JSONDecodeError, TypeError):\n        # Retourne une chaîne vide en cas d'erreur de format\n        return \"\"\n# Appliquer la fonction à la colonne 'Company Profile' pour créer la nouvelle colonne 'URL'",
-        "detail": "notoyage_data.transfert5_url",
-        "documentation": {}
-    },
-    {
-        "label": "data",
-        "kind": 5,
-        "importPath": "notoyage_data.transfert5_url",
-        "description": "notoyage_data.transfert5_url",
-        "peekOfCode": "data = pd.read_excel('fichier_reduit_avec_entreprises_mises_a_jour.xlsx')\n# Fonction pour extraire l'URL du champ 'Company Profile'\ndef extract_url(company_profile):\n    try:\n        # Convertir le texte JSON en dictionnaire Python\n        profile = json.loads(company_profile)\n        # Extraire l'URL si elle existe\n        return profile.get(\"Website\", \"\")  # Retourne la valeur de \"Website\" ou une chaîne vide si non trouvé\n    except (json.JSONDecodeError, TypeError):\n        # Retourne une chaîne vide en cas d'erreur de format",
-        "detail": "notoyage_data.transfert5_url",
-        "documentation": {}
-    },
-    {
-        "label": "data['URL']",
-        "kind": 5,
-        "importPath": "notoyage_data.transfert5_url",
-        "description": "notoyage_data.transfert5_url",
-        "peekOfCode": "data['URL'] = data['Company Profile'].apply(extract_url)\n# Sauvegarder le fichier modifié dans un nouveau fichier Excel\ndata.to_excel('fichier_reduit_avec_URL.xlsx', index=False)\nprint(\"La colonne URL a été ajoutée et sauvegardée dans le fichier 'fichier_reduit_avec_URL.xlsx'.\")",
-        "detail": "notoyage_data.transfert5_url",
-        "documentation": {}
-    },
-    {
-        "label": "update_url",
-        "kind": 2,
-        "importPath": "notoyage_data.transfert6_url_maroc",
-        "description": "notoyage_data.transfert6_url_maroc",
-        "peekOfCode": "def update_url(row):\n    company_name = row['Company']\n    # Si l'entreprise existe dans le dictionnaire, on met à jour l'URL, sinon on garde l'ancienne valeur\n    return company_urls.get(company_name, row['URL'])  # Renvoyer l'ancienne URL si l'entreprise n'est pas trouvée\n# Appliquer la fonction à la colonne 'Company' pour mettre à jour la colonne 'URL'\ndata['URL'] = data.apply(update_url, axis=1)\n# Sauvegarder le fichier modifié dans un nouveau fichier Excel\ndata.to_excel('fichier_reduit_avec_URL_mis_a_jour.xlsx', index=False)\nprint(\"La colonne URL a été mise à jour et sauvegardée dans le fichier 'fichier_reduit_avec_URL_mis_a_jour.xlsx'.\")",
-        "detail": "notoyage_data.transfert6_url_maroc",
-        "documentation": {}
-    },
-    {
-        "label": "data",
-        "kind": 5,
-        "importPath": "notoyage_data.transfert6_url_maroc",
-        "description": "notoyage_data.transfert6_url_maroc",
-        "peekOfCode": "data = pd.read_excel('fichier_reduit_avec_URL.xlsx')\n# Dictionnaire des entreprises et de leurs URLs\ncompany_urls = {\n    \"Nareva Holding\": \"http://www.nareva.ma\",\n    \"Unilever Maroc\": \"https://www.unilever.com\",\n    \"Clinique Internationale de Marrakech\": \"http://www.cim.ma\",\n    \"Attijariwafa Assurance\": \"https://www.attijariwafassurance.ma\",\n    \"Pharmatex\": \"https://www.pharmatex.ma\",\n    \"BMCE Bank of Africa\": \"https://www.bmcebank.ma\",\n    \"HemoTech\": \"http://www.hemotech.com\",",
-        "detail": "notoyage_data.transfert6_url_maroc",
-        "documentation": {}
-    },
-    {
-        "label": "company_urls",
-        "kind": 5,
-        "importPath": "notoyage_data.transfert6_url_maroc",
-        "description": "notoyage_data.transfert6_url_maroc",
-        "peekOfCode": "company_urls = {\n    \"Nareva Holding\": \"http://www.nareva.ma\",\n    \"Unilever Maroc\": \"https://www.unilever.com\",\n    \"Clinique Internationale de Marrakech\": \"http://www.cim.ma\",\n    \"Attijariwafa Assurance\": \"https://www.attijariwafassurance.ma\",\n    \"Pharmatex\": \"https://www.pharmatex.ma\",\n    \"BMCE Bank of Africa\": \"https://www.bmcebank.ma\",\n    \"HemoTech\": \"http://www.hemotech.com\",\n    \"Maroc Chimie\": \"http://www.marocchimie.ma\",\n    \"Groupe BDP International\": \"http://www.bdp-group.com\",",
-        "detail": "notoyage_data.transfert6_url_maroc",
-        "documentation": {}
-    },
-    {
-        "label": "data['URL']",
-        "kind": 5,
-        "importPath": "notoyage_data.transfert6_url_maroc",
-        "description": "notoyage_data.transfert6_url_maroc",
-        "peekOfCode": "data['URL'] = data.apply(update_url, axis=1)\n# Sauvegarder le fichier modifié dans un nouveau fichier Excel\ndata.to_excel('fichier_reduit_avec_URL_mis_a_jour.xlsx', index=False)\nprint(\"La colonne URL a été mise à jour et sauvegardée dans le fichier 'fichier_reduit_avec_URL_mis_a_jour.xlsx'.\")",
-        "detail": "notoyage_data.transfert6_url_maroc",
-        "documentation": {}
-    },
-    {
-        "label": "generate_email",
-        "kind": 2,
-        "importPath": "notoyage_data.transfert7_mail",
-        "description": "notoyage_data.transfert7_mail",
-        "peekOfCode": "def generate_email(row):\n    # Extraire le prénom et le nom de la colonne 'Contact Person'\n    contact_person = row['Contact Person']\n    if contact_person:  # Si la personne de contact n'est pas vide\n        name_parts = contact_person.split()  # Séparer le prénom et le nom\n        first_name = name_parts[0].lower()  # Prénom en minuscules\n        last_name = name_parts[-1].lower()  # Nom en minuscules\n        # Extraire le nom de l'entreprise\n        company_name = row['Company'].replace(\" \", \"_\").lower()  # Remplacer les espaces par des underscores et mettre en minuscules\n        # Créer l'email",
-        "detail": "notoyage_data.transfert7_mail",
-        "documentation": {}
-    },
-    {
-        "label": "data",
-        "kind": 5,
-        "importPath": "notoyage_data.transfert7_mail",
-        "description": "notoyage_data.transfert7_mail",
-        "peekOfCode": "data = pd.read_excel('fichier_reduit_avec_URL_mis_a_jour.xlsx')\n# Fonction pour générer l'email\ndef generate_email(row):\n    # Extraire le prénom et le nom de la colonne 'Contact Person'\n    contact_person = row['Contact Person']\n    if contact_person:  # Si la personne de contact n'est pas vide\n        name_parts = contact_person.split()  # Séparer le prénom et le nom\n        first_name = name_parts[0].lower()  # Prénom en minuscules\n        last_name = name_parts[-1].lower()  # Nom en minuscules\n        # Extraire le nom de l'entreprise",
-        "detail": "notoyage_data.transfert7_mail",
-        "documentation": {}
-    },
-    {
-        "label": "data['email']",
-        "kind": 5,
-        "importPath": "notoyage_data.transfert7_mail",
-        "description": "notoyage_data.transfert7_mail",
-        "peekOfCode": "data['email'] = data.apply(generate_email, axis=1)\n# Sauvegarder le fichier modifié dans un nouveau fichier Excel\ndata.to_excel('fichier_reduit_avec_email.xlsx', index=False)\nprint(\"La colonne email a été ajoutée et sauvegardée dans le fichier 'fichier_reduit_avec_email.xlsx'.\")",
-        "detail": "notoyage_data.transfert7_mail",
-        "documentation": {}
-    },
-    {
-        "label": "generate_telephone",
-        "kind": 2,
-        "importPath": "notoyage_data.transfert8_telephone",
-        "description": "notoyage_data.transfert8_telephone",
-        "peekOfCode": "def generate_telephone(row):\n    contact_value = row['Contact']  # Récupérer la valeur de la colonne Contact\n    if contact_value:\n        # Limiter à 20 caractères\n        telephone_value = contact_value[:20]  # Prendre uniquement les 20 premiers caractères\n        return telephone_value\n    return \"\"  # Retourner une chaîne vide si le champ Contact est vide\n# Appliquer la fonction à chaque ligne du DataFrame pour créer la colonne 'telephone'\ndata['telephone'] = data.apply(generate_telephone, axis=1)\n# Sauvegarder le fichier modifié dans un nouveau fichier Excel",
-        "detail": "notoyage_data.transfert8_telephone",
-        "documentation": {}
-    },
-    {
-        "label": "data",
-        "kind": 5,
-        "importPath": "notoyage_data.transfert8_telephone",
-        "description": "notoyage_data.transfert8_telephone",
-        "peekOfCode": "data = pd.read_excel('fichier_reduit_avec_email.xlsx')\n# Fonction pour créer un téléphone à partir du Contact\ndef generate_telephone(row):\n    contact_value = row['Contact']  # Récupérer la valeur de la colonne Contact\n    if contact_value:\n        # Limiter à 20 caractères\n        telephone_value = contact_value[:20]  # Prendre uniquement les 20 premiers caractères\n        return telephone_value\n    return \"\"  # Retourner une chaîne vide si le champ Contact est vide\n# Appliquer la fonction à chaque ligne du DataFrame pour créer la colonne 'telephone'",
-        "detail": "notoyage_data.transfert8_telephone",
-        "documentation": {}
-    },
-    {
-        "label": "data['telephone']",
-        "kind": 5,
-        "importPath": "notoyage_data.transfert8_telephone",
-        "description": "notoyage_data.transfert8_telephone",
-        "peekOfCode": "data['telephone'] = data.apply(generate_telephone, axis=1)\n# Sauvegarder le fichier modifié dans un nouveau fichier Excel\ndata.to_excel('fichier_reduit_avec_telephone.xlsx', index=False)\nprint(\"La colonne telephone a été ajoutée et sauvegardée dans le fichier 'fichier_reduit_avec_telephone.xlsx'.\")",
-        "detail": "notoyage_data.transfert8_telephone",
-        "documentation": {}
-    },
-    {
-        "label": "generate_moroccan_phone_number",
-        "kind": 2,
-        "importPath": "notoyage_data.transfert9_tele2",
-        "description": "notoyage_data.transfert9_tele2",
-        "peekOfCode": "def generate_moroccan_phone_number():\n    # Générer un numéro marocain au format +212 6XX XXX XXX\n    first_part = \"+212 6\"\n    second_part = str(random.randint(100, 999))  # Trois chiffres pour la seconde partie\n    third_part = str(random.randint(100, 999))  # Trois chiffres pour la troisième partie\n    fourth_part = str(random.randint(100, 999))  # Trois chiffres pour la quatrième partie\n    return f\"{first_part}{second_part} {third_part} {fourth_part}\"\n# Fonction pour mettre à jour la colonne telephone\ndef update_telephone(row):\n    contact_value = row['Contact']  # Récupérer la valeur de la colonne Contact",
-        "detail": "notoyage_data.transfert9_tele2",
-        "documentation": {}
-    },
-    {
-        "label": "update_telephone",
-        "kind": 2,
-        "importPath": "notoyage_data.transfert9_tele2",
-        "description": "notoyage_data.transfert9_tele2",
-        "peekOfCode": "def update_telephone(row):\n    contact_value = row['Contact']  # Récupérer la valeur de la colonne Contact\n    country_value = row['Country']  # Récupérer la valeur de la colonne Country\n    if country_value == \"Morocco\":\n        # Si le pays est le Maroc, remplacer le téléphone par un numéro marocain\n        return generate_moroccan_phone_number()\n    else:\n        # Si le pays n'est pas le Maroc, limiter la valeur à 20 caractères\n        if contact_value:\n            return contact_value[:20]  # Prendre uniquement les 20 premiers caractères",
-        "detail": "notoyage_data.transfert9_tele2",
-        "documentation": {}
-    },
-    {
-        "label": "data",
-        "kind": 5,
-        "importPath": "notoyage_data.transfert9_tele2",
-        "description": "notoyage_data.transfert9_tele2",
-        "peekOfCode": "data = pd.read_excel('fichier_reduit_avec_telephone.xlsx')\n# Fonction pour générer un numéro marocain fictif\ndef generate_moroccan_phone_number():\n    # Générer un numéro marocain au format +212 6XX XXX XXX\n    first_part = \"+212 6\"\n    second_part = str(random.randint(100, 999))  # Trois chiffres pour la seconde partie\n    third_part = str(random.randint(100, 999))  # Trois chiffres pour la troisième partie\n    fourth_part = str(random.randint(100, 999))  # Trois chiffres pour la quatrième partie\n    return f\"{first_part}{second_part} {third_part} {fourth_part}\"\n# Fonction pour mettre à jour la colonne telephone",
-        "detail": "notoyage_data.transfert9_tele2",
-        "documentation": {}
-    },
-    {
-        "label": "data['telephone']",
-        "kind": 5,
-        "importPath": "notoyage_data.transfert9_tele2",
-        "description": "notoyage_data.transfert9_tele2",
-        "peekOfCode": "data['telephone'] = data.apply(update_telephone, axis=1)\n# Sauvegarder le fichier modifié dans un nouveau fichier Excel\ndata.to_excel('fichier_reduit_avec_telephone_mise_a_jour.xlsx', index=False)\nprint(\n    \"La colonne 'telephone' a été mise à jour et sauvegardée dans le fichier 'fichier_reduit_avec_telephone_mise_a_jour.xlsx'.\")",
-        "detail": "notoyage_data.transfert9_tele2",
-        "documentation": {}
-    },
-    {
-        "label": "data",
-        "kind": 5,
-        "importPath": "notoyage_data.type_trav2",
-        "description": "notoyage_data.type_trav2",
-        "peekOfCode": "data = pd.read_excel('fichier_reduit_avec_id_secteur.xlsx')\nwork_type_df = pd.read_excel('type_trav_avec_id.xlsx')\n# Fusionner les deux DataFrames sur la colonne 'Work Type' pour ajouter 'id_type_trav'\nmerged_data = pd.merge(data, work_type_df, how='left', left_on='Work Type', right_on='nom_type_trav')\n# Sauvegarder le fichier mis à jour dans un nouveau fichier Excel\nmerged_data.to_excel('fichier_reduit_avec_id_type_trav.xlsx', index=False)\n# Afficher un aperçu des 5 premières lignes pour vérifier\nprint(merged_data.head())",
-        "detail": "notoyage_data.type_trav2",
-        "documentation": {}
-    },
-    {
-        "label": "work_type_df",
-        "kind": 5,
-        "importPath": "notoyage_data.type_trav2",
-        "description": "notoyage_data.type_trav2",
-        "peekOfCode": "work_type_df = pd.read_excel('type_trav_avec_id.xlsx')\n# Fusionner les deux DataFrames sur la colonne 'Work Type' pour ajouter 'id_type_trav'\nmerged_data = pd.merge(data, work_type_df, how='left', left_on='Work Type', right_on='nom_type_trav')\n# Sauvegarder le fichier mis à jour dans un nouveau fichier Excel\nmerged_data.to_excel('fichier_reduit_avec_id_type_trav.xlsx', index=False)\n# Afficher un aperçu des 5 premières lignes pour vérifier\nprint(merged_data.head())",
-        "detail": "notoyage_data.type_trav2",
-        "documentation": {}
-    },
-    {
-        "label": "merged_data",
-        "kind": 5,
-        "importPath": "notoyage_data.type_trav2",
-        "description": "notoyage_data.type_trav2",
-        "peekOfCode": "merged_data = pd.merge(data, work_type_df, how='left', left_on='Work Type', right_on='nom_type_trav')\n# Sauvegarder le fichier mis à jour dans un nouveau fichier Excel\nmerged_data.to_excel('fichier_reduit_avec_id_type_trav.xlsx', index=False)\n# Afficher un aperçu des 5 premières lignes pour vérifier\nprint(merged_data.head())",
-        "detail": "notoyage_data.type_trav2",
-        "documentation": {}
-    },
-    {
-        "label": "data",
-        "kind": 5,
-        "importPath": "notoyage_data.ville2",
-        "description": "notoyage_data.ville2",
-        "peekOfCode": "data = pd.read_excel('fichier_reduit_avec_id_etat.xlsx')\n# Charger le fichier des villes avec id_ville et id_etat\ncities = pd.read_excel('villes_avec_id.xlsx')\n# Fusionner les données pour ajouter la colonne id_ville\n# en utilisant 'Location' et 'id_etat' comme clé de correspondance\nmerged_data = pd.merge(data, cities, how='left', left_on=['location', 'id_etat'], right_on=['nom_ville', 'id_etat'])\n# Supprimer la colonne 'nom_ville' utilisée uniquement pour la correspondance\nmerged_data.drop(columns=['nom_ville'], inplace=True)\n# Sauvegarder le fichier final avec la nouvelle colonne 'id_ville'\nmerged_data.to_excel('fichier_reduit_avec_id_ville.xlsx', index=False)",
-        "detail": "notoyage_data.ville2",
-        "documentation": {}
-    },
-    {
-        "label": "cities",
-        "kind": 5,
-        "importPath": "notoyage_data.ville2",
-        "description": "notoyage_data.ville2",
-        "peekOfCode": "cities = pd.read_excel('villes_avec_id.xlsx')\n# Fusionner les données pour ajouter la colonne id_ville\n# en utilisant 'Location' et 'id_etat' comme clé de correspondance\nmerged_data = pd.merge(data, cities, how='left', left_on=['location', 'id_etat'], right_on=['nom_ville', 'id_etat'])\n# Supprimer la colonne 'nom_ville' utilisée uniquement pour la correspondance\nmerged_data.drop(columns=['nom_ville'], inplace=True)\n# Sauvegarder le fichier final avec la nouvelle colonne 'id_ville'\nmerged_data.to_excel('fichier_reduit_avec_id_ville.xlsx', index=False)\n# Afficher un aperçu des 5 premières lignes pour vérification\nprint(merged_data.head())",
-        "detail": "notoyage_data.ville2",
-        "documentation": {}
-    },
-    {
-        "label": "merged_data",
-        "kind": 5,
-        "importPath": "notoyage_data.ville2",
-        "description": "notoyage_data.ville2",
-        "peekOfCode": "merged_data = pd.merge(data, cities, how='left', left_on=['location', 'id_etat'], right_on=['nom_ville', 'id_etat'])\n# Supprimer la colonne 'nom_ville' utilisée uniquement pour la correspondance\nmerged_data.drop(columns=['nom_ville'], inplace=True)\n# Sauvegarder le fichier final avec la nouvelle colonne 'id_ville'\nmerged_data.to_excel('fichier_reduit_avec_id_ville.xlsx', index=False)\n# Afficher un aperçu des 5 premières lignes pour vérification\nprint(merged_data.head())",
-        "detail": "notoyage_data.ville2",
-        "documentation": {}
-    },
-    {
         "label": "api_key",
         "kind": 5,
         "importPath": "offre_Process.data.config",
@@ -3015,119 +1833,20 @@
         "documentation": {}
     },
     {
-        "label": "create_or_get_spark",
+        "label": "process_message_groq",
         "kind": 2,
         "importPath": "offre_Process.spark.extractor",
         "description": "offre_Process.spark.extractor",
-        "peekOfCode": "def create_or_get_spark(app_name: str, packages: List[str]) -> SparkSession:\n    jars = \",\".join(packages)\n    spark = (\n        SparkSession.builder.appName(app_name)\n        .config(\"spark.streaming.stopGracefullyOnShutdown\", True)\n        .config(\"spark.jars.packages\", jars)\n        .config(\"spark.sql.extensions\", \"io.delta.sql.DeltaSparkSessionExtension\")\n        .config(\n            \"spark.sql.catalog.spark_catalog\",\n            \"org.apache.spark.sql.delta.catalog.DeltaCatalog\",",
+        "peekOfCode": "def process_message_groq(message: str):\n    \"\"\"Traite un message et le formate dans le format JSON voulu.\"\"\"\n    try:\n        # Envoi du texte à l'API Groq pour extraction des données\n        headers = {\n            'Authorization': f'Bearer {GROQ_API_KEY}',\n            'Content-Type': 'application/json',\n        }\n        payload = {\n            'text': message  # Le texte de l'offre que vous envoyez à l'API",
         "detail": "offre_Process.spark.extractor",
         "documentation": {}
     },
     {
-        "label": "create_empty_delta_table",
-        "kind": 2,
-        "importPath": "offre_Process.spark.extractor",
-        "description": "offre_Process.spark.extractor",
-        "peekOfCode": "def create_empty_delta_table(spark: SparkSession, schema: StructType, path: str, partition_cols: Optional[List[str]] = None):\n    try:\n        DeltaTable.forPath(spark, path)\n        print(f\"Delta Table already exists at path: {path}\")\n    except Exception:\n        custom_builder = (\n            DeltaTable.createIfNotExists(spark)\n            .location(path)\n            .addColumns(schema)\n        )",
-        "detail": "offre_Process.spark.extractor",
-        "documentation": {}
-    },
-    {
-        "label": "save_to_delta",
-        "kind": 2,
-        "importPath": "offre_Process.spark.extractor",
-        "description": "offre_Process.spark.extractor",
-        "peekOfCode": "def save_to_delta(df: DataFrame, output_path: str):\n    df.write.format(\"delta\").mode(\"append\").option(\"mergeSchema\", \"true\").save(output_path)\n    print(\"Data written to Delta Table\")\n# Initialiser Spark\nspark = create_or_get_spark(app_name=\"kafka_to_delta\", packages=PACKAGES)\n# Configurer la connexion Azure\nspark.conf.set(\n    f\"fs.azure.account.key.{ADLS_STORAGE_ACCOUNT_NAME}.dfs.core.windows.net\",\n    ADLS_ACCOUNT_KEY,\n)",
-        "detail": "offre_Process.spark.extractor",
-        "documentation": {}
-    },
-    {
-        "label": "ADLS_STORAGE_ACCOUNT_NAME",
+        "label": "GROQ_API_KEY",
         "kind": 5,
         "importPath": "offre_Process.spark.extractor",
         "description": "offre_Process.spark.extractor",
-        "peekOfCode": "ADLS_STORAGE_ACCOUNT_NAME = os.getenv(\"ADLS_STORAGE_ACCOUNT_NAME\")\nADLS_ACCOUNT_KEY = os.getenv(\"ADLS_ACCOUNT_KEY\")\nADLS_CONTAINER_NAME = os.getenv(\"ADLS_CONTAINER_NAME\")\nADLS_FOLDER_PATH = os.getenv(\"ADLS_FOLDER_PATH\")\nKAFKA_BOOTSTRAP_SERVERS = os.getenv(\"KAFKA_BOOTSTRAP_SERVERS\")\nKAFKA_GROUP_ID = os.getenv(\"KAFKA_GROUP_ID\")\n# Configuration Kafka Consumer\nconsumer = KafkaConsumer(\n    'offres_travail',\n    bootstrap_servers=KAFKA_BOOTSTRAP_SERVERS,",
-        "detail": "offre_Process.spark.extractor",
-        "documentation": {}
-    },
-    {
-        "label": "ADLS_ACCOUNT_KEY",
-        "kind": 5,
-        "importPath": "offre_Process.spark.extractor",
-        "description": "offre_Process.spark.extractor",
-        "peekOfCode": "ADLS_ACCOUNT_KEY = os.getenv(\"ADLS_ACCOUNT_KEY\")\nADLS_CONTAINER_NAME = os.getenv(\"ADLS_CONTAINER_NAME\")\nADLS_FOLDER_PATH = os.getenv(\"ADLS_FOLDER_PATH\")\nKAFKA_BOOTSTRAP_SERVERS = os.getenv(\"KAFKA_BOOTSTRAP_SERVERS\")\nKAFKA_GROUP_ID = os.getenv(\"KAFKA_GROUP_ID\")\n# Configuration Kafka Consumer\nconsumer = KafkaConsumer(\n    'offres_travail',\n    bootstrap_servers=KAFKA_BOOTSTRAP_SERVERS,\n    group_id=KAFKA_GROUP_ID,",
-        "detail": "offre_Process.spark.extractor",
-        "documentation": {}
-    },
-    {
-        "label": "ADLS_CONTAINER_NAME",
-        "kind": 5,
-        "importPath": "offre_Process.spark.extractor",
-        "description": "offre_Process.spark.extractor",
-        "peekOfCode": "ADLS_CONTAINER_NAME = os.getenv(\"ADLS_CONTAINER_NAME\")\nADLS_FOLDER_PATH = os.getenv(\"ADLS_FOLDER_PATH\")\nKAFKA_BOOTSTRAP_SERVERS = os.getenv(\"KAFKA_BOOTSTRAP_SERVERS\")\nKAFKA_GROUP_ID = os.getenv(\"KAFKA_GROUP_ID\")\n# Configuration Kafka Consumer\nconsumer = KafkaConsumer(\n    'offres_travail',\n    bootstrap_servers=KAFKA_BOOTSTRAP_SERVERS,\n    group_id=KAFKA_GROUP_ID,\n    auto_offset_reset='earliest',",
-        "detail": "offre_Process.spark.extractor",
-        "documentation": {}
-    },
-    {
-        "label": "ADLS_FOLDER_PATH",
-        "kind": 5,
-        "importPath": "offre_Process.spark.extractor",
-        "description": "offre_Process.spark.extractor",
-        "peekOfCode": "ADLS_FOLDER_PATH = os.getenv(\"ADLS_FOLDER_PATH\")\nKAFKA_BOOTSTRAP_SERVERS = os.getenv(\"KAFKA_BOOTSTRAP_SERVERS\")\nKAFKA_GROUP_ID = os.getenv(\"KAFKA_GROUP_ID\")\n# Configuration Kafka Consumer\nconsumer = KafkaConsumer(\n    'offres_travail',\n    bootstrap_servers=KAFKA_BOOTSTRAP_SERVERS,\n    group_id=KAFKA_GROUP_ID,\n    auto_offset_reset='earliest',\n    enable_auto_commit=True",
-        "detail": "offre_Process.spark.extractor",
-        "documentation": {}
-    },
-    {
-        "label": "KAFKA_BOOTSTRAP_SERVERS",
-        "kind": 5,
-        "importPath": "offre_Process.spark.extractor",
-        "description": "offre_Process.spark.extractor",
-        "peekOfCode": "KAFKA_BOOTSTRAP_SERVERS = os.getenv(\"KAFKA_BOOTSTRAP_SERVERS\")\nKAFKA_GROUP_ID = os.getenv(\"KAFKA_GROUP_ID\")\n# Configuration Kafka Consumer\nconsumer = KafkaConsumer(\n    'offres_travail',\n    bootstrap_servers=KAFKA_BOOTSTRAP_SERVERS,\n    group_id=KAFKA_GROUP_ID,\n    auto_offset_reset='earliest',\n    enable_auto_commit=True\n)",
-        "detail": "offre_Process.spark.extractor",
-        "documentation": {}
-    },
-    {
-        "label": "KAFKA_GROUP_ID",
-        "kind": 5,
-        "importPath": "offre_Process.spark.extractor",
-        "description": "offre_Process.spark.extractor",
-        "peekOfCode": "KAFKA_GROUP_ID = os.getenv(\"KAFKA_GROUP_ID\")\n# Configuration Kafka Consumer\nconsumer = KafkaConsumer(\n    'offres_travail',\n    bootstrap_servers=KAFKA_BOOTSTRAP_SERVERS,\n    group_id=KAFKA_GROUP_ID,\n    auto_offset_reset='earliest',\n    enable_auto_commit=True\n)\n# Configuration Spark",
-        "detail": "offre_Process.spark.extractor",
-        "documentation": {}
-    },
-    {
-        "label": "consumer",
-        "kind": 5,
-        "importPath": "offre_Process.spark.extractor",
-        "description": "offre_Process.spark.extractor",
-        "peekOfCode": "consumer = KafkaConsumer(\n    'offres_travail',\n    bootstrap_servers=KAFKA_BOOTSTRAP_SERVERS,\n    group_id=KAFKA_GROUP_ID,\n    auto_offset_reset='earliest',\n    enable_auto_commit=True\n)\n# Configuration Spark\nPACKAGES = [\n    \"io.delta:delta-spark_2.12:3.0.0\",",
-        "detail": "offre_Process.spark.extractor",
-        "documentation": {}
-    },
-    {
-        "label": "PACKAGES",
-        "kind": 5,
-        "importPath": "offre_Process.spark.extractor",
-        "description": "offre_Process.spark.extractor",
-        "peekOfCode": "PACKAGES = [\n    \"io.delta:delta-spark_2.12:3.0.0\",\n    \"org.apache.hadoop:hadoop-azure:3.3.6\",\n    \"org.apache.hadoop:hadoop-azure-datalake:3.3.6\",\n    \"org.apache.hadoop:hadoop-common:3.3.6\",\n]\nOUTPUT_PATH = (\n    f\"abfss://{ADLS_CONTAINER_NAME}@{ADLS_STORAGE_ACCOUNT_NAME}.dfs.core.windows.net/\"\n    + ADLS_FOLDER_PATH\n)",
-        "detail": "offre_Process.spark.extractor",
-        "documentation": {}
-    },
-    {
-        "label": "OUTPUT_PATH",
-        "kind": 5,
-        "importPath": "offre_Process.spark.extractor",
-        "description": "offre_Process.spark.extractor",
-        "peekOfCode": "OUTPUT_PATH = (\n    f\"abfss://{ADLS_CONTAINER_NAME}@{ADLS_STORAGE_ACCOUNT_NAME}.dfs.core.windows.net/\"\n    + ADLS_FOLDER_PATH\n)\ndef create_or_get_spark(app_name: str, packages: List[str]) -> SparkSession:\n    jars = \",\".join(packages)\n    spark = (\n        SparkSession.builder.appName(app_name)\n        .config(\"spark.streaming.stopGracefullyOnShutdown\", True)\n        .config(\"spark.jars.packages\", jars)",
-        "detail": "offre_Process.spark.extractor",
-        "documentation": {}
-    },
-    {
-        "label": "spark",
-        "kind": 5,
-        "importPath": "offre_Process.spark.extractor",
-        "description": "offre_Process.spark.extractor",
-        "peekOfCode": "spark = create_or_get_spark(app_name=\"kafka_to_delta\", packages=PACKAGES)\n# Configurer la connexion Azure\nspark.conf.set(\n    f\"fs.azure.account.key.{ADLS_STORAGE_ACCOUNT_NAME}.dfs.core.windows.net\",\n    ADLS_ACCOUNT_KEY,\n)\nprint(\"Spark Session Created\")\n# Boucle principale pour lire et traiter les messages Kafka\nfor message in consumer:\n    try:",
+        "peekOfCode": "GROQ_API_KEY = os.getenv(\"GROQ_API_KEY\")\ndef process_message_groq(message: str):\n    \"\"\"Traite un message et le formate dans le format JSON voulu.\"\"\"\n    try:\n        # Envoi du texte à l'API Groq pour extraction des données\n        headers = {\n            'Authorization': f'Bearer {GROQ_API_KEY}',\n            'Content-Type': 'application/json',\n        }\n        payload = {",
         "detail": "offre_Process.spark.extractor",
         "documentation": {}
     },
@@ -3154,7 +1873,7 @@
         "kind": 2,
         "importPath": "offre_Process.spark.sparkStreaming",
         "description": "offre_Process.spark.sparkStreaming",
-        "peekOfCode": "def save_to_delta(df: DataFrame, output_path: str):\n    \"\"\"Sauvegarder les données dans une Delta Table.\"\"\"\n    df.write.format(\"delta\").mode(\"append\").option(\"mergeSchema\", \"true\").save(output_path)\n    print(\"Data written to Delta Table.\")\ndef process_message(spark: SparkSession, message: str):\n    \"\"\"Traiter un message Kafka et l'enregistrer dans une table Delta.\"\"\"\n    try:\n        job_posting = json.loads(message)\n        df = spark.createDataFrame([job_posting], schema=OFFRE_SCHEMA)\n        save_to_delta(df, OUTPUT_PATH)",
+        "peekOfCode": "def save_to_delta(df: DataFrame, output_path: str):\n    \"\"\"Sauvegarder les données dans une Delta Table.\"\"\"\n    df.write.format(\"delta\").mode(\"append\").option(\"mergeSchema\", \"true\").save(output_path)\n    print(\"Data written to Delta Table.\")\ndef process_message(spark: SparkSession, message: str):\n    \"\"\"Traiter un message Kafka et l'enregistrer dans une table Delta.\"\"\"\n    try:\n        job_posting= process_message_groq(spark, message)\n        df = spark.createDataFrame([job_posting], schema=OFFRE_SCHEMA)\n        save_to_delta(df, OUTPUT_PATH)",
         "detail": "offre_Process.spark.sparkStreaming",
         "documentation": {}
     },
@@ -3163,7 +1882,7 @@
         "kind": 2,
         "importPath": "offre_Process.spark.sparkStreaming",
         "description": "offre_Process.spark.sparkStreaming",
-        "peekOfCode": "def process_message(spark: SparkSession, message: str):\n    \"\"\"Traiter un message Kafka et l'enregistrer dans une table Delta.\"\"\"\n    try:\n        job_posting = json.loads(message)\n        df = spark.createDataFrame([job_posting], schema=OFFRE_SCHEMA)\n        save_to_delta(df, OUTPUT_PATH)\n    except Exception as e:\n        print(f\"Error processing message: {e}\")\n# Configurer le consommateur Kafka pour Confluent\nconsumer = KafkaConsumer(",
+        "peekOfCode": "def process_message(spark: SparkSession, message: str):\n    \"\"\"Traiter un message Kafka et l'enregistrer dans une table Delta.\"\"\"\n    try:\n        job_posting= process_message_groq(spark, message)\n        df = spark.createDataFrame([job_posting], schema=OFFRE_SCHEMA)\n        save_to_delta(df, OUTPUT_PATH)\n    except Exception as e:\n        print(f\"Error processing message: {e}\")\n# Configurer le consommateur Kafka pour Confluent\nconsumer = KafkaConsumer(",
         "detail": "offre_Process.spark.sparkStreaming",
         "documentation": {}
     },

@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  nifi:
+    image: apache/nifi:latest
+    container_name: nifi
+    ports:
+      - "8080:8080" # Interface Web
+      - "8443:8443" # HTTPS (optionnel)
+    environment:
+      - NIFI_WEB_HTTP_PORT=8080
+    volumes:
+      - ./nifi_data:/opt/nifi/nifi-current/logs # Persistance des logs
+      - ./nifi_conf:/opt/nifi/nifi-current/conf # Persistance de la configuration
+    restart: unless-stopped
